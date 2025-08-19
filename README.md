@@ -1,2 +1,12 @@
-# historiacea.github.io
-Historia del pueblo de Cea en Leon
+# Historia de Cea
+
+Sitio web construido con [Astro](https://astro.build) y [Starlight](https://starlight.astro.build).
+
+## Desarrollo local
+
+Requiere Node.js. Una vez instaladas las dependencias:
+
+```bash
+npm install
+npm run dev
+```
