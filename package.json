@@ -1,0 +1,20 @@
+{
+  "name": "historiacea",
+  "version": "0.0.1",
+  "private": true,
+  "description": "Historia del pueblo de Cea en León",
+  "type": "module",
+  "scripts": {
+    "dev": "astro dev",
+    "build": "astro build",
+    "preview": "astro preview",
+    "test": "echo 'No tests specified'"
+  },
+  "dependencies": {
+  },
+  "devDependencies": {
+    "astro": "^4.0.0",
+    "@astrojs/starlight": "^0.15.0",
+    "typescript": "^5.0.0"
+  }
+}
