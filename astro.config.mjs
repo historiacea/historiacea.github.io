@@ -1,6 +1,5 @@
 import { defineConfig } from 'astro/config';
 import starlight from '@astrojs/starlight';
-import starlightSidebarTopics from 'starlight-sidebar-topics';
 import starlightImageZoom from 'starlight-image-zoom';
 
 export default defineConfig({
@@ -33,7 +32,7 @@ export default defineConfig({
       components: {
         Header: './src/components/Header.astro',
       },
-      plugins: [starlightSidebarTopics(), starlightImageZoom()],
+      plugins: [starlightImageZoom()],
     })
   ],
 });

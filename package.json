@@ -16,7 +16,6 @@
     "astro": "^4.0.0",
     "@astrojs/starlight": "^0.20.0",
     "typescript": "^5.0.0",
-    "starlight-sidebar-topics": "^0.1.0",
     "starlight-image-zoom": "^0.1.0"
   }
 }
