@@ -1,6 +1,7 @@
 import { defineConfig } from 'astro/config';
 import starlight from '@astrojs/starlight';
-import sidebarTopics from 'starlight-sidebar-topics';
+import starlightSidebarTopics from 'starlight-sidebar-topics';
+import starlightImageZoom from 'starlight-image-zoom';
 
 export default defineConfig({
   site: 'https://historiacea.github.io',
@@ -32,7 +33,7 @@ export default defineConfig({
       components: {
         Header: './src/components/Header.astro',
       },
-      plugins: [sidebarTopics()],
+      plugins: [starlightSidebarTopics(), starlightImageZoom()],
     })
   ],
 });
