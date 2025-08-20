@@ -1,8 +1,7 @@
 ---
 import config from 'virtual:starlight/user-config';
-import { Search, SiteTitle, ThemeSelect, LanguageSelect } 
-  from "@astrojs/starlight/components";
-
+import { Search, ThemeSelect, LanguageSelect } 
+  from '@astrojs/starlight/components';
 
 const shouldRenderSearch =
   config.pagefind ||
@@ -10,23 +9,14 @@ const shouldRenderSearch =
 ---
 <div class="header sl-flex">
   <div class="sl-flex">
-    <SiteTitle {...Astro.props} />
+    <a class="site-title" href="/">{config.title}</a>
   </div>
   <div class="sl-flex">
     {shouldRenderSearch && <Search {...Astro.props} />}
   </div>
   <div class="sl-flex right-group">
     <nav class="icon-nav sl-flex">
-      <a href="/" aria-label="Inicio" class="icon-link">
-        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
-          <path stroke-linecap="round" stroke-linejoin="round" d="M3 9.75L12 3l9 6.75V21a.75.75 0 01-.75.75H14.25a.75.75 0 01-.75-.75v-5.25h-3v5.25a.75.75 0 01-.75.75H3.75A.75.75 0 013 21V9.75z" />
-        </svg>
-      </a>
-      <a href="/indice/" aria-label="Índice" class="icon-link">
-        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
-          <path stroke-linecap="round" stroke-linejoin="round" d="M3.75 5.25h16.5M3.75 12h16.5M3.75 18.75h16.5" />
-        </svg>
-      </a>
+      <!-- enlaces -->
     </nav>
     <ThemeSelect {...Astro.props} />
     <LanguageSelect {...Astro.props} />
@@ -34,24 +24,9 @@ const shouldRenderSearch =
 </div>
 
 <style>
-  .header {
-    gap: var(--sl-nav-gap);
-    justify-content: space-between;
-    align-items: center;
-    height: 100%;
-  }
-  .right-group,
-  .icon-nav {
-    gap: 1rem;
-    align-items: center;
-  }
-  .icon-link {
-    display: inline-flex;
-    color: inherit;
-    text-decoration: none;
-  }
-  .icon-link svg {
-    width: 1.5rem;
-    height: 1.5rem;
-  }
+  .header { gap: var(--sl-nav-gap); justify-content: space-between; align-items: center; height: 100%; }
+  .site-title { text-decoration: none; color: inherit; font-weight: bold; }
+  .right-group, .icon-nav { gap: 1rem; align-items: center; }
+  .icon-link { display: inline-flex; color: inherit; text-decoration: none; }
+  .icon-link svg { width: 1.5rem; height: 1.5rem; }
 </style>
