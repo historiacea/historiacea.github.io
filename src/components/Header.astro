@@ -1,11 +1,12 @@
 ---
 import config from 'virtual:starlight/user-config';
-import { Search, ThemeSelect, LanguageSelect } 
-  from '@astrojs/starlight/components';
+import Search from '@astrojs/starlight/components/Search.astro';
+import ThemeSelect from '@astrojs/starlight/components/ThemeSelect.astro';
+import LanguageSelect from '@astrojs/starlight/components/LanguageSelect.astro';
 
 const shouldRenderSearch =
   config.pagefind ||
-  config.components.Search !== '@astrojs/starlight/components/Search.astro';
+  config.components?.Search !== '@astrojs/starlight/components/Search.astro';
 ---
 <div class="header sl-flex">
   <div class="sl-flex">
@@ -15,9 +16,7 @@ const shouldRenderSearch =
     {shouldRenderSearch && <Search {...Astro.props} />}
   </div>
   <div class="sl-flex right-group">
-    <nav class="icon-nav sl-flex">
-      <!-- enlaces -->
-    </nav>
+    <nav class="icon-nav sl-flex"><!-- enlaces --></nav>
     <ThemeSelect {...Astro.props} />
     <LanguageSelect {...Astro.props} />
   </div>
