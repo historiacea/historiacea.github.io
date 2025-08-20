@@ -17,7 +17,7 @@ export default defineConfig({
         }
       ],
       sidebar: [
-        { label: 'Inicio', link: '/' },
+        { label: 'Índice', link: '/indice/' },
         {
           label: 'Capítulos',
           items: [
@@ -27,6 +27,9 @@ export default defineConfig({
           ],
         },
       ],
+      components: {
+        Header: './src/components/Header.astro',
+      },
     })
   ],
 });
