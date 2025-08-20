@@ -1,5 +1,6 @@
 import { defineConfig } from 'astro/config';
 import starlight from '@astrojs/starlight';
+import sidebarTopics from 'starlight-sidebar-topics';
 
 export default defineConfig({
   site: 'https://historiacea.github.io',
@@ -17,7 +18,8 @@ export default defineConfig({
         }
       ],
       sidebar: [
-        { label: 'Índice', link: '/indice/' },
+        { label: 'Inicio', link: '/', icon: 'i-heroicons-home', style: 'outline' },
+        { label: 'Índice', link: '/indice/', icon: 'i-heroicons-list-bullet', style: 'outline' },
         {
           label: 'Capítulos',
           items: [
@@ -30,6 +32,7 @@ export default defineConfig({
       components: {
         Header: './src/components/Header.astro',
       },
+      plugins: [sidebarTopics()],
     })
   ],
 });
