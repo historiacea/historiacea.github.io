@@ -8,24 +8,254 @@ const shouldRenderSearch =
   config.pagefind ||
   config.components?.Search !== '@astrojs/starlight/components/Search.astro';
 ---
+
 <div class="header sl-flex">
-  <div class="sl-flex">
-    <a class="site-title" href="/">{config.title}</a>
+  <div class="sl-flex brand-section">
+    <a class="site-title" href="/">
+      <div class="logo">
+        <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 100 100">
+          <circle cx="50" cy="50" r="45" fill="currentColor" opacity="0.1"/>
+          <circle cx="50" cy="50" r="35" fill="none" stroke="currentColor" stroke-width="2"/>
+          <text x="50" y="65" font-size="45" text-anchor="middle" fill="currentColor" font-weight="bold">C</text>
+        </svg>
+      </div>
+      <div class="title-text">
+        <span class="main-title">{config.title}</span>
+        <span class="subtitle">León, España</span>
+      </div>
+    </a>
   </div>
-  <div class="sl-flex">
+  
+  <div class="sl-flex search-section">
     {shouldRenderSearch && <Search {...Astro.props} />}
   </div>
+  
   <div class="sl-flex right-group">
-    <nav class="icon-nav sl-flex"><!-- enlaces --></nav>
-    <ThemeSelect {...Astro.props} />
-    <LanguageSelect {...Astro.props} />
+    <nav class="quick-nav">
+      <a href="/indice/" class="nav-link">
+        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+          <path d="M3 6h18M3 12h18M3 18h18"/>
+        </svg>
+        <span>Índice</span>
+      </a>
+      <a href="/capitulo-1/" class="nav-link">
+        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+          <path d="M2 3h6a4 4 0 0 1 4 4v14a3 3 0 0 0-3-3H2z"/>
+          <path d="M22 3h-6a4 4 0 0 0-4 4v14a3 3 0 0 1 3-3h7z"/>
+        </svg>
+        <span>Leer</span>
+      </a>
+    </nav>
+    
+    <div class="controls">
+      <ThemeSelect {...Astro.props} />
+      <LanguageSelect {...Astro.props} />
+    </div>
   </div>
 </div>
 
 <style>
-  .header { gap: var(--sl-nav-gap); justify-content: space-between; align-items: center; height: 100%; }
-  .site-title { text-decoration: none; color: inherit; font-weight: bold; }
-  .right-group, .icon-nav { gap: 1rem; align-items: center; }
-  .icon-link { display: inline-flex; color: inherit; text-decoration: none; }
-  .icon-link svg { width: 1.5rem; height: 1.5rem; }
+  .header {
+    gap: var(--sl-nav-gap, 1rem);
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+    padding: 0 1rem;
+    background: linear-gradient(135deg, #f8fafc 0%, #ffffff 100%);
+    border-bottom: 1px solid #e2e8f0;
+    backdrop-filter: blur(10px);
+  }
+
+  .brand-section {
+    flex-shrink: 0;
+  }
+
+  .site-title {
+    display: flex;
+    align-items: center;
+    gap: 0.75rem;
+    text-decoration: none;
+    color: inherit;
+    font-weight: 600;
+    transition: all 0.2s ease;
+    padding: 0.5rem;
+    border-radius: 12px;
+  }
+
+  .site-title:hover {
+    background: rgba(59, 130, 246, 0.05);
+    transform: translateY(-1px);
+  }
+
+  .logo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 40px;
+    height: 40px;
+    background: linear-gradient(135deg, #3b82f6 0%, #1d4ed8 100%);
+    border-radius: 10px;
+    color: white;
+    box-shadow: 0 2px 8px rgba(59, 130, 246, 0.2);
+  }
+
+  .logo svg {
+    width: 32px;
+    height: 32px;
+  }
+
+  .title-text {
+    display: flex;
+    flex-direction: column;
+    gap: 0.1rem;
+  }
+
+  .main-title {
+    font-size: 1.1rem;
+    font-weight: 700;
+    color: #1e293b;
+    line-height: 1.2;
+  }
+
+  .subtitle {
+    font-size: 0.75rem;
+    color: #64748b;
+    font-weight: 500;
+    opacity: 0.8;
+  }
+
+  .search-section {
+    flex: 1;
+    max-width: 400px;
+    justify-content: center;
+  }
+
+  .right-group {
+    gap: 1rem;
+    align-items: center;
+    flex-shrink: 0;
+  }
+
+  .quick-nav {
+    display: flex;
+    gap: 0.5rem;
+    align-items: center;
+  }
+
+  .nav-link {
+    display: flex;
+    align-items: center;
+    gap: 0.4rem;
+    padding: 0.5rem 0.75rem;
+    border-radius: 8px;
+    text-decoration: none;
+    color: #475569;
+    font-size: 0.85rem;
+    font-weight: 500;
+    transition: all 0.2s ease;
+    border: 1px solid transparent;
+  }
+
+  .nav-link:hover {
+    background: #3b82f6;
+    color: white;
+    transform: translateY(-1px);
+    box-shadow: 0 2px 8px rgba(59, 130, 246, 0.2);
+  }
+
+  .nav-link svg {
+    width: 14px;
+    height: 14px;
+  }
+
+  .controls {
+    display: flex;
+    gap: 0.5rem;
+    align-items: center;
+    border-left: 1px solid #e2e8f0;
+    padding-left: 1rem;
+  }
+
+  /* Responsive design */
+  @media (max-width: 768px) {
+    .header {
+      padding: 0 0.75rem;
+      gap: 0.75rem;
+    }
+
+    .title-text .main-title {
+      font-size: 1rem;
+    }
+
+    .subtitle {
+      display: none;
+    }
+
+    .quick-nav {
+      gap: 0.25rem;
+    }
+
+    .nav-link span {
+      display: none;
+    }
+
+    .nav-link {
+      padding: 0.5rem;
+    }
+
+    .search-section {
+      max-width: 200px;
+    }
+
+    .controls {
+      padding-left: 0.75rem;
+    }
+  }
+
+  @media (max-width: 480px) {
+    .logo {
+      width: 36px;
+      height: 36px;
+    }
+
+    .logo svg {
+      width: 28px;
+      height: 28px;
+    }
+
+    .quick-nav {
+      display: none;
+    }
+
+    .controls {
+      border: none;
+      padding-left: 0;
+    }
+  }
+
+  /* Dark mode support */
+  :global([data-theme="dark"]) .header {
+    background: linear-gradient(135deg, #1e293b 0%, #0f172a 100%);
+    border-bottom-color: #334155;
+  }
+
+  :global([data-theme="dark"]) .main-title {
+    color: #f8fafc;
+  }
+
+  :global([data-theme="dark"]) .subtitle {
+    color: #94a3b8;
+  }
+
+  :global([data-theme="dark"]) .nav-link {
+    color: #cbd5e1;
+  }
+
+  :global([data-theme="dark"]) .controls {
+    border-left-color: #334155;
+  }
+
+  :global([data-theme="dark"]) .site-title:hover {
+    background: rgba(59, 130, 246, 0.1);
+  }
 </style>

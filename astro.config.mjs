@@ -7,25 +7,87 @@ export default defineConfig({
   integrations: [
     starlight({
       title: 'Historia de Cea, León',
-      description: 'Recorrido por la historia del pueblo de Cea desde sus orígenes hasta la actualidad',
+      description: 'Un viaje fascinante a través de los siglos por la historia del pueblo de Cea, desde sus orígenes geológicos hasta nuestros días',
+      defaultLocale: 'es',
+      locales: {
+        es: {
+          label: 'Español',
+        },
+      },
       head: [
         {
           tag: 'meta',
           attrs: {
             name: 'keywords',
-            content: 'Cea, León, historia, pueblo, origen, actualidad, Castilla y León'
+            content: 'Cea, León, historia, pueblo, origen, actualidad, Castilla y León, medieval, geología, patrimonio'
+          }
+        },
+        {
+          tag: 'meta',
+          attrs: {
+            property: 'og:image',
+            content: '/cea.svg'
+          }
+        },
+        {
+          tag: 'meta',
+          attrs: {
+            name: 'twitter:image',
+            content: '/cea.svg'
+          }
+        },
+        {
+          tag: 'link',
+          attrs: {
+            rel: 'canonical',
+            href: 'https://historiacea.github.io'
           }
         }
       ],
+      social: {
+        github: 'https://github.com/historiacea/historiacea.github.io'
+      },
       sidebar: [
-        { label: 'Inicio', link: '/', icon: 'i-heroicons-home', style: 'outline' },
-        { label: 'Índice', link: '/indice/', icon: 'i-heroicons-list-bullet', style: 'outline' },
+        { 
+          label: 'Inicio', 
+          link: '/', 
+          attrs: { 
+            class: 'sidebar-home-link'
+          }
+        },
+        { 
+          label: 'Índice completo', 
+          link: '/indice/', 
+          attrs: { 
+            class: 'sidebar-index-link'
+          }
+        },
         {
-          label: 'Capítulos',
+          label: 'Historia de Cea',
+          autogenerate: { directory: '' },
+          collapsed: false,
           items: [
-            { label: 'Capítulo 1', link: '/capitulo-1/' },
-            { label: 'Capítulo 2', link: '/capitulo-2/' },
-            { label: 'Capítulo 3', link: '/capitulo-3/' },
+            { 
+              label: '🌍 Capítulo 1: Orígenes Geológicos', 
+              link: '/capitulo-1/',
+              attrs: {
+                class: 'chapter-link chapter-1'
+              }
+            },
+            { 
+              label: '🏰 Capítulo 2: Época Medieval', 
+              link: '/capitulo-2/',
+              attrs: {
+                class: 'chapter-link chapter-2'
+              }
+            },
+            { 
+              label: '🌾 Capítulo 3: Edad Moderna', 
+              link: '/capitulo-3/',
+              attrs: {
+                class: 'chapter-link chapter-3'
+              }
+            },
           ],
         },
       ],
@@ -33,6 +95,10 @@ export default defineConfig({
         Header: './src/components/Header.astro',
       },
       plugins: [starlightImageZoom()],
+      customCss: [
+        './src/styles/custom.css',
+      ],
+      favicon: '/favicon.svg',
     })
   ],
 });
