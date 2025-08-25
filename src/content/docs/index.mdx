@@ -6,9 +6,6 @@ sidebar:
   hidden: true
 hero:
   tagline: "Un viaje fascinante a través de los siglos"
-  image:
-    alt: "Vista panorámica de Cea, León"
-    file: ../../assets/cea.svg
   actions:
     - text: "🗂️ Ver índice completo"
       link: "/indice/"
@@ -20,15 +17,11 @@ hero:
 
 import { Card, CardGrid } from '@astrojs/starlight/components';
 
-<div class="hero-section">
-
 ## 🏘️ Bienvenidos a la Historia de Cea
 
 En el corazón de la provincia de León, donde el río Cea serpentea entre campos dorados y colinas suaves, se alza un pueblo que guarda entre sus piedras más de mil años de historia. **Cea** no es solo un nombre en el mapa: es el testimonio vivo de generaciones que forjaron su destino en esta tierra de Castilla y León.
 
 Este sitio web nace del amor por preservar la memoria colectiva, reuniendo relatos, documentos y tradiciones que han pasado de generación en generación. Aquí encontrarás desde los secretos geológicos que modelaron el paisaje hasta las historias de quienes caminaron por sus calles a lo largo de los siglos.
-
-</div>
 
 ---
 
@@ -59,19 +52,6 @@ Este sitio web nace del amor por preservar la memoria colectiva, reuniendo relat
 ## 🗺️ Ubicación y Contexto
 
 Cea se encuentra estratégicamente ubicada en la comarca de Tierra de Campos, en la provincia de León. Su posición junto al río que le da nombre la convirtió históricamente en un punto de encuentro de culturas y tradiciones.
-
-<div class="map-container">
-<iframe 
-  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d23847.82!2d-5.2!3d42.3!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd378c4c8c8c8c8c:0x8c8c8c8c8c8c8c8c!2sCea%2C%20Le%C3%B3n!5e0!3m2!1ses!2ses!4v1234567890!5m2!1ses!2ses" 
-  width="100%" 
-  height="400" 
-  style={{border: 0, borderRadius: '12px', boxShadow: '0 4px 20px rgba(0,0,0,0.1)'}}
-  allowFullScreen={true}
-  loading="lazy" 
-  referrerPolicy="no-referrer-when-downgrade"
-  title="Ubicación de Cea, León">
-</iframe>
-</div>
 
 ---
 
@@ -112,124 +92,15 @@ Este proyecto nace de la **necesidad urgente de preservar la memoria histórica*
 
 La historia de Cea te espera. Puedes comenzar por cualquier época que más te interese, o seguir el recorrido cronológico completo desde los orígenes geológicos hasta nuestros días.
 
-<div class="cta-section">
+### 📚 Por donde empezar
 
-### 📚 **¿Por dónde empezar?**
-
-- **Para los amantes de la geología**: [Capítulo 1 - Orígenes del territorio](/capitulo-1/)
-- **Para los interesados en historia medieval**: [Capítulo 2 - Época Medieval](/capitulo-2/)  
-- **Para conocer la evolución moderna**: [Capítulo 3 - Edad Moderna y actualidad](/capitulo-3/)
-- **Para una visión completa**: [📋 Índice de todos los capítulos](/indice/)
-
-</div>
+- [Capítulo 1 - Orígenes del territorio](/capitulo-1/) (Para los amantes de la geología)
+- [Capítulo 2 - Época Medieval](/capitulo-2/) (Para los interesados en historia medieval)
+- [Capítulo 3 - Edad Moderna y actualidad](/capitulo-3/) (Para conocer la evolución moderna)
+- [📋 Índice de todos los capítulos](/indice/) (Para una visión completa)
 
 ---
-
-<div class="footer-message">
 
 > *"Antes que Cea fuese palabra, fue piedra, agua y viento. Hoy es memoria, tradición y esperanza."*
 
 **Gracias por acompañarnos en este viaje por la historia de Cea.** Si tienes fotografías antiguas, documentos familiares o historias que contar sobre el pueblo, tu contribución será muy valiosa para enriquecer este proyecto.
-
-</div>
-
-<style>
-  .hero-section {
-    margin: 2rem 0;
-    padding: 2rem;
-    background: linear-gradient(135deg, #f8fafc 0%, #e2e8f0 100%);
-    border-radius: 16px;
-    border: 1px solid #e2e8f0;
-  }
-  
-  .hero-section h2 {
-    color: #1e293b;
-    margin-bottom: 1.5rem;
-  }
-  
-  .hero-section p {
-    font-size: 1.1rem;
-    line-height: 1.7;
-    color: #475569;
-    margin-bottom: 1rem;
-  }
-  
-  .map-container {
-    margin: 2rem 0;
-    border-radius: 12px;
-    overflow: hidden;
-    box-shadow: 0 4px 20px rgba(0,0,0,0.1);
-  }
-  
-  .cta-section {
-    background: linear-gradient(135deg, #3b82f6 0%, #1d4ed8 100%);
-    color: white;
-    padding: 2rem;
-    border-radius: 16px;
-    margin: 2rem 0;
-  }
-  
-  .cta-section h3 {
-    color: white;
-    margin-bottom: 1rem;
-  }
-  
-  .cta-section ul {
-    list-style: none;
-    padding: 0;
-  }
-  
-  .cta-section li {
-    margin: 0.8rem 0;
-    padding-left: 0;
-  }
-  
-  .cta-section a {
-    color: #bfdbfe;
-    text-decoration: none;
-    font-weight: 500;
-    transition: color 0.2s;
-  }
-  
-  .cta-section a:hover {
-    color: white;
-    text-decoration: underline;
-  }
-  
-  .footer-message {
-    background: #f1f5f9;
-    border-left: 4px solid #3b82f6;
-    padding: 1.5rem;
-    border-radius: 8px;
-    margin: 2rem 0;
-  }
-  
-  .footer-message blockquote {
-    font-style: italic;
-    font-size: 1.1rem;
-    color: #1e293b;
-    margin-bottom: 1rem;
-    border: none;
-    padding: 0;
-  }
-  
-  .footer-message p {
-    color: #475569;
-    margin: 0;
-  }
-  
-  /* Responsive design */
-  @media (max-width: 768px) {
-    .hero-section {
-      padding: 1.5rem;
-    }
-    
-    .cta-section {
-      padding: 1.5rem;
-    }
-    
-    .map-container iframe {
-      height: 300px;
-    }
-  }
-</style>
