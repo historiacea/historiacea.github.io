@@ -1,0 +1,19 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(npm run build:*)",
+      "Bash(sed:*)",
+      "Bash(npm install:*)",
+      "Bash(git add:*)",
+      "Bash(git commit:*)",
+      "Bash(dir docs)",
+      "Bash(python:*)",
+      "Bash(pip install:*)",
+      "Bash(rm:*)",
+      "Bash(grep:*)",
+      "Read(/C:\\c\\Users\\david.cerezal\\ProjectPropio/**)"
+    ],
+    "deny": [],
+    "ask": []
+  }
+}
