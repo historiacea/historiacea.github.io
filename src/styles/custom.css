@@ -55,6 +55,11 @@
   color: var(--cea-primary) !important;
 }
 
+.sidebar-timeline-link a {
+  font-weight: 600;
+  color: var(--cea-gold) !important;
+}
+
 .sidebar-index-link a {
   font-weight: 600;
   color: var(--cea-secondary) !important;
@@ -223,4 +228,101 @@
 }
 
 .sl-markdown-content a:hover {
-  border-bottom
+  border-bottom-color: var(--cea-primary);
+}
+
+/* Estilos específicos para la cronología con Steps */
+.sl-steps {
+  --step-color: var(--cea-primary);
+  --step-background: #f8fafc;
+  border-radius: 12px;
+  padding: 1.5rem;
+  background: linear-gradient(135deg, rgba(59, 130, 246, 0.02) 0%, rgba(245, 158, 11, 0.02) 100%);
+  border: 1px solid rgba(59, 130, 246, 0.1);
+  margin: 1.5rem 0;
+  position: relative;
+}
+
+.sl-steps::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 3px;
+  background: linear-gradient(90deg, var(--cea-primary), var(--cea-gold));
+  border-radius: 12px 12px 0 0;
+}
+
+.sl-steps .sl-step {
+  position: relative;
+  margin-bottom: 1.5rem;
+  padding-left: 0.5rem;
+}
+
+.sl-steps .sl-step:last-child {
+  margin-bottom: 0;
+}
+
+/* Estilo para los eventos importantes con emoji 🚨 */
+.sl-steps li:has(strong:contains("🚨")),
+.sl-steps li strong:contains("🚨") {
+  background: linear-gradient(135deg, rgba(239, 68, 68, 0.05) 0%, rgba(239, 68, 68, 0.02) 100%);
+  border-left: 4px solid #ef4444;
+  padding: 0.75rem 1rem;
+  border-radius: 8px;
+  margin: 0.5rem 0;
+}
+
+/* Mejorar la legibilidad de los títulos en Steps */
+.sl-steps strong {
+  color: #1e293b;
+  font-weight: 700;
+  display: block;
+  margin-bottom: 0.5rem;
+  font-size: 1.05em;
+}
+
+/* Estilos para diferentes épocas */
+.sl-markdown-content h2:contains("Prehistoria") + .sl-steps {
+  border-color: rgba(161, 98, 7, 0.2);
+  background: linear-gradient(135deg, rgba(161, 98, 7, 0.02) 0%, rgba(161, 98, 7, 0.01) 100%);
+}
+
+.sl-markdown-content h2:contains("Romana") + .sl-steps {
+  border-color: rgba(239, 68, 68, 0.2);
+  background: linear-gradient(135deg, rgba(239, 68, 68, 0.02) 0%, rgba(239, 68, 68, 0.01) 100%);
+}
+
+.sl-markdown-content h2:contains("Edad Media") + .sl-steps {
+  border-color: rgba(168, 85, 247, 0.2);
+  background: linear-gradient(135deg, rgba(168, 85, 247, 0.02) 0%, rgba(168, 85, 247, 0.01) 100%);
+}
+
+.sl-markdown-content h2:contains("Moderna") + .sl-steps {
+  border-color: rgba(34, 197, 94, 0.2);
+  background: linear-gradient(135deg, rgba(34, 197, 94, 0.02) 0%, rgba(34, 197, 94, 0.01) 100%);
+}
+
+/* Efectos hover para los pasos */
+.sl-steps .sl-step:hover {
+  background: rgba(255, 255, 255, 0.5);
+  border-radius: 8px;
+  padding: 0.5rem;
+  margin: 0.25rem -0.5rem;
+  transition: all 0.2s ease;
+}
+
+/* Tema oscuro para Steps */
+:global([data-theme="dark"]) .sl-steps {
+  background: linear-gradient(135deg, rgba(30, 41, 59, 0.3) 0%, rgba(15, 23, 42, 0.3) 100%);
+  border-color: rgba(59, 130, 246, 0.2);
+}
+
+:global([data-theme="dark"]) .sl-steps strong {
+  color: #f8fafc;
+}
+
+:global([data-theme="dark"]) .sl-steps .sl-step:hover {
+  background: rgba(30, 41, 59, 0.4);
+}

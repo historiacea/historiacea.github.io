@@ -56,6 +56,13 @@ export default defineConfig({
           }
         },
         { 
+          label: '📜 Cronología', 
+          link: '/cronologia/', 
+          attrs: { 
+            class: 'sidebar-timeline-link'
+          }
+        },
+        { 
           label: 'Índice completo', 
           link: '/indice/', 
           attrs: { 
