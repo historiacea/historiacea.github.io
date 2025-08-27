@@ -231,19 +231,18 @@
   border-bottom-color: var(--cea-primary);
 }
 
-/* Estilos específicos para la cronología con Steps */
-.sl-steps {
-  --step-color: var(--cea-primary);
-  --step-background: #f8fafc;
+/* Estilos específicos para la cronología */
+.timeline-section {
   border-radius: 12px;
   padding: 1.5rem;
   background: linear-gradient(135deg, rgba(59, 130, 246, 0.02) 0%, rgba(245, 158, 11, 0.02) 100%);
   border: 1px solid rgba(59, 130, 246, 0.1);
   margin: 1.5rem 0;
   position: relative;
+  counter-reset: timeline-counter;
 }
 
-.sl-steps::before {
+.timeline-section::before {
   content: '';
   position: absolute;
   top: 0;
@@ -254,28 +253,75 @@
   border-radius: 12px 12px 0 0;
 }
 
-.sl-steps .sl-step {
+.timeline-section ol {
+  list-style: none;
+  padding-left: 2rem;
   position: relative;
-  margin-bottom: 1.5rem;
-  padding-left: 0.5rem;
 }
 
-.sl-steps .sl-step:last-child {
+.timeline-section ol::before {
+  content: '';
+  position: absolute;
+  left: 0.75rem;
+  top: 0;
+  bottom: 0;
+  width: 2px;
+  background: linear-gradient(to bottom, var(--cea-primary), var(--cea-gold));
+  opacity: 0.3;
+}
+
+.timeline-section li {
+  position: relative;
+  margin-bottom: 1.5rem;
+  padding-left: 1rem;
+  counter-increment: timeline-counter;
+}
+
+.timeline-section li::before {
+  content: counter(timeline-counter);
+  position: absolute;
+  left: -1.5rem;
+  top: 0.25rem;
+  width: 1.5rem;
+  height: 1.5rem;
+  background: var(--cea-primary);
+  color: white;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 0.75rem;
+  font-weight: bold;
+  z-index: 1;
+}
+
+.timeline-section li:last-child {
   margin-bottom: 0;
 }
 
 /* Estilo para los eventos importantes con emoji 🚨 */
-.sl-steps li:has(strong:contains("🚨")),
-.sl-steps li strong:contains("🚨") {
+.timeline-section li:has(strong:contains("🚨")),
+.timeline-section li strong:contains("🚨") {
   background: linear-gradient(135deg, rgba(239, 68, 68, 0.05) 0%, rgba(239, 68, 68, 0.02) 100%);
   border-left: 4px solid #ef4444;
-  padding: 0.75rem 1rem;
   border-radius: 8px;
-  margin: 0.5rem 0;
+  margin-left: -0.5rem;
+  padding: 0.75rem 1rem;
 }
 
-/* Mejorar la legibilidad de los títulos en Steps */
-.sl-steps strong {
+.timeline-section li:has(strong:contains("🚨"))::before {
+  background: #ef4444;
+  animation: pulse 2s infinite;
+}
+
+@keyframes pulse {
+  0% { box-shadow: 0 0 0 0 rgba(239, 68, 68, 0.7); }
+  70% { box-shadow: 0 0 0 10px rgba(239, 68, 68, 0); }
+  100% { box-shadow: 0 0 0 0 rgba(239, 68, 68, 0); }
+}
+
+/* Mejorar la legibilidad de los títulos */
+.timeline-section strong {
   color: #1e293b;
   font-weight: 700;
   display: block;
@@ -284,45 +330,67 @@
 }
 
 /* Estilos para diferentes épocas */
-.sl-markdown-content h2:contains("Prehistoria") + .sl-steps {
+.sl-markdown-content h2:contains("Prehistoria") + .timeline-section {
   border-color: rgba(161, 98, 7, 0.2);
   background: linear-gradient(135deg, rgba(161, 98, 7, 0.02) 0%, rgba(161, 98, 7, 0.01) 100%);
 }
 
-.sl-markdown-content h2:contains("Romana") + .sl-steps {
+.sl-markdown-content h2:contains("Prehistoria") + .timeline-section li::before {
+  background: #a16207;
+}
+
+.sl-markdown-content h2:contains("Romana") + .timeline-section {
   border-color: rgba(239, 68, 68, 0.2);
   background: linear-gradient(135deg, rgba(239, 68, 68, 0.02) 0%, rgba(239, 68, 68, 0.01) 100%);
 }
 
-.sl-markdown-content h2:contains("Edad Media") + .sl-steps {
+.sl-markdown-content h2:contains("Romana") + .timeline-section li::before {
+  background: #ef4444;
+}
+
+.sl-markdown-content h2:contains("Edad Media") + .timeline-section {
   border-color: rgba(168, 85, 247, 0.2);
   background: linear-gradient(135deg, rgba(168, 85, 247, 0.02) 0%, rgba(168, 85, 247, 0.01) 100%);
 }
 
-.sl-markdown-content h2:contains("Moderna") + .sl-steps {
+.sl-markdown-content h2:contains("Edad Media") + .timeline-section li::before {
+  background: #a855f7;
+}
+
+.sl-markdown-content h2:contains("Moderna") + .timeline-section {
   border-color: rgba(34, 197, 94, 0.2);
   background: linear-gradient(135deg, rgba(34, 197, 94, 0.02) 0%, rgba(34, 197, 94, 0.01) 100%);
 }
 
-/* Efectos hover para los pasos */
-.sl-steps .sl-step:hover {
-  background: rgba(255, 255, 255, 0.5);
+.sl-markdown-content h2:contains("Moderna") + .timeline-section li::before {
+  background: #22c55e;
+}
+
+/* Efectos hover para los elementos */
+.timeline-section li:hover {
+  background: rgba(255, 255, 255, 0.3);
   border-radius: 8px;
   padding: 0.5rem;
   margin: 0.25rem -0.5rem;
   transition: all 0.2s ease;
+  cursor: pointer;
 }
 
-/* Tema oscuro para Steps */
-:global([data-theme="dark"]) .sl-steps {
+.timeline-section li:hover::before {
+  transform: scale(1.1);
+  transition: transform 0.2s ease;
+}
+
+/* Tema oscuro */
+:global([data-theme="dark"]) .timeline-section {
   background: linear-gradient(135deg, rgba(30, 41, 59, 0.3) 0%, rgba(15, 23, 42, 0.3) 100%);
   border-color: rgba(59, 130, 246, 0.2);
 }
 
-:global([data-theme="dark"]) .sl-steps strong {
+:global([data-theme="dark"]) .timeline-section strong {
   color: #f8fafc;
 }
 
-:global([data-theme="dark"]) .sl-steps .sl-step:hover {
+:global([data-theme="dark"]) .timeline-section li:hover {
   background: rgba(30, 41, 59, 0.4);
 }
