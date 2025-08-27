@@ -233,11 +233,11 @@
 
 /* Estilos específicos para la cronología */
 .timeline-section {
-  border-radius: 12px;
-  padding: 1.5rem;
+  border-radius: 8px;
+  padding: 1rem;
   background: linear-gradient(135deg, rgba(59, 130, 246, 0.02) 0%, rgba(245, 158, 11, 0.02) 100%);
   border: 1px solid rgba(59, 130, 246, 0.1);
-  margin: 1.5rem 0;
+  margin: 1rem 0;
   position: relative;
   counter-reset: timeline-counter;
 }
@@ -272,7 +272,7 @@
 
 .timeline-section li {
   position: relative;
-  margin-bottom: 1.5rem;
+  margin-bottom: 0.75rem;
   padding-left: 1rem;
   counter-increment: timeline-counter;
 }
@@ -300,24 +300,9 @@
 }
 
 /* Estilo para los eventos importantes con emoji 🚨 */
-.timeline-section li:has(strong:contains("🚨")),
 .timeline-section li strong:contains("🚨") {
-  background: linear-gradient(135deg, rgba(239, 68, 68, 0.05) 0%, rgba(239, 68, 68, 0.02) 100%);
-  border-left: 4px solid #ef4444;
-  border-radius: 8px;
-  margin-left: -0.5rem;
-  padding: 0.75rem 1rem;
-}
-
-.timeline-section li:has(strong:contains("🚨"))::before {
-  background: #ef4444;
-  animation: pulse 2s infinite;
-}
-
-@keyframes pulse {
-  0% { box-shadow: 0 0 0 0 rgba(239, 68, 68, 0.7); }
-  70% { box-shadow: 0 0 0 10px rgba(239, 68, 68, 0); }
-  100% { box-shadow: 0 0 0 0 rgba(239, 68, 68, 0); }
+  color: #dc2626;
+  font-weight: 800;
 }
 
 /* Mejorar la legibilidad de los títulos */
@@ -366,20 +351,6 @@
   background: #22c55e;
 }
 
-/* Efectos hover para los elementos */
-.timeline-section li:hover {
-  background: rgba(255, 255, 255, 0.3);
-  border-radius: 8px;
-  padding: 0.5rem;
-  margin: 0.25rem -0.5rem;
-  transition: all 0.2s ease;
-  cursor: pointer;
-}
-
-.timeline-section li:hover::before {
-  transform: scale(1.1);
-  transition: transform 0.2s ease;
-}
 
 /* Tema oscuro */
 :global([data-theme="dark"]) .timeline-section {
@@ -391,6 +362,3 @@
   color: #f8fafc;
 }
 
-:global([data-theme="dark"]) .timeline-section li:hover {
-  background: rgba(30, 41, 59, 0.4);
-}
