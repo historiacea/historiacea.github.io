@@ -44,9 +44,12 @@ export default defineConfig({
           }
         }
       ],
-      social: {
-        github: 'https://github.com/historiacea/historiacea.github.io'
-      },
+      social: [
+        {
+          icon: 'github',
+          url: 'https://github.com/historiacea/historiacea.github.io'
+        }
+      ],
       components: {
         Header: './src/components/Header.astro',
         PageSidebar: './src/components/PageSidebar.astro',
