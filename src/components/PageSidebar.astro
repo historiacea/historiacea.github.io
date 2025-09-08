@@ -1,6 +1,6 @@
 ---
 import type { Props } from '@astrojs/starlight/props';
-import TableOfContentsList from '@astrojs/starlight/components/TableOfContents/TableOfContentsList.astro';
+import TableOfContents from '@astrojs/starlight/components/TableOfContents.astro';
 
 const { toc, labels } = Astro.props;
 ---
@@ -8,10 +8,7 @@ const { toc, labels } = Astro.props;
 {
 	toc && (
 		<nav class="right-sidebar" aria-labelledby="starlight__on-this-page">
-			<div class="starlight-toc">
-				<h2 id="starlight__on-this-page">{labels['tableOfContents.onThisPage']}</h2>
-				<TableOfContentsList toc={toc.items} />
-			</div>
+			<TableOfContents {...Astro.props} />
 		</nav>
 	)
 }
@@ -32,7 +29,7 @@ const { toc, labels } = Astro.props;
 		padding: 1.5rem 1rem;
 	}
 
-	.starlight-toc h2 {
+	.right-sidebar :global(.starlight-toc h2) {
 		font-size: 0.875rem;
 		font-weight: 600;
 		color: var(--sl-color-text-accent);
