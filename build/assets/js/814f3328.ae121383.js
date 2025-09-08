@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkhistoriacea=self.webpackChunkhistoriacea||[]).push([[472],{5513:e=>{e.exports=JSON.parse('{"title":"Recent posts","items":[{"title":"Cronolog\xeda Interactiva de Cea","permalink":"/blog/cronologia-interactiva","unlisted":false,"date":"2025-01-01T00:00:00.000Z"}]}')}}]);

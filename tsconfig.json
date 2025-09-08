@@ -1,3 +1,14 @@
 {
-  "extends": "astro/tsconfigs/strict"
+  "extends": "@docusaurus/tsconfig",
+  "compilerOptions": {
+    "baseUrl": ".",
+    "paths": {
+      "@site/*": ["./"]
+    }
+  },
+  "include": [
+    "src/",
+    "docusaurus.config.ts",
+    "sidebars.ts"
+  ]
 }

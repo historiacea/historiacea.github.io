@@ -1,0 +1,50 @@
+{
+  "permalink": "/blog/cronologia-interactiva",
+  "editUrl": "https://github.com/historiacea/historiacea.github.io/tree/main/blog/2025-01-01-cronologia-interactiva.md",
+  "source": "@site/blog/2025-01-01-cronologia-interactiva.md",
+  "title": "Cronología Interactiva de Cea",
+  "description": "Antes de sumergirte en la lectura completa, puedes explorar nuestra cronología interactiva que presenta los eventos más importantes de la historia de Cea organizados por épocas, desde la cultura vaccea hasta nuestros días.",
+  "date": "2025-01-01T00:00:00.000Z",
+  "tags": [
+    {
+      "inline": true,
+      "label": "cronología",
+      "permalink": "/blog/tags/cronologia"
+    },
+    {
+      "inline": true,
+      "label": "historia",
+      "permalink": "/blog/tags/historia"
+    },
+    {
+      "inline": true,
+      "label": "cea",
+      "permalink": "/blog/tags/cea"
+    }
+  ],
+  "readingTime": 1.08,
+  "hasTruncateMarker": true,
+  "authors": [
+    {
+      "name": "Historia de Cea",
+      "title": "Proyecto de preservación histórica",
+      "url": "https://github.com/historiacea/historiacea.github.io",
+      "imageURL": "/img/logo.png",
+      "key": "historiacea",
+      "page": null
+    }
+  ],
+  "frontMatter": {
+    "slug": "cronologia-interactiva",
+    "title": "Cronología Interactiva de Cea",
+    "authors": [
+      "historiacea"
+    ],
+    "tags": [
+      "cronología",
+      "historia",
+      "cea"
+    ]
+  },
+  "unlisted": false
+}

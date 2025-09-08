@@ -1,0 +1,49 @@
+{
+  "docusaurus-plugin-content-docs": {
+    "default": {
+      "path": "/docs",
+      "versions": [
+        {
+          "name": "current",
+          "label": "Next",
+          "isLast": true,
+          "path": "/docs",
+          "mainDocId": "historia/intro",
+          "docs": [
+            {
+              "id": "aviso-legal",
+              "path": "/docs/aviso-legal",
+              "sidebar": "historiaSidebar"
+            },
+            {
+              "id": "castillo/torre",
+              "path": "/docs/castillo/torre",
+              "sidebar": "castilloSidebar"
+            },
+            {
+              "id": "historia/intro",
+              "path": "/docs/historia/intro",
+              "sidebar": "historiaSidebar"
+            }
+          ],
+          "draftIds": [],
+          "sidebars": {
+            "historiaSidebar": {
+              "link": {
+                "path": "/docs/historia/intro",
+                "label": "historia/intro"
+              }
+            },
+            "castilloSidebar": {
+              "link": {
+                "path": "/docs/castillo/torre",
+                "label": "castillo/torre"
+              }
+            }
+          }
+        }
+      ],
+      "breadcrumbs": true
+    }
+  }
+}

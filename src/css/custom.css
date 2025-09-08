@@ -1,0 +1,263 @@
+/**
+ * Any CSS included here will be global. The classic template
+ * bundles Infima by default. Infima is a CSS framework designed to
+ * work well for content-centric websites.
+ */
+
+/* You can override the default Infima variables here. */
+:root {
+  --ifm-color-primary: #8B4513;
+  --ifm-color-primary-dark: #7A3E10;
+  --ifm-color-primary-darker: #72390F;
+  --ifm-color-primary-darkest: #5E2F0C;
+  --ifm-color-primary-light: #9C4C16;
+  --ifm-color-primary-lighter: #A45017;
+  --ifm-color-primary-lightest: #B8591A;
+  --ifm-code-font-size: 95%;
+  --docusaurus-highlighted-code-line-bg: rgba(139, 69, 19, 0.1);
+
+  /* Medieval theme colors */
+  --ifm-navbar-background-color: #faf5f0;
+  --ifm-navbar-link-color: #6D4C41;
+  --ifm-navbar-link-hover-color: #8B4513;
+  --ifm-footer-background-color: #3E2723;
+  --ifm-footer-color: #BCAAA4;
+  --ifm-footer-link-color: #D7CCC8;
+  --ifm-footer-title-color: #EFEBE9;
+  
+  /* Content colors */
+  --ifm-heading-color: #5D4037;
+  --ifm-link-color: #8B4513;
+  --ifm-link-hover-color: #A0522D;
+}
+
+/* For readability concerns, you should choose a lighter palette in dark mode. */
+[data-theme='dark'] {
+  --ifm-color-primary: #D7CCC8;
+  --ifm-color-primary-dark: #BCAAA4;
+  --ifm-color-primary-darker: #A1887F;
+  --ifm-color-primary-darkest: #8D6E63;
+  --ifm-color-primary-light: #EFEBE9;
+  --ifm-color-primary-lighter: #F5F5F5;
+  --ifm-color-primary-lightest: #FAFAFA;
+  --docusaurus-highlighted-code-line-bg: rgba(161, 136, 127, 0.1);
+
+  --ifm-navbar-background-color: #3E2723;
+  --ifm-navbar-link-color: #BCAAA4;
+  --ifm-navbar-link-hover-color: #D7CCC8;
+  
+  --ifm-heading-color: #EFEBE9;
+  --ifm-link-color: #D7CCC8;
+  --ifm-link-hover-color: #EFEBE9;
+}
+
+/* Navbar styling */
+.navbar {
+  background: linear-gradient(135deg, #faf5f0 0%, #f5ebe0 100%);
+  border-bottom: 1px solid #d2b48c;
+  box-shadow: 0 2px 4px rgba(139, 69, 19, 0.1);
+}
+
+.navbar__brand {
+  align-items: center;
+}
+
+.navbar__logo {
+  border-radius: 8px;
+  margin-right: 0.5rem;
+}
+
+.navbar__title {
+  color: #5D4037 !important;
+  font-weight: 700;
+}
+
+.navbar__item.navbar__link {
+  color: #6D4C41;
+  font-weight: 500;
+  transition: all 0.2s ease;
+}
+
+.navbar__item.navbar__link:hover {
+  color: #8B4513;
+  background-color: rgba(139, 69, 19, 0.05);
+  border-radius: 8px;
+}
+
+/* Dark mode navbar */
+[data-theme='dark'] .navbar {
+  background: linear-gradient(135deg, #3E2723 0%, #1B0000 100%);
+  border-bottom-color: #5D4037;
+}
+
+[data-theme='dark'] .navbar__title {
+  color: #EFEBE9 !important;
+}
+
+[data-theme='dark'] .navbar__item.navbar__link {
+  color: #BCAAA4;
+}
+
+[data-theme='dark'] .navbar__item.navbar__link:hover {
+  color: #D7CCC8;
+  background-color: rgba(215, 204, 200, 0.1);
+}
+
+/* Footer styling */
+.footer--dark {
+  background: linear-gradient(135deg, #3E2723 0%, #1B0000 100%);
+  border-top: 1px solid #5D4037;
+}
+
+.footer__title {
+  color: #EFEBE9;
+}
+
+.footer__item {
+  color: #BCAAA4;
+}
+
+.footer__link-item:hover {
+  color: #D7CCC8;
+}
+
+/* Content styling */
+.markdown h1,
+.markdown h2,
+.markdown h3,
+.markdown h4,
+.markdown h5,
+.markdown h6 {
+  color: var(--ifm-heading-color);
+}
+
+/* Blog post cards */
+.blog-post-item {
+  border: 1px solid rgba(139, 69, 19, 0.2);
+  border-radius: 12px;
+  box-shadow: 0 2px 8px rgba(139, 69, 19, 0.1);
+  transition: all 0.3s ease;
+}
+
+.blog-post-item:hover {
+  box-shadow: 0 4px 16px rgba(139, 69, 19, 0.2);
+  transform: translateY(-2px);
+}
+
+/* Sidebar styling */
+.theme-doc-sidebar-container {
+  border-right: 1px solid #d2b48c;
+}
+
+[data-theme='dark'] .theme-doc-sidebar-container {
+  border-right-color: #5D4037;
+}
+
+.menu__link {
+  color: #6D4C41;
+}
+
+.menu__link:hover,
+.menu__link--active {
+  color: #8B4513;
+  background-color: rgba(139, 69, 19, 0.1);
+}
+
+[data-theme='dark'] .menu__link {
+  color: #BCAAA4;
+}
+
+[data-theme='dark'] .menu__link:hover,
+[data-theme='dark'] .menu__link--active {
+  color: #D7CCC8;
+  background-color: rgba(215, 204, 200, 0.1);
+}
+
+/* Hero section */
+.hero {
+  background: linear-gradient(135deg, #faf5f0 0%, #f5ebe0 100%);
+  border-bottom: 1px solid #d2b48c;
+}
+
+[data-theme='dark'] .hero {
+  background: linear-gradient(135deg, #3E2723 0%, #1B0000 100%);
+  border-bottom-color: #5D4037;
+}
+
+.hero__title {
+  color: #5D4037;
+}
+
+[data-theme='dark'] .hero__title {
+  color: #EFEBE9;
+}
+
+.hero__subtitle {
+  color: #8D6E63;
+}
+
+[data-theme='dark'] .hero__subtitle {
+  color: #A1887F;
+}
+
+/* Button styling */
+.button--primary {
+  background-color: var(--ifm-color-primary);
+  border-color: var(--ifm-color-primary);
+}
+
+.button--primary:hover {
+  background-color: var(--ifm-color-primary-dark);
+  border-color: var(--ifm-color-primary-dark);
+}
+
+.button--secondary {
+  color: var(--ifm-color-primary);
+  border-color: var(--ifm-color-primary);
+}
+
+.button--secondary:hover {
+  background-color: var(--ifm-color-primary);
+  border-color: var(--ifm-color-primary);
+  color: white;
+}
+
+/* Cards */
+.card {
+  border: 1px solid rgba(139, 69, 19, 0.2);
+  box-shadow: 0 2px 8px rgba(139, 69, 19, 0.1);
+  transition: all 0.3s ease;
+}
+
+.card:hover {
+  box-shadow: 0 4px 16px rgba(139, 69, 19, 0.2);
+  transform: translateY(-2px);
+}
+
+/* Table of contents */
+.table-of-contents {
+  border-left: 3px solid var(--ifm-color-primary);
+}
+
+.table-of-contents__link {
+  color: #6D4C41;
+}
+
+.table-of-contents__link:hover {
+  color: var(--ifm-color-primary);
+}
+
+[data-theme='dark'] .table-of-contents__link {
+  color: #BCAAA4;
+}
+
+/* Responsive design */
+@media (max-width: 768px) {
+  .navbar__logo {
+    height: 24px;
+  }
+  
+  .hero__title {
+    font-size: 2rem;
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "id": "castillo/torre",
+  "title": "La Torre de Cea",
+  "description": "La Torre de Cea es uno de los monumentos más emblemáticos del municipio leonés de Cea. Esta imponente fortificación medieval se alza como testigo silencioso de siglos de historia y poder señorial.",
+  "source": "@site/docs/castillo/torre.md",
+  "sourceDirName": "castillo",
+  "slug": "/castillo/torre",
+  "permalink": "/docs/castillo/torre",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/historiacea/historiacea.github.io/tree/main/docs/castillo/torre.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "castilloSidebar"
+}

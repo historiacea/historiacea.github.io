@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkhistoriacea=self.webpackChunkhistoriacea||[]).push([[121],{8070:a=>{a.exports=JSON.parse('{"tags":[{"label":"cronolog\xeda","permalink":"/blog/tags/cronologia","count":1},{"label":"historia","permalink":"/blog/tags/historia","count":1},{"label":"cea","permalink":"/blog/tags/cea","count":1}]}')}}]);
