@@ -1,6 +1,11 @@
 import clsx from 'clsx';
 import Heading from '@theme/Heading';
+import { useEffect, useRef } from 'react';
+import { gsap } from 'gsap';
+import { ScrollTrigger } from 'gsap/ScrollTrigger';
 import styles from './styles.module.css';
+
+gsap.registerPlugin(ScrollTrigger);
 
 type FeatureItem = {
   title: string;
@@ -46,10 +51,56 @@ const FeatureList: FeatureItem[] = [
   },
 ];
 
-function Feature({title, emoji, description, link}: FeatureItem) {
+function Feature({title, emoji, description, link, index}: FeatureItem & {index: number}) {
+  const cardRef = useRef<HTMLDivElement>(null);
+
+  useEffect(() => {
+    if (cardRef.current) {
+      gsap.from(cardRef.current, {
+        scrollTrigger: {
+          trigger: cardRef.current,
+          start: "top 80%",
+          end: "bottom 20%",
+        },
+        duration: 0.8,
+        y: 50,
+        opacity: 0,
+        delay: index * 0.2,
+        ease: "power2.out"
+      });
+
+      // Hover animation
+      const handleMouseEnter = () => {
+        gsap.to(cardRef.current, {
+          duration: 0.3,
+          scale: 1.05,
+          ease: "power2.out"
+        });
+      };
+
+      const handleMouseLeave = () => {
+        gsap.to(cardRef.current, {
+          duration: 0.3,
+          scale: 1,
+          ease: "power2.out"
+        });
+      };
+
+      cardRef.current.addEventListener('mouseenter', handleMouseEnter);
+      cardRef.current.addEventListener('mouseleave', handleMouseLeave);
+
+      return () => {
+        if (cardRef.current) {
+          cardRef.current.removeEventListener('mouseenter', handleMouseEnter);
+          cardRef.current.removeEventListener('mouseleave', handleMouseLeave);
+        }
+      };
+    }
+  }, [index]);
+
   return (
     <div className={clsx('col col--4')}>
-      <div className={styles.featureCard}>
+      <div className={styles.featureCard} ref={cardRef}>
         <div className="text--center">
           <div className={styles.featureIcon}>
             {emoji && <span className={styles.emoji}>{emoji}</span>}
@@ -68,14 +119,49 @@ function Feature({title, emoji, description, link}: FeatureItem) {
 }
 
 export default function HomepageFeatures(): JSX.Element {
+  const sectionRef = useRef<HTMLElement>(null);
+  const titleRef = useRef<HTMLHeadingElement>(null);
+  const subtitleRef = useRef<HTMLParagraphElement>(null);
+  const welcomeRef = useRef<HTMLDivElement>(null);
+
+  useEffect(() => {
+    if (titleRef.current && subtitleRef.current) {
+      gsap.from([titleRef.current, subtitleRef.current], {
+        scrollTrigger: {
+          trigger: sectionRef.current,
+          start: "top 80%",
+        },
+        duration: 0.8,
+        y: 30,
+        opacity: 0,
+        stagger: 0.2,
+        ease: "power2.out"
+      });
+    }
+
+    if (welcomeRef.current) {
+      gsap.from(welcomeRef.current.children, {
+        scrollTrigger: {
+          trigger: welcomeRef.current,
+          start: "top 80%",
+        },
+        duration: 0.8,
+        y: 30,
+        opacity: 0,
+        stagger: 0.2,
+        ease: "power2.out"
+      });
+    }
+  }, []);
+
   return (
-    <section className={styles.features}>
+    <section className={styles.features} ref={sectionRef}>
       <div className="container">
         <div className="row">
           <div className="col col--12">
             <div className="text--center margin-bottom--lg">
-              <Heading as="h2">🗂️ Secciones del Sitio</Heading>
-              <p className="hero__subtitle">
+              <Heading as="h2" ref={titleRef}>🗂️ Secciones del Sitio</Heading>
+              <p className="hero__subtitle" ref={subtitleRef}>
                 Descubre la rica historia de Cea a través de diferentes perspectivas
               </p>
             </div>
@@ -83,11 +169,11 @@ export default function HomepageFeatures(): JSX.Element {
         </div>
         <div className="row">
           {FeatureList.map((props, idx) => (
-            <Feature key={idx} {...props} />
+            <Feature key={idx} {...props} index={idx} />
           ))}
         </div>
         
-        <div className="row margin-top--lg">
+        <div className="row margin-top--lg" ref={welcomeRef}>
           <div className="col col--12">
             <div className="text--center">
               <Heading as="h2">🏘️ Bienvenidos a la Historia de Cea</Heading>

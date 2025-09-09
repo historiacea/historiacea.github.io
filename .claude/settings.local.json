@@ -11,7 +11,17 @@
       "Bash(pip install:*)",
       "Bash(rm:*)",
       "Bash(grep:*)",
-      "Read(/C:\\c\\Users\\david.cerezal\\ProjectPropio/**)"
+      "Read(/C:\\c\\Users\\david.cerezal\\ProjectPropio/**)",
+      "WebFetch(domain:starlight.astro.build)",
+      "Bash(mv:*)",
+      "Bash(git log:*)",
+      "Read(//c/Users/david.cerezal/OneDrive - Fundacion Tecnalia Research & Innovation/Escritorio/**)",
+      "Bash(dir:*)",
+      "Bash(copy:*)",
+      "Bash(cp:*)",
+      "Bash(npm uninstall:*)",
+      "Bash(npm run start:*)",
+      "Bash(npm run:*)"
     ],
     "deny": [],
     "ask": []

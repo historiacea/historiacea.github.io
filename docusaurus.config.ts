@@ -47,6 +47,7 @@ const config: Config = {
     ],
   ],
 
+
   themeConfig: {
     image: 'img/logo.png',
     navbar: {
@@ -68,13 +69,22 @@ const config: Config = {
           position: 'left',
           label: 'Castillo',
         },
-        {to: '/blog', label: 'Cronología', position: 'left'},
-        {
-          href: 'https://github.com/historiacea/historiacea.github.io',
-          label: 'GitHub',
-          position: 'right',
-        },
       ],
+    },
+    algolia: {
+      // Reemplaza estos valores con tus credenciales de Algolia
+      appId: '3QKHV6ZLE5',
+      apiKey: 'e20c08963e89b1bf7e78dc78b4dbf5cf',
+      indexName: 'historiacea',
+      
+      // Configuraciones opcionales
+      contextualSearch: true,
+      searchPagePath: 'searya tengch',
+      
+      // Configuraciones adicionales para español
+      searchParameters: {
+        facetFilters: ['language:es'],
+      },
     },
     footer: {
       style: 'dark',

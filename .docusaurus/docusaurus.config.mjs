@@ -69,16 +69,6 @@ export default {
           "sidebarId": "castilloSidebar",
           "position": "left",
           "label": "Castillo"
-        },
-        {
-          "to": "/blog",
-          "label": "Cronología",
-          "position": "left"
-        },
-        {
-          "href": "https://github.com/historiacea/historiacea.github.io",
-          "label": "GitHub",
-          "position": "right"
         }
       ],
       "hideOnScroll": false
