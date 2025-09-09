@@ -51,22 +51,21 @@ const config: Config = {
   themeConfig: {
     image: 'img/logo.png',
     navbar: {
-      title: 'Historia de Cea',
       logo: {
-        alt: 'Escudo de Cea',
+        alt: 'Historia de Cea',
         src: 'img/logo.png',
       },
       items: [
         {
           type: 'docSidebar',
           sidebarId: 'historiaSidebar',
-          position: 'left',
+          position: 'right',
           label: 'Historia',
         },
         {
           type: 'docSidebar',
           sidebarId: 'castilloSidebar',
-          position: 'left',
+          position: 'right',
           label: 'Castillo',
         },
       ],

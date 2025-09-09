@@ -52,26 +52,37 @@ export default {
   "themeConfig": {
     "image": "img/logo.png",
     "navbar": {
-      "title": "Historia de Cea",
       "logo": {
-        "alt": "Escudo de Cea",
+        "alt": "Historia de Cea",
         "src": "img/logo.png"
       },
       "items": [
         {
           "type": "docSidebar",
           "sidebarId": "historiaSidebar",
-          "position": "left",
+          "position": "right",
           "label": "Historia"
         },
         {
           "type": "docSidebar",
           "sidebarId": "castilloSidebar",
-          "position": "left",
+          "position": "right",
           "label": "Castillo"
         }
       ],
       "hideOnScroll": false
+    },
+    "algolia": {
+      "appId": "3QKHV6ZLE5",
+      "apiKey": "e20c08963e89b1bf7e78dc78b4dbf5cf",
+      "indexName": "historiacea",
+      "contextualSearch": true,
+      "searchPagePath": "searya tengch",
+      "searchParameters": {
+        "facetFilters": [
+          "language:es"
+        ]
+      }
     },
     "footer": {
       "style": "dark",

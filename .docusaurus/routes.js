@@ -43,6 +43,11 @@ export default [
     exact: true
   },
   {
+    path: '/searya tengch',
+    component: ComponentCreator('/searya tengch', 'e77'),
+    exact: true
+  },
+  {
     path: '/docs',
     component: ComponentCreator('/docs', '643'),
     routes: [

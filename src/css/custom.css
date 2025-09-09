@@ -54,53 +54,63 @@
 /* Navbar styling */
 .navbar {
   background: #F5EBE0;
-  border-bottom: 1px solid rgba(93, 64, 55, 0.3);
-  box-shadow: 0 2px 4px rgba(93, 64, 55, 0.1);
+  border-bottom: none;
+  box-shadow: none;
+  padding: 0;
+  min-height: 60px;
+  --ifm-navbar-padding-vertical: 0;
+  --ifm-navbar-padding-horizontal: 0;
 }
 
 .navbar__brand {
   align-items: center;
+  margin-right: auto;
+  padding: 0;
 }
 
 .navbar__logo {
-  border-radius: 8px;
-  margin-right: 0.5rem;
+  height: 50px;
+  width: auto;
+  margin: 0;
+  padding: 5px 15px;
 }
 
 .navbar__title {
-  color: #5D4037 !important;
-  font-weight: 700;
+  display: none;
 }
 
 .navbar__item.navbar__link {
-  color: #6D4C41;
+  color: #5D4037;
   font-weight: 500;
   transition: all 0.2s ease;
+  padding: 20px 15px;
+  margin: 0 5px;
+  border-radius: 0;
 }
 
 .navbar__item.navbar__link:hover {
-  color: #8B4513;
-  background-color: rgba(139, 69, 19, 0.05);
-  border-radius: 8px;
+  color: #B74849;
+  background-color: rgba(183, 72, 73, 0.08);
+  border-radius: 0;
 }
 
 /* Dark mode navbar */
 [data-theme='dark'] .navbar {
-  background: linear-gradient(135deg, #3E2723 0%, #1B0000 100%);
-  border-bottom-color: #5D4037;
+  background: #4E342E;
+  border-bottom: none;
 }
 
 [data-theme='dark'] .navbar__title {
-  color: #EFEBE9 !important;
+  display: none;
 }
 
 [data-theme='dark'] .navbar__item.navbar__link {
-  color: #BCAAA4;
+  color: #F5EBE0;
 }
 
 [data-theme='dark'] .navbar__item.navbar__link:hover {
-  color: #D7CCC8;
-  background-color: rgba(215, 204, 200, 0.1);
+  color: #FAF5F0;
+  background-color: rgba(250, 245, 240, 0.1);
 }
 
 /* Footer styling */
@@ -318,10 +328,37 @@ html {
   transform: translateY(-2px);
 }
 
+/* Navbar items alignment */
+.navbar__items {
+  height: 100%;
+}
+
+.navbar__items--right {
+  margin-left: auto;
+}
+
+/* Search bar styling */
+.DocSearch-Button {
+  margin: 0 15px;
+  border-radius: 20px;
+  background: rgba(93, 64, 55, 0.1);
+  border: 1px solid rgba(93, 64, 55, 0.2);
+}
+
+.DocSearch-Button:hover {
+  background: rgba(183, 72, 73, 0.1);
+  border-color: rgba(183, 72, 73, 0.3);
+}
+
 /* Responsive design */
 @media (max-width: 768px) {
   .navbar__logo {
-    height: 24px;
+    height: 40px;
+    padding: 5px 10px;
+  }
+  
+  .navbar__item.navbar__link {
+    padding: 15px 10px;
   }
   
   .hero__title {
