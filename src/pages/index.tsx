@@ -17,33 +17,44 @@ function HomepageHeader() {
   const heroImageRef = useRef<HTMLDivElement>(null);
 
   useEffect(() => {
-    const tl = gsap.timeline();
+    if (titleRef.current) {
+      gsap.from(titleRef.current, {
+        duration: 1,
+        y: -50,
+        opacity: 0,
+        ease: "power3.out"
+      });
+    }
 
-    tl.from(titleRef.current, {
-      duration: 1,
-      y: -50,
-      opacity: 0,
-      ease: "power3.out"
-    })
-    .from(subtitleRef.current, {
-      duration: 0.8,
-      y: 30,
-      opacity: 0,
-      ease: "power2.out"
-    }, "-=0.5")
-    .from(heroImageRef.current, {
-      duration: 1,
-      scale: 0.8,
-      opacity: 0,
-      ease: "back.out(1.7)"
-    }, "-=0.3")
-    .from(buttonsRef.current?.children, {
-      duration: 0.6,
-      y: 30,
-      opacity: 0,
-      stagger: 0.2,
-      ease: "power2.out"
-    }, "-=0.2");
+    if (subtitleRef.current) {
+      gsap.from(subtitleRef.current, {
+        duration: 0.8,
+        y: 30,
+        opacity: 0,
+        delay: 0.3,
+        ease: "power2.out"
+      });
+    }
+
+    if (heroImageRef.current) {
+      gsap.from(heroImageRef.current, {
+        duration: 1,
+        scale: 0.8,
+        opacity: 0,
+        delay: 0.5,
+        ease: "power2.out"
+      });
+    }
+
+    if (buttonsRef.current) {
+      gsap.from(buttonsRef.current.children, {
+        duration: 0.6,
+        y: 30,
+        opacity: 0,
+        delay: 0.8,
+        ease: "power2.out"
+      });
+    }
   }, []);
 
   return (

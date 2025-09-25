@@ -22,7 +22,8 @@
       "Bash(npm uninstall:*)",
       "Bash(npm run start:*)",
       "Bash(npm run:*)",
-      "Bash(npm start)"
+      "Bash(npm start)",
+      "Read(//c/Users/david.cerezal/Downloads/**)"
     ],
     "deny": [],
     "ask": []

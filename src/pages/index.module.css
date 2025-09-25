@@ -31,17 +31,20 @@
 }
 
 .heroImg {
-  max-width: 100%;
+  width: 100%;
+  max-width: 600px;
   height: auto;
   border-radius: 16px;
-  box-shadow: 0 8px 32px rgba(74, 55, 40, 0.3);
+  box-shadow: 0 8px 32px rgba(74, 55, 40, 0.4);
   transition: transform 0.3s ease;
-  border: 2px solid var(--cea-accent-gold);
+  border: 3px solid var(--cea-accent-gold);
+  background: var(--cea-warm-beige);
+  padding: 8px;
 }
 
 .heroImg:hover {
-  transform: scale(1.05) rotate(1deg);
-  box-shadow: 0 12px 40px rgba(74, 55, 40, 0.4);
+  transform: scale(1.03);
+  box-shadow: 0 15px 45px rgba(74, 55, 40, 0.5);
 }
 
 @media screen and (max-width: 996px) {

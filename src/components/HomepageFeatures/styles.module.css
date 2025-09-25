@@ -3,20 +3,20 @@
   align-items: center;
   padding: 4rem 0;
   width: 100%;
-  background: linear-gradient(180deg, transparent 0%, var(--cea-light-sand) 50%, var(--cea-warm-beige) 100%);
+  background: linear-gradient(180deg, rgba(247, 241, 232, 0.3) 0%, rgba(240, 229, 208, 0.8) 50%, rgba(247, 241, 232, 1) 100%);
+  border-top: 2px solid var(--cea-accent-gold);
 }
 
 .featureCard {
-  background: var(--ifm-background-color);
-  border: 2px solid var(--cea-light-sand);
+  background: white;
+  border: 3px solid var(--cea-accent-gold);
   border-radius: 20px;
   padding: 2.5rem;
   height: 100%;
-  box-shadow: 0 6px 25px rgba(74, 55, 40, 0.15);
+  box-shadow: 0 8px 30px rgba(74, 55, 40, 0.25);
   transition: all 0.3s ease;
   position: relative;
   overflow: hidden;
-  backdrop-filter: blur(10px);
 }
 
 .featureCard::before {
