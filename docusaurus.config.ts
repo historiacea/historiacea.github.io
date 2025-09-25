@@ -78,7 +78,7 @@ const config: Config = {
       
       // Configuraciones opcionales
       contextualSearch: true,
-      searchPagePath: 'searya tengch',
+      searchPagePath: 'search',
       
       // Configuraciones adicionales para español
       searchParameters: {

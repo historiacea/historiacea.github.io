@@ -7,7 +7,8 @@
   padding: 4rem 0;
   position: relative;
   overflow: hidden;
-  background: linear-gradient(135deg, #FAF5F0 0%, #F5EBE0 100%);
+  background: linear-gradient(135deg, var(--cea-warm-beige) 0%, var(--cea-light-sand) 100%);
+  border-bottom: 3px solid var(--cea-accent-gold);
 }
 
 .heroContent {
@@ -32,13 +33,15 @@
 .heroImg {
   max-width: 100%;
   height: auto;
-  border-radius: 12px;
-  box-shadow: 0 8px 32px rgba(183, 72, 73, 0.2);
+  border-radius: 16px;
+  box-shadow: 0 8px 32px rgba(74, 55, 40, 0.3);
   transition: transform 0.3s ease;
+  border: 2px solid var(--cea-accent-gold);
 }
 
 .heroImg:hover {
-  transform: scale(1.05);
+  transform: scale(1.05) rotate(1deg);
+  box-shadow: 0 12px 40px rgba(74, 55, 40, 0.4);
 }
 
 @media screen and (max-width: 996px) {

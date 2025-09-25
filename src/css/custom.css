@@ -6,56 +6,81 @@
 
 /* You can override the default Infima variables here. */
 :root {
-  --ifm-color-primary: #B74849;
-  --ifm-color-primary-dark: #A43E3F;
-  --ifm-color-primary-darker: #993B3C;
-  --ifm-color-primary-darkest: #7D3031;
-  --ifm-color-primary-light: #C25253;
-  --ifm-color-primary-lighter: #C85556;
-  --ifm-color-primary-lightest: #D36163;
+  /* Primary colors - Terracota inspirado en Cea */
+  --ifm-color-primary: #B85450;
+  --ifm-color-primary-dark: #A64B47;
+  --ifm-color-primary-darker: #9B4744;
+  --ifm-color-primary-darkest: #803A38;
+  --ifm-color-primary-light: #C25D59;
+  --ifm-color-primary-lighter: #C66156;
+  --ifm-color-primary-lightest: #D37068;
   --ifm-code-font-size: 95%;
-  --docusaurus-highlighted-code-line-bg: rgba(183, 72, 73, 0.1);
+  --docusaurus-highlighted-code-line-bg: rgba(184, 84, 80, 0.1);
 
-  /* New palette colors */
-  --ifm-navbar-background-color: #F5EBE0;
-  --ifm-navbar-link-color: #5D4037;
-  --ifm-navbar-link-hover-color: #B74849;
-  --ifm-footer-background-color: #4E342E;
-  --ifm-footer-color: #F5EBE0;
-  --ifm-footer-link-color: #FAF5F0;
-  --ifm-footer-title-color: #FAF5F0;
-  
+  /* Palette inspirada en los colores de Castilla y León */
+  --cea-warm-beige: #F7F1E8;
+  --cea-light-sand: #F0E5D0;
+  --cea-medium-brown: #8B6914;
+  --cea-dark-brown: #4A3728;
+  --cea-accent-gold: #D4AF37;
+
+  /* Navbar colors */
+  --ifm-navbar-background-color: var(--cea-warm-beige);
+  --ifm-navbar-link-color: var(--cea-dark-brown);
+  --ifm-navbar-link-hover-color: var(--ifm-color-primary);
+
+  /* Footer colors */
+  --ifm-footer-background-color: var(--cea-dark-brown);
+  --ifm-footer-color: var(--cea-light-sand);
+  --ifm-footer-link-color: var(--cea-warm-beige);
+  --ifm-footer-title-color: var(--cea-warm-beige);
+
   /* Content colors */
-  --ifm-heading-color: #5D4037;
-  --ifm-link-color: #B74849;
-  --ifm-link-hover-color: #993B3C;
+  --ifm-heading-color: var(--cea-dark-brown);
+  --ifm-link-color: var(--ifm-color-primary);
+  --ifm-link-hover-color: var(--ifm-color-primary-dark);
+
+  /* Background and text */
+  --ifm-background-color: #FEFEFE;
+  --ifm-font-color-base: #3C3C3C;
 }
 
-/* For readability concerns, you should choose a lighter palette in dark mode. */
+/* Dark mode - Tema nocturno inspirado en la noche castellana */
 [data-theme='dark'] {
-  --ifm-color-primary: #D36163;
-  --ifm-color-primary-dark: #C85556;
-  --ifm-color-primary-darker: #C25253;
-  --ifm-color-primary-darkest: #B74849;
-  --ifm-color-primary-light: #DE6E6F;
-  --ifm-color-primary-lighter: #E27475;
-  --ifm-color-primary-lightest: #EA8081;
-  --docusaurus-highlighted-code-line-bg: rgba(183, 72, 73, 0.1);
+  --ifm-color-primary: #E8A87C;
+  --ifm-color-primary-dark: #E09461;
+  --ifm-color-primary-darker: #DA8954;
+  --ifm-color-primary-darkest: #C1723A;
+  --ifm-color-primary-light: #F0BC97;
+  --ifm-color-primary-lighter: #F3C7A4;
+  --ifm-color-primary-lightest: #F8DDC5;
+  --docusaurus-highlighted-code-line-bg: rgba(232, 168, 124, 0.1);
 
-  --ifm-navbar-background-color: #4E342E;
-  --ifm-navbar-link-color: #F5EBE0;
-  --ifm-navbar-link-hover-color: #FAF5F0;
-  
-  --ifm-heading-color: #FAF5F0;
-  --ifm-link-color: #D36163;
-  --ifm-link-hover-color: #EA8081;
+  /* Dark palette */
+  --cea-warm-beige: #2A2419;
+  --cea-light-sand: #3D332A;
+  --cea-medium-brown: #C9A876;
+  --cea-dark-brown: #F7F1E8;
+  --cea-accent-gold: #F4D03F;
+
+  /* Dark mode specific */
+  --ifm-navbar-background-color: var(--cea-warm-beige);
+  --ifm-navbar-link-color: var(--cea-dark-brown);
+  --ifm-navbar-link-hover-color: var(--ifm-color-primary);
+
+  --ifm-heading-color: var(--cea-dark-brown);
+  --ifm-link-color: var(--ifm-color-primary);
+  --ifm-link-hover-color: var(--ifm-color-primary-light);
+
+  --ifm-background-color: #1B1B1B;
+  --ifm-font-color-base: #E8E8E8;
 }
 
 /* Navbar styling */
 .navbar {
-  background: #F5EBE0;
-  border-bottom: none;
-  box-shadow: none;
+  background: var(--ifm-navbar-background-color);
+  border-bottom: 1px solid var(--cea-light-sand);
+  box-shadow: 0 2px 8px rgba(74, 55, 40, 0.1);
   padding: 0;
   min-height: 60px;
   --ifm-navbar-padding-vertical: 0;
@@ -80,24 +105,25 @@
 }
 
 .navbar__item.navbar__link {
-  color: #5D4037;
+  color: var(--ifm-navbar-link-color);
   font-weight: 500;
   transition: all 0.2s ease;
   padding: 20px 15px;
   margin: 0 5px;
-  border-radius: 0;
+  border-radius: 8px;
 }
 
 .navbar__item.navbar__link:hover {
-  color: #B74849;
-  background-color: rgba(183, 72, 73, 0.08);
-  border-radius: 0;
+  color: var(--ifm-navbar-link-hover-color);
+  background-color: var(--cea-light-sand);
+  border-radius: 8px;
 }
 
 /* Dark mode navbar */
 [data-theme='dark'] .navbar {
-  background: #4E342E;
-  border-bottom: none;
+  background: var(--cea-warm-beige);
+  border-bottom: 1px solid var(--cea-light-sand);
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.3);
 }
 
 [data-theme='dark'] .navbar__title {
@@ -105,30 +131,30 @@
 }
 
 [data-theme='dark'] .navbar__item.navbar__link {
-  color: #F5EBE0;
+  color: var(--cea-dark-brown);
 }
 
 [data-theme='dark'] .navbar__item.navbar__link:hover {
-  color: #FAF5F0;
-  background-color: rgba(250, 245, 240, 0.1);
+  color: var(--ifm-color-primary);
+  background-color: var(--cea-light-sand);
 }
 
 /* Footer styling */
 .footer--dark {
-  background: #4E342E;
-  border-top: 1px solid #5D4037;
+  background: var(--ifm-footer-background-color);
+  border-top: 1px solid var(--cea-medium-brown);
 }
 
 .footer__title {
-  color: #FAF5F0;
+  color: var(--ifm-footer-title-color);
 }
 
 .footer__item {
-  color: #F5EBE0;
+  color: var(--ifm-footer-color);
 }
 
 .footer__link-item:hover {
-  color: #FAF5F0;
+  color: var(--ifm-footer-link-color);
 }
 
 /* Content styling */

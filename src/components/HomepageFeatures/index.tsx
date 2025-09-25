@@ -2,10 +2,7 @@ import clsx from 'clsx';
 import Heading from '@theme/Heading';
 import { useEffect, useRef } from 'react';
 import { gsap } from 'gsap';
-import { ScrollTrigger } from 'gsap/ScrollTrigger';
 import styles from './styles.module.css';
-
-gsap.registerPlugin(ScrollTrigger);
 
 type FeatureItem = {
   title: string;
@@ -57,11 +54,6 @@ function Feature({title, emoji, description, link, index}: FeatureItem & {index:
   useEffect(() => {
     if (cardRef.current) {
       gsap.from(cardRef.current, {
-        scrollTrigger: {
-          trigger: cardRef.current,
-          start: "top 80%",
-          end: "bottom 20%",
-        },
         duration: 0.8,
         y: 50,
         opacity: 0,
@@ -127,28 +119,20 @@ export default function HomepageFeatures(): JSX.Element {
   useEffect(() => {
     if (titleRef.current && subtitleRef.current) {
       gsap.from([titleRef.current, subtitleRef.current], {
-        scrollTrigger: {
-          trigger: sectionRef.current,
-          start: "top 80%",
-        },
         duration: 0.8,
         y: 30,
         opacity: 0,
-        stagger: 0.2,
+        delay: 0.2,
         ease: "power2.out"
       });
     }
 
     if (welcomeRef.current) {
       gsap.from(welcomeRef.current.children, {
-        scrollTrigger: {
-          trigger: welcomeRef.current,
-          start: "top 80%",
-        },
         duration: 0.8,
         y: 30,
         opacity: 0,
-        stagger: 0.2,
+        delay: 0.4,
         ease: "power2.out"
       });
     }
