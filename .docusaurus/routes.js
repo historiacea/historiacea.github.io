@@ -43,8 +43,8 @@ export default [
     exact: true
   },
   {
-    path: '/searya tengch',
-    component: ComponentCreator('/searya tengch', 'e77'),
+    path: '/search',
+    component: ComponentCreator('/search', '5de'),
     exact: true
   },
   {

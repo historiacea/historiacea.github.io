@@ -77,7 +77,7 @@ export default {
       "apiKey": "e20c08963e89b1bf7e78dc78b4dbf5cf",
       "indexName": "historiacea",
       "contextualSearch": true,
-      "searchPagePath": "searya tengch",
+      "searchPagePath": "search",
       "searchParameters": {
         "facetFilters": [
           "language:es"
