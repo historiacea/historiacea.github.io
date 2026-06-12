@@ -3,11 +3,22 @@ title: "Capítulo 27. La nueva torre de Cea: una fortaleza adelantada a su tiemp
 sidebar_label: "27. La nueva torre de Cea: una fortaleza adelantada a su tiempo"
 sidebar_position: 5
 description: "El actual castillo de Cea, tal y como lo contemplamos hoy, hunde sus raíces en un tiempo convulso. Fue levantado en la segunda mitad del siglo XV sobre…"
+image: "/img/castillo/galeria/castillo-59.jpg"
 ---
 
 # Capítulo 27. La nueva torre de Cea: una fortaleza adelantada a su tiempo
 
 _“En las ruinas del castillo de Cea aún resuena el eco de un tiempo en que la pólvora cambiaba la guerra y esta torre, adelantada a su siglo, se alzó como un faro de modernidad en la frontera de dos épocas.”_
+
+Así pudo verse la torre recién terminada, hacia 1480 — recreaciones digitales creadas para este proyecto:
+
+![Recreación de la torre nueva de Cea en su esplendor](/img/castillo/galeria/castillo-59.jpg)
+
+![Recreación de la torre y su recinto amurallado](/img/castillo/galeria/castillo-60.png)
+
+![Recreación de la fortaleza en activo](/img/castillo/galeria/castillo-61.jpg)
+
+![Recreación de la torre sobre el cerro](/img/castillo/galeria/castillo-62.jpg)
 
 El **actual castillo de Cea**, tal y como lo contemplamos hoy, hunde sus raíces en un tiempo convulso. Fue levantado en la **segunda mitad del siglo XV** sobre los restos de una antigua fortificación medieval, ya destruida o desmantelada desde el **siglo XIV**, cuando la villa había sufrido asedios, saqueos e incendios en plena guerra civil castellana. Tras la **sublevación del infante Alfonso contra Enrique IV** en **1466**, la villa cayó brevemente en manos de los partidarios del rey, pero al año siguiente fue recuperada por la poderosa **familia Sandoval y Rojas**, quienes consolidaron su dominio sobre Cea y, muy probablemente, impulsaron la construcción de la nueva torre.
 

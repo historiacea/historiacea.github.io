@@ -7,7 +7,7 @@ description: "Estas imágenes existen y se conservan gracias a quienes llevan a�
 
 # Fotos del castillo
 
-**58 imágenes** del castillo de Cea a través del tiempo: la torre desde todos los ángulos, el derrumbe de 2012, los trabajos de consolidación y su silueta en cada estación. **Pulsa cualquiera para ampliarla con su ficha.**
+**62 imágenes** del castillo de Cea a través del tiempo: la torre desde todos los ángulos, el derrumbe de 2012, los trabajos de consolidación y su silueta en cada estación. **Pulsa cualquiera para ampliarla con su ficha.**
 
 :::info
 Imágenes **recopiladas de fuentes públicas, sin ánimo de lucro**, para preservar la memoria del castillo. ¿Una foto es tuya? Te **acreditamos o la retiramos** de inmediato — escríbenos (botón al pie). [Más detalles en el aviso legal](/docs/aviso-legal#retirada-y-acreditación-de-imágenes).

@@ -107,6 +107,30 @@ export const FICHAS: Record<string, FichaFoto> = {
     titulo: 'El castillo en la bibliografía',
     fuente: 'Recorte bibliográfico compartido por vecinos (2017)',
   },
+  'castillo-59': {
+    titulo: 'La torre nueva en su esplendor (recreación)',
+    anio: 'c. 1480',
+    fuente: 'Recreación digital creada para este proyecto',
+    desc: 'Así pudo verse la torre de los Sandoval recién terminada: artillería en el patio, carros de suministro y la vega del Cea al fondo.',
+  },
+  'castillo-60': {
+    titulo: 'La torre y su recinto (recreación)',
+    anio: 'c. 1480',
+    fuente: 'Recreación digital creada para este proyecto',
+    desc: 'Vista aérea de la fortaleza con la muralla del recinto y la vida cotidiana de la guarnición.',
+  },
+  'castillo-61': {
+    titulo: 'La fortaleza en activo (recreación)',
+    anio: 'c. 1480',
+    fuente: 'Recreación digital creada para este proyecto',
+    desc: 'La torre artillera en pleno funcionamiento, con sus banderas y el trajín de soldados y carros.',
+  },
+  'castillo-62': {
+    titulo: 'La torre sobre el cerro (recreación)',
+    anio: 'c. 1480',
+    fuente: 'Recreación digital creada para este proyecto',
+    desc: 'El conjunto fortificado dominando el valle, tal y como pudo lucir a finales del siglo XV.',
+  },
 };
 
 /** Obtiene la ficha de una imagen a partir de su URL y colección. */

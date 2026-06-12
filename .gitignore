@@ -13,3 +13,6 @@ Thumbs.db
 # Fuentes originales del libro (viven fuera del repo, en ../fuentes-libro/)
 *.docx
 .docx-work/
+
+# Credenciales (nunca subir)
+.env
