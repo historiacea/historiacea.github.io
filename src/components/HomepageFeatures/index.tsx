@@ -1,180 +1,132 @@
 import clsx from 'clsx';
+import Link from '@docusaurus/Link';
 import Heading from '@theme/Heading';
 import { useEffect, useRef } from 'react';
 import { gsap } from 'gsap';
+import { IconBook, IconTower, IconScroll } from '@site/src/components/Icons';
 import styles from './styles.module.css';
 
 type FeatureItem = {
   title: string;
-  Svg?: React.ComponentType<React.ComponentProps<'svg'>>;
-  emoji?: string;
-  description: JSX.Element;
-  link: string;
+  Icon: React.ComponentType<{ size?: number }>;
+  description: string;
+  to: string;
 };
 
 const FeatureList: FeatureItem[] = [
   {
-    title: '📚 Historia de Cea',
-    emoji: '📚',
-    description: (
-      <>
-        Explora la historia completa del pueblo de Cea desde sus orígenes geológicos 
-        hasta nuestros días, organizada en 8 partes y 35 capítulos.
-      </>
-    ),
-    link: '/docs/historia/intro',
+    title: 'La Historia',
+    Icon: IconBook,
+    description:
+      'El relato completo de Cea desde sus orígenes geológicos hasta nuestros días, en ocho partes y treinta y cinco capítulos.',
+    to: '/docs/historia/intro',
   },
   {
-    title: '🏰 Torre y Castillo',
-    emoji: '🏰',
-    description: (
-      <>
-        Descubre la emblemática Torre de Cea y sus elementos arquitectónicos, 
-        símbolo del poder señorial medieval en la comarca.
-      </>
-    ),
-    link: '/docs/castillo/torre',
+    title: 'La Torre y el Castillo',
+    Icon: IconTower,
+    description:
+      'La emblemática Torre de Cea y sus elementos arquitectónicos, símbolo del poder señorial medieval en la comarca.',
+    to: '/docs/castillo',
   },
   {
-    title: '📜 Cronología',
-    emoji: '📜',
-    description: (
-      <>
-        Explora los eventos más importantes de la historia de Cea organizados 
-        cronológicamente desde la cultura vaccea hasta nuestros días.
-      </>
-    ),
-    link: '/blog',
+    title: 'La Cronología',
+    Icon: IconScroll,
+    description:
+      'Los acontecimientos decisivos de Cea ordenados en el tiempo, desde la cultura vaccea hasta el presente.',
+    to: '/cronologia',
   },
 ];
 
-function Feature({title, emoji, description, link, index}: FeatureItem & {index: number}) {
-  const cardRef = useRef<HTMLDivElement>(null);
-
-  useEffect(() => {
-    if (cardRef.current) {
-      gsap.from(cardRef.current, {
-        duration: 0.8,
-        y: 50,
-        opacity: 0,
-        delay: index * 0.2,
-        ease: "power2.out"
-      });
-
-      // Hover animation
-      const handleMouseEnter = () => {
-        gsap.to(cardRef.current, {
-          duration: 0.3,
-          scale: 1.05,
-          ease: "power2.out"
-        });
-      };
-
-      const handleMouseLeave = () => {
-        gsap.to(cardRef.current, {
-          duration: 0.3,
-          scale: 1,
-          ease: "power2.out"
-        });
-      };
-
-      cardRef.current.addEventListener('mouseenter', handleMouseEnter);
-      cardRef.current.addEventListener('mouseleave', handleMouseLeave);
-
-      return () => {
-        if (cardRef.current) {
-          cardRef.current.removeEventListener('mouseenter', handleMouseEnter);
-          cardRef.current.removeEventListener('mouseleave', handleMouseLeave);
-        }
-      };
-    }
-  }, [index]);
-
+function Feature({ title, Icon, description, to }: FeatureItem) {
   return (
-    <div className={clsx('col col--4')}>
-      <div className={styles.featureCard} ref={cardRef}>
-        <div className="text--center">
-          <div className={styles.featureIcon}>
-            {emoji && <span className={styles.emoji}>{emoji}</span>}
-          </div>
-        </div>
-        <div className="text--center padding-horiz--md">
-          <Heading as="h3">{title}</Heading>
-          <p>{description}</p>
-          <a href={link} className="button button--primary">
-            Ver más
-          </a>
-        </div>
-      </div>
-    </div>
+    <Link to={to} className={clsx(styles.card, 'reveal')}>
+      <span className={styles.cardIcon}>
+        <Icon size={22} />
+      </span>
+      <Heading as="h3" className={styles.cardTitle}>
+        {title}
+      </Heading>
+      <p className={styles.cardDesc}>{description}</p>
+      <span className={styles.cardArrow} aria-hidden="true">
+        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+          strokeWidth="1.6" strokeLinecap="round" strokeLinejoin="round">
+          <path d="M5 12h14M13 6l6 6-6 6" />
+        </svg>
+      </span>
+    </Link>
   );
 }
 
 export default function HomepageFeatures(): JSX.Element {
-  const sectionRef = useRef<HTMLElement>(null);
-  const titleRef = useRef<HTMLHeadingElement>(null);
-  const subtitleRef = useRef<HTMLParagraphElement>(null);
-  const welcomeRef = useRef<HTMLDivElement>(null);
+  const rootRef = useRef<HTMLDivElement>(null);
 
+  // Revelado sutil al entrar en viewport, sin plugins externos.
   useEffect(() => {
-    if (titleRef.current && subtitleRef.current) {
-      gsap.from([titleRef.current, subtitleRef.current], {
-        duration: 0.8,
-        y: 30,
-        opacity: 0,
-        delay: 0.2,
-        ease: "power2.out"
-      });
-    }
-
-    if (welcomeRef.current) {
-      gsap.from(welcomeRef.current.children, {
-        duration: 0.8,
-        y: 30,
-        opacity: 0,
-        delay: 0.4,
-        ease: "power2.out"
-      });
-    }
+    const els = rootRef.current?.querySelectorAll<HTMLElement>('.reveal');
+    if (!els) return;
+    const io = new IntersectionObserver(
+      (entries) => {
+        entries.forEach((entry) => {
+          if (entry.isIntersecting) {
+            gsap.to(entry.target, { opacity: 1, y: 0, duration: 0.6, ease: 'power2.out' });
+            io.unobserve(entry.target);
+          }
+        });
+      },
+      { threshold: 0.15 },
+    );
+    els.forEach((el) => {
+      gsap.set(el, { opacity: 0, y: 20 });
+      io.observe(el);
+    });
+    return () => io.disconnect();
   }, []);
 
   return (
-    <section className={styles.features} ref={sectionRef}>
-      <div className="container">
-        <div className="row">
-          <div className="col col--12">
-            <div className="text--center margin-bottom--lg">
-              <Heading as="h2" ref={titleRef}>🗂️ Secciones del Sitio</Heading>
-              <p className="hero__subtitle" ref={subtitleRef}>
-                Descubre la rica historia de Cea a través de diferentes perspectivas
-              </p>
-            </div>
+    <div ref={rootRef}>
+      <section className={styles.sections}>
+        <div className="container">
+          <div className={clsx(styles.sectionHeader, 'reveal')}>
+            <Heading as="h2" className={styles.sectionTitle}>
+              Explora la memoria de Cea
+            </Heading>
+            <p className={styles.sectionSubtitle}>
+              Tres caminos para recorrer mil años de historia.
+            </p>
+          </div>
+          <div className={styles.grid}>
+            {FeatureList.map((props) => (
+              <Feature key={props.title} {...props} />
+            ))}
           </div>
         </div>
-        <div className="row">
-          {FeatureList.map((props, idx) => (
-            <Feature key={idx} {...props} index={idx} />
-          ))}
-        </div>
-        
-        <div className="row margin-top--lg" ref={welcomeRef}>
-          <div className="col col--12">
-            <div className="text--center">
-              <Heading as="h2">🏘️ Bienvenidos a la Historia de Cea</Heading>
-              <p>
-                En el corazón de la provincia de León, donde el río Cea serpentea entre campos 
-                dorados y colinas suaves, se alza un pueblo que guarda entre sus piedras más de 
-                mil años de historia. <strong>Cea</strong> no es solo un nombre en el mapa: es el 
-                testimonio vivo de generaciones que forjaron su destino en esta tierra de Castilla y León.
-              </p>
-              <p>
-                Este sitio web nace del amor por preservar la memoria colectiva, reuniendo relatos, 
-                documentos y tradiciones que han pasado de generación en generación.
-              </p>
-            </div>
+      </section>
+
+      <section className={styles.welcome}>
+        <div className="container">
+          <div className={clsx(styles.welcomeInner, 'reveal')}>
+            <Heading as="h2" className={styles.welcomeTitle}>
+              Un pueblo que guarda mil años entre sus piedras
+            </Heading>
+            <p className={styles.welcomeText}>
+              En el corazón de la provincia de León, donde el río Cea serpentea entre campos
+              dorados y colinas suaves, se alza un pueblo que conserva el testimonio vivo de
+              generaciones que forjaron su destino en esta tierra de Castilla y León.
+            </p>
+            <p className={styles.welcomeText}>
+              Este sitio nace del deseo de preservar la memoria colectiva, reuniendo relatos,
+              documentos y tradiciones que han pasado de generación en generación.
+            </p>
+            <Link to="/docs/historia/intro" className={styles.welcomeLink}>
+              Empezar por el principio
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                strokeWidth="1.6" strokeLinecap="round" strokeLinejoin="round" aria-hidden="true">
+                <path d="M5 12h14M13 6l6 6-6 6" />
+              </svg>
+            </Link>
           </div>
         </div>
-      </div>
-    </section>
+      </section>
+    </div>
   );
 }

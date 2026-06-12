@@ -1,0 +1,88 @@
+/**
+ * Rejilla de tarjetas de capítulo con foto de preview.
+ * Usa los tokens --cea-* del tema.
+ */
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+  gap: 1.25rem;
+  margin: 1.5rem 0 2rem;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  background: var(--cea-surface);
+  border: 1px solid var(--cea-line);
+  border-radius: 12px;
+  overflow: hidden;
+  text-decoration: none;
+  color: inherit;
+  transition: transform 0.22s ease, box-shadow 0.22s ease, border-color 0.22s ease;
+}
+.card:hover {
+  text-decoration: none;
+  color: inherit;
+  transform: translateY(-4px);
+  border-color: var(--cea-line-strong);
+  box-shadow: 0 12px 28px rgba(22, 24, 29, 0.1);
+}
+
+.media {
+  position: relative;
+  aspect-ratio: 16 / 10;
+  background: var(--cea-bg-alt);
+  overflow: hidden;
+}
+.media img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+  transition: transform 0.4s ease;
+}
+.card:hover .media img {
+  transform: scale(1.05);
+}
+
+/* Marcador para capítulos sin imagen propia. */
+.placeholder {
+  position: absolute;
+  inset: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 2.6rem;
+  font-weight: 800;
+  color: var(--cea-line-strong);
+  background:
+    linear-gradient(135deg, var(--cea-bg-alt) 0%, var(--cea-surface) 100%);
+}
+
+.body {
+  display: flex;
+  flex-direction: column;
+  gap: 0.3rem;
+  padding: 0.9rem 1rem 1.05rem;
+}
+
+.num {
+  font-size: 0.72rem;
+  font-weight: 700;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  color: var(--cea-accent);
+}
+
+.titulo {
+  font-size: 0.98rem;
+  font-weight: 700;
+  line-height: 1.25;
+  color: var(--cea-ink);
+}
+
+.gancho {
+  font-size: 0.83rem;
+  line-height: 1.4;
+  color: var(--cea-ink-soft);
+}

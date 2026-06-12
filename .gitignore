@@ -1,4 +1,15 @@
+# Dependencias
 node_modules
-dist
-.astro
-src/env.d.ts
+
+# Salida de build de Docusaurus
+build
+.docusaurus
+.cache-loader
+
+# Sistema
+.DS_Store
+Thumbs.db
+
+# Fuentes originales del libro (viven fuera del repo, en ../fuentes-libro/)
+*.docx
+.docx-work/

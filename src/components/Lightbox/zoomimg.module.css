@@ -1,0 +1,15 @@
+.zoomable {
+  /* Docusaurus añade width/height a las imágenes de markdown; sin esto la
+     altura queda fija y la imagen se deforma al reducir el ancho. */
+  max-width: 100%;
+  height: auto;
+  cursor: zoom-in;
+  transition: filter 0.2s ease, transform 0.2s ease;
+}
+.zoomable:hover {
+  filter: brightness(1.03);
+}
+.zoomable:focus-visible {
+  outline: 2px solid var(--cea-accent);
+  outline-offset: 3px;
+}

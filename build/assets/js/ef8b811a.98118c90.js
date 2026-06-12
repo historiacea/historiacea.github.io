@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkhistoriacea=self.webpackChunkhistoriacea||[]).push([[947],{6600:e=>{e.exports=JSON.parse('{"authors":[{"name":"Historia de Cea","title":"Proyecto de preservaci\xf3n hist\xf3rica","url":"https://github.com/historiacea/historiacea.github.io","imageURL":"/img/logo.png","key":"historiacea","page":null,"count":1}]}')}}]);

@@ -1,77 +1,148 @@
-.features {
+/* Secciones de la home — estilo limpio */
+
+/* ---------- Secciones ---------- */
+.sections {
+  padding: 5.5rem 0;
+  background: var(--cea-bg);
+}
+
+.sectionHeader {
+  text-align: center;
+  max-width: 38rem;
+  margin: 0 auto 3.25rem;
+}
+
+.sectionTitle {
+  font-size: clamp(1.8rem, 4vw, 2.5rem);
+  font-weight: 800;
+  letter-spacing: -0.03em;
+  line-height: 1.1;
+  color: var(--cea-ink);
+  margin: 0 0 0.75rem;
+}
+
+.sectionSubtitle {
+  font-size: 1.1rem;
+  color: var(--cea-ink-soft);
+  margin: 0;
+}
+
+/* ---------- Tarjetas ---------- */
+.grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1.25rem;
+}
+
+.card {
   display: flex;
-  align-items: center;
-  padding: 4rem 0;
-  width: 100%;
-  background: linear-gradient(180deg, rgba(247, 241, 232, 0.3) 0%, rgba(240, 229, 208, 0.8) 50%, rgba(247, 241, 232, 1) 100%);
-  border-top: 2px solid var(--cea-accent-gold);
-}
-
-.featureCard {
-  background: white;
-  border: 3px solid var(--cea-accent-gold);
-  border-radius: 20px;
-  padding: 2.5rem;
-  height: 100%;
-  box-shadow: 0 8px 30px rgba(74, 55, 40, 0.25);
-  transition: all 0.3s ease;
+  flex-direction: column;
+  padding: 1.75rem;
+  background: var(--cea-surface);
+  border: 1px solid var(--cea-line);
+  border-radius: 14px;
+  text-decoration: none !important;
+  color: inherit;
   position: relative;
-  overflow: hidden;
+  transition: transform 0.2s ease, box-shadow 0.2s ease, border-color 0.2s ease;
+}
+.card:hover {
+  transform: translateY(-3px);
+  box-shadow: var(--ifm-global-shadow-md);
+  border-color: var(--cea-line-strong);
 }
 
-.featureCard::before {
-  content: '';
-  position: absolute;
-  top: 0;
-  left: 0;
-  right: 0;
-  height: 5px;
-  background: linear-gradient(90deg, var(--ifm-color-primary) 0%, var(--cea-accent-gold) 100%);
-  transform: scaleX(0);
-  transition: transform 0.3s ease;
-  border-radius: 20px 20px 0 0;
+.cardIcon {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 2.5rem;
+  height: 2.5rem;
+  border-radius: 9px;
+  color: var(--cea-accent);
+  background: var(--cea-accent-soft);
+  margin-bottom: 1.25rem;
 }
 
-.featureCard:hover::before {
-  transform: scaleX(1);
+.cardTitle {
+  font-size: 1.25rem;
+  font-weight: 700;
+  letter-spacing: -0.02em;
+  margin: 0 0 0.5rem;
+  color: var(--cea-ink);
 }
 
-.featureCard:hover {
-  box-shadow: 0 10px 40px rgba(74, 55, 40, 0.25);
-  border-color: var(--cea-accent-gold);
-  transform: translateY(-5px);
+.cardDesc {
+  font-size: 0.98rem;
+  line-height: 1.6;
+  color: var(--cea-ink-soft);
+  margin: 0 0 1.5rem;
+  flex-grow: 1;
 }
 
-.featureIcon {
-  margin-bottom: 1rem;
+.cardArrow {
+  display: inline-flex;
+  color: var(--cea-muted);
+  transition: transform 0.2s ease, color 0.2s ease;
+}
+.card:hover .cardArrow {
+  color: var(--cea-accent);
+  transform: translateX(4px);
 }
 
-.emoji {
-  font-size: 4rem;
-  line-height: 1;
-  display: inline-block;
-  animation: float 3s ease-in-out infinite;
+/* ---------- Bienvenida ---------- */
+.welcome {
+  padding: 5rem 0 6rem;
+  background: var(--cea-bg-alt);
+  border-top: 1px solid var(--cea-line);
 }
 
-@keyframes float {
-  0%, 100% {
-    transform: translateY(0);
+.welcomeInner {
+  max-width: 640px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.welcomeTitle {
+  font-size: clamp(1.7rem, 3.5vw, 2.35rem);
+  font-weight: 800;
+  letter-spacing: -0.03em;
+  line-height: 1.15;
+  color: var(--cea-ink);
+  margin: 0 0 1.5rem;
+}
+
+.welcomeText {
+  font-size: 1.12rem;
+  line-height: 1.75;
+  color: var(--cea-ink-soft);
+  margin: 0 0 1.25rem;
+}
+
+.welcomeLink {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.4rem;
+  font-weight: 600;
+  font-size: 1rem;
+  color: var(--cea-accent);
+  margin-top: 0.75rem;
+}
+.welcomeLink svg {
+  transition: transform 0.2s ease;
+}
+.welcomeLink:hover svg {
+  transform: translateX(4px);
+}
+
+/* ---------- Responsive ---------- */
+@media (max-width: 996px) {
+  .grid {
+    grid-template-columns: 1fr;
+    max-width: 30rem;
+    margin: 0 auto;
   }
-  50% {
-    transform: translateY(-10px);
-  }
-}
-
-@media screen and (max-width: 996px) {
-  .features {
-    padding: 1rem 0;
-  }
-  
-  .featureCard {
-    padding: 1.5rem;
-  }
-  
-  .emoji {
-    font-size: 3rem;
+  .sections {
+    padding: 4rem 0;
   }
 }

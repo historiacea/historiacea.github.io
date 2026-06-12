@@ -1,0 +1,159 @@
+.overlay {
+  position: fixed;
+  inset: 0;
+  z-index: 9999;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: clamp(1rem, 4vw, 3rem);
+  background: rgba(16, 18, 21, 0.92);
+  backdrop-filter: blur(4px);
+  cursor: zoom-out;
+}
+
+.figure {
+  margin: 0;
+  max-width: 100%;
+  max-height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  cursor: default;
+}
+
+.img {
+  max-width: 100%;
+  max-height: 82vh;
+  width: auto;
+  height: auto;
+  object-fit: contain;
+  border-radius: 6px;
+  box-shadow: 0 24px 70px rgba(0, 0, 0, 0.5);
+}
+
+.caption {
+  margin-top: 0.9rem;
+  max-width: 70ch;
+  text-align: center;
+  font-size: 0.88rem;
+  line-height: 1.45;
+  color: rgba(255, 255, 255, 0.82);
+}
+
+/* ---- Modo con ficha: imagen a pantalla completa + ficha escorada ---- */
+.conFicha {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  max-width: none;
+  max-height: none;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+.conFicha .img {
+  max-width: 100%;
+  max-height: 100%;
+  width: auto;
+  height: auto;
+  border-radius: 4px;
+  box-shadow: 0 24px 70px rgba(0, 0, 0, 0.55);
+}
+
+/* La ficha flota escorada al borde derecho, sobre la imagen si hace falta. */
+.ficha {
+  position: absolute;
+  right: 0;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 300px;
+  max-height: 78vh;
+  padding: 1.3rem 1.4rem;
+  overflow-y: auto;
+  text-align: left;
+  background: rgba(255, 255, 255, 0.96);
+  backdrop-filter: blur(6px);
+  border-left: 3px solid var(--cea-accent, #9a3b3f);
+  border-radius: 12px 0 0 12px;
+  box-shadow: -12px 0 36px rgba(0, 0, 0, 0.35);
+}
+.fichaKicker {
+  display: inline-block;
+  font-size: 0.68rem;
+  font-weight: 700;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: var(--cea-accent, #9a3b3f);
+  margin-bottom: 0.6rem;
+}
+.fichaTitulo {
+  margin: 0 0 0.8rem;
+  font-size: 1.1rem;
+  line-height: 1.3;
+  color: var(--cea-ink, #16181d);
+}
+.fichaDatos {
+  display: grid;
+  grid-template-columns: auto 1fr;
+  gap: 0.3rem 0.8rem;
+  margin: 0 0 0.9rem;
+  font-size: 0.85rem;
+}
+.fichaDatos dt {
+  font-weight: 700;
+  color: var(--cea-muted, #8a9099);
+}
+.fichaDatos dd {
+  margin: 0;
+  color: var(--cea-ink-soft, #4b5159);
+}
+.fichaDesc {
+  margin: 0;
+  padding-top: 0.8rem;
+  border-top: 1px solid var(--cea-line, #e9ebed);
+  font-size: 0.85rem;
+  line-height: 1.55;
+  color: var(--cea-ink-soft, #4b5159);
+}
+
+@media (max-width: 768px) {
+  /* En móvil la ficha pasa a hoja inferior. */
+  .conFicha .img {
+    max-height: 70vh;
+  }
+  .ficha {
+    top: auto;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    transform: none;
+    width: auto;
+    max-height: 42vh;
+    border-left: none;
+    border-top: 3px solid var(--cea-accent, #9a3b3f);
+    border-radius: 14px 14px 0 0;
+    box-shadow: 0 -12px 36px rgba(0, 0, 0, 0.35);
+  }
+}
+
+.close {
+  position: fixed;
+  top: 1rem;
+  right: 1.25rem;
+  width: 44px;
+  height: 44px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.9rem;
+  line-height: 1;
+  color: #fff;
+  background: rgba(255, 255, 255, 0.12);
+  border: none;
+  border-radius: 50%;
+  cursor: pointer;
+  transition: background 0.18s ease;
+}
+.close:hover {
+  background: rgba(255, 255, 255, 0.24);
+}

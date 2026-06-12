@@ -1,0 +1,23 @@
+.marco {
+  position: relative;
+  margin: 1.5rem 0 2rem;
+  border-radius: 14px;
+  overflow: hidden;
+  border: 1px solid var(--cea-line);
+  box-shadow: 0 14px 36px rgba(16, 18, 22, 0.08);
+}
+
+.mapa {
+  position: absolute;
+  inset: 0;
+  /* Tinte cálido para integrar el mapa con la paleta pergamino del sitio. */
+  filter: sepia(0.22) saturate(0.92);
+}
+
+/* Popups acordes al tema */
+.mapa :global(.maplibregl-popup-content) {
+  font-family: var(--ifm-font-family-base);
+  border-radius: 8px;
+  padding: 0.5rem 0.85rem;
+  color: var(--cea-ink);
+}

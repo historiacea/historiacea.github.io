@@ -17,6 +17,7 @@
   },
   "dependencies": {
     "@docusaurus/core": "^3.8.1",
+    "@docusaurus/plugin-client-redirects": "3.8.1",
     "@docusaurus/plugin-content-docs": "^3.8.1",
     "@docusaurus/plugin-debug": "^3.8.1",
     "@docusaurus/preset-classic": "^3.8.1",
@@ -29,6 +30,7 @@
     "dotenv": "^17.2.2",
     "gray-matter": "^4.0.3",
     "gsap": "^3.13.0",
+    "maplibre-gl": "^5.24.0",
     "prism-react-renderer": "^2.3.0",
     "react": "^18.0.0",
     "react-dom": "^18.0.0"
@@ -37,6 +39,7 @@
     "@docusaurus/module-type-aliases": "^3.8.1",
     "@docusaurus/tsconfig": "^3.8.1",
     "@docusaurus/types": "^3.8.1",
+    "sharp": "^0.35.1",
     "typescript": "~5.2.2"
   },
   "browserslist": {

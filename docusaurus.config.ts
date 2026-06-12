@@ -1,11 +1,16 @@
 import {themes as prismThemes} from 'prism-react-renderer';
 import type {Config} from '@docusaurus/types';
 import type * as Preset from '@docusaurus/preset-classic';
+import remarkFotoSlider from './src/plugins/remark-foto-slider';
+
+// Email de contacto/colaboración. Cambiarlo aquí lo actualiza en todo el
+// sitio (componente <Colaborar/>, footer, páginas legales...).
+const CONTACT_EMAIL = 'daevacp@gmail.com';
 
 const config: Config = {
   title: 'Historia de Cea, León',
   tagline: 'Un viaje fascinante a través de los siglos por la historia del pueblo de Cea',
-  favicon: 'img/favicon.ico',
+  favicon: 'img/favicon.png',
 
   url: 'https://historiacea.github.io',
   baseUrl: '/',
@@ -16,10 +21,52 @@ const config: Config = {
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
 
+  customFields: {
+    contactEmail: CONTACT_EMAIL,
+  },
+
+  // Datos estructurados (JSON-LD) para buscadores: el sitio y el monumento.
+  headTags: [
+    {
+      tagName: 'script',
+      attributes: { type: 'application/ld+json' },
+      innerHTML: JSON.stringify({
+        '@context': 'https://schema.org',
+        '@type': 'WebSite',
+        name: 'Historia de Cea',
+        alternateName: 'La historia de Cea, León',
+        url: 'https://historiacea.github.io/',
+        description:
+          'La historia completa del pueblo de Cea (León): de los vacceos al siglo XXI, su castillo único en España, su puente, la Nodicia de Kesos y la memoria de sus gentes.',
+        inLanguage: 'es',
+      }),
+    },
+    {
+      tagName: 'script',
+      attributes: { type: 'application/ld+json' },
+      innerHTML: JSON.stringify({
+        '@context': 'https://schema.org',
+        '@type': 'Organization',
+        name: 'Historia de Cea',
+        url: 'https://historiacea.github.io/',
+        logo: 'https://historiacea.github.io/img/logo-icono.png',
+        email: CONTACT_EMAIL,
+        nonprofitStatus: 'Nonprofit',
+      }),
+    },
+  ],
+
   i18n: {
     defaultLocale: 'es',
     locales: ['es'],
   },
+
+  stylesheets: [
+    {
+      href: 'https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap',
+      rel: 'stylesheet',
+    },
+  ],
 
   presets: [
     [
@@ -28,18 +75,14 @@ const config: Config = {
         docs: {
           sidebarPath: './sidebars.ts',
           editUrl: 'https://github.com/historiacea/historiacea.github.io/tree/main/',
+          // Agrupa imágenes consecutivas de los capítulos en un slider.
+          // Debe correr ANTES de los plugins internos de Docusaurus, que
+          // transforman los nodos `image` de markdown en JSX.
+          beforeDefaultRemarkPlugins: [remarkFotoSlider],
         },
-        blog: {
-          showReadingTime: true,
-          feedOptions: {
-            type: ['rss', 'atom'],
-            xslt: true,
-          },
-          editUrl: 'https://github.com/historiacea/historiacea.github.io/tree/main/',
-          onInlineTags: 'warn',
-          onInlineAuthors: 'warn',
-          onUntruncatedBlogPosts: 'warn',
-        },
+        // La cronología dejó de ser un blog: ahora es la página interactiva
+        // /cronologia. Desactivamos el blog por completo.
+        blog: false,
         theme: {
           customCss: './src/css/custom.css',
         },
@@ -47,13 +90,38 @@ const config: Config = {
     ],
   ],
 
+  // /blog (antigua cronología) redirige a la nueva página interactiva.
+  // Usamos createRedirects (no valida el destino, que es una página React).
+  plugins: [
+    [
+      '@docusaurus/plugin-client-redirects',
+      {
+        createRedirects(existingPath: string) {
+          if (existingPath === '/cronologia') {
+            return ['/blog', '/blog/cronologia-interactiva'];
+          }
+          return undefined;
+        },
+      },
+    ],
+  ],
 
   themeConfig: {
-    image: 'img/logo.png',
+    // Tarjeta social por defecto (1200x630) para Open Graph / Twitter.
+    image: 'img/social-card.jpg',
+    metadata: [
+      { name: 'keywords', content: 'Cea, León, historia de Cea, castillo de Cea, Tierra de Campos, vacceos, Nodicia de Kesos, puente de Cea, Sahagún, patrimonio, Lista Roja' },
+      { name: 'author', content: 'Historia de Cea' },
+      { name: 'theme-color', content: '#9a3b3f' },
+      { property: 'og:type', content: 'website' },
+      { property: 'og:locale', content: 'es_ES' },
+      { property: 'og:site_name', content: 'Historia de Cea' },
+      { name: 'twitter:card', content: 'summary_large_image' },
+    ],
     navbar: {
       logo: {
-        alt: 'Historia de Cea',
-        src: 'img/logo.png',
+        alt: 'La historia de Cea',
+        src: 'img/logo-historia-cea.png',
       },
       items: [
         {
@@ -67,6 +135,16 @@ const config: Config = {
           sidebarId: 'castilloSidebar',
           position: 'right',
           label: 'Castillo',
+        },
+        {
+          to: '/cronologia',
+          position: 'right',
+          label: 'Cronología',
+        },
+        {
+          to: '/recuerdos',
+          position: 'right',
+          label: 'Recuerdos',
         },
       ],
     },
@@ -101,11 +179,24 @@ const config: Config = {
             },
             {
               label: 'Castillo',
-              to: '/docs/castillo/torre',
+              to: '/docs/castillo',
             },
             {
               label: 'Cronología',
-              to: '/blog',
+              to: '/cronologia',
+            },
+          ],
+        },
+        {
+          title: 'Participa',
+          items: [
+            {
+              label: 'Recuerdos del pueblo',
+              to: '/recuerdos',
+            },
+            {
+              label: 'Colabora · envía fotos o documentos',
+              href: `mailto:${CONTACT_EMAIL}?subject=Colaboraci%C3%B3n%20Historia%20de%20Cea`,
             },
           ],
         },
@@ -123,6 +214,13 @@ const config: Config = {
           ],
         },
       ],
+      logo: {
+        alt: 'La historia de Cea',
+        src: 'img/logo-icono.png',
+        href: '/',
+        width: 72,
+        height: 72,
+      },
       copyright: `© ${new Date().getFullYear()} Historia de Cea. Proyecto sin ánimo de lucro dedicado a preservar la memoria histórica.`,
     },
     prism: {

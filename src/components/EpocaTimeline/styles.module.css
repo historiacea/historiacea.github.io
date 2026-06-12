@@ -1,0 +1,210 @@
+/**
+ * Línea temporal de épocas — v2.
+ * Tarjeta con cabecera ("Estás en: …"), línea con progreso relleno hasta la
+ * época activa, puntos visibles y pulso en el "estás aquí".
+ * En pantallas estrechas hace scroll lateral con degradados de borde.
+ */
+.shell {
+  position: relative;
+  margin: 0 0 2.5rem;
+  padding: 1.1rem 1.4rem 1rem;
+  background: var(--cea-bg-alt);
+  border: 1px solid var(--cea-line);
+  border-radius: 14px;
+}
+
+.cabecera {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  gap: 1rem;
+  margin-bottom: 0.4rem;
+}
+.kicker {
+  font-size: 0.7rem;
+  font-weight: 700;
+  letter-spacing: 0.09em;
+  text-transform: uppercase;
+  color: var(--cea-muted);
+}
+.estasAqui {
+  font-size: 0.78rem;
+  color: var(--cea-ink-soft);
+}
+.estasAqui strong {
+  color: var(--cea-accent);
+}
+
+/* Degradados de borde: aparecen solo cuando hay contenido oculto a ese lado. */
+.shell::before,
+.shell::after {
+  content: '';
+  position: absolute;
+  top: 3rem;
+  bottom: 0.5rem;
+  width: 2.5rem;
+  z-index: 2;
+  pointer-events: none;
+  opacity: 0;
+  transition: opacity 0.2s ease;
+}
+.shell::before {
+  left: 0;
+  background: linear-gradient(to right, var(--cea-bg-alt), transparent);
+  border-radius: 0 0 0 14px;
+}
+.shell::after {
+  right: 0;
+  background: linear-gradient(to left, var(--cea-bg-alt), transparent);
+  border-radius: 0 0 14px 0;
+}
+.hasLeft::before {
+  opacity: 1;
+}
+.hasRight::after {
+  opacity: 1;
+}
+
+.wrap {
+  position: relative;
+  padding: 1.1rem 0 0.25rem;
+  overflow-x: auto;
+  scrollbar-width: none;
+  scroll-behavior: smooth;
+  -webkit-overflow-scrolling: touch;
+}
+.wrap::-webkit-scrollbar {
+  display: none;
+}
+
+.track {
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  gap: 0.5rem;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  min-width: 640px;
+}
+
+/* Línea base + progreso recorrido hasta la época activa. */
+.line {
+  position: absolute;
+  top: 1.5rem;
+  left: 2.5%;
+  right: 2.5%;
+  height: 3px;
+  border-radius: 3px;
+  background: var(--cea-line-strong);
+  z-index: 0;
+  overflow: hidden;
+}
+.progress {
+  height: 100%;
+  border-radius: 3px;
+  background: linear-gradient(90deg, var(--cea-accent-deep), var(--cea-accent));
+}
+
+.step {
+  position: relative;
+  z-index: 1;
+  flex: 1 1 0;
+  text-align: center;
+}
+
+.link {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.32rem;
+  text-decoration: none;
+  color: var(--cea-muted);
+  transition: color 0.2s ease, transform 0.2s ease;
+}
+.link:hover {
+  text-decoration: none;
+  color: var(--cea-accent);
+  transform: translateY(-2px);
+}
+
+.dot {
+  width: 13px;
+  height: 13px;
+  border-radius: 50%;
+  background: var(--cea-bg);
+  border: 2.5px solid var(--cea-line-strong);
+  transition: all 0.2s ease;
+}
+
+.label {
+  font-size: 0.82rem;
+  font-weight: 600;
+  line-height: 1.15;
+}
+
+.rango {
+  font-size: 0.68rem;
+  letter-spacing: 0.01em;
+  opacity: 0.85;
+}
+
+/* Épocas ya recorridas: punto relleno con el acento (camino andado). */
+.past .dot {
+  background: var(--cea-accent);
+  border-color: var(--cea-accent);
+}
+.past .link {
+  color: var(--cea-ink-soft);
+}
+
+/* Época actual: punto mayor con halo pulsante. */
+.active .link {
+  color: var(--cea-accent);
+}
+.active .label {
+  font-weight: 800;
+  font-size: 0.88rem;
+}
+.active .dot {
+  width: 18px;
+  height: 18px;
+  background: var(--cea-accent);
+  border-color: var(--cea-accent);
+  box-shadow: 0 0 0 5px var(--cea-accent-soft);
+  animation: pulso 2.4s ease-in-out infinite;
+}
+
+@keyframes pulso {
+  0%, 100% {
+    box-shadow: 0 0 0 5px var(--cea-accent-soft);
+  }
+  50% {
+    box-shadow: 0 0 0 10px rgba(154, 59, 63, 0.12);
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .active .dot {
+    animation: none;
+  }
+}
+
+/* En pantallas estrechas: cada época tiene ancho fijo cómodo y el conjunto
+   se desliza lateralmente, en lugar de comprimir todas las etiquetas. */
+@media (max-width: 768px) {
+  .shell {
+    padding: 1rem 1rem 0.85rem;
+  }
+  .track {
+    min-width: max-content;
+    gap: 0.25rem;
+    padding: 0 0.5rem;
+  }
+  .step {
+    flex: 0 0 5.5rem;
+  }
+  .label {
+    font-size: 0.78rem;
+  }
+}

@@ -1,0 +1,94 @@
+---
+title: "El castillo de un vistazo"
+sidebar_label: "El castillo de un vistazo"
+sidebar_position: 0
+slug: /castillo
+description: "Sobre el cerro que domina la villa y el río se alzan los restos de una de las fortalezas más singulares de España: una torre artillera del siglo XV con…"
+---
+
+<head>
+  <script type="application/ld+json">{`
+    {
+      "@context": "https://schema.org",
+      "@type": "LandmarksOrHistoricalBuildings",
+      "name": "Castillo de Cea",
+      "description": "Torre artillera del siglo XV con planta en forma de esvástica, única en España, levantada por los Sandoval y Rojas. En la Lista Roja del Patrimonio desde 2008.",
+      "address": {
+        "@type": "PostalAddress",
+        "addressLocality": "Cea",
+        "addressRegion": "León, Castilla y León",
+        "addressCountry": "ES"
+      },
+      "geo": { "@type": "GeoCoordinates", "latitude": 42.4668, "longitude": -5.0064 },
+      "image": "https://historiacea.github.io/img/castillo/galeria/castillo-01.jpg",
+      "url": "https://historiacea.github.io/docs/castillo",
+      "isAccessibleForFree": true
+    }
+  `}</script>
+</head>
+
+# El castillo de Cea, de un vistazo
+
+Sobre el cerro que domina la villa y el río se alzan los restos de una de las fortalezas más **singulares de España**: una torre artillera del siglo XV con **planta en forma de esvástica, única en el país**, levantada por los Sandoval y Rojas sobre un castro prerromano y un castillo medieval anterior. Hoy, **en ruina progresiva**, lucha por sobrevivir.
+
+:::danger El castillo está en la Lista Roja del Patrimonio
+Desde **2008**, el castillo de Cea figura en la **[Lista Roja del Patrimonio de Hispania Nostra](https://listarojapatrimonio.org/ficha/castillo-de-cea/)**, que recoge los monumentos españoles en riesgo de desaparición. En **2015**, pese a los avisos, **parte del lienzo se desplomó sobre el río Cea**.
+
+**Apóyalo**: visita su ficha, difunde su situación y, si puedes aportar fotos, documentos o ideas, [colabora con nosotros](/docs/aviso-legal#contacto-y-colaboración). Que se conozca es el primer paso para que se salve.
+:::
+
+## Ficha rápida
+
+| | |
+|---|---|
+| **Tipología** | Patrimonio militar · torre artillera |
+| **Época** | Segunda mitad del **siglo XV** (sobre castro prerromano y castillo anterior) |
+| **Constructores** | Familia **Sandoval y Rojas**, señores de Cea |
+| **Lo único** | **Planta en esvástica** —única en España— y **19 bóvedas** de ladrillo |
+| **Protección** | BIC (protección genérica de castillos) · **Lista Roja desde 2008** |
+| **Estado** | **Ruina progresiva**; consolidación parcial en 2015 |
+| **Propiedad** | Pública |
+
+## Mil años en cuatro líneas
+
+- **Antes de Roma** — un **castro** indígena corona el cerro.
+- **Siglos IX-XIV** — el **Castillo Viejo**: fortaleza de frontera, **prisión real** (aquí estuvo encerrado el rey García Sánchez III de Navarra) y víctima de las guerras entre Pedro I y Enrique de Trastámara, que lo derribaron.
+- **~1470-1480** — los Sandoval levantan la **torre actual**, pensada ya para la **artillería**: bóvedas a prueba de bombardeo, aljibe, acceso elevado y cuatro torrecillas de flanqueo.
+- **Siglos XX-XXI** — expolio, erosión del cerro y derrumbes (2012, 2015). Y también: vecinos organizados, consolidación parcial y una comunidad que **no se rinde**.
+
+## El castillo, en movimiento
+
+Mejor verlo que contarlo — sobrevuela la torre y su entorno:
+
+<iframe
+  src="https://www.youtube-nocookie.com/embed/H_DPeG9dQqk"
+  title="El castillo de Cea desde el aire"
+  style={{width: '100%', aspectRatio: '16 / 9', border: 'none', borderRadius: '12px'}}
+  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+  allowFullScreen
+/>
+
+## Explóralo en 3D
+
+Modelo fotogramétrico real de la torre — gíralo, acércate, métete dentro:
+
+<iframe
+  src="https://sketchfab.com/models/c17bb37aab82463481962b102c6eb15b/embed"
+  title="Castillo de Cea (León) — modelo 3D en Sketchfab"
+  style={{width: '100%', aspectRatio: '16 / 10', border: 'none', borderRadius: '12px'}}
+  allow="autoplay; fullscreen; xr-spatial-tracking"
+  allowFullScreen
+/>
+
+<p style={{fontSize: '0.85rem', color: 'var(--cea-muted)'}}>
+  Modelo: <a href="https://sketchfab.com/3d-models/castillo-de-cea-leon-c17bb37aab82463481962b102c6eb15b" target="_blank" rel="noopener noreferrer">Castillo de Cea (León) en Sketchfab</a>.
+</p>
+
+## Sigue explorando
+
+- **[Historia](/docs/castillo/historia)** — del castro al castillo artillero, con las **plantas en 3D interactivo**.
+- **[Utilidad artillera](/docs/castillo/utilidad-artillera-del-castillo)** — por qué fue una fortaleza adelantada a su tiempo.
+- **[Estado actual](/docs/castillo/estado-actual)** — qué queda en pie y qué peligra.
+- **[Reconstrucción 3D y planos](/docs/castillo/reconstruccion-3d-y-planos)** — el estudio en PDF y los planos planta a planta.
+- **[Leyendas](/docs/castillo/leyendas)** — lo que cuenta el pueblo.
+- **[Fotos](/docs/castillo/fotos)** — 55 imágenes de la torre a través del tiempo.

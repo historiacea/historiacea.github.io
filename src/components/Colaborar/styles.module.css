@@ -1,0 +1,66 @@
+/* Versión banner (home, páginas de sección) */
+.banner {
+  margin: 2.5rem 0;
+}
+.bannerInner {
+  display: flex;
+  align-items: center;
+  gap: 1.4rem;
+  padding: 1.6rem 1.8rem;
+  background: var(--cea-accent-soft);
+  border: 1px solid rgba(154, 59, 63, 0.18);
+  border-radius: 14px;
+}
+.iconoGrande {
+  width: 60px;
+  height: 60px;
+  flex-shrink: 0;
+  border-radius: 14px;
+  box-shadow: 0 4px 14px rgba(16, 18, 22, 0.14);
+}
+.textos {
+  flex: 1;
+}
+.titulo {
+  margin: 0 0 0.35rem;
+  font-size: 1.15rem;
+  color: var(--cea-ink);
+}
+.parrafo {
+  margin: 0;
+  font-size: 0.95rem;
+  line-height: 1.55;
+  color: var(--cea-ink-soft);
+}
+.boton {
+  flex-shrink: 0;
+  white-space: nowrap;
+}
+
+@media (max-width: 768px) {
+  .bannerInner {
+    flex-direction: column;
+    text-align: center;
+  }
+}
+
+/* Versión compacta (pie de cada capítulo) */
+.compact {
+  display: flex;
+  align-items: flex-start;
+  gap: 0.6rem;
+  margin: 2.2rem 0 1rem;
+  padding: 0.85rem 1.05rem;
+  font-size: 0.88rem;
+  line-height: 1.5;
+  color: var(--cea-ink-soft);
+  background: var(--cea-bg-alt);
+  border: 1px dashed var(--cea-line-strong);
+  border-radius: 10px;
+}
+.compact a {
+  font-weight: 700;
+}
+.icono {
+  flex-shrink: 0;
+}

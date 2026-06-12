@@ -53,6 +53,10 @@ Las imágenes, mapas, fotografías y otros elementos multimedia utilizados proce
 
 En todos los casos, el uso de materiales de terceros se realiza exclusivamente con **fines educativos, culturales y de preservación histórica**, al amparo de las excepciones previstas en la legislación de propiedad intelectual para este tipo de actividades sin ánimo de lucro.
 
+### Retirada y acreditación de imágenes
+
+Algunas imágenes de las galerías (en especial las del **castillo** y la sección de **recuerdos del pueblo**) han sido recopiladas de fuentes públicas diversas. Si usted es **autor o titular de los derechos** de alguna imagen publicada y desea que se **acredite, corrija o retire**, basta con comunicárnoslo por email y atenderemos la petición **de inmediato**.
+
 ## Finalidad No Lucrativa
 
 **Historia de Cea** es un proyecto estrictamente **SIN ÁNIMO DE LUCRO**. Esta web:
@@ -81,7 +85,9 @@ Creemos firmemente que **la historia local pertenece a toda la comunidad** y deb
 
 ### Cómo Colaborar
 
-Si posee **documentos, fotografías, testimonios o información** que pueda enriquecer la historia de Cea, su colaboración será muy valiosa. Puede contactarnos a través del repositorio de GitHub.
+Si posee **documentos, fotografías, testimonios o información** que pueda enriquecer la historia de Cea, su colaboración será muy valiosa. Puede contactarnos **por email** (botón inferior) o a través del repositorio de GitHub.
+
+<Colaborar />
 
 ---
 

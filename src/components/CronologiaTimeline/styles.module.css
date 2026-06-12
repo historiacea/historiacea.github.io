@@ -1,0 +1,214 @@
+/**
+ * Cronología — timeline vertical con cards alternas y scroll-reveal.
+ * Línea central en escritorio; columna izquierda en móvil.
+ */
+.wrap {
+  --col: 3px; /* grosor de la línea */
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 1rem 0 4rem;
+}
+
+.track {
+  position: relative;
+}
+
+/* Línea central (escritorio). */
+.line {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 50%;
+  width: var(--col);
+  transform: translateX(-50%);
+  background: var(--cea-line);
+  border-radius: 2px;
+}
+/* Relleno animado que crece con el scroll. */
+.progress {
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(var(--cea-accent), var(--cea-accent-deep));
+  transform-origin: top center;
+  border-radius: 2px;
+}
+
+/* ---- Época ---- */
+.epoca {
+  position: relative;
+  margin-bottom: 1rem;
+}
+
+.epocaHead {
+  position: relative;
+  z-index: 2;
+  text-align: center;
+  margin: 2.6rem auto 2rem;
+}
+.epocaTitulo {
+  display: inline-block;
+  margin: 0;
+  padding: 0.45rem 1.1rem;
+  font-size: 1.05rem;
+  font-weight: 800;
+  color: #fff;
+  background: var(--cea-ink);
+  border-radius: 999px;
+  letter-spacing: 0.01em;
+}
+.epocaIcono {
+  margin-right: 0.5rem;
+  font-size: 1.15em;
+  /* el emoji conserva su color aunque el texto sea blanco */
+}
+.epocaRango {
+  display: block;
+  margin-top: 0.5rem;
+  font-size: 0.82rem;
+  color: var(--cea-muted);
+  font-weight: 600;
+}
+/* Texto de contexto que enmarca cada época. */
+.epocaContexto {
+  max-width: 620px;
+  margin: 1rem auto 0;
+  font-size: 0.95rem;
+  line-height: 1.6;
+  color: var(--cea-ink-soft);
+  text-align: center;
+}
+.epocaContexto strong {
+  color: var(--cea-ink);
+  font-weight: 700;
+}
+
+/* ---- Fila / hito ---- */
+.row {
+  position: relative;
+  display: flex;
+  width: 100%;
+  margin: 1.5rem 0;
+}
+.left {
+  justify-content: flex-start;
+}
+.right {
+  justify-content: flex-end;
+}
+
+/* Punto sobre la línea. */
+.dot {
+  position: absolute;
+  top: 1.4rem;
+  left: 50%;
+  width: 16px;
+  height: 16px;
+  transform: translateX(-50%);
+  background: var(--cea-bg);
+  border: 3px solid var(--cea-line-strong);
+  border-radius: 50%;
+  z-index: 3;
+}
+.dotCrucial {
+  border-color: var(--cea-accent);
+  background: var(--cea-accent);
+  box-shadow: 0 0 0 6px var(--cea-accent-soft);
+  width: 18px;
+  height: 18px;
+}
+
+.cardSlot {
+  width: calc(50% - 2.4rem);
+}
+
+/* ---- Card ---- */
+.card {
+  display: block;
+  background: var(--cea-surface);
+  border: 1px solid var(--cea-line);
+  border-radius: 12px;
+  overflow: hidden;
+  text-decoration: none;
+  color: inherit;
+  transition: transform 0.22s ease, box-shadow 0.22s ease, border-color 0.22s ease;
+}
+.clickable:hover {
+  text-decoration: none;
+  color: inherit;
+  transform: translateY(-4px);
+  border-color: var(--cea-line-strong);
+  box-shadow: 0 14px 30px rgba(22, 24, 29, 0.12);
+}
+.crucial {
+  border-color: var(--cea-accent);
+  border-left-width: 4px;
+}
+
+.cardMedia {
+  aspect-ratio: 16 / 9;
+  overflow: hidden;
+  background: var(--cea-bg-alt);
+}
+.cardMedia img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+  transition: transform 0.4s ease;
+}
+.clickable:hover .cardMedia img {
+  transform: scale(1.05);
+}
+
+.cardBody {
+  padding: 0.85rem 1.05rem 1rem;
+}
+.fecha {
+  display: inline-block;
+  font-size: 0.8rem;
+  font-weight: 800;
+  color: var(--cea-accent);
+  margin-bottom: 0.15rem;
+}
+.hitoTitulo {
+  margin: 0 0 0.35rem;
+  font-size: 1rem;
+  font-weight: 700;
+  line-height: 1.25;
+  color: var(--cea-ink);
+}
+.texto {
+  margin: 0;
+  font-size: 0.9rem;
+  line-height: 1.5;
+  color: var(--cea-ink-soft);
+}
+.texto strong {
+  color: var(--cea-ink);
+}
+.cta {
+  display: inline-block;
+  margin-top: 0.6rem;
+  font-size: 0.8rem;
+  font-weight: 700;
+  color: var(--cea-accent);
+}
+
+/* ---- Móvil: todo a la izquierda, línea a 12px ---- */
+@media (max-width: 768px) {
+  .line {
+    left: 12px;
+  }
+  .dot {
+    left: 12px;
+  }
+  .row,
+  .left,
+  .right {
+    justify-content: flex-start;
+  }
+  .cardSlot {
+    width: calc(100% - 2.5rem);
+    margin-left: 2.5rem;
+  }
+}
