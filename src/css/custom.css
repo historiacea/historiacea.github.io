@@ -50,7 +50,7 @@
   --ifm-link-color: var(--cea-accent);
   --ifm-link-hover-color: var(--cea-accent-deep);
 
-  --ifm-navbar-background-color: rgba(255, 255, 255, 0.8);
+  --ifm-navbar-background-color: rgba(255, 255, 255, 0.95);
   --ifm-navbar-link-color: var(--cea-ink);
   --ifm-navbar-link-hover-color: var(--cea-accent);
   --ifm-navbar-shadow: none;
@@ -108,7 +108,7 @@
   --ifm-heading-color: var(--cea-ink);
   --ifm-link-color: var(--cea-accent);
 
-  --ifm-navbar-background-color: rgba(15, 17, 21, 0.8);
+  --ifm-navbar-background-color: rgba(15, 17, 21, 0.95);
   --ifm-navbar-link-color: var(--cea-ink);
 
   --ifm-footer-background-color: #0c0e11;
@@ -231,26 +231,10 @@ hr {
     padding-right: 0.5rem;
   }
 
-  /* Drawer móvil con paneles apilados (ver swizzle de MobileSidebar/Layout).
-     El drawer es flex-column y ocupa toda la altura; los paneles (navbar +
-     capítulos) se apilan y el conjunto hace scroll. */
+  /* El drawer móvil usa estructura propia (swizzle MobileSidebar/Layout);
+     solo garantizamos que el contenedor de Infima ocupe toda la altura. */
   .navbar-sidebar {
-    display: flex !important;
-    flex-direction: column !important;
     height: 100% !important;
-  }
-  .navbar-sidebar__items {
-    display: block !important;
-    flex: 1 1 auto !important;
-    height: auto !important;
-    min-height: 0 !important;
-    overflow-y: auto !important;
-    transform: none !important;
-  }
-  .navbar-sidebar__item {
-    width: 100% !important;
-    flex-shrink: 0 !important;
-    transform: none !important;
   }
   /* Logo centrado de forma absoluta SOLO en la barra superior (no en el panel
      desplegable), con ancho acotado para que no se solape con los iconos. */
@@ -556,9 +540,12 @@ hr {
   color: rgba(244, 238, 228, 0.55);
 }
 
-/* Logo del footer: icono redondeado tipo app sobre el fondo oscuro. */
+/* Logo del footer: el logo ancho con texto, sobre pastilla clara para que
+   su fondo blanco quede integrado en el footer oscuro. */
 .footer__logo {
-  border-radius: 16px;
+  background: #f7f3ea;
+  padding: 0.6rem 1.2rem;
+  border-radius: 12px;
   margin-top: 1.5rem;
   box-shadow: 0 6px 18px rgba(0, 0, 0, 0.35);
   transition: transform 0.2s ease;

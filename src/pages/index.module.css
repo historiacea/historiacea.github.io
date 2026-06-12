@@ -196,9 +196,9 @@
 .banda {
   position: relative;
   padding: 6.5rem 0;
-  background-image: url('/img/cea-historic.png');
+  background-image: url('/img/castillo/galeria/castillo-53.jpg');
   background-size: cover;
-  background-position: center 35%;
+  background-position: center 30%;
   background-attachment: fixed;
 }
 .bandaOverlay {

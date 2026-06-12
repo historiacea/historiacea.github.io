@@ -42,9 +42,9 @@ Contemplar las ruinas del castillo es asomarse a un tiempo de transición: entre
 
 ### La torre por dentro: las cinco plantas
 
-Los planos conservados permiten reconstruir la torre **nivel a nivel**. Explóralos en 3D: pulsa cada planta para conocer su función, y sepáralas para ver la torre *explosionada*.
+Los planos conservados permiten reconstruir la torre **nivel a nivel**: el aljibe, las bóvedas, el acceso elevado, las torrecillas. Tienen su propia página interactiva:
 
-<CastilloPlantas />
+**[→ Explora la torre en 3D, planta a planta](/docs/castillo/plantas-3d)**
 
 ### El castillo, en imágenes
 

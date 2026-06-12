@@ -61,7 +61,7 @@ const PLANTAS: Planta[] = [
 export default function CastilloPlantas(): JSX.Element {
   const rootRef = useRef<HTMLDivElement>(null);
   const [activa, setActiva] = useState<number | null>(null);
-  const [separado, setSeparado] = useState(false);
+  const [separado, setSeparado] = useState(true);
   const { open } = useLightbox();
 
   // Entrada: las plantas "caen" y se apilan una a una al llegar al viewport.
@@ -81,7 +81,7 @@ export default function CastilloPlantas(): JSX.Element {
     return () => ctx.revert();
   }, []);
 
-  const sep = separado ? 86 : 30;
+  const sep = separado ? 120 : 38;
   const plantaActiva = activa !== null ? PLANTAS[activa] : null;
 
   return (

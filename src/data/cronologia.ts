@@ -422,10 +422,10 @@ export const CRONOLOGIA: Epoca[] = [
         img: '/img/libro/img-058.png',
       },
       {
-        fecha: '1855',
-        titulo: 'Desamortización de Madoz',
-        texto: 'Venta de **tierras eclesiásticas y comunales**.',
-        href: '/docs/historia/parte-6/cap-34-carlistas-liberales-y-el-siglo-del-cambio',
+        fecha: '1836–1855',
+        titulo: 'Desamortización de Mendizábal',
+        texto: 'La desamortización de **Mendizábal** (1836) pone en venta las **tierras eclesiásticas**; la posterior de 1855 alcanzará también las comunales.',
+        href: '/docs/historia/parte-6/cap-35-de-senorio-a-ayuntamiento-constitucional',
       },
       {
         fecha: 'Finales s. XIX',

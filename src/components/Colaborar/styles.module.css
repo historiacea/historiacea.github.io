@@ -12,11 +12,10 @@
   border-radius: 14px;
 }
 .iconoGrande {
-  width: 60px;
-  height: 60px;
+  width: 64px;
+  height: auto;
   flex-shrink: 0;
-  border-radius: 14px;
-  box-shadow: 0 4px 14px rgba(16, 18, 22, 0.14);
+  /* el icono ya trae su propia forma redondeada y transparencia */
 }
 .textos {
   flex: 1;

@@ -1,6 +1,6 @@
 ---
 title: "Leyendas"
-sidebar_position: 2
+sidebar_position: 7
 description: "El Castillo de Cea no es solo piedra, foso y muralla: también es escenario de intrigas, pasiones y tragedias que la memoria colectiva ha envuelto en un…"
 ---
 

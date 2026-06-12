@@ -1,28 +1,26 @@
-/* Paneles apilados verticalmente (en lugar del carrusel horizontal de Infima).
-   El contenedor ocupa toda la altura del drawer y hace scroll del conjunto. */
-.stacked {
-  display: block !important;
-  width: 100%;
-  flex: 1 1 auto;
-  min-height: 0;
-  transform: none !important;
-  overflow-y: auto;
-  overflow-x: hidden;
-  -webkit-overflow-scrolling: touch;
+/* Drawer móvil en columna: header arriba, cuerpo scrollable que ocupa el
+   resto. Sin carrusel de paneles: navbar + capítulos, todo apilado. */
+.drawer {
+  display: flex;
+  flex-direction: column;
 }
 
-/* Cada panel pasa de ancho-de-pantalla a ancho-completo del drawer y altura
-   automática, para que se apilen y crezcan según su contenido. */
-.stacked > :global(.navbar-sidebar__item) {
-  width: 100% !important;
-  flex-shrink: 1 !important;
-  transform: none !important;
+.cuerpo {
+  flex: 1 1 auto;
+  min-height: 0;
+  overflow-y: auto;
+  -webkit-overflow-scrolling: touch;
+  padding: 0.5rem 0.5rem 2rem;
+}
+
+.seccion {
+  padding: 0.25rem;
 }
 
 /* Separador entre el navbar y la lista de capítulos. */
 .separador {
-  margin: 0.25rem 0.75rem 0;
-  padding: 0.7rem 0.5rem 0.4rem;
+  margin: 0.75rem 0.75rem 0.25rem;
+  padding: 0.7rem 0.25rem 0.4rem;
   font-size: 0.72rem;
   font-weight: 700;
   letter-spacing: 0.06em;

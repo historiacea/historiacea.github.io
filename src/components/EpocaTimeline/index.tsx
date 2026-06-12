@@ -34,8 +34,6 @@ export default function EpocaTimeline({ activa }: Props): JSX.Element {
   const [edges, setEdges] = useState({ left: false, right: false });
 
   const idx = EPOCAS.findIndex((e) => e.id === activa);
-  // Porcentaje de línea "recorrida" hasta la época activa.
-  const pct = idx <= 0 ? 0 : (idx / (EPOCAS.length - 1)) * 100;
 
   const updateEdges = () => {
     const el = scrollRef.current;
@@ -68,8 +66,7 @@ export default function EpocaTimeline({ activa }: Props): JSX.Element {
       if (reduce) return;
       gsap
         .timeline({ defaults: { ease: 'power3.out' } })
-        .from(`.${styles.progress}`, { scaleX: 0, transformOrigin: 'left center', duration: 0.9 })
-        .from(`.${styles.step}`, { opacity: 0, y: 8, stagger: 0.05, duration: 0.4 }, '-=0.6')
+        .from(`.${styles.step}`, { opacity: 0, y: 8, stagger: 0.06, duration: 0.4 })
         .from(
           `.${styles.active} .${styles.dot}`,
           { scale: 0, duration: 0.5, ease: 'back.out(2.5)' },
@@ -102,18 +99,20 @@ export default function EpocaTimeline({ activa }: Props): JSX.Element {
         onScroll={updateEdges}
         aria-label="Línea temporal de la historia de Cea">
         <ol className={styles.track}>
-          <div className={styles.line} aria-hidden="true">
-            <div className={styles.progress} style={{ width: `${pct}%` }} />
-          </div>
           {EPOCAS.map((e, i) => {
             const esActiva = e.id === activa;
             const pasada = i < idx;
+            // El conector une este punto con el siguiente; va relleno si el
+            // tramo ya está "recorrido" (todo lo anterior a la época activa).
+            const recorrido = i < idx;
             return (
               <li
                 key={e.id}
                 ref={esActiva ? activeRef : undefined}
                 className={`${styles.step} ${esActiva ? styles.active : ''} ${
                   pasada ? styles.past : ''
+                } ${i === EPOCAS.length - 1 ? styles.ultimo : ''} ${
+                  recorrido ? styles.recorrido : ''
                 }`}>
                 <Link
                   to={e.href}

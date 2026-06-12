@@ -5,7 +5,7 @@
  */
 .wrap {
   display: grid;
-  grid-template-columns: 1.25fr 1fr;
+  grid-template-columns: 1.4fr 1fr;
   gap: 2rem;
   align-items: center;
   margin: 2.5rem 0 3rem;
@@ -13,6 +13,7 @@
   background: var(--cea-bg-alt);
   border: 1px solid var(--cea-line);
   border-radius: 16px;
+  overflow: hidden;
 }
 
 /* ---- Escenario 3D ---- */
@@ -27,26 +28,29 @@
 
 .pila {
   position: relative;
-  width: min(340px, 80%);
+  width: min(440px, 94%);
   aspect-ratio: 1;
   transform-style: preserve-3d;
-  /* Vista isométrica */
-  transform: rotateX(58deg) rotateZ(-38deg);
+  /* Vista isométrica suave: poca inclinación para que los planos se LEAN. */
+  transform: rotateX(45deg) rotateZ(-28deg);
   transition: transform 0.5s ease;
+  /* Compensa la altura que ganan las plantas al explosionar. */
+  margin-top: 2.5rem;
+  margin-bottom: 3.5rem;
 }
 .pila:hover {
-  transform: rotateX(54deg) rotateZ(-34deg);
+  transform: rotateX(40deg) rotateZ(-24deg);
 }
 
 .planta {
   position: absolute;
   inset: 0;
   padding: 0;
-  border: 1.5px solid var(--cea-line-strong);
+  border: 2px solid var(--cea-line-strong);
   border-radius: 8px;
   overflow: visible;
-  background: rgba(255, 255, 255, 0.94);
-  box-shadow: 0 12px 28px rgba(16, 18, 22, 0.18);
+  background: #ffffff;
+  box-shadow: 0 18px 36px rgba(16, 18, 22, 0.28);
   cursor: pointer;
   transform-style: preserve-3d;
   transform: translateZ(calc(var(--i) * var(--sep)));
@@ -58,7 +62,9 @@
   height: 100%;
   object-fit: contain;
   display: block;
-  border-radius: 7px;
+  border-radius: 6px;
+  /* Refuerza el trazo de los planos, que se aclara con la perspectiva. */
+  filter: contrast(1.25) saturate(1.1);
 }
 
 /* Etiqueta P0..P4 en la esquina de cada plano */
@@ -199,7 +205,9 @@
     padding: 1.4rem 1.1rem;
   }
   .pila {
-    width: min(280px, 88%);
+    width: min(320px, 92%);
+    margin-top: 1.5rem;
+    margin-bottom: 2.5rem;
   }
   .toggle {
     margin-top: 1.75rem;

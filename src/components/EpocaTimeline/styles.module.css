@@ -88,29 +88,33 @@
   min-width: 640px;
 }
 
-/* Línea base + progreso recorrido hasta la época activa. */
-.line {
-  position: absolute;
-  top: 1.5rem;
-  left: 2.5%;
-  right: 2.5%;
-  height: 3px;
-  border-radius: 3px;
-  background: var(--cea-line-strong);
-  z-index: 0;
-  overflow: hidden;
-}
-.progress {
-  height: 100%;
-  border-radius: 3px;
-  background: linear-gradient(90deg, var(--cea-accent-deep), var(--cea-accent));
-}
-
 .step {
   position: relative;
   z-index: 1;
   flex: 1 1 0;
   text-align: center;
+}
+
+/* Conector: un tramo de línea desde el centro de este punto hasta el centro
+   del siguiente. Anclado al propio paso, así nunca se desalinea de los
+   puntos ni pisa las etiquetas. */
+.step::before {
+  content: '';
+  position: absolute;
+  top: 6px; /* centro vertical del punto (13px de alto, arriba de la columna) */
+  left: 50%;
+  width: 100%;
+  height: 3px;
+  border-radius: 3px;
+  background: var(--cea-line-strong);
+  z-index: -1;
+}
+.ultimo::before {
+  display: none;
+}
+/* Tramo ya recorrido (anterior a la época activa): relleno con el acento. */
+.recorrido::before {
+  background: linear-gradient(90deg, var(--cea-accent-deep), var(--cea-accent));
 }
 
 .link {
