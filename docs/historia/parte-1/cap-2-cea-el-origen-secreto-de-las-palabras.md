@@ -2,7 +2,7 @@
 title: "Cea: el origen del nombre y su etimología"
 sidebar_label: "2. Cea, el origen secreto de las palabras"
 sidebar_position: 2
-description: '¿Qué significa Cea? Dos teorías explican el topónimo: la raíz indoeuropea Keia (foso) y la ciudad astur Gigia de Ptolomeo. Un misterio sin resolver.'
+description: "¿Qué significa Cea? Dos teorías explican el topónimo: la raíz indoeuropea Keia (foso) y la ciudad astur Gigia de Ptolomeo. Un misterio sin resolver."
 image: "/img/libro/img-003.png"
 ---
 

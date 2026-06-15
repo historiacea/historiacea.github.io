@@ -2,8 +2,8 @@
 title: “Cea en la guerra civil castellana: Pedro I contra Enrique II de Trastámara”
 sidebar_label: “23. Cea en las guerras dinásticas: Pedro I vs Enrique II”
 sidebar_position: 1
-description: 'La guerra civil castellana de 1351-1369 en Cea, León: Pedro I toma la villa en 1354 y Enrique de Trastámara la incendia en 1356. No quedó muro en pie.'
-image: "/img/libro/img-053.png"
+description: “La guerra civil castellana de 1351-1369 en Cea, León: Pedro I toma la villa en 1354 y Enrique de Trastámara la incendia en 1356. No quedó muro en pie.”
+image: “/img/libro/img-053.png”
 ---
 
 # Capítulo 23. Cea en las guerras dinásticas: Pedro I vs Enrique II
