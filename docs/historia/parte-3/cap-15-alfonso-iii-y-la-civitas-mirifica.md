@@ -1,8 +1,8 @@
 ---
-title: “Alfonso III y Cea: la «civitas mirifica» de la Reconquista”
-sidebar_label: “15. Alfonso III y la «civitas mirifica»”
+title: 'Alfonso III y Cea: la civitas mirifica de la Reconquista'
+sidebar_label: '15. Alfonso III y la civitas mirifica'
 sidebar_position: 3
-description: “Alfonso III el Magno repobló Cea en el siglo IX llamándola «civitatem mirificam». Así nació la villa medieval con mozárabes, asturianos y gallegos en el León medieval.”
+description: 'Alfonso III el Magno repobló Cea en el siglo IX llamándola civitatem mirificam. Así nació la villa medieval con mozárabes, asturianos y gallegos en el León medieval.'
 image: "/img/libro/img-038.png"
 ---
 
