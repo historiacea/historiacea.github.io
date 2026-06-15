@@ -1,8 +1,8 @@
 ---
-title: "Capítulo 12. León: la capital militar de la Hispania romana (contexto)"
+title: "León romana: capital militar de la Hispania romana y la Legio VII"
 sidebar_label: "12. León: la capital militar de la Hispania romana (contexto)"
 sidebar_position: 5
-description: "En el corazón de la Hispania romana, donde los ríos Bernesga y Torío se encuentran, se erige León, una ciudad cuyo origen se remonta a la fundación de un…"
+description: "León como capital militar romana: fundación por Augusto, campamento de la Legio VII Gemina en 74 d.C. y su influencia sobre toda la comarca del río Cea."
 image: "/img/libro/img-031.png"
 ---
 

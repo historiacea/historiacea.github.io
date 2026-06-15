@@ -1,8 +1,8 @@
 ---
-title: "Capítulo 4. Vacceos y astures: frontera y fusión"
+title: "Vacceos y astures en Cea, León: frontera y fusión de culturas"
 sidebar_label: "4. Vacceos y astures: frontera y fusión"
 sidebar_position: 4
-description: "Durante los primeros siglos del primer milenio antes de nuestra era, el territorio que hoy conocemos como Cea se encontraba en un límite cultural y…"
+description: "Cea como territorio fronterizo entre vacceos del sur y astures del norte durante la Edad del Hierro: comercio, rituales y conflictos en el valle del río Cea."
 image: "/img/libro/img-007.png"
 ---
 

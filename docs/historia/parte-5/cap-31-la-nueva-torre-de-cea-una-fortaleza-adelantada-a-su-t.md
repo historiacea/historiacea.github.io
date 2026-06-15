@@ -1,8 +1,8 @@
 ---
-title: "Capítulo 27. La nueva torre de Cea: una fortaleza adelantada a su tiempo"
+title: "La torre artillera de Cea: una fortaleza única del siglo XV en España"
 sidebar_label: "27. La nueva torre de Cea: una fortaleza adelantada a su tiempo"
 sidebar_position: 5
-description: "El actual castillo de Cea, tal y como lo contemplamos hoy, hunde sus raíces en un tiempo convulso. Fue levantado en la segunda mitad del siglo XV sobre…"
+description: "El castillo de Cea, levantado en el siglo XV por los Sandoval: planta rectangular única en España, 4 torrecillas de flanqueo artillero y 19 bóvedas para cañones."
 image: "/img/castillo/galeria/castillo-59.jpg"
 ---
 

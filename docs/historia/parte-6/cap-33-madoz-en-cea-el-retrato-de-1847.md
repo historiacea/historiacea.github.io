@@ -1,14 +1,17 @@
 ---
-title: "Capítulo 29. Madoz en Cea: el retrato de 1847"
+title: "Cea en el Diccionario de Madoz (1847): retrato de un pueblo leonés"
 sidebar_label: "29. Madoz en Cea: el retrato de 1847"
 sidebar_position: 2
-description: "En 1847, el estadista, periodista y geógrafo Pascual Madoz publicó su monumental Diccionario geográfico-estadístico-histórico de España_, una obra colosal…"
+description: "Cómo era Cea, León, en 1847 según Madoz: 235 casas, 2 iglesias, 3 molinos harineros, 14 hornos de pan, hospital y pósito. Un retrato estadístico único."
 image: "/img/libro/img-058.png"
 ---
 
 # Capítulo 29. Madoz en Cea: el retrato de 1847
 
 ![](/img/libro/img-058.png)
+
+![Pascual Madoz llega a Cea en 1847: el geógrafo a caballo ante el puente de ocho arcos y la torre en ruinas al fondo](/img/ia/madoz-llega-cea.jpg)
+![Cea según Madoz en 1847: recreación de la villa leonesa con sus molinos, hornos de pan y el puente medieval](/img/ia/madoz-en-cea.jpg)
 
 _“Nunca nos miraron tan de cerca. Ni escribieron tanto de nosotros.”_
 

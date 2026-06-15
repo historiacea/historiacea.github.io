@@ -1,7 +1,7 @@
 ---
-title: "Reconstrucción 3D y planos"
+title: "Reconstrucción 3D del Castillo de Cea: planos y modelo digital interactivo"
 sidebar_position: 4
-description: "En los últimos años, el interés por el patrimonio histórico ha impulsado proyectos para recrear digitalmente el Castillo de Cea. Gracias a la arqueología,…"
+description: "Reconstrucción digital 3D del Castillo de Cea mediante fotogrametría y arqueología. Explora el modelo interactivo en Sketchfab y descarga los planos completos."
 ---
 
 # Reconstrucción 3D y planos

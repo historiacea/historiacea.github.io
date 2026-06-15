@@ -1,10 +1,12 @@
 ---
-title: "Utilidad artillera del castillo"
+title: "Diseño artillero del Castillo de Cea: tiro de flanqueo y bóvedas para cañones"
 sidebar_position: 3
-description: "Cuando el Castillo de Cea fue concebido, en la segunda mitad del siglo XV, la guerra en Castilla estaba cambiando para siempre. La aparición y rápida…"
+description: "El diseño artillero del Castillo de Cea en el siglo XV: 4 torrecillas de flanqueo, 19 bóvedas para cañones y una planta única que anticipó las fortalezas abaluartadas."
 ---
 
 # Utilidad artillera del castillo
+
+![Diseño artillero del Castillo de Cea: sección de la planta con las cuatro torrecillas de flanqueo y las bóvedas para cañones del siglo XV](/img/ia/diseno-artillero-castillo.jpg)
 
 Cuando el **Castillo de Cea** fue concebido, en la segunda mitad del **siglo XV**, la guerra en Castilla estaba cambiando para siempre. La aparición y rápida generalización de la **artillería de pólvora** transformaron el modo de diseñar las fortificaciones: las murallas ya no podían limitarse a resistir lanzas, flechas o catapultas, sino que debían soportar el **impacto demoledor de los cañones**.
 

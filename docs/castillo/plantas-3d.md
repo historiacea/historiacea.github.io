@@ -1,8 +1,8 @@
 ---
-title: "La torre planta a planta (3D)"
+title: "Las cinco plantas del Castillo de Cea en 3D: aljibe, bóvedas y torrecillas"
 sidebar_label: "La torre en 3D, planta a planta"
 sidebar_position: 2
-description: "Explora las cinco plantas del castillo de Cea en una vista 3D interactiva: el aljibe, las bóvedas de cañón, el acceso elevado y las torrecillas de flanqueo."
+description: "Explora las 5 plantas del Castillo de Cea en 3D interactivo: el aljibe, las bóvedas de cañón, el acceso elevado y las torrecillas artilleras de flanqueo."
 image: "/img/castillo/plantas/planta-2.png"
 ---
 

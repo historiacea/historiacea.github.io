@@ -1,8 +1,8 @@
 ---
-title: "Capítulo 26. El puente sobre el río Cea: piedra, agua y memoria"
+title: "El puente medieval sobre el río Cea: historia y construcción del siglo XVII"
 sidebar_label: "26. El puente sobre el río Cea: piedra, agua y memoria"
 sidebar_position: 10
-description: "Al suroeste del casco urbano de Cea, donde el rumor del río acompaña el paisaje, se alza uno de los testigos más elocuentes de la historia local: el…"
+description: "El puente de Cea: 102 metros, 8 arcos y maestros canteros como Juan de Nates. Reconstrucción tras la riada de 1632 y su importancia en la ruta León-Madrid."
 image: "/img/libro/img-052.png"
 ---
 

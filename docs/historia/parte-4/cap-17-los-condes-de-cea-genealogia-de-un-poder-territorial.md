@@ -1,14 +1,16 @@
 ---
-title: "Capítulo 17. Los condes de Cea: genealogía de un poder territorial"
+title: "Los condes de Cea: linaje y poder en el Reino de León medieval"
 sidebar_label: "17. Los condes de Cea: genealogía de un poder territorial"
 sidebar_position: 1
-description: "A finales del siglo X, Cea emerge como cabeza de uno de los alfoces más extensos y estratégicos del Reino de León. Situada en un territorio de transición,…"
+description: "Genealogía de los condes de Cea en el siglo X: de Bermudo Núñez a Jimena Fernández, madre de Sancho III de Navarra. El alfoz de Cea y los orígenes de Castilla."
 image: "/img/libro/img-043.png"
 ---
 
 # Capítulo 17. Los condes de Cea: genealogía de un poder territorial
 
 ![](/img/libro/img-043.png)
+
+![Los condes de Cea en el siglo X: un conde leonés a caballo contempla el territorio desde el cerro sobre el río Cea](/img/ia/condes-de-cea.jpg)
 
 _“Antes que alcaldes, hubo condes. Antes que concejo, hubo linaje.”_
 

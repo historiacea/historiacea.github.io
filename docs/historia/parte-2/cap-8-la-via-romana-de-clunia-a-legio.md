@@ -1,8 +1,8 @@
 ---
-title: "Capítulo 8. La vía romana: de Clunia a Legio"
+title: "La vía romana de Clunia a León: Cea en el mapa de Roma"
 sidebar_label: "8. La vía romana: de Clunia a Legio"
 sidebar_position: 1
-description: "La llegada de Roma a la comarca de Cea fue lenta y persistente, como el agua que se filtra silenciosa entre la caliza. Tras la conquista de los vacceos en…"
+description: "Cea, León, en la red viaria romana: la vía secundaria Clunia-Legio VII, la conquista de los vacceos y el papel del río Cea como proveedor de grano para las legiones."
 image: "/img/libro/img-023.png"
 ---
 

@@ -1,8 +1,8 @@
 ---
-title: "Capítulo 10. El puente de Cea: entre mito y mampostería"
+title: "El puente de Cea: historia, mito y mampostería del siglo XVII"
 sidebar_label: "10. El puente de Cea: entre mito y mampostería"
 sidebar_position: 3
-description: "Si hay una estructura en Cea que ha sabido atravesar el tiempo con la misma paciencia que el agua del río, es su puente de ocho arcos. Majestuoso en su…"
+description: "El puente de Cea: 8 arcos, 102 metros, cimientos posiblemente romanos y reconstrucción en 1638. Historia real y leyenda del «puente del diablo» en León."
 image: "/img/libro/img-028.png"
 ---
 

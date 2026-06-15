@@ -1,8 +1,8 @@
 ---
-title: "Capítulo 9. Villas, termas, puentes: romanización en la comarca"
+title: "Romanización en la comarca de Cea: villas, termas y puentes romanos"
 sidebar_label: "9. Villas, termas, puentes: romanización en la comarca"
 sidebar_position: 2
-description: "La romanización no fue solo una conquista. Fue una transformación profunda del entorno, de la lengua, del trabajo y de la vida cotidiana. Aunque no se han…"
+description: "Huellas romanas en la comarca de Cea (León): villas en Villaverde y Almanza, estructuras en Grajal y Valderas, y el debate sobre el origen romano del puente de Cea."
 image: "/img/libro/img-026.png"
 ---
 

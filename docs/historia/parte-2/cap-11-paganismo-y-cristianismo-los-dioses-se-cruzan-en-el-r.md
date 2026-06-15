@@ -1,14 +1,16 @@
 ---
-title: "Capítulo 11. Paganismo y cristianismo: los dioses se cruzan en el río"
+title: "Del paganismo al cristianismo en Cea, León: sincretismo religioso"
 sidebar_label: "11. Paganismo y cristianismo: los dioses se cruzan en el río"
 sidebar_position: 4
-description: "En el tránsito del paganismo al cristianismo, los dioses no desaparecieron: cambiaron de rostro, se transformaron, se disolvieron en el curso del tiempo…"
+description: "La transición religiosa en Cea entre los siglos II y V: cómo los dioses romanos e indígenas cedieron al cristianismo y los topónimos sagrados cambiaron de nombre."
 image: "/img/libro/img-030.jpg"
 ---
 
 # Capítulo 11. Paganismo y cristianismo: los dioses se cruzan en el río
 
 ![](/img/libro/img-030.jpg)
+
+![Paganismo y cristianismo en el valle del Cea: la transición religiosa entre los siglos II y V](/img/ia/paganismo-cristianismo.jpg)
 
 _“A Mercurio le siguió Santiago. Al laurel, la cruz. Pero el agua era la misma.”_
 

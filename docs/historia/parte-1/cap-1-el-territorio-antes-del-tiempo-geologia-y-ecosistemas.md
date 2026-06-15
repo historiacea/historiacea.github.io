@@ -1,8 +1,8 @@
 ---
-title: "Capítulo 1. El territorio antes del tiempo: geología y ecosistemas"
+title: "Geología y ecosistemas de Cea (León) antes de la historia"
 sidebar_label: "1. El territorio antes del tiempo: geología y ecosistemas"
 sidebar_position: 1
-description: "Si el caminante procede de Asturias, al franquear el puerto de Pajares verá repentinamente que cielo y tierra se abren, más acusado en época antigua,…"
+description: "Cómo era el territorio de Cea, León, antes de la llegada del ser humano: clima continental extremo, geología, bosques de ribera y fauna prehistórica."
 image: "/img/libro/img-002.png"
 ---
 

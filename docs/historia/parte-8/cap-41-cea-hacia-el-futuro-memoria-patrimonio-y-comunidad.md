@@ -1,13 +1,15 @@
 ---
-title: "Capítulo 37. Cea hacia el futuro: memoria, patrimonio y comunidad"
+title: "Cea, León: futuro, patrimonio y comunidad ante la despoblación rural"
 sidebar_label: "37. Cea hacia el futuro: memoria, patrimonio y comunidad"
 sidebar_position: 2
-description: "Cea vive en una frontera delicada: entre el riesgo de la despoblación y la oportunidad de un renacimiento rural. En las últimas décadas, el pueblo ha…"
+description: "El futuro de Cea (León): consolidación del castillo en 2015, rutas culturales, digitalización de archivos y la apuesta por el turismo histórico frente a la despoblación."
 ---
 
 # Capítulo 37. Cea hacia el futuro: memoria, patrimonio y comunidad
 
 _"No sabemos qué será de Cea. Pero sí sabemos que, si alguien lo cuenta, algo quedará."_
+
+![Cea hoy: vista aérea de la villa leonesa al atardecer con la torre del castillo, el puente medieval y los campos de cereal](/img/ia/sahagun-trianos-eslonza.jpg)
 
 Cea vive en una frontera delicada: entre el riesgo de la despoblación y la oportunidad de un renacimiento rural. En las últimas décadas, el pueblo ha aprendido que su mayor riqueza está en su patrimonio histórico y natural, y que defenderlo es también defender su identidad.
 

@@ -1,8 +1,8 @@
 ---
-title: "Capítulo 16. La Nodicia de Kesos: el queso más antiguo de la historia de España"
-sidebar_label: "16. La Nodicia de Kesos: el queso más antiguo de la historia de España"
+title: "La Nodicia de Kesos: el queso más antiguo de España menciona Cea"
+sidebar_label: "16. La Nodicia de Kesos: el queso más antiguo de España"
 sidebar_position: 4
-description: "Entre los años 974 y 975, en un rincón silencioso del antiguo monasterio de los santos Justo y Pastor de Rozuela —o en algún otro cercano—, un monje toma…"
+description: "La Nodicia de Kesos (974-975 d.C.) es el primer documento en castellano que menciona Cea, León. Un inventario de quesos monacal en el origen del idioma español."
 image: "/img/libro/img-041.png"
 ---
 
@@ -11,6 +11,8 @@ image: "/img/libro/img-041.png"
 ![](/img/libro/img-041.png)
 
 ![](/img/libro/img-042.png)
+
+![El monje que escribió la Nodicia de Kesos hacia el año 974 en un scriptorium del valle del Cea](/img/ia/nodicia-kesos-monje.jpg)
 
 _“Fue solo un inventario de quesos. Pero al escribirlo, encendieron el idioma.”_
 

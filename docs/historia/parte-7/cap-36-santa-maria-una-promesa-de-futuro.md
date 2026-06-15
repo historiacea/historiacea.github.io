@@ -1,13 +1,15 @@
 ---
-title: "Capítulo 32. Santa María: una promesa de futuro"
+title: "Iglesia de Santa María de Cea: construida con piedras del castillo medieval"
 sidebar_label: "32. Santa María: una promesa de futuro"
 sidebar_position: 1
-description: "En 1909, cuando el siglo XX apenas despertaba, Cea emprendió un proyecto que, para muchos vecinos, simbolizaba la esperanza de un futuro sólido: la…"
+description: "La iglesia de Santa María de Cea se construyó en 1909 con piedra del castillo medieval. Historia de un templo neorrománico que sustituyó a la románica San Martín."
 ---
 
 # Capítulo 32. Santa María: una promesa de futuro
 
-_“Derribaron el castillo, y con su piedra hicieron una iglesia. Una iglesia que aún sueña con ser más.”_
+_”Derribaron el castillo, y con su piedra hicieron una iglesia. Una iglesia que aún sueña con ser más.”_
+
+![La iglesia de Santa María de Cea en construcción en 1909, levantada con piedras del castillo medieval](/img/ia/iglesia-santa-maria.jpg)
 
 En **1909**, cuando el siglo XX apenas despertaba, Cea emprendió un proyecto que, para muchos vecinos, simbolizaba la esperanza de un futuro sólido: la construcción de una **nueva iglesia**. La decisión se tomó gracias a la **donación de Doña Margarita de Modino**, benefactora local que quiso dejar en piedra un legado para su pueblo. La nueva iglesia, dedicada a **Santa María**, venía a sustituir a la antigua **San Martín**, un templo románico que ya mostraba **graves grietas estructurales** y amenazaba ruina.
 

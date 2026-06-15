@@ -1,8 +1,8 @@
 ---
-title: "Capítulo 6. Cea entre castros: arqueología y legado indígena"
+title: "Castros arqueológicos en la comarca de Cea, León: legado indígena"
 sidebar_label: "6. Cea entre castros: arqueología y legado indígena"
 sidebar_position: 6
-description: "La comarca de Cea forma parte de un fascinante triángulo arqueológico, que incluye, Valdescapa, Villaverde de Arcayos y Almanza, áreas densamente pobladas…"
+description: "El triángulo arqueológico de Valdescapa, Villaverde de Arcayos y Almanza: 8 castros vacceos en 15 km con fíbulas, cerámicas y ídolos de bronce conservados."
 image: "/img/libro/img-012.png"
 ---
 

@@ -1,14 +1,16 @@
 ---
-title: "Capítulo 23. Sahagún, Trianos y Eslonza: el cordón monástico"
+title: "Sahagún, Trianos y Eslonza: los monasterios medievales del valle del Cea"
 sidebar_label: "23. Sahagún, Trianos y Eslonza"
 sidebar_position: 7
-description: "Entre los siglos X y XIII, el valle del Cea vivió una transformación silenciosa pero decisiva. Sobre sus vegas fértiles, entre sembrados de trigo, huertos…"
+description: "El poder monástico en el valle del Cea entre los siglos X y XIII: Sahagún con 9.000 vasallos, el monasterio de Eslonza y Trianos como señores feudales del territorio."
 image: "/img/libro/img-049.png"
 ---
 
 # Capítulo 23. Sahagún, Trianos y Eslonza: el cordón monástico
 
 ![](/img/libro/img-049.png)
+
+![El Monasterio de Sahagún en su esplendor medieval: vista aérea del gran centro cluniacense del valle del Cea en el siglo XII](/img/ia/monasterio-sahagun-medieval.jpg)
 
 _“El campo era de Dios, pero las escrituras las firmaba un abad.”_
 

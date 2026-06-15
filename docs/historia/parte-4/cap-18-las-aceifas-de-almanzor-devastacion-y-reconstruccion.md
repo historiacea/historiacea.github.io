@@ -1,8 +1,8 @@
 ---
-title: "Capítulo 18. Las aceifas de Almanzor: devastación y reconstrucción"
+title: "Las aceifas de Almanzor en Cea, León: destrucción y reconstrucción"
 sidebar_label: "18. Las aceifas de Almanzor"
 sidebar_position: 2
-description: "La prosperidad de la villa se vio brutalmente interrumpida en el año 988, cuando las tropas de Almanzor, caudillo y hábil estratega del califato de…"
+description: "En 988, Almanzor arrasó Sahagún y la comarca de Cea. Cómo el conde Pedro Fernández reconstruyó el poder local y levantó el Castillo Viejo tras la devastación."
 image: "/img/libro/img-044.png"
 ---
 

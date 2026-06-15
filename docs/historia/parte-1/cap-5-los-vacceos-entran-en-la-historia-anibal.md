@@ -1,14 +1,16 @@
 ---
-title: "Capítulo 5. Los Vacceos entran en la historia: Aníbal"
+title: "Los vacceos y Aníbal: la comarca de Cea entra en la historia escrita"
 sidebar_label: "5. Los Vacceos entran en la historia: Aníbal"
 sidebar_position: 5
-description: "Aislada, menos romanizada que el área mediterránea, la Meseta permanecía como un bastión arisco, reacio a toda intromisión extranjera. Los romanos apenas…"
+description: "El paso de Aníbal en 220 a.C. por tierras vacceas y la Batalla del Tajo: el primer momento en que la comarca de Cea, León, aparece en la historia escrita."
 image: "/img/libro/img-011.png"
 ---
 
 # Capítulo 5. Los Vacceos entran en la historia: Aníbal
 
 ![](/img/libro/img-011.png)
+
+![Los vacceos y Aníbal: el ejército cartaginés cruza tierras de la meseta norte camino de los Alpes](/img/ia/vacceos-anibal.jpg)
 
 Aislada, menos romanizada que el área mediterránea, **la Meseta** permanecía como un bastión arisco, reacio a toda intromisión extranjera. **Los romanos apenas la conocían** y **los cartagineses la oteaban con cautela**.
 Fue [**Aníbal**](https://es.wikipedia.org/wiki/An%C3%ADbal_Barca) quien rompió el silencio, tras salir de su capital **Qart Hadasht ([Cartago Nova](https://es.wikipedia.org/wiki/Carthago_Nova))**, fundada sólo siete años antes por Asdrúbal; en el año **220 a. C.** sus tropas irrumpieron en **las tierras vacceas**, tras los asedios de **Helmantiké (Salamanca)** y **Arbucala (Toro)**, territorios que sometió a tributo. Ciudades donde no buscaba fundar colonias ni alterar la vida de los pobladores, sino algo más práctico y brutal: **provisiones para su ejército y hombres para sus filas**. No pretendía transformar las estructuras de los pueblos, sino usarlos como cantera de fuerza, eliminando cualquier conato de resistencia a su paso. En ese avance, es muy posible que sus huestes atravesaran también otros rincones de **la meseta vaccea**, incluso tierras tan al norte como las que hoy ocupa **Cea**, donde quizá sólo quedó el rumor de un ejército extranjero que nadie olvidaría.

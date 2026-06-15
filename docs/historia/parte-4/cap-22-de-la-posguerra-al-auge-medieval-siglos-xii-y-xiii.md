@@ -1,13 +1,15 @@
 ---
-title: "Capítulo 22. De la posguerra al auge medieval (siglos XII y XIII)"
+title: "Cea medieval en los siglos XII y XIII: auge tras las guerras"
 sidebar_label: "22. De la posguerra al auge medieval"
 sidebar_position: 6
-description: "Tras la etapa de Urraca, Cea vivió un periodo marcado por conflictos, reorganización y nuevos privilegios. En 1109 se produjo un pogrom anti-semita que…"
+description: "Cea entre los siglos XII y XIII: el pogrom judío de 1109, la amnistía de 1127, donaciones de Alfonso VII y la consolidación del poder bajo los reyes medievales."
 ---
 
 # Capítulo 22. De la posguerra al auge medieval (siglos XII y XIII)
 
-_“Tras la guerra, las donaciones; tras las cenizas, los pactos.”_
+_”Tras la guerra, las donaciones; tras las cenizas, los pactos.”_
+
+![Cea en los siglos XII y XIII: una iglesia románica en construcción sobre las cenizas de las guerras medievales](/img/ia/auge-medieval-xii-xiii.jpg)
 
 ## De la posguerra al auge medieval
 

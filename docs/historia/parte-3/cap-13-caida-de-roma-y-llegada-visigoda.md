@@ -1,8 +1,8 @@
 ---
-title: "Capítulo 13. Caída de Roma y llegada visigoda"
+title: "Cea en la época visigoda: caída de Roma y nuevo orden en León"
 sidebar_label: "13. Caída de Roma y llegada visigoda"
 sidebar_position: 1
-description: "Tras la caída del Imperio romano de Occidente en el año 476, el territorio que hoy ocupa Cea quedó englobado en el Reino visigodo de Toledo. Poco sabemos…"
+description: "El fin del Imperio romano y la llegada de los visigodos a Cea, León: despoblamiento de villas romanas, primeros monasterios rurales y la diócesis de Astorga."
 image: "/img/libro/img-033.png"
 ---
 

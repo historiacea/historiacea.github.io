@@ -1,10 +1,12 @@
 ---
-title: "Estado actual"
+title: "Estado actual del Castillo de Cea: ruina, BIC y List Roja de Hispania Nostra"
 sidebar_position: 5
-description: "El Castillo de Cea pasó a ser propiedad de la Junta Vecinal de Cea en 1993, tras una donación realizada por los herederos de la familia que históricamente…"
+description: "El Castillo de Cea (BIC desde 1949, Lista Roja 2008) está en ruina progresiva. La intervención de 2015 (146.273€) es provisional. Urge restauración definitiva."
 ---
 
 # Estado actual
+
+![Estado actual del Castillo de Cea: la torre en ruina progresiva con los zunchos metálicos de la consolidación de 2015](/img/ia/castillo-estado-actual.jpg)
 
 El **Castillo de Cea** pasó a ser propiedad de la **Junta Vecinal de Cea** en 1993, tras una donación realizada por los herederos de la familia que históricamente ostentó su titularidad. Desde entonces, ha permanecido bajo gestión local, un símbolo orgulloso aunque frágil del patrimonio comunal.
 

@@ -1,14 +1,16 @@
 ---
-title: "Capítulo 19. Documentos, caminos y monasterios: Cea en las crónicas medievales"
+title: "Cea en las crónicas medievales: documentos, caminos y monasterios"
 sidebar_label: "19. Documentos, caminos y monasterios"
 sidebar_position: 3
-description: "Durante los siglos X y XI, Cea y su alfoz aparecen de forma recurrente en la documentación medieval, reflejando la relevancia estratégica y económica de…"
+description: "Cea en los documentos medievales del siglo X al XI: presuras agrarias, mercado en 983, iglesia de San Salvador y su integración en redes monásticas y nobiliarias."
 image: "/img/libro/img-046.png"
 ---
 
 # Capítulo 19. Documentos, caminos y monasterios: Cea en las crónicas medievales
 
 ![](/img/libro/img-046.png)
+
+![Un monje benedictino en el scriptorium de Sahagún anota los nombres de tierras y quesos del alfoz de Cea en el siglo X](/img/ia/cronicas-medievales.jpg)
 
 _“Cada pergamino es un camino: por ellos viajan el grano, la fe y el poder.”_
 

@@ -1,14 +1,16 @@
 ---
-title: "Capítulo 34. La repoblación de Riocamba y la vida forestal"
+title: "Riocamba y la repoblación forestal de Cea en los años 40 del siglo XX"
 sidebar_label: "34. La repoblación de Riocamba y la vida forestal"
 sidebar_position: 3
-description: "En 1944, en pleno régimen franquista, el Ministerio de Agricultura puso en marcha un ambicioso plan de reforestación destinado a transformar miles de…"
+description: "En 1944 el Estado repobló 2.500 ha en Riocamba, junto a Cea, León: escuela, ermita, serradero y familias de toda España creando un pueblo forestal hasta los años 70."
 image: "/img/libro/img-064.png"
 ---
 
 # Capítulo 34. La repoblación de Riocamba y la vida forestal
 
 ![](/img/libro/img-064.png)
+
+![La repoblación forestal de Riocamba hacia 1950: trabajadores plantando pinos en la ladera junto a Cea, León](/img/ia/reforestacion-riocamba.jpg)
 
 _“Donde antes hubo caza, hubo pinos. Donde antes hubo pastores, hubo peones forestales. Y escuela.”_
 

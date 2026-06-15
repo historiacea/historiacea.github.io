@@ -1,14 +1,16 @@
 ---
-title: "Capítulo 24. Peste, hambre y el nuevo monte"
+title: "La Peste Negra en Cea, León: hambre, despoblación y recuperación"
 sidebar_label: "24. Peste, hambre y el nuevo monte"
 sidebar_position: 2
-description: "El siglo XIV golpeó a Cea con la fuerza de una tormenta interminable. No bastaban las guerras que desangraban los reinos vecinos; llegaron también el…"
+description: "La Peste Negra llegó a Cea en 1349 via el Camino de Santiago. Oleadas hasta 1399, pérdida del 40% de población y la adquisición del monte de Riocamba como renacimiento."
 image: "/img/libro/img-054.png"
 ---
 
 # Capítulo 24. Peste, hambre y el nuevo monte
 
 ![](/img/libro/img-054.png)
+
+![La Peste Negra llega a Cea en 1349: calles vacías y supervivientes en una villa castellana devastada](/img/ia/peste-negra-cea.jpg)
 
 _“El monte no era nuestro, pero lo era. Hasta que lo vendieron. Para encender bombillas, nos quedamos sin leña.”_
 

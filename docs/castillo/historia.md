@@ -1,10 +1,12 @@
 ---
-title: "Historia"
+title: "Historia del Castillo de Cea: del castro prerromano a la torre del siglo XV"
 sidebar_position: 1
-description: "Cea, asentada en un promontorio que domina el río que le da nombre, fue sin duda un enclave estratégico desde tiempos prerromanos. Aquí hubo primero un…"
+description: "La historia del Castillo de Cea desde el castro prerromano hasta la torre artillera de 1480: prisión real, destrucción en 1356 y construcción por los Sandoval."
 ---
 
 # Historia
+
+![Historia del Castillo de Cea: reconstrucción del primer castillo de Alfonso III sobre el cerro del río Cea en el siglo IX](/img/ia/historia-castillo.jpg)
 
 ### El primer castillo
 

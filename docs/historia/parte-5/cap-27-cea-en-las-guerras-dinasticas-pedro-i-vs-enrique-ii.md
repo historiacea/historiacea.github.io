@@ -1,14 +1,16 @@
 ---
-title: "Capítulo 23. Cea en las guerras dinásticas: Pedro I vs Enrique II"
-sidebar_label: "23. Cea en las guerras dinásticas: Pedro I vs Enrique II"
+title: “Cea en la guerra civil castellana: Pedro I contra Enrique II de Trastámara”
+sidebar_label: “23. Cea en las guerras dinásticas: Pedro I vs Enrique II”
 sidebar_position: 1
-description: "El siglo XIV abrió para Castilla una época convulsa. En 1350, en pleno asedio de Gibraltar, moría de peste Alfonso XI de Castilla, “el Justiciero”, un…"
+description: “La guerra civil castellana de 1351-1369 en Cea, León: Pedro I toma la villa en 1354 y Enrique de Trastámara la incendia en 1356. «No quedó muro en pie».”
 image: "/img/libro/img-053.png"
 ---
 
 # Capítulo 23. Cea en las guerras dinásticas: Pedro I vs Enrique II
 
 ![](/img/libro/img-053.png)
+
+![La guerra civil castellana de 1356: el incendio de Cea por las tropas de Enrique de Trastámara](/img/ia/guerras-dinasticas.jpg)
 
 _“Un rey dormía en el castillo. El otro lo asediaba. Cea fue frontera entre la sangre y la corona.”_
 

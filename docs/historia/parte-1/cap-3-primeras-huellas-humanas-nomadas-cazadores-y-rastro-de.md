@@ -1,8 +1,8 @@
 ---
-title: "Capítulo 3. Primeras huellas humanas: nómadas, cazadores y rastro de sílex"
+title: "Primeros habitantes de Cea, León: cazadores y herramientas de sílex"
 sidebar_label: "3. Primeras huellas humanas: nómadas, cazadores y rastro de sílex"
 sidebar_position: 3
-description: "Las tierras que hoy forman el municipio de Cea han sido testigo de presencia humana durante milenios: El Homo Erectus se cree que llegó a la península…"
+description: "Presencia humana en Cea desde el Homo Erectus hasta el Neolítico: hallazgos de sílex y la transición de cazadores-recolectores a primeras comunidades agrícolas."
 image: "/img/libro/img-005.png"
 ---
 

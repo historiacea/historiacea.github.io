@@ -1,8 +1,8 @@
 ---
-title: "Capítulo 7. Los vacceos: la vida en el corazón de la meseta (Contexto)"
+title: "Los vacceos: cultura y ciudades de la meseta norte antes de Roma"
 sidebar_label: "7. Los vacceos: la vida en el corazón de la meseta (Contexto)"
 sidebar_position: 7
-description: "En el vasto territorio al norte del Duero, donde los ríos abren valles fértiles y las parameras recortan el horizonte, surgió una cultura que los…"
+description: "Los vacceos, pueblo prerromano del norte del Duero: origen, ciudades como Pintia y Cauca, organización social y su relación con el territorio de Cea, León."
 image: "/img/libro/img-016.png"
 ---
 

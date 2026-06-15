@@ -1,10 +1,12 @@
 ---
-title: "Leyendas"
+title: "Leyendas del Castillo de Cea: reyes presos, batallas y traiciones medievales"
 sidebar_position: 7
-description: "El Castillo de Cea no es solo piedra, foso y muralla: también es escenario de intrigas, pasiones y tragedias que la memoria colectiva ha envuelto en un…"
+description: "Las leyendas del Castillo de Cea: la prisión de García de Navarra en 1040, la Batalla de Atapuerca, Urraca I y Pedro I con María de Padilla en el siglo XIV."
 ---
 
 # Leyendas
+
+![Leyendas del Castillo de Cea: el rey García de Navarra prisionero en las mazmorras de la fortaleza leonesa hacia el año 1040](/img/ia/castillo-historia.jpg)
 
 El **Castillo de Cea** no es solo piedra, foso y muralla: también es **escenario de intrigas, pasiones y tragedias** que la memoria colectiva ha envuelto en un halo casi legendario. Entre sus muros, la historia y el rumor se confunden, dando lugar a relatos que aún resuenan en el valle.
 

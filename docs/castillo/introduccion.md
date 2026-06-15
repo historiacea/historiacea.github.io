@@ -1,9 +1,9 @@
 ---
-title: "El castillo de un vistazo"
+title: "Castillo de Cea, León — La fortaleza artillera única en España"
 sidebar_label: "El castillo de un vistazo"
 sidebar_position: 0
 slug: /castillo
-description: "Sobre el cerro que domina la villa y el río se alzan los restos de una de las fortalezas más singulares de España: una torre artillera del siglo XV con…"
+description: "El Castillo de Cea (León): única torre artillera del siglo XV con planta rectangular en España. BIC desde 1949, en Lista Roja de Hispania Nostra. Visita libre."
 ---
 
 <head>

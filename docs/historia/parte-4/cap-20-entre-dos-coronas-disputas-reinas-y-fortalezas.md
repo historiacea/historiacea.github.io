@@ -1,14 +1,16 @@
 ---
-title: "Capítulo 20. Entre dos coronas: disputas, reinas y fortalezas"
+title: "Cea entre León y Castilla: disputas, reinas y el castillo como prisión"
 sidebar_label: "20. Entre dos coronas"
 sidebar_position: 4
-description: "Entre los siglos XI y XII, el alfoz de Cea se organiza en solares nobiliarios: nacen las rentas, las servidumbres agrarias y los derechos señoriales que…"
+description: "Cea como plaza disputada entre León y Castilla en los siglos XI y XII: el castillo como prisión real (1040-1053) y enclave estratégico de la reina Urraca I."
 image: "/img/libro/img-047.png"
 ---
 
 # Capítulo 20. Entre dos coronas: disputas, reinas y fortalezas
 
 ![](/img/libro/img-047.png)
+
+![Cea entre León y Castilla en el siglo XI: dos ejércitos se enfrentan a orillas del río con el castillo al fondo](/img/ia/entre-dos-coronas.jpg)
 
 _“Cea fue durante siglos plaza disputada entre León y Castilla.”_
 

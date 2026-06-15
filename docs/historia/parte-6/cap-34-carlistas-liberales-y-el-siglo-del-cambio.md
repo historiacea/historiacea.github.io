@@ -1,14 +1,16 @@
 ---
-title: "Capítulo 30. Carlistas, liberales y el siglo del cambio"
+title: "Guerras carlistas en Cea, León: el siglo XIX más militarizado de su historia"
 sidebar_label: "30. Carlistas, liberales y el siglo del cambio"
 sidebar_position: 3
-description: "El siglo XIX fue, para Cea, un tiempo de sobresaltos y de incertidumbre, el más militarizado de su historia. Aunque la villa nunca se convirtió en…"
+description: "Cea en el siglo XIX: ocupación francesa en 1809, Primera y Tercera Guerra Carlista, el castillo como puesto de observación y la lealtad real al pan, no a los bandos."
 image: "/img/libro/img-059.png"
 ---
 
 # Capítulo 30. Carlistas, liberales y el siglo del cambio
 
 ![](/img/libro/img-059.png)
+
+![Las guerras carlistas en Cea, León: soldados carlistas marchando por la meseta castellana en el siglo XIX](/img/ia/guerras-carlistas.jpg)
 
 _“Llegaron con boina roja. Luego con tricornio. Luego con sable. Pero siempre nos pidieron grano.”_
 

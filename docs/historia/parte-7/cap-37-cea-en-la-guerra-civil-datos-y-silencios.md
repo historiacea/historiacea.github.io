@@ -1,14 +1,16 @@
 ---
-title: "Capítulo 33. Cea en la Guerra Civil: datos y silencios"
+title: "Cea, León, en la Guerra Civil española: datos, silencios y represión"
 sidebar_label: "33. Cea en la Guerra Civil: datos y silencios"
 sidebar_position: 2
-description: "En julio de 1936, cuando estalló el alzamiento militar contra la Segunda República, Cea cayó pronto bajo el control del bando sublevado. El término…"
+description: "La Guerra Civil en Cea (León, 1936): control sublevado desde julio, detenciones, requisas de grano, maestros republicanos depurados y décadas de silencio forzado."
 image: "/img/libro/img-063.png"
 ---
 
 # Capítulo 33. Cea en la Guerra Civil: datos y silencios
 
 ![](/img/libro/img-063.png)
+
+![La Guerra Civil en Cea, León, en el verano de 1936: soldados franquistas en la plaza del pueblo ante vecinos atemorizados](/img/ia/guerra-civil-cea.jpg)
 
 _“Aquí no hubo frente. Pero sí hubo miedo. Y eso lo ocupaba todo.”_
 

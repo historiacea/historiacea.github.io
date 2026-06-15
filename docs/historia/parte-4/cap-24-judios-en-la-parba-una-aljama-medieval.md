@@ -1,14 +1,16 @@
 ---
-title: "Capítulo 24. Judíos en la Parba: una aljama medieval"
+title: "La aljama judía de Cea, León: comunidad medieval en el cerro de la Parba"
 sidebar_label: "24. Judíos en la Parba: una aljama medieval"
 sidebar_position: 8
-description: "En 1110, un documento episcopal menciona la existencia de una aljama judía en Cea. Su emplazamiento más probable fue el cerro de la Parba, entonces…"
+description: "La comunidad judía de Cea documentada desde 1110: su aljama en el cerro de la Parba, su papel en el comercio medieval y su trágico final con el pogrom de 1391."
 image: "/img/libro/img-050.png"
 ---
 
 # Capítulo 24. Judíos en la Parba: una aljama medieval
 
 ![](/img/libro/img-050.png)
+
+![La aljama judía de Cea en el cerro de la Parba: calles estrechas y la sinagoga del barrio judío medieval](/img/ia/aljama-judia-cea.jpg)
 
 _“Los ceenses decían que sabían más que los frailes. Pero vendían más barato. Y nunca discutían los pesos.”_
 

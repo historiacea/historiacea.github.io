@@ -1,14 +1,16 @@
 ---
-title: "Capítulo 26. Religión, superstición y vida cotidiana"
+title: "Religión y vida cotidiana en Cea, León en los siglos XVI y XVII"
 sidebar_label: "26. Religión, superstición y vida cotidiana"
 sidebar_position: 4
-description: "En los siglos XVI y XVII, la vida en Cea estaba profundamente marcada por el ritmo de la fe. El año no lo medían los relojes, sino el calendario…"
+description: "La vida en Cea en los siglos XVI y XVII: el calendario litúrgico como eje del año, procesiones, supersticiones populares, hermandades y el papel de la iglesia."
 image: "/img/libro/img-056.png"
 ---
 
 # Capítulo 26. Religión, superstición y vida cotidiana
 
 ![](/img/libro/img-056.png)
+
+![Religión y vida cotidiana en Cea en el siglo XVII: procesión religiosa por las calles de piedra de la villa castellana](/img/ia/religion-vida-cotidiana.jpg)
 
 _“Creían en Dios, pero también en los sapos, en la luna, y en las campanas que lloraban solas.”_
 

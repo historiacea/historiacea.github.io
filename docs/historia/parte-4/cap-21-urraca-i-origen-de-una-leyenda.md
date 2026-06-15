@@ -1,14 +1,16 @@
 ---
-title: "Capítulo 21. Urraca I: origen de una leyenda"
+title: "Urraca I y el castillo de Cea: la primera reina de León y Castilla"
 sidebar_label: "21. Urraca I: origen de una leyenda"
 sidebar_position: 5
-description: "El gobierno indirecto que Urraca I mantenía sobre posesiones estratégicas como Cea le permitió concentrar sus esfuerzos en extirpar la presencia aragonesa…"
+description: "Urraca I (1081-1126), primera reina de León y Castilla, usó Cea como enclave seguro frente a Aragón. Historia y leyenda de su vínculo con la villa y su castillo."
 image: "/img/libro/img-048.png"
 ---
 
 # Capítulo 21. Urraca I: origen de una leyenda
 
 ![](/img/libro/img-048.png)
+
+![Urraca I, primera reina de León y Castilla, en los adarves del castillo de Cea hacia 1115](/img/ia/urraca-i.jpg)
 
 _“Desde las torres de Cea, la reina veía un horizonte abierto y un territorio en disputa constante.”_
 

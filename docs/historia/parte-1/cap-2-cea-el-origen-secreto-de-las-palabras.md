@@ -1,8 +1,8 @@
 ---
-title: "Capítulo 2. Cea, el origen secreto de las palabras"
+title: "Cea: el origen del nombre y su etimología"
 sidebar_label: "2. Cea, el origen secreto de las palabras"
 sidebar_position: 2
-description: "Aunque los lugares carecen de biografía, hay algunos que laten con más vida que las propias personas. Entre ellos, unos pocos guardan, además, un secreto."
+description: "¿Qué significa «Cea»? Dos teorías explican el topónimo: la raíz indoeuropea Keia (foso) y la ciudad astur Gigia de Ptolomeo. Un misterio sin resolver."
 image: "/img/libro/img-003.png"
 ---
 

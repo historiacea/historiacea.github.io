@@ -1,8 +1,8 @@
 ---
-title: "Capítulo 14. La invasión musulmana, la línea del Cea y Witiza"
+title: "La invasión musulmana y la línea defensiva del río Cea, León"
 sidebar_label: "14. La invasión musulmana, la línea del Cea y Witiza"
 sidebar_position: 2
-description: "La invasión islámica del siglo VIII transformó de forma irreversible el mapa político de la península. Sin embargo, en el valle del Cea, aquella…"
+description: "El río Cea como frontera durante la invasión islámica del siglo VIII: aceifas cordobesas de 882-883, el castillo de Cea bajo ataque y los refugios rupestres medievales."
 image: "/img/libro/img-035.png"
 ---
 

@@ -1,9 +1,9 @@
 ---
-title: "Historia de Cea"
+title: "Historia de Cea, León — Del Neolítico al siglo XXI"
 sidebar_label: "Presentación"
 sidebar_position: 0
 slug: /historia/intro
-description: "En el corazón de la provincia de León, donde el río Cea serpentea entre campos dorados y colinas suaves, se alza un pueblo que guarda entre sus piedras…"
+description: "Historia completa de Cea (León): vacceos, romanos, Reconquista, Nodicia de Kesos, castillo artillero y la memoria de sus gentes. 41 capítulos documentados."
 ---
 
 # Historia de Cea, León

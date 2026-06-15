@@ -1,8 +1,8 @@
 ---
-title: "Capítulo 25. La fortaleza primigenia: del castro al castillo viejo"
+title: "Del castro prerromano al Castillo Viejo de Cea: historia de la fortaleza"
 sidebar_label: "25. La fortaleza primigenia: del castro al castillo viejo"
 sidebar_position: 9
-description: "Cea, asentada en un promontorio que domina el río que le da nombre, fue sin duda un enclave estratégico desde tiempos prerromanos. Aquí hubo primero un…"
+description: "Evolución de las defensas de Cea: del castro prerromano al castillo de Alfonso III, prisión de García de Navarra en 1040 y destrucción parcial en 1356."
 image: "/img/libro/img-051.png"
 ---
 
