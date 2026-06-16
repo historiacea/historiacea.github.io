@@ -10,8 +10,7 @@
 .mapa {
   position: absolute;
   inset: 0;
-  /* Tinte cálido para integrar el mapa con la paleta pergamino del sitio. */
-  filter: sepia(0.22) saturate(0.92);
+  filter: none;
 }
 
 /* Popups acordes al tema */

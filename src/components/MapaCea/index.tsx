@@ -53,7 +53,18 @@ export default function MapaCea({
 
       map = new maplibregl.Map({
         container: ref.current,
-        style: 'https://tiles.openfreemap.org/styles/positron',
+        style: {
+          version: 8,
+          sources: {
+            esri: {
+              type: 'raster',
+              tiles: ['https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/tile/{z}/{y}/{x}'],
+              tileSize: 256,
+              attribution: '© Esri, Maxar, Earthstar Geographics',
+            },
+          },
+          layers: [{ id: 'esri-satellite', type: 'raster', source: 'esri' }],
+        },
         center: [lng, lat],
         zoom,
         pitch,
