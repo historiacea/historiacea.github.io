@@ -28,4 +28,4 @@ Vista general de la torre con todas sus plantas superpuestas: la estructura en e
 
 El recinto se sitúa en el cerro al norte de la villa, sobre el meandro del río Cea.
 
-<MapaCea mostrarCastillo zoom={16.5} pitch={62} alto={420} />
+<MapaCea mostrarCastillo zoom={17} pitch={55} alto={420} />

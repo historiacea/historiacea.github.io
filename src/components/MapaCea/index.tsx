@@ -5,20 +5,20 @@ import styles from './styles.module.css';
 // Coordenadas de Cea (León).
 const CEA: [number, number] = [-5.0064, 42.4668];
 
-// Coordenadas del castillo (torre).
-const CASTILLO: [number, number] = [-5.00555, 42.46815];
+// Coordenadas del castillo (torre) — cerro al norte de Cea.
+const CASTILLO: [number, number] = [-5.0038, 42.4695];
 
-// Perímetro aproximado del recinto del castillo (muralla exterior + foso).
+// Perímetro aproximado del recinto del castillo.
 const AREA_CASTILLO: [number, number][] = [
-  [-5.00635, 42.46870],
-  [-5.00555, 42.46905],
-  [-5.00455, 42.46870],
-  [-5.00415, 42.46810],
-  [-5.00435, 42.46750],
-  [-5.00515, 42.46710],
-  [-5.00620, 42.46730],
-  [-5.00665, 42.46790],
-  [-5.00635, 42.46870],
+  [-5.0048, 42.4702],
+  [-5.0038, 42.4706],
+  [-5.0028, 42.4702],
+  [-5.0024, 42.4695],
+  [-5.0028, 42.4688],
+  [-5.0038, 42.4684],
+  [-5.0048, 42.4688],
+  [-5.0052, 42.4695],
+  [-5.0048, 42.4702],
 ];
 
 type Marcador = { lng: number; lat: number; titulo: string; color?: string };
