@@ -8,12 +8,13 @@
   grid-template-columns: 1.4fr 1fr;
   gap: 2rem;
   align-items: center;
-  margin: 2.5rem 0 3rem;
-  padding: 2rem;
+  /* Rompe el max-width del artículo para que la perspectiva 3D no se corte */
+  margin: 2.5rem -3vw 3rem;
+  padding: 2rem 3vw;
   background: var(--cea-bg-alt);
   border: 1px solid var(--cea-line);
   border-radius: 16px;
-  overflow: hidden;
+  overflow: visible;
 }
 
 /* ---- Escenario 3D ---- */
