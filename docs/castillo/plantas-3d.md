@@ -14,6 +14,8 @@ Los planos conservados permiten reconstruir la torre del castillo **nivel a nive
 - Usa **«Apilar plantas»** para verlas en su posición real, o sepáralas para la vista explosionada.
 - Desde cada planta puedes abrir el **plano completo** y su **versión anotada**.
 
+![Plano del Castillo de Cea: planta y sección de la torre artillera del siglo XV](/img/castillo/plano-castillo.png)
+
 <CastilloPlantas />
 
 :::note Sobre los planos

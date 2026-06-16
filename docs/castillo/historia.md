@@ -46,6 +46,8 @@ Contemplar las ruinas del castillo es asomarse a un tiempo de transición: entre
 
 Los planos conservados permiten reconstruir la torre **nivel a nivel**: el aljibe, las bóvedas, el acceso elevado, las torrecillas. Tienen su propia página interactiva:
 
+![Plano del Castillo de Cea: planta y sección de la torre artillera del siglo XV](/img/castillo/plano-castillo.png)
+
 **[→ Explora la torre en 3D, planta a planta](/docs/castillo/plantas-3d)**
 
 ### El castillo, en imágenes
