@@ -12,9 +12,7 @@ El castillo de Cea tiene cinco niveles. Los planos conservados permiten reconstr
 
 Pulsa cualquier planta para verla ampliada.
 
-<div style={{display:'flex', justifyContent:'center', padding:'2rem 0 10rem'}}>
 <CastilloPlantas />
-</div>
 
 :::note Sobre los planos
 Proceden del estudio **«Castillo Actual de Cea»**, disponible íntegro en [Reconstrucción 3D y planos](/docs/castillo/reconstruccion-3d-y-planos), donde también puedes ver el **modelo fotogramétrico real** de la torre.
