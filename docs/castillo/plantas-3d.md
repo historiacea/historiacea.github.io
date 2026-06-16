@@ -8,26 +8,26 @@ image: "/img/castillo/plantas/planta-2.png"
 
 # La torre, planta a planta
 
-El castillo de Cea ocupa el extremo norte del cerro que domina la villa y el río. Su planta en forma de esvástica —única en España— no es un capricho estético: cada torrecilla saliente cubría con su fuego una cara del edificio, anticipando los principios del fuerte abaluartado dos siglos antes de que se generalizara en Europa.
+El castillo de Cea tiene cinco niveles. Los planos conservados permiten reconstruir cada uno de ellos: el aljibe en planta baja, las bóvedas de ladrillo que sostenían la artillería, el acceso elevado en la cara opuesta y las cuatro torrecillas de flanqueo que le dan su planta en esvástica, única en España.
 
-## Las cinco plantas en 3D
+Pulsa cualquier planta para verla ampliada.
 
-Pulsa una planta —en el dibujo o en la lista de la derecha— para conocer su función. Usa **«Apilar plantas»** para verlas en su posición real, o sepáralas para la vista explosionada.
-
+<div style={{display:'flex', justifyContent:'center', padding:'2rem 0 10rem'}}>
 <CastilloPlantas />
+</div>
 
 :::note Sobre los planos
-Proceden del estudio **«Castillo Actual de Cea»**, disponible íntegro en [Reconstrucción 3D y planos](/docs/castillo/reconstruccion-3d-y-planos), donde también puedes ver el **modelo fotogramétrico real** de la torre. Las descripciones de cada nivel son orientativas — si puedes precisarlas, [colabora con nosotros](/docs/aviso-legal#contacto-y-colaboración).
+Proceden del estudio **«Castillo Actual de Cea»**, disponible íntegro en [Reconstrucción 3D y planos](/docs/castillo/reconstruccion-3d-y-planos), donde también puedes ver el **modelo fotogramétrico real** de la torre.
 :::
 
 ## El plano completo
 
-Vista general de la torre con todas sus plantas superpuestas: la estructura en esvástica, las cuatro torrecillas de flanqueo y los dos accesos —a nivel del suelo y el elevado en la cara opuesta.
+Vista general de la torre con todas sus plantas superpuestas: la estructura en esvástica, las cuatro torrecillas de flanqueo y los dos accesos.
 
 ![Plano del Castillo de Cea: planta y sección de la torre artillera del siglo XV](/img/castillo/plano-castillo.png)
 
 ## Dónde está el castillo
 
-El recinto se sitúa en el cerro al norte de la villa, sobre el meandro del río Cea. El perímetro marcado delimita la muralla exterior y el foso.
+El recinto se sitúa en el cerro al norte de la villa, sobre el meandro del río Cea.
 
 <MapaCea mostrarCastillo zoom={16.5} pitch={62} alto={420} />
