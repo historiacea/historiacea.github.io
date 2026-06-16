@@ -32,7 +32,7 @@ description: "El Castillo de Cea (León): única torre artillera del siglo XV co
 Sobre el cerro que domina la villa y el río se alzan los restos de una de las fortalezas más **singulares de España**: una torre artillera del siglo XV con **planta en forma de esvástica, única en el país**, levantada por los Sandoval y Rojas sobre un castro prerromano y un castillo medieval anterior. Hoy, **en ruina progresiva**, lucha por sobrevivir.
 
 :::danger El castillo está en la Lista Roja del Patrimonio
-Desde **2008**, el castillo de Cea figura en la **[Lista Roja del Patrimonio de Hispania Nostra](https://listarojapatrimonio.org/ficha/castillo-de-cea/)**, que recoge los monumentos españoles en riesgo de desaparición. En **2015**, pese a los avisos, **parte del lienzo se desplomó sobre el río Cea**.
+Desde **2008**, el castillo de Cea figura en la **[Lista Roja del Patrimonio de Hispania Nostra](https://listaroja.hispanianostra.org/ficha/castillo-de-cea/)**, que recoge los monumentos españoles en riesgo de desaparición. En **2015**, pese a los avisos, **parte del lienzo se desplomó sobre el río Cea**.
 
 **Apóyalo**: visita su ficha, difunde su situación y, si puedes aportar fotos, documentos o ideas, [colabora con nosotros](/docs/aviso-legal#contacto-y-colaboración). Que se conozca es el primer paso para que se salve.
 :::

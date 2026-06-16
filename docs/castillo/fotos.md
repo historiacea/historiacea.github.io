@@ -22,7 +22,7 @@ Imágenes **recopiladas de fuentes públicas, sin ánimo de lucro**, para preser
 Estas imágenes existen y se conservan gracias a quienes llevan años fotografiando, difundiendo y defendiendo el castillo:
 
 - 🏰 **La página de Facebook por la defensa del Castillo de Cea** y toda su comunidad, que ha reunido y compartido buena parte de estas fotografías.
-- 🚨 **[Hispania Nostra y su Lista Roja del Patrimonio](https://listarojapatrimonio.org/ficha/castillo-de-cea/)**, que mantienen al castillo en el foco público desde 2008.
+- 🚨 **[Hispania Nostra y su Lista Roja del Patrimonio](https://listaroja.hispanianostra.org/ficha/castillo-de-cea/)**, que mantienen al castillo en el foco público desde 2008.
 - 📰 **iLeón** y otros medios leoneses, por su cobertura del estado del monumento.
 - 📷 Los **fotógrafos y vecinos** —conocidos y anónimos— que retrataron la torre a lo largo de las décadas.
 

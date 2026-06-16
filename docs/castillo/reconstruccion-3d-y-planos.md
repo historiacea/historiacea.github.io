@@ -32,11 +32,17 @@ Fotogrametría de la torre tal y como está hoy — gírala, acércate y recórr
 
 ## El estudio del castillo actual
 
-El documento de referencia sobre el estado de la fortaleza, disponible para su descarga:
+El documento de referencia sobre el estado de la fortaleza, consultable aquí mismo o descargable en PDF:
 
-<p>
-  <a className="button button--primary" href="/pdf/libro-castillo.pdf" download>
-    Descargar el libro del Castillo de Cea (PDF)
+<iframe
+  src="/pdf/libro-castillo.pdf"
+  title="Libro del Castillo de Cea (PDF)"
+  style={{width: '100%', height: '85vh', border: '1px solid var(--cea-line)', borderRadius: '12px'}}
+/>
+
+<p style={{textAlign: 'right', marginTop: '0.5rem'}}>
+  <a className="button button--secondary button--sm" href="/pdf/libro-castillo.pdf" download>
+    Descargar el PDF
   </a>
 </p>
 
