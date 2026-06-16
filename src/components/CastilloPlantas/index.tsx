@@ -45,25 +45,31 @@ export default function CastilloPlantas(): JSX.Element {
   const { open } = useLightbox();
   const planta = activa !== null ? PLANTAS[activa] : null;
 
+  function seleccionar(i: number) {
+    setActiva(activa === i ? null : i);
+  }
+
   return (
     <div className={styles.wrap}>
 
       {/* ── Pila isométrica ── */}
       <div className={styles.escena}>
-        <div className={styles.pila}>
-          {PLANTAS.map((p, i) => (
-            <button
-              key={p.num}
-              type="button"
-              className={`${styles.planta} ${activa === i ? styles.plantaActiva : ''}`}
-              style={{ '--i': i } as React.CSSProperties}
-              aria-label={p.titulo}
-              onClick={() => setActiva(activa === i ? null : i)}
-            >
-              <img src={p.img} alt={p.titulo} loading="lazy" />
-              <span className={styles.chip}>P{p.num}</span>
-            </button>
-          ))}
+        <div className={styles.pilaWrap}>
+          <div className={styles.pila}>
+            {PLANTAS.map((p, i) => (
+              <button
+                key={p.num}
+                type="button"
+                className={`${styles.planta} ${activa === i ? styles.plantaActiva : ''}`}
+                style={{ '--i': i } as React.CSSProperties}
+                aria-label={p.titulo}
+                onClick={() => seleccionar(i)}
+              >
+                <img src={p.img} alt={p.titulo} loading="lazy" />
+                <span className={styles.chip}>P{p.num}</span>
+              </button>
+            ))}
+          </div>
         </div>
         <p className={styles.ayudaPila}>Pulsa una planta para seleccionarla</p>
       </div>
@@ -77,7 +83,7 @@ export default function CastilloPlantas(): JSX.Element {
               <button
                 type="button"
                 className={`${styles.item} ${activa === i ? styles.itemActivo : ''}`}
-                onClick={() => setActiva(activa === i ? null : i)}
+                onClick={() => open({ src: p.img, alt: p.titulo })}
               >
                 <span className={styles.itemNum}>P{p.num}</span>
                 <span className={styles.itemTitulo}>{p.titulo}</span>
@@ -92,23 +98,16 @@ export default function CastilloPlantas(): JSX.Element {
             <div className={styles.acciones}>
               <button
                 type="button"
-                className="button button--primary button--sm"
-                onClick={() => open({ src: planta.img, alt: planta.titulo })}
-              >
-                Ver plano completo
-              </button>
-              <button
-                type="button"
                 className="button button--secondary button--sm"
                 onClick={() => open({ src: planta.imgAnotada, alt: `${planta.titulo} (anotado)` })}
               >
-                Versión anotada
+                Ver versión anotada
               </button>
             </div>
           </div>
         ) : (
           <p className={styles.ayuda}>
-            Pulsa una planta —en el dibujo o en la lista— para ver su descripción y abrir el plano completo.
+            Pulsa un nivel en la lista para abrirlo, o selecciónalo en el dibujo para ver su descripción.
           </p>
         )}
       </aside>
