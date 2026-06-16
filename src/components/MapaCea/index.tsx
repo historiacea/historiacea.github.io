@@ -2,17 +2,24 @@ import { useEffect, useRef } from 'react';
 import 'maplibre-gl/dist/maplibre-gl.css';
 import styles from './styles.module.css';
 
-/**
- * Mapa interactivo centrado en Cea (León). Usa MapLibre GL (API compatible
- * con Mapbox GL) con tiles vectoriales gratuitos de OpenFreeMap, así no se
- * necesita token. Vista inclinada para dar sensación 3D.
- *
- * Uso en markdown:  <MapaCea />  o  <MapaCea zoom={12} alto={380} />
- * `marcadores` admite puntos extra: [{lng, lat, titulo, color?}]
- */
-
-// Coordenadas de Cea (León). Ajustables si hiciera falta afinar.
+// Coordenadas de Cea (León).
 const CEA: [number, number] = [-5.0064, 42.4668];
+
+// Coordenadas del castillo (torre).
+const CASTILLO: [number, number] = [-5.00555, 42.46815];
+
+// Perímetro aproximado del recinto del castillo (muralla exterior + foso).
+const AREA_CASTILLO: [number, number][] = [
+  [-5.00635, 42.46870],
+  [-5.00555, 42.46905],
+  [-5.00455, 42.46870],
+  [-5.00415, 42.46810],
+  [-5.00435, 42.46750],
+  [-5.00515, 42.46710],
+  [-5.00620, 42.46730],
+  [-5.00665, 42.46790],
+  [-5.00635, 42.46870],
+];
 
 type Marcador = { lng: number; lat: number; titulo: string; color?: string };
 
@@ -23,6 +30,7 @@ type Props = {
   pitch?: number;
   alto?: number;
   marcadores?: Marcador[];
+  mostrarCastillo?: boolean;
 };
 
 export default function MapaCea({
@@ -32,6 +40,7 @@ export default function MapaCea({
   pitch = 55,
   alto = 440,
   marcadores = [],
+  mostrarCastillo = false,
 }: Props): JSX.Element {
   const ref = useRef<HTMLDivElement>(null);
 
@@ -39,7 +48,6 @@ export default function MapaCea({
     let map: import('maplibre-gl').Map | undefined;
     let cancelado = false;
 
-    // Carga diferida: maplibre toca window, así evitamos problemas de SSR.
     import('maplibre-gl').then((maplibregl) => {
       if (cancelado || !ref.current) return;
 
@@ -54,14 +62,58 @@ export default function MapaCea({
       });
 
       map.addControl(new maplibregl.NavigationControl({ visualizePitch: true }), 'top-right');
-      map.scrollZoom.disable(); // evita robar el scroll de la página
+      map.scrollZoom.disable();
       map.on('click', () => map?.scrollZoom.enable());
 
-      // Marcador principal: Cea.
-      new maplibregl.Marker({ color: '#9a3b3f' })
-        .setLngLat(CEA)
-        .setPopup(new maplibregl.Popup({ offset: 24 }).setHTML('<strong>Cea</strong> · León'))
-        .addTo(map);
+      if (mostrarCastillo) {
+        // Marcador del castillo en lugar de Cea.
+        new maplibregl.Marker({ color: '#9a3b3f' })
+          .setLngLat(CASTILLO)
+          .setPopup(new maplibregl.Popup({ offset: 24 }).setHTML('<strong>Castillo de Cea</strong> · siglo XV'))
+          .addTo(map);
+
+        // Polígono del recinto cuando el mapa cargue.
+        map.on('load', () => {
+          map!.addSource('castillo-area', {
+            type: 'geojson',
+            data: {
+              type: 'Feature',
+              geometry: {
+                type: 'Polygon',
+                coordinates: [AREA_CASTILLO],
+              },
+              properties: {},
+            },
+          });
+
+          map!.addLayer({
+            id: 'castillo-fill',
+            type: 'fill',
+            source: 'castillo-area',
+            paint: {
+              'fill-color': '#9a3b3f',
+              'fill-opacity': 0.18,
+            },
+          });
+
+          map!.addLayer({
+            id: 'castillo-border',
+            type: 'line',
+            source: 'castillo-area',
+            paint: {
+              'line-color': '#9a3b3f',
+              'line-width': 2.5,
+              'line-dasharray': [4, 2],
+            },
+          });
+        });
+      } else {
+        // Comportamiento original: marcador de Cea.
+        new maplibregl.Marker({ color: '#9a3b3f' })
+          .setLngLat(CEA)
+          .setPopup(new maplibregl.Popup({ offset: 24 }).setHTML('<strong>Cea</strong> · León'))
+          .addTo(map);
+      }
 
       for (const m of marcadores) {
         new maplibregl.Marker({ color: m.color ?? '#a9852f' })
