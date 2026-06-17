@@ -91,7 +91,14 @@ export default function MapaCea({
       }
 
       if (mostrarCastillo) {
-        crearIcono(CASTILLO, '<strong>Castillo de Cea</strong> · siglo XV');
+        crearIcono(
+          CASTILLO,
+          `<strong>Castillo de Cea</strong><br><span style="font-size:0.82rem;color:#666">Torre artillera · siglo XV</span><br>
+          <a href="https://www.google.com/maps?q=42.463532,-5.014586" target="_blank" rel="noopener noreferrer"
+             style="display:inline-block;margin-top:6px;font-size:0.8rem;color:#9a3b3f;font-weight:600">
+            📍 Ver en Google Maps
+          </a>`
+        );
 
         // Polígono del recinto cuando el mapa cargue.
         map.on('load', () => {
@@ -129,7 +136,14 @@ export default function MapaCea({
           });
         });
       } else {
-        crearIcono(CEA, '<strong>Cea</strong> · León');
+        crearIcono(
+          CEA,
+          `<strong>Cea</strong> · León<br>
+          <a href="https://www.google.com/maps?q=42.4668,-5.0064" target="_blank" rel="noopener noreferrer"
+             style="display:inline-block;margin-top:6px;font-size:0.8rem;color:#9a3b3f;font-weight:600">
+            📍 Ver en Google Maps
+          </a>`
+        );
       }
 
       for (const m of marcadores) {
