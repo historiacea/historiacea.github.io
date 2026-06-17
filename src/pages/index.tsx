@@ -67,7 +67,8 @@ function HomepageHeader() {
         collageRef.current.querySelectorAll<HTMLElement>(`.${styles.photo}`),
       );
       onMove = (e: MouseEvent) => {
-        const r = collageRef.current!.getBoundingClientRect();
+        if (!collageRef.current) return;
+        const r = collageRef.current.getBoundingClientRect();
         const cx = (e.clientX - (r.left + r.width / 2)) / r.width;
         const cy = (e.clientY - (r.top + r.height / 2)) / r.height;
         cards.forEach((card) => {
