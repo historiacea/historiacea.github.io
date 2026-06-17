@@ -8,15 +8,15 @@ const CEA: [number, number] = [-5.0064, 42.4668];
 // Coordenadas exactas del castillo (torre).
 const CASTILLO: [number, number] = [-5.014586, 42.463532];
 
-// Perímetro real del recinto del castillo (6 puntos GPS exactos).
+// Perímetro del recinto — puntos ordenados en sentido horario desde el NO.
 const AREA_CASTILLO: [number, number][] = [
-  [-5.014934915592952, 42.46365645136357],
-  [-5.014607686100145, 42.463290394325455],
-  [-5.014022964547425, 42.46402052759204],
-  [-5.013773519114383, 42.463763300041414],
-  [-5.01430996090587,  42.46384244709264],
-  [-5.013894218517468, 42.46370393968734],
-  [-5.014934915592952, 42.46365645136357], // cierre
+  [-5.014934915592952, 42.46365645136357],  // NO
+  [-5.014022964547425, 42.46402052759204],  // NE
+  [-5.013773519114383, 42.463763300041414], // E
+  [-5.013894218517468, 42.46370393968734],  // SE
+  [-5.01430996090587,  42.46384244709264],  // centro-N (vértice interior)
+  [-5.014607686100145, 42.463290394325455], // SO
+  [-5.014934915592952, 42.46365645136357],  // cierre
 ];
 
 type Marcador = { lng: number; lat: number; titulo: string; color?: string };
@@ -81,7 +81,7 @@ export default function MapaCea({
         const el = document.createElement('div');
         el.style.cssText = 'width:40px;height:40px;cursor:pointer;filter:drop-shadow(0 2px 4px rgba(0,0,0,0.5))';
         const img = document.createElement('img');
-        img.src = '/img/logo-icono.png';
+        img.src = '/img/marker-castillo.png';
         img.style.cssText = 'width:100%;height:100%;object-fit:contain';
         el.appendChild(img);
         new maplibregl.Marker({ element: el, anchor: 'bottom' })
