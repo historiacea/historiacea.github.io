@@ -83,7 +83,7 @@ export default function CastilloPlantas(): JSX.Element {
               <button
                 type="button"
                 className={`${styles.item} ${activa === i ? styles.itemActivo : ''}`}
-                onClick={() => open({ src: p.img, alt: p.titulo })}
+                onClick={() => open({ src: p.imgAnotada, alt: p.titulo })}
               >
                 <span className={styles.itemNum}>P{p.num}</span>
                 <span className={styles.itemTitulo}>{p.titulo}</span>

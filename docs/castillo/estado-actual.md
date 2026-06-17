@@ -19,3 +19,13 @@ Desde **1949**, el castillo está protegido como **Bien de Interés Cultural (BI
 En 2012, el diario **El Norte de Castilla** lo distinguió como la **primera de las 'joyas de Castilla y León'**, un galardón que reconocía su valor patrimonial, singularidad histórica y potencial cultural[promonumenta.com](https://promonumenta.com/la-villa-y-fortaleza-de-cea-una-vision-romantica?utm_source=chatgpt.com). No obstante, la urgencia de ampliar las labores de conservación permanece, y el castillo sigue figurando en la **Lista Roja** como un clamor por su puesta en valor real y sostenible.
 
 A día de hoy, en 2025, la **provincia de León** suma **62 monumentos** en la Lista Roja, lo que subraya la situación crítica en que muchos bienes culturales se encuentran y la necesidad de visibilizarlos para promover su restauración[Cadena SER](https://cadenaser.com/castillayleon/2025/01/09/la-lista-roja-de-hispania-nostra-el-patrimonio-que-nos-llama-radio-leon/?utm_source=chatgpt.com). El Castillo de Cea es uno de esos casos emblemáticos donde la presión ciudadana combinada con apoyo institucional puede marcar la diferencia entre su colapso irreversible y una recuperación digna y duradera.
+
+## En un cerro, un zarrio
+
+Como bien señaló **Luis Ángel Díez Lazo** en su artículo [*Castillo de Cea: en un cerro, un zarrio*](https://sahagundigital.com/art/3635/castillo-de-cea-en-un-cerro-un-zarrio) —publicado en Sahagún Digital—, el futuro del castillo se antoja difícil.
+
+Con una **provincia de León plagada de estructuras similares**, cada una compitiendo por unos recursos institucionales escasos, resulta difícil imaginar una restauración completa. Los anclajes metálicos colocados en 2015 son, en el mejor de los casos, un parche sobre una herida muy grande: detienen el sangrado inmediato pero no curan la fractura.
+
+Las opciones que quedan sobre la mesa son pocas y ninguna sencilla. Podría intentarse la **venta o cesión a un inversor privado** que apostara por el turismo cultural; al menos generaría empleo y movería dinero en un pueblo que los necesita. Pero es un escenario más cercano al sueño que a la realidad: el cerro presenta **problemas geotécnicos serios**, la ladera norte se erosiona año tras año y el río Cea ya lame la base de los muros. Cualquier promotor que haga los números se echará atrás.
+
+Lo que sí es claro es el escenario más probable si no ocurre nada: **la despoblación sostenida de Cea**, sin masa crítica que presione a la Diputación ni proyectos que justifiquen la inversión, condena al castillo a una lenta rendición. Sin un Amancio Ortega que aparezca de la nada, sin un cambio de tendencia demográfica, sin un interés institucional que vaya más allá de la foto de turno, el destino del castillo es el mismo río que lo está devorando.

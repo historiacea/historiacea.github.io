@@ -4,8 +4,8 @@ import styles from './styles.module.css';
 
 const MAPTILER_KEY = 'lHhxlYuJjTH7DBRZ3lUu';
 
-// Coordenadas de Cea (León).
-const CEA: [number, number] = [-5.0064, 42.4668];
+// Coordenadas de Cea (León) — posición del castillo como referencia del pueblo.
+const CEA: [number, number] = [-5.014586, 42.463532];
 
 // Coordenadas exactas del castillo (torre).
 const CASTILLO: [number, number] = [-5.014586, 42.463532];

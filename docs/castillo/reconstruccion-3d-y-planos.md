@@ -48,10 +48,6 @@ El documento de referencia sobre el estado de la fortaleza, consultable aquí mi
 
 ## Los planos, planta a planta
 
-Cada nivel de la torre, en su versión limpia y anotada. Para la **vista 3D interactiva** de las plantas apiladas, visita la [Historia del castillo](/docs/castillo/historia#la-torre-por-dentro-las-cinco-plantas).
+Cada nivel de la torre, anotado con sus elementos principales. Para la **vista 3D interactiva** de las plantas apiladas, visita [La torre en 3D, planta a planta](/docs/castillo/plantas-3d).
 
-<GaleriaGrid coleccion="plantas" />
-
-:::note Pendiente de redactar
-**Explicar los planos: por qué algunos dicen que tiene 3 torres pero en realidad son 4, por qué las puertas están donde están, etc.**
-:::
+<GaleriaGrid coleccion="plantas" filtro="-o" />

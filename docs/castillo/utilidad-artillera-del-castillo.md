@@ -62,3 +62,24 @@ El castillo de Cea representa una **transición clave** entre la **Edad Media** 
     
 
 Aunque el terreno inestable y los materiales relativamente frágiles limitaron su resistencia a largo plazo, la torre de Cea es una **pieza única de la arquitectura militar castellana** y un ejemplo claro de cómo los ingenieros locales **asimilaron rápidamente** las innovaciones bélicas que estaban transformando Europa.
+
+## La controvertida forma de esvástica: ¿tres torres o cuatro?
+
+Antes de entrar en el debate técnico, conviene aclarar algo: la **esvástica**, como símbolo geométrico, lleva miles de años en culturas de todo el mundo. La asociación que hoy nos resulta inevitable no existía en el siglo XV. Quien diseñó esta planta pensaba exclusivamente en **ángulos de tiro**, no en simbología.
+
+Dicho esto, la forma del castillo ha generado más confusión de lo que cabría esperar. Algunos autores, entre ellos **Cristóbal Guitart** en su estudio sobre el castillo leonés de Cea y los «donjones» románicos de Europa Occidental, dibujaron en su época un castillo con **tres torres salientes** en lugar de cuatro. Son las que se ven a simple vista desde la distancia, las que la erosión y el derrumbe han dejado más expuestas.
+
+![Esquema del tiro de flanqueo de las cuatro torrecillas del Castillo de Cea](/img/castillo/esquema-tiro-flanqueo.png)
+![Reconstrucción especulativa de la cuarta torrecilla en pie, disparando el cañón desde la tronera](/img/castillo/reconstruccion-cuarta-torre.jpg)
+
+Pero esa lectura no tiene sentido desde la lógica militar. Basta con observar el plano: la cara trasera del castillo, donde está el **cadalso** y la **entrada principal elevada**, quedaría sin cobertura. No poner una torrecilla saliente justo ahí —el punto más vulnerable, el que hay que flanquear en el tiro de la puerta— sería un error elemental de diseño. Ningún ingeniero del siglo XV, por modesto que fuera, habría cometido esa omisión.
+
+La obra **Castillos de España** (VV.AA., Editorial Everest, 1997, vol. II, págs. 986-978) ya lo recoge correctamente con sus **cuatro torres**, que es lo que muestran tanto los planos del estudio del castillo como el propio edificio cuando se analiza con detenimiento.
+
+### Las huellas físicas de la cuarta torre
+
+Y la evidencia está ahí, en la piedra. En los restos de la esquina trasera se conservan las **marcas de unión de la torre desaparecida**: las piedras de traba sobresalen del muro principal en la parte superior, como si esperaran la continuación de una estructura que un día estuvo pegada a ellas.
+
+![Restos de la unión de la cuarta torre del Castillo de Cea — las piedras de traba en la esquina](/img/castillo/restos-union-torre.png)
+
+Lo curioso es que esa unión no arranca desde la base: en la parte inferior, los dos volúmenes parecen haberse construido por separado, o al menos en fases distintas. Lo mismo ocurre en la otra torrecilla conservada: la traba comienza a partir de cierta altura, como si la torre saliente se hubiera adosado cuando el cuerpo principal ya llevaba unos hiladas levantadas. Una práctica constructiva perfectamente habitual en la arquitectura militar medieval, donde los distintos cuerpos se ejecutaban en campañas sucesivas.

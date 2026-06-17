@@ -1,6 +1,6 @@
 ---
 title: "Leyendas del Castillo de Cea: reyes presos, batallas y traiciones medievales"
-sidebar_position: 7
+sidebar_position: 8
 description: "Las leyendas del Castillo de Cea: la prisión de García de Navarra en 1040, la Batalla de Atapuerca, Urraca I y Pedro I con María de Padilla en el siglo XIV."
 ---
 

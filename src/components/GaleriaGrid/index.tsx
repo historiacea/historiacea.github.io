@@ -34,11 +34,14 @@ export const COLECCIONES: Record<string, string[]> = {
 type Props = {
   /** Colección a mostrar: "castillo" | "recuerdos" | "plantas". */
   coleccion: keyof typeof COLECCIONES;
+  /** Substring que debe aparecer en la URL para filtrar imágenes. */
+  filtro?: string;
 };
 
-export default function GaleriaGrid({ coleccion }: Props): JSX.Element {
+export default function GaleriaGrid({ coleccion, filtro }: Props): JSX.Element {
   const { open } = useLightbox();
-  const imgs = COLECCIONES[coleccion] ?? [];
+  const todas = COLECCIONES[coleccion] ?? [];
+  const imgs = filtro ? todas.filter((src) => src.includes(filtro)) : todas;
 
   if (imgs.length === 0) {
     return (

@@ -1,7 +1,7 @@
 ---
 title: "Fotos del Castillo de Cea, León: galería histórica y estado actual"
 sidebar_label: "Fotos"
-sidebar_position: 6
+sidebar_position: 7
 description: "62 fotografías del Castillo de Cea, León: la torre desde todos los ángulos, el derrumbe de 2012 y los trabajos de consolidación de 2015. Galería con fichas."
 ---
 

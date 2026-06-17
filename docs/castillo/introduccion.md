@@ -33,8 +33,6 @@ Sobre el cerro que domina la villa y el río se alzan los restos de una de las f
 
 :::danger El castillo está en la Lista Roja del Patrimonio
 Desde **2008**, el castillo de Cea figura en la **[Lista Roja del Patrimonio de Hispania Nostra](https://listaroja.hispanianostra.org/ficha/castillo-de-cea/)**, que recoge los monumentos españoles en riesgo de desaparición. En **2015**, pese a los avisos, **parte del lienzo se desplomó sobre el río Cea**.
-
-**Apóyalo**: visita su ficha, difunde su situación y, si puedes aportar fotos, documentos o ideas, [colabora con nosotros](/docs/aviso-legal#contacto-y-colaboración). Que se conozca es el primer paso para que se salve.
 :::
 
 ## Ficha rápida
@@ -84,11 +82,3 @@ Modelo fotogramétrico real de la torre — gíralo, acércate, métete dentro:
   Modelo: <a href="https://sketchfab.com/3d-models/castillo-de-cea-leon-c17bb37aab82463481962b102c6eb15b" target="_blank" rel="noopener noreferrer">Castillo de Cea (León) en Sketchfab</a>.
 </p>
 
-## Sigue explorando
-
-- **[Historia](/docs/castillo/historia)** — del castro al castillo artillero, con las **plantas en 3D interactivo**.
-- **[Utilidad artillera](/docs/castillo/utilidad-artillera-del-castillo)** — por qué fue una fortaleza adelantada a su tiempo.
-- **[Estado actual](/docs/castillo/estado-actual)** — qué queda en pie y qué peligra.
-- **[Reconstrucción 3D y planos](/docs/castillo/reconstruccion-3d-y-planos)** — el estudio en PDF y los planos planta a planta.
-- **[Leyendas](/docs/castillo/leyendas)** — lo que cuenta el pueblo.
-- **[Fotos](/docs/castillo/fotos)** — 55 imágenes de la torre a través del tiempo.
