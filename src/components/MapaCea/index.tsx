@@ -8,14 +8,13 @@ const CEA: [number, number] = [-5.0064, 42.4668];
 // Coordenadas exactas del castillo (torre).
 const CASTILLO: [number, number] = [-5.014586, 42.463532];
 
-// Perímetro del recinto — puntos ordenados en sentido horario desde el NO.
+// Perímetro del recinto — 5 puntos ordenados en sentido horario desde el NO.
 const AREA_CASTILLO: [number, number][] = [
   [-5.014934915592952, 42.46365645136357],  // NO
-  [-5.014022964547425, 42.46402052759204],  // NE
-  [-5.013773519114383, 42.463763300041414], // E
-  [-5.013894218517468, 42.46370393968734],  // SE
-  [-5.01430996090587,  42.46384244709264],  // centro-N (vértice interior)
-  [-5.014607686100145, 42.463290394325455], // SO
+  [-5.014022964547425, 42.46402052759204],  // N
+  [-5.013773519114383, 42.463763300041414], // NE
+  [-5.013894218517468, 42.46370393968734],  // E
+  [-5.014607686100145, 42.463290394325455], // S
   [-5.014934915592952, 42.46365645136357],  // cierre
 ];
 
