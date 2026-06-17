@@ -8,13 +8,13 @@ const CEA: [number, number] = [-5.0064, 42.4668];
 // Coordenadas exactas del castillo (torre).
 const CASTILLO: [number, number] = [-5.014586, 42.463532];
 
-// Perímetro real del recinto del castillo.
+// Perímetro real del recinto del castillo (puntos ordenados en sentido horario).
 const AREA_CASTILLO: [number, number][] = [
-  [-5.015039, 42.463631],
-  [-5.014805, 42.463195],
-  [-5.014170, 42.463997],
-  [-5.013671, 42.463605],
-  [-5.015039, 42.463631],
+  [-5.015039, 42.463631], // NO
+  [-5.014170, 42.463997], // NE
+  [-5.013671, 42.463605], // SE
+  [-5.014805, 42.463195], // SO
+  [-5.015039, 42.463631], // cierre
 ];
 
 type Marcador = { lng: number; lat: number; titulo: string; color?: string };
@@ -24,6 +24,7 @@ type Props = {
   lat?: number;
   zoom?: number;
   pitch?: number;
+  bearing?: number;
   alto?: number;
   marcadores?: Marcador[];
   mostrarCastillo?: boolean;
@@ -34,6 +35,7 @@ export default function MapaCea({
   lat = CEA[1],
   zoom = 13.5,
   pitch = 55,
+  bearing = -12,
   alto = 440,
   marcadores = [],
   mostrarCastillo = false,
@@ -64,7 +66,7 @@ export default function MapaCea({
         center: [lng, lat],
         zoom,
         pitch,
-        bearing: -12,
+        bearing,
         attributionControl: { compact: true },
       });
 
