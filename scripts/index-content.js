@@ -7,8 +7,8 @@ const matter = require('gray-matter');
 require('dotenv').config();
 
 // Configuración de Algolia (reemplaza con tus credenciales)
-const ALGOLIA_APP_ID = process.env.ALGOLIA_APP_ID || '3QKHV6ZLE5';
-const ALGOLIA_ADMIN_API_KEY = process.env.ALGOLIA_ADMIN_API_KEY || 'e5162abc89ea849486cacfc58911f797';
+const ALGOLIA_APP_ID = process.env.ALGOLIA_APP_ID;
+const ALGOLIA_ADMIN_API_KEY = process.env.ALGOLIA_ADMIN_API_KEY;
 const ALGOLIA_INDEX_NAME = 'historiacea';
 
 console.log('🔧 Configuración de Algolia:');
@@ -59,13 +59,20 @@ function processMarkdownContent(filePath, url) {
       .replace(/\n+/g, ' ') // Convertir saltos de línea a espacios
       .trim();
 
+    // Algolia limita los registros a ~10.000 bytes; truncamos el contenido
+    // dejando margen para el resto de campos (~7.000 chars ≈ 7 KB en UTF-8)
+    const MAX_CONTENT = 7000;
+    const truncatedContent = cleanContent.length > MAX_CONTENT
+      ? cleanContent.slice(0, MAX_CONTENT) + '…'
+      : cleanContent;
+
     return {
-      objectID: url.replace(/\\/g, '/'), // Usar URL como ID único
+      objectID: url.replace(/\\/g, '/'),
       title: frontmatter.title || path.basename(filePath, path.extname(filePath)),
-      content: cleanContent,
+      content: truncatedContent,
       url: `/${url.replace(/\\/g, '/')}`,
       type: filePath.includes('blog') ? 'blog' : 'docs',
-      ...frontmatter // Incluir otros metadatos del frontmatter
+      ...frontmatter
     };
   } catch (error) {
     console.error(`Error procesando ${filePath}:`, error.message);
@@ -88,13 +95,15 @@ async function indexContent() {
       if (record) records.push(record);
     });
 
-    // Procesar blog
-    console.log('📝 Procesando blog...');
-    const blogFiles = readMarkdownFiles('./blog', 'blog');
-    blogFiles.forEach(file => {
-      const record = processMarkdownContent(file.path, file.url);
-      if (record) records.push(record);
-    });
+    // Procesar blog (solo si existe la carpeta)
+    if (fs.existsSync('./blog')) {
+      console.log('📝 Procesando blog...');
+      const blogFiles = readMarkdownFiles('./blog', 'blog');
+      blogFiles.forEach(file => {
+        const record = processMarkdownContent(file.path, file.url);
+        if (record) records.push(record);
+      });
+    }
 
     console.log(`📊 Total de registros a indexar: ${records.length}`);
 

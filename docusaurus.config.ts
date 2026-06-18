@@ -162,9 +162,8 @@ const config: Config = {
       ],
     },
     algolia: {
-      // Reemplaza estos valores con tus credenciales de Algolia
-      appId: '3QKHV6ZLE5',
-      apiKey: 'e20c08963e89b1bf7e78dc78b4dbf5cf',
+      appId: 'F88R859OJR',
+      apiKey: '22f0b5450c4889e63067de9dba5c90a6',
       indexName: 'historiacea',
       
       // Configuraciones opcionales
