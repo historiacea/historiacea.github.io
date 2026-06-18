@@ -1,10 +1,37 @@
 /* Hero moderno a dos columnas — Historia de Cea */
 
+/* ---- Bloque unificado: hero + cards + welcome, sin cortes ---- */
+.heroBlock {
+  position: relative;
+  background: var(--cea-bg);
+  overflow: hidden;
+}
+
+/* Malla diagonal del escudo.
+   SVG tile externo: 220×220px con el escudo a 44px centrado,
+   80px de margen por cada lado = mucho espacio blanco entre repeticiones. */
+.escudoMalla {
+  position: absolute;
+  inset: -50%;
+  background-image: url('/img/escudo-tile.svg');
+  background-size: 220px 220px;
+  background-repeat: repeat;
+  opacity: 0.05;
+  mix-blend-mode: multiply;
+  transform: rotate(-18deg);
+  pointer-events: none;
+  z-index: 0;
+}
+[data-theme='dark'] .escudoMalla {
+  opacity: 0.05;
+  mix-blend-mode: screen;
+}
+
 .hero {
   position: relative;
   overflow: hidden;
-  padding: 5.5rem 0 5rem;
-  background: var(--cea-bg);
+  padding: 5.5rem 0 4rem;
+  background: transparent;
 }
 
 /* --- Fondo: textura de mapa tenue + manchas difuminadas --- */
@@ -22,6 +49,9 @@
 [data-theme='dark'] .mapBg {
   opacity: 0.1;
 }
+
+/* escudoBg ya no se usa — la malla la pone .escudoMalla */
+.escudoBg { display: none; }
 
 .blob1,
 .blob2 {
@@ -157,8 +187,6 @@
   .buttons {
     justify-content: center;
   }
-  /* El collage pasa a un cluster proporcional: posiciones y anchos en %
-     con aspect-ratio, para que escale limpio en cualquier pantalla. */
   .collage {
     width: 100%;
     max-width: 28rem;
@@ -169,8 +197,8 @@
   .p1 { width: 46%; height: auto; aspect-ratio: 3 / 2; top: 0; left: 4%; right: auto; bottom: auto; }
   .p2 { width: 48%; height: auto; aspect-ratio: 16 / 9; top: 10%; right: 2%; left: auto; bottom: auto; }
   .p3 { width: 34%; height: auto; aspect-ratio: 4 / 3; top: 44%; left: 0; right: auto; bottom: auto; }
-  .p4 { width: 40%; height: auto; aspect-ratio: 3 / 2; bottom: 2%; left: 28%; top: auto; right: auto; }
-  .p5 { width: 36%; height: auto; aspect-ratio: 16 / 9; bottom: 10%; right: 0; top: auto; left: auto; }
+  .p4 { width: 40%; height: auto; aspect-ratio: 3 / 2; top: 55%; left: 28%; right: auto; bottom: auto; }
+  .p5 { width: 36%; height: auto; aspect-ratio: 16 / 9; top: 68%; right: 0; left: auto; bottom: auto; }
 }
 
 @media (max-width: 480px) {
@@ -204,6 +232,7 @@
 .bandaOverlay {
   position: absolute;
   inset: 0;
+  z-index: 1;
   background: linear-gradient(
     180deg,
     rgba(16, 14, 12, 0.78) 0%,
@@ -211,9 +240,20 @@
     rgba(16, 14, 12, 0.8) 100%
   );
 }
+.bandaEscudo {
+  position: absolute;
+  inset: 0;
+  background-image: url('/img/escudo-cea.png');
+  background-size: 110px auto;
+  background-repeat: repeat;
+  opacity: 0.08;
+  pointer-events: none;
+  z-index: 0;
+}
+
 .bandaInner {
   position: relative;
-  z-index: 1;
+  z-index: 2;
   text-align: center;
   max-width: 760px;
 }

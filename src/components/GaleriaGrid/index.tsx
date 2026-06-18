@@ -51,16 +51,18 @@ export default function GaleriaGrid({ coleccion, filtro }: Props): JSX.Element {
     );
   }
 
+  const imgList = imgs.map((src) => ({ src, ficha: fichaDe(src, coleccion) }));
+
   return (
     <div className={styles.grid}>
-      {imgs.map((src, i) => (
+      {imgList.map((item, i) => (
         <button
-          key={src}
+          key={item.src}
           type="button"
           className={styles.celda}
-          aria-label={`Ampliar foto ${i + 1} de ${imgs.length}`}
-          onClick={() => open({ src, ficha: fichaDe(src, coleccion) })}>
-          <img src={src} alt="" loading="lazy" />
+          aria-label={`Ampliar foto ${i + 1} de ${imgList.length}`}
+          onClick={() => open(item, imgList, i)}>
+          <img src={item.src} alt="" loading="lazy" />
         </button>
       ))}
     </div>

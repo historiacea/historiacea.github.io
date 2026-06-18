@@ -125,16 +125,29 @@ const config: Config = {
       },
       items: [
         {
-          type: 'docSidebar',
-          sidebarId: 'historiaSidebar',
+          type: 'dropdown',
           position: 'right',
           label: 'Historia',
+          items: [
+            { to: '/docs/historia/intro', label: 'Introducción' },
+            { to: '/docs/historia/parte-1', label: 'I · La tierra antes del tiempo' },
+            { to: '/docs/historia/parte-2', label: 'II · Cea en tiempos de Roma' },
+            { to: '/docs/historia/parte-3', label: 'III · Alta Edad Media' },
+            { to: '/docs/historia/parte-4', label: 'IV · Señorío y monasterios' },
+            { to: '/docs/historia/parte-5', label: 'V · Conflictos y decadencia' },
+            { to: '/docs/historia/parte-6', label: 'VI · Ilustración y reformas' },
+            { to: '/docs/historia/parte-7', label: 'VII · El siglo XX' },
+            { to: '/docs/historia/parte-8', label: 'VIII · Cea en el siglo XXI' },
+          ],
         },
         {
-          type: 'docSidebar',
-          sidebarId: 'castilloSidebar',
+          type: 'dropdown',
           position: 'right',
           label: 'Castillo',
+          items: [
+            { to: '/docs/castillo', label: 'El castillo de un vistazo' },
+            { to: '/docs/castillo/fotos', label: 'Fotos' },
+          ],
         },
         {
           to: '/cronologia',

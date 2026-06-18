@@ -231,10 +231,25 @@ hr {
     padding-right: 0.5rem;
   }
 
-  /* El drawer móvil usa estructura propia (swizzle MobileSidebar/Layout);
-     solo garantizamos que el contenedor de Infima ocupe toda la altura. */
+  /* Drawer móvil — cubre toda la pantalla sin excepción */
+  :root {
+    --ifm-navbar-sidebar-width: 100vw;
+  }
   .navbar-sidebar {
-    height: 100% !important;
+    position: fixed !important;
+    top: 0 !important;
+    left: 0 !important;
+    width: 100vw !important;
+    height: 100dvh !important;
+    max-height: 100dvh !important;
+    display: flex !important;
+    flex-direction: column !important;
+    overflow: hidden !important;
+    z-index: 9990 !important;
+    transform: none !important;
+  }
+  .navbar-sidebar--show {
+    transform: none !important;
   }
   /* Logo centrado de forma absoluta SOLO en la barra superior (no en el panel
      desplegable), con ancho acotado para que no se solape con los iconos. */
@@ -270,8 +285,15 @@ hr {
   height: 2.6rem;
 }
 .navbar-sidebar .menu__link {
-  font-size: 1.05rem;
-  padding: 0.6rem 0.75rem;
+  font-size: 1.1rem;
+  padding: 0.75rem 1rem;
+}
+.navbar-sidebar .menu__list-item-collapsible {
+  font-size: 1.1rem;
+}
+.navbar-sidebar .menu__list .menu__link {
+  font-size: 0.95rem;
+  padding: 0.55rem 1rem 0.55rem 1.5rem;
 }
 
 /* En modo oscuro, el logo lleva texto oscuro: le ponemos una pastilla clara
@@ -543,7 +565,7 @@ hr {
 /* Logo del footer: el logo ancho con texto, sobre pastilla clara para que
    su fondo blanco quede integrado en el footer oscuro. */
 .footer__logo {
-  background: #f7f3ea;
+  background: #ffffff;
   padding: 0.6rem 1.2rem;
   border-radius: 12px;
   margin-top: 1.5rem;

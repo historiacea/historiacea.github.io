@@ -1,9 +1,19 @@
 /* Secciones de la home — estilo limpio */
 
-/* ---------- Secciones ---------- */
+/* ---------- Secciones — fondo blanco sólido, corte limpio contra la malla --- */
 .sections {
-  padding: 5.5rem 0;
+  padding: 5.5rem 0 6rem;
   background: var(--cea-bg);
+  position: relative;
+}
+
+/* sectionsEscudo ya no se usa — la malla la pone el heroBlock padre */
+.sectionsEscudo { display: none; }
+
+.sectionHeader,
+.grid {
+  position: relative;
+  z-index: 1;
 }
 
 .sectionHeader {
@@ -31,13 +41,13 @@
 .grid {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  gap: 1.25rem;
+  gap: 1.75rem;
 }
 
 .card {
   display: flex;
   flex-direction: column;
-  padding: 1.75rem;
+  padding: 2.5rem 2.25rem;
   background: var(--cea-surface);
   border: 1px solid var(--cea-line);
   border-radius: 14px;
@@ -90,17 +100,28 @@
   transform: translateX(4px);
 }
 
-/* ---------- Bienvenida ---------- */
+/* ---------- Bienvenida — card flotante sin corte de fondo --- */
 .welcome {
-  padding: 5rem 0 6rem;
-  background: var(--cea-bg-alt);
-  border-top: 1px solid var(--cea-line);
+  padding: 3.5rem 0 6rem;
+  background: transparent;
 }
 
 .welcomeInner {
-  max-width: 640px;
+  max-width: 680px;
   margin: 0 auto;
   text-align: center;
+  position: relative;
+  background: var(--cea-surface);
+  border: 1px solid var(--cea-line);
+  border-radius: 20px;
+  padding: 3rem 2.5rem;
+  box-shadow: 0 12px 40px rgba(16, 18, 22, 0.09);
+  overflow: hidden;
+  z-index: 1;
+}
+
+.welcomeEscudo {
+  display: none;
 }
 
 .welcomeTitle {
@@ -143,6 +164,13 @@
     margin: 0 auto;
   }
   .sections {
-    padding: 4rem 0;
+    padding: 4rem 0 4.5rem;
+  }
+  .welcome {
+    padding: 0 0 4rem;
+  }
+  .welcomeInner {
+    padding: 2.25rem 1.5rem;
+    border-radius: 16px;
   }
 }

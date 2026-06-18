@@ -85,6 +85,7 @@ export default function HomepageFeatures(): JSX.Element {
   return (
     <div ref={rootRef}>
       <section className={styles.sections}>
+        <div className={styles.sectionsEscudo} aria-hidden="true" />
         <div className="container">
           <div className={clsx(styles.sectionHeader, 'reveal')}>
             <Heading as="h2" className={styles.sectionTitle}>
@@ -105,6 +106,7 @@ export default function HomepageFeatures(): JSX.Element {
       <section className={styles.welcome}>
         <div className="container">
           <div className={clsx(styles.welcomeInner, 'reveal')}>
+            <div className={styles.welcomeEscudo} aria-hidden="true" />
             <Heading as="h2" className={styles.welcomeTitle}>
               Un pueblo que guarda mil años entre sus piedras
             </Heading>

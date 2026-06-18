@@ -95,6 +95,7 @@ function HomepageHeader() {
   return (
     <header className={styles.hero} ref={rootRef}>
       <div className={styles.mapBg} aria-hidden="true" />
+      <div className={styles.escudoBg} aria-hidden="true" />
       <div className={styles.blob1} aria-hidden="true" />
       <div className={styles.blob2} aria-hidden="true" />
 
@@ -142,6 +143,7 @@ function BandaPueblo() {
   return (
     <section className={styles.banda}>
       <div className={styles.bandaOverlay} />
+      <div className={styles.bandaEscudo} aria-hidden="true" />
       <div className={`container ${styles.bandaInner}`}>
         <span className={styles.bandaKicker}>Cejam civitatem mirificam</span>
         <Heading as="h2" className={styles.bandaTitulo}>
@@ -253,9 +255,12 @@ export default function Home(): JSX.Element {
     <Layout
       title="Mil años de historia de Cea (León)"
       description="La historia completa del pueblo de Cea (León): de los vacceos al siglo XXI, su castillo único en España, el puente sobre el río Cea, la Nodicia de Kesos y la memoria de sus gentes.">
-      <HomepageHeader />
-      <main>
+      <div className={styles.heroBlock}>
+        <div className={styles.escudoMalla} aria-hidden="true" />
+        <HomepageHeader />
         <HomepageFeatures />
+      </div>
+      <main>
         <BandaPueblo />
         <SeccionVideo />
         <SeccionCinta />
