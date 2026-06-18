@@ -170,10 +170,7 @@ const config: Config = {
       contextualSearch: true,
       searchPagePath: 'search',
       
-      // Configuraciones adicionales para español
-      searchParameters: {
-        facetFilters: ['language:es'],
-      },
+      searchParameters: {},
     },
     footer: {
       style: 'dark',
