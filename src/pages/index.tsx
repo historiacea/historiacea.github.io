@@ -14,11 +14,13 @@ import styles from './index.module.css';
 // Collage de fotos históricas del libro. `depth` controla la intensidad del
 // parallax con el ratón (mayor = se mueve más).
 const COLLAGE = [
-  { src: '/img/libro/img-055.png', alt: 'La torre de Cea y la villa medieval', cls: styles.p1, depth: 22, float: 3.4 },
-  { src: '/img/libro/img-028.png', alt: 'El puente sobre el río Cea', cls: styles.p2, depth: 38, float: 4.2 },
-  { src: '/img/libro/img-013.png', alt: 'Castro vacceo reconstruido', cls: styles.p3, depth: 14, float: 3.8 },
-  { src: '/img/libro/img-045.png', alt: 'Combate en la frontera medieval', cls: styles.p4, depth: 30, float: 4.6 },
-  { src: '/img/libro/img-002.png', alt: 'El paisaje del río Cea', cls: styles.p5, depth: 18, float: 3.2 },
+  { src: '/img/libro/img-003.png',              alt: 'Paisaje prehistórico del valle del Cea',      cls: styles.p1, depth: 22, float: 3.4 },
+  { src: '/img/libro/img-012.png',              alt: 'La vía romana por Cea',                       cls: styles.p2, depth: 38, float: 4.2 },
+  { src: '/img/libro/img-031.png',              alt: 'La civitas mirifica en la Alta Edad Media',   cls: styles.p3, depth: 14, float: 3.8 },
+  { src: '/img/libro/img-043.png',              alt: 'El castillo de Cea en la Baja Edad Media',    cls: styles.p4, depth: 30, float: 4.6 },
+  { src: '/img/ia/auge-medieval-xii-xiii.jpg',  alt: 'Auge medieval en los siglos XII y XIII',      cls: styles.p5, depth: 18, float: 3.2 },
+  { src: '/img/ia/monasterio-sahagun-medieval.jpg', alt: 'Monasterio de Sahagún en la Edad Media', cls: styles.p6, depth: 25, float: 3.9 },
+  { src: '/img/libro/img-053.png',              alt: 'El éxodo rural y la memoria de Cea',          cls: styles.p7, depth: 20, float: 4.1 },
 ];
 
 function HomepageHeader() {

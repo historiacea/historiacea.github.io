@@ -100,6 +100,10 @@ const config: Config = {
           if (existingPath === '/cronologia') {
             return ['/blog', '/blog/cronologia-interactiva'];
           }
+          // /docs/historia/parte-X redirige desde /docs/historia/parte-X/portada
+          if (/\/docs\/historia\/parte-\d+$/.test(existingPath)) {
+            return [`${existingPath}/portada`];
+          }
           return undefined;
         },
       },
@@ -167,10 +171,8 @@ const config: Config = {
       indexName: 'historiacea',
       
       // Configuraciones opcionales
-      contextualSearch: true,
+      contextualSearch: false,
       searchPagePath: 'search',
-      
-      searchParameters: {},
     },
     footer: {
       style: 'dark',
