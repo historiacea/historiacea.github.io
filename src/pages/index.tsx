@@ -112,10 +112,10 @@ function HomepageHeader() {
             historia del pueblo de Cea, desde sus orígenes geológicos hasta nuestros días.
           </p>
           <div className={styles.buttons}>
-            <Link className="button button--primary button--lg" to="/docs/historia/intro">
+            <Link className="button button--lg" style={{backgroundColor:'var(--cea-accent)',borderColor:'var(--cea-accent)',color:'#fff'}} to="/docs/historia/intro">
               Comenzar el recorrido
             </Link>
-            <Link className="button button--secondary button--lg" to="/cronologia">
+            <Link className="button button--lg" style={{borderColor:'var(--cea-accent)',color:'var(--cea-accent)'}} to="/cronologia">
               Ver la cronología
             </Link>
           </div>

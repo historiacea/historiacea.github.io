@@ -191,16 +191,17 @@
   }
   .collage {
     width: 100%;
-    max-width: 28rem;
-    height: auto;
-    aspect-ratio: 5 / 4;
+    max-width: 24rem;
+    height: 32rem;
     margin: 0 auto;
   }
-  .p1 { width: 46%; height: auto; aspect-ratio: 3 / 2; top: 0; left: 4%; right: auto; bottom: auto; }
-  .p2 { width: 48%; height: auto; aspect-ratio: 16 / 9; top: 10%; right: 2%; left: auto; bottom: auto; }
-  .p3 { width: 34%; height: auto; aspect-ratio: 4 / 3; top: 44%; left: 0; right: auto; bottom: auto; }
-  .p4 { width: 40%; height: auto; aspect-ratio: 3 / 2; top: 55%; left: 28%; right: auto; bottom: auto; }
-  .p5 { width: 36%; height: auto; aspect-ratio: 16 / 9; top: 68%; right: 0; left: auto; bottom: auto; }
+  .p1 { width: 52%; height: auto; aspect-ratio: 3 / 2;  top: 0;    left: 2%;  right: auto; bottom: auto; transform: rotate(-1.5deg); }
+  .p2 { width: 48%; height: auto; aspect-ratio: 3 / 2;  top: 0;    right: 0;  left: auto;  bottom: auto; transform: rotate(2deg); }
+  .p3 { width: 44%; height: auto; aspect-ratio: 4 / 3;  top: 26%;  left: 0;   right: auto; bottom: auto; transform: rotate(-3deg); }
+  .p4 { width: 48%; height: auto; aspect-ratio: 3 / 2;  top: 24%;  left: 26%; right: auto; bottom: auto; transform: rotate(1deg); }
+  .p5 { width: 40%; height: auto; aspect-ratio: 3 / 2;  top: 26%;  right: 0;  left: auto;  bottom: auto; transform: rotate(3.5deg); }
+  .p6 { width: 52%; height: auto; aspect-ratio: 16 / 9; top: 54%;  left: 2%;  right: auto; bottom: auto; transform: rotate(-2deg); }
+  .p7 { width: 44%; height: auto; aspect-ratio: 3 / 2;  top: 56%;  right: 0;  left: auto;  bottom: auto; transform: rotate(2.5deg); }
 }
 
 @media (max-width: 480px) {
