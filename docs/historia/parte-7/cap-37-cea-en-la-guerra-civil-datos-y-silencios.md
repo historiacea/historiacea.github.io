@@ -14,21 +14,21 @@ image: "/img/libro/img-063.png"
 
 _“Aquí no hubo frente. Pero sí hubo miedo. Y eso lo ocupaba todo.”_
 
-En **julio de 1936**, cuando estalló el [**alzamiento militar**](https://es.wikipedia.org/wiki/Guerra_civil_espa%C3%B1ola) contra la **Segunda República**, Cea cayó pronto bajo el control del **bando sublevado**. El término municipal y su **partido judicial**, **Sahagún**, quedaron del lado **franquista** desde los primeros días. No hubo **combates** en las calles, no se escucharon cañonazos ni se cavaron trincheras. Y, sin embargo, la guerra llegó igual. Llegó en **susurros, detenciones, requisas y miedos**.
+En **julio de 1936**, al estallar el [**alzamiento militar**](https://es.wikipedia.org/wiki/Guerra_civil_espa%C3%B1ola) contra la **Segunda República**, Cea quedó pronto bajo control del **bando sublevado**. El término municipal y su **partido judicial**, **Sahagún**, se situaron del lado **franquista** desde los primeros días. No hubo **combates** en sus calles ni frente de guerra, pero el conflicto afectó a la villa a través de **detenciones, requisas y represión**.
 
-Los testimonios hablan de **vecinos detenidos** por “**simpatizar con ideas rojas**”. No hay constancia de **fusilamientos masivos** en la villa, aunque el miedo era real, latente, como una presencia invisible. El **cura párroco**, **don Cándido**, bendijo la **entrada de los falangistas**, que no tardaron en requisar **grano** y **ganado** bajo la fórmula de **“requisa patriótica”**. En las cocinas, las conversaciones bajaron la voz. Los muros, de pronto, parecían tener oídos.
+Los testimonios mencionan **vecinos detenidos** por “**simpatizar con ideas rojas**”. No hay constancia de **fusilamientos masivos** en la villa, aunque el clima de miedo fue real. El **cura párroco**, **don Cándido**, bendijo la **entrada de los falangistas**, que requisaron **grano** y **ganado** bajo la fórmula de **“requisa patriótica”**.
 
-Algunos jóvenes de Cea fueron **movilizados** por los sublevados y enviados a frentes lejanos. **León, Cantabria, el Norte**. Varios no regresaron. Entre ellos, se recuerda el nombre de **Fermín Bueno**, incluido en el **Memorial de Caídos del Ejército Nacional** en **1940**. Para sus familias, no hubo ceremonias solemnes: solo la ausencia, un hueco en la mesa.
+Algunos jóvenes de Cea fueron **movilizados** por los sublevados y enviados a frentes lejanos —**León, Cantabria, el Norte**—. Varios no regresaron. Entre ellos se recuerda a **Fermín Bueno**, incluido en el **Memorial de Caídos del Ejército Nacional** en **1940**.
 
-Terminada la guerra, llegó **otro tipo de violencia**, menos visible pero constante. Fue la época de las **confiscaciones de tierras**, las **degradaciones públicas**, las **listas negras**. Los **maestros republicanos** fueron **expulsados** y sustituidos; las **mujeres** recuperaron el **luto perpetuo**; la **Guardia Civil** patrullaba las calles, aunque no era necesario: **el miedo ya patrullaba por sí solo**.
+Terminada la guerra, comenzó la represión de posguerra: **confiscaciones de tierras**, **degradaciones públicas** y **listas negras**. Los **maestros republicanos** fueron **depurados** y sustituidos, y la **Guardia Civil** controlaba la localidad.
 
-El pueblo aprendió a **vivir en silencio**. Se borraron cartas, se escondieron fotografías, se evitaron palabras. Y, con el tiempo, **el silencio se hizo costumbre**. Las generaciones que crecieron en esos años aprendieron a no preguntar demasiado. Los recuerdos permanecieron dispersos, como **piedras sueltas** en un campo arado.
+En las décadas siguientes se impuso el silencio sobre estos hechos: se ocultaron cartas y fotografías y se evitó hablar abiertamente del tema. Muchas de las personas que crecieron en aquellos años aprendieron a no preguntar, y buena parte de esta memoria quedó fragmentada.
 
 :::note Una guerra sin frente, pero con miedo
 Cea quedó del lado sublevado **desde julio de 1936**, sin combates en sus calles. La guerra llegó de otra forma: **detenciones** por «simpatizar con ideas rojas», **requisas** de grano y ganado, jóvenes **movilizados** a frentes lejanos (algunos no volvieron), y después la depuración de maestros y las listas negras. _«El miedo ya patrullaba por sí solo.»_
 :::
 
-Porque en Cea no hubo trincheras, ni batallas famosas, ni titulares de periódico. Pero sí hubo **miedo**, **ausencias** y **memoria rota**. Y ese rastro, invisible y profundo, **duró décadas**.
+En Cea no hubo trincheras ni grandes batallas, pero sí represión, detenciones y movilizaciones forzosas, cuyas consecuencias se prolongaron durante décadas.
 
 ---
 

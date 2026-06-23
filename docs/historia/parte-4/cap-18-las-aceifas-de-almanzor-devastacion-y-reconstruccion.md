@@ -12,11 +12,11 @@ image: "/img/libro/img-044.png"
 
 _“No quedó muro en pie ni campana que doblara.”_
 
-La prosperidad de la villa se vio brutalmente interrumpida en el año 988, cuando las tropas de Almanzor, caudillo y hábil estratega del califato de Córdoba, emprendieron una de sus más devastadoras aceifas. En su avance hacia el corazón del reino leonés, arrasó Sahagún y pasó por Cea, reduciendo a cenizas cosechas, iglesias y fortificaciones. Las crónicas relatan que “no quedó muro en pie ni campana que doblara”, testimonio del alcance de la destrucción.
+La prosperidad de la villa se vio interrumpida en el año 988, cuando las tropas de Almanzor, caudillo militar del califato de Córdoba, emprendieron una de sus aceifas más destructivas. En su avance hacia el interior del reino leonés, arrasó Sahagún y pasó por Cea, destruyendo cosechas, iglesias y fortificaciones. Las crónicas resumen el alcance del daño con la frase “no quedó muro en pie ni campana que doblara”.
 
-Esta incursión marcó un punto de inflexión: durante años, la villa y su alfoz tuvieron que rehacerse lentamente, reforzando sus defensas y reorganizando su estructura señorial para hacer frente a un contexto de inestabilidad crónica. El nieto de Bermudo, Pedro Fernández de Cea, mantuvo la autoridad condal mientras la familia consolidaba su prestigio con la fundación y dotación de monasterios, piezas clave tanto para el control económico como para la proyección ideológica del poder.
+La incursión marcó un punto de inflexión. Durante años, la villa y su alfoz tuvieron que reconstruirse poco a poco, reforzando las defensas y reorganizando su estructura señorial frente a un contexto de inestabilidad. El nieto de Bermudo, Pedro Fernández de Cea, mantuvo la autoridad condal, mientras la familia consolidaba su posición con la fundación y dotación de monasterios, claves tanto para el control económico como para el prestigio del linaje.
 
-Por estas fechas, el **Castillo Viejo de Cea** ya debía de alzarse sobre el promontorio que domina la villa, concebida no solo como defensa sino también como símbolo visible del linaje. Su silueta, recortada contra el horizonte, recordaba a propios y extraños que estas no eran simples tierras de cultivo, sino una plaza fuerte en la frontera.
+Por estas fechas, el **Castillo Viejo de Cea** ya debía de alzarse sobre el promontorio que domina la villa, no solo como defensa, sino también como símbolo del linaje. Su presencia recordaba que estas no eran simples tierras de cultivo, sino una plaza fuerte en la frontera.
 
 ![](/img/libro/img-045.png)
 

@@ -8,9 +8,9 @@ description: "Historia completa de Cea (León): vacceos, romanos, Reconquista, N
 
 # Historia de Cea, León
 
-En el corazón de la provincia de León, donde el río Cea serpentea entre campos dorados y colinas suaves, se alza un pueblo que guarda entre sus piedras más de mil años de historia. **Cea** no es solo un nombre en el mapa: es el testimonio vivo de generaciones que forjaron su destino en esta tierra de Castilla y León.
+En la provincia de León, junto al río Cea, se encuentra un pueblo con más de mil años de historia documentada. **Cea** ha sido a lo largo de los siglos enclave vacceo, paso romano, plaza fronteriza entre León y Castilla y cabeza de un señorío medieval.
 
-Este sitio nace del deseo de preservar la memoria colectiva, reuniendo relatos, documentos y tradiciones que han pasado de generación en generación. Aquí encontrarás desde los secretos geológicos que modelaron el paisaje hasta las historias de quienes caminaron por sus calles a lo largo de los siglos.
+Este sitio reúne relatos, documentos y tradiciones sobre la villa, desde la formación de su paisaje hasta la época actual, con el objetivo de conservar y difundir su historia.
 
 ## El recorrido
 

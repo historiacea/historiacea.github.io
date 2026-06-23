@@ -12,13 +12,13 @@ image: "/img/libro/img-003.png"
 
 ![](/img/libro/img-004.png)
 
-Aunque los lugares carecen de biografía, hay algunos que laten con más vida que las propias personas. Entre ellos, unos pocos guardan, además, **un secreto**.
+El origen del nombre de Cea es uno de los enigmas mejor guardados de su historia.
 
-¿Fue el **río** quien dio nombre a la **villa**, o acaso la villa al río? Poco sabemos de su origen, pero sí conocemos el linaje de sus vecinas: **Sahagún, Sahelices, San Pedro, Bustillo, Sotillo, Villamol, Villacalabuey**. Todas ellas nacidas de advocaciones a santos, descripciones de prados y arboledas, o de villas tardorromanas ya olvidadas.
+No está claro si fue el **río** quien dio nombre a la **villa** o al revés. De su origen sabemos poco, en contraste con el de las localidades vecinas: **Sahagún, Sahelices, San Pedro, Bustillo, Sotillo, Villamol o Villacalabuey** proceden de advocaciones a santos, de descripciones de prados y arboledas o de villas tardorromanas ya desaparecidas.
 
 **Teorías sobre el topónimo**
 
-Algunos autores han definido el topónimo como **“abismo, sima u oquedad del terreno”**, evocando las pozas que el río formaba en su discurrir. Para **Hubschmid**, procede de la raíz indoeuropea _Keia_, **“foso”**. Flussbett, en cambio, lo vincula con la idea de **“profundidad, hueco”**. Es posible que en tiempos antiguos el río, menos domado, se desplegara en brazos secundarios, lagunas y manantiales; sin embargo, no conservamos pruebas sólidas que permitan confirmar que aquel paisaje originara el nombre de la comarca.
+Algunos autores han definido el topónimo como **“abismo, sima u oquedad del terreno”**, en alusión a las pozas que formaba el río. Para **Hubschmid** procede de la raíz indoeuropea _Keia_, **“foso”**; Flussbett, en cambio, lo relaciona con la idea de **“profundidad, hueco”**. Es posible que en época antigua el río, menos encauzado, se ramificara en brazos secundarios, lagunas y manantiales, pero no hay pruebas firmes de que ese paisaje diera nombre a la comarca.
 
 Otros investigadores se remontan a [Ptolomeo](https://es.wikipedia.org/wiki/Claudio_Ptolomeo). En su _Geográfica_ menciona la ciudad astur de **Gigia**, situada entre Bergidem y Maliaca, que algunos identifican con la actual Cea. Según esta hipótesis, la evolución fonética de _Gigia_ a _Cea_ sería esperable desde el punto de vista filológico. No obstante, los documentos conservados no siempre respaldan esta tesis. **Ángel Morillo**, por ejemplo, advierte que las coordenadas que proporciona Ptolomeo **no se corresponden con ningún yacimiento arqueológico conocido**.
 
@@ -29,7 +29,7 @@ Otros investigadores se remontan a [Ptolomeo](https://es.wikipedia.org/wiki/Clau
 Ninguna está probada: **el origen del nombre sigue siendo un misterio.**
 :::
 
-Las fuentes medievales muestran, además, una **gran variación gráfica**: _Ceia, Zeia, Ceya, Cegia_. En un documento de **904** se cita la “carrera que discurrit de **Ceia** a Ceione”; en **937** aparece “Super **Ceia** civitate”; hacia **955** se lee “de **Zeia** at Melgare”. Paradójicamente, la primera mención escrita de _Cegia_ no se da hasta **980**, cuando un monje llamado **Semeno** [entregó allí dos quesos](https://es.wikipedia.org/wiki/Nodicia_de_kesos). Es decir, las formas documentales supuestamente “posteriores” **anteceden** a la que se consideraba más primitiva. [Sampiro](https://es.wikipedia.org/wiki/Sampiro) llegó incluso a describirla como **“Ceia civitatem mirificam”** en una obra de redacción incierta, recopilatoria de fuentes anteriores hoy perdidas. Las variantes _Zeia_ (**985**) y _Ceya_ (Dommos Sanctos) confirman que las lenguas en tránsito —del indoeuropeo al latín y de ahí a los romances incipientes— jugaron con la palabra, moldeándola sin reposo.
+Las fuentes medievales muestran, además, una **gran variación gráfica**: _Ceia, Zeia, Ceya, Cegia_. Un documento de **904** cita la “carrera que discurrit de **Ceia** a Ceione”; en **937** aparece “Super **Ceia** civitate”, y hacia **955** se lee “de **Zeia** at Melgare”. La primera mención escrita de _Cegia_ no llega hasta **980**, cuando un monje llamado **Semeno** [registró la entrega de dos quesos](https://es.wikipedia.org/wiki/Nodicia_de_kesos). Es decir, las formas supuestamente “posteriores” anteceden en realidad a la que se consideraba más antigua. [Sampiro](https://es.wikipedia.org/wiki/Sampiro) la describió como **“Ceia civitatem mirificam”** en una obra de datación incierta, basada en fuentes anteriores hoy perdidas. Las variantes _Zeia_ (**985**) y _Ceya_ (Dommos Sanctos) confirman que el paso del indoeuropeo al latín y de este a los primeros romances fue modelando la palabra.
 
 :::info El nombre en los documentos
 
@@ -44,7 +44,7 @@ Las fuentes medievales muestran, además, una **gran variación gráfica**: _Cei
 
 :::
 
-Y, pese a todas las hipótesis y disputas eruditas, **el misterio permanece**. _Ceia, Zeia, Ceya, Cegia, Zeya, Cea…_ Los nombres cambian, pero el enigma persiste. La historia se mezcla con la leyenda, como el rumor constante del río que todavía da vida a la villa.
+Pese a las distintas hipótesis, **el origen del nombre sigue sin resolverse**. _Ceia, Zeia, Ceya, Cegia, Zeya, Cea…_ las formas cambian, pero la pregunta de fondo permanece abierta.
 
 ---
 

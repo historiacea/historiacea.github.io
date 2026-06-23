@@ -204,13 +204,13 @@ export const CRONOLOGIA: Epoca[] = [
         titulo: 'Prisión real',
         texto: 'El **castillo de Cea** funciona como prisión real; alberga reclusos como **Sancho IV de Navarra**.',
         crucial: true,
-        href: '/docs/historia/parte-4/cap-25-la-fortaleza-primigenia-del-castro-al-castillo-viejo',
+        href: '/docs/historia/parte-4/cap-26-la-fortaleza-primigenia-del-castro-al-castillo-viejo',
         img: '/img/libro/img-051.png',
       },
       {
         fecha: '1081–1126',
         titulo: 'Urraca I, reina de León',
-        texto: '**Urraca I de León**, primera mujer en reinar plenamente sobre León, Galicia y Castilla, gobierna Cea como enclave estratégico y, según las crónicas, **veranea en su castillo**.',
+        texto: '**Urraca I de León**, primera mujer en reinar plenamente sobre León, Galicia y Castilla, gobierna Cea como **enclave estratégico** en la frontera entre León y Castilla.',
         crucial: true,
         href: '/docs/historia/parte-4/cap-21-urraca-i-origen-de-una-leyenda',
         img: '/img/libro/img-048.png',
@@ -219,12 +219,12 @@ export const CRONOLOGIA: Epoca[] = [
         fecha: '1109',
         titulo: 'Pogrom antisemita',
         texto: 'Tristemente documentado **pogrom antisemita** en Cea.',
-        href: '/docs/historia/parte-4/cap-24-judios-en-la-parba-una-aljama-medieval',
+        href: '/docs/historia/parte-4/cap-25-judios-en-la-parba-una-aljama-medieval',
       },
       {
         fecha: '1111',
         titulo: 'Batalla de Candespina',
-        texto: 'Cea y su castillo pasan temporalmente al **dominio portugués** durante la guerra entre Urraca y Alfonso I de Aragón.',
+        texto: 'Durante la guerra entre **Urraca** y su esposo **Alfonso I de Aragón**, Cea y su castillo caen temporalmente en manos de la alianza aragonesa-portuguesa.',
         href: '/docs/historia/parte-4/cap-21-urraca-i-origen-de-una-leyenda',
       },
       {
@@ -235,9 +235,15 @@ export const CRONOLOGIA: Epoca[] = [
       },
       {
         fecha: '1115',
-        titulo: 'Defensa victoriosa',
-        texto: '**Giraldo «El Diablo»** defiende Cea exitosamente frente a un ataque musulmán.',
-        href: '/docs/historia/parte-4/cap-22-de-la-posguerra-al-auge-medieval-siglos-xii-y-xiii',
+        titulo: 'Defensa de Cea',
+        texto: 'El adelantado **Giraldo**, lugarteniente de **Alfonso I el Batallador** (esposo de Urraca), defiende con éxito la villa en el marco de la guerra entre ambos reyes.',
+        href: '/docs/historia/parte-4/cap-23-de-la-posguerra-al-auge-medieval-siglos-xii-y-xiii',
+      },
+      {
+        fecha: '1117',
+        titulo: 'Urraca se refugia en Cea',
+        texto: '**Urraca** se refugia en Cea junto al arzobispo **Gelmírez**, en esa ocasión aliado de la reina.',
+        href: '/docs/historia/parte-4/cap-21-urraca-i-origen-de-una-leyenda',
       },
       {
         fecha: '1127',
@@ -248,13 +254,13 @@ export const CRONOLOGIA: Epoca[] = [
         fecha: '1128',
         titulo: 'Donaciones a Trianos',
         texto: 'Donaciones reales a **Trianos**: tierras de Cea pasan bajo influencia monástica.',
-        href: '/docs/historia/parte-4/cap-23-sahagun-trianos-y-eslonza-el-cordon-monastico',
+        href: '/docs/historia/parte-4/cap-24-sahagun-trianos-y-eslonza-el-cordon-monastico',
       },
       {
         fecha: '1181',
         titulo: 'Control monástico',
         texto: 'El **monasterio de Sahagún** y la **Orden de Santiago** adquieren control sobre Cea.',
-        href: '/docs/historia/parte-4/cap-23-sahagun-trianos-y-eslonza-el-cordon-monastico',
+        href: '/docs/historia/parte-4/cap-24-sahagun-trianos-y-eslonza-el-cordon-monastico',
       },
       {
         fecha: '1182–1185',
@@ -466,8 +472,8 @@ export const CRONOLOGIA: Epoca[] = [
       },
       {
         fecha: '2010',
-        titulo: 'Excavaciones arqueológicas',
-        texto: 'Excavaciones en el castillo documentan **restos medievales**.',
+        titulo: 'Prospección arqueológica',
+        texto: 'Una **prospección arqueológica** en el castillo documenta **restos medievales**.',
       },
       {
         fecha: '2014',

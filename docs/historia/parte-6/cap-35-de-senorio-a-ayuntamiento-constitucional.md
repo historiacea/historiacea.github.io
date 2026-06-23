@@ -14,11 +14,11 @@ image: "/img/libro/img-060.png"
 
 _“Ya no mandaban los condes. Mandaban los vecinos. Pero el pueblo seguía buscando pan.”_
 
-La gran transformación llegó en el **último tercio del siglo XIX**. Con ella se cerraba definitivamente el largo ciclo del **Antiguo Régimen**: desaparecían privilegios seculares, cambiaban las estructuras de propiedad y, poco a poco, los pueblos comenzaban a tomar conciencia de su propia voz. Pero en Cea, como en tantas villas rurales, el cambio fue menos una revolución que un **lento despojarse de viejas pieles**.
+La gran transformación llegó en el **último tercio del siglo XIX**, con el fin del **Antiguo Régimen**: desaparecían privilegios seculares y cambiaban las estructuras de propiedad. En Cea, como en otras villas rurales, el cambio fue gradual más que abrupto.
 
-Las [**desamortizaciones**](https://es.wikipedia.org/wiki/Desamortizaci%C3%B3n_en_Espa%C3%B1a) de **Mendizábal** (1836) y **Madoz** (1855) marcaron el punto de inflexión. Durante siglos, buena parte de los **campos, prados y eras** de la comarca habían pertenecido al **clero** o a las **órdenes monásticas**. De pronto, ese mundo se deshizo. Las tierras pasaron a **manos privadas** o al **Estado**, y muchas comunidades rurales asistieron a un cambio radical sin apenas entender sus consecuencias.
+Las [**desamortizaciones**](https://es.wikipedia.org/wiki/Desamortizaci%C3%B3n_en_Espa%C3%B1a) de **Mendizábal** (1836) y **Madoz** (1855) marcaron el punto de inflexión. Durante siglos, buena parte de los **campos, prados y eras** de la comarca había pertenecido al **clero** y a las **órdenes monásticas**. Con las nuevas leyes, esas tierras pasaron a **manos privadas** o al **Estado**.
 
-El símbolo más visible de esa ruptura fue la caída del **Monasterio de San Pedro de Eslonza**, antaño un centro espiritual y económico de enorme influencia en la zona. Fue **saqueado, desmantelado y vendido piedra a piedra**. Sus **retablos barrocos** acabaron dispersos por iglesias de **Sahagún** y **Gradefes**; sus **columnas** reposaron en corrales, y hasta algunos **sillares** encontraron nueva vida en la fachada del **pósito de Cea**. La grandeza medieval se trocó en despojos reutilizados, y las huellas del pasado quedaron **escondidas a simple vista**.
+El efecto más visible fue la caída del **Monasterio de San Pedro de Eslonza**, durante siglos un importante centro espiritual y económico de la zona. Fue **desmantelado y vendido por partes**. Sus **retablos barrocos** acabaron repartidos por iglesias de **Sahagún** y **Gradefes**, algunas de sus **columnas** se reutilizaron en corrales y varios **sillares** se emplearon en la fachada del **pósito de Cea**.
 
 En torno a 1869, en el contexto de las reformas municipales del siglo XIX en España, Cea debió consolidar su organización como ayuntamiento constitucional. Fue un momento clave en el que la antigua estructura de villa de realengo o vinculada a señorío dio paso a un modelo administrativo moderno, con representantes elegidos entre los propios vecinos y un marco normativo acorde con la legislación liberal de la época.
 
@@ -28,7 +28,7 @@ En torno a 1869, en el contexto de las reformas municipales del siglo XIX en Esp
 - **~1869** — Cea se consolida como **ayuntamiento constitucional**, con representantes elegidos entre los vecinos.
 :::
 
-En paralelo, el siglo trajo consigo las primeras herramientas del **Estado moderno**: los **censos**. Por fin, las cifras empezaban a dibujar una imagen más nítida de la comunidad. En **1887**, el **Instituto Nacional de Estadística** registraba en Cea:
+En paralelo, el siglo trajo las primeras herramientas estadísticas del **Estado moderno**: los **censos**. En **1887**, el **Instituto Nacional de Estadística** registraba en Cea:
 
 -   **1.102 habitantes**,  
     
@@ -36,16 +36,16 @@ En paralelo, el siglo trajo consigo las primeras herramientas del **Estado moder
     
 -   **2 escuelas** (una de niños y otra de niñas),  
     
--   **1 médico** y **1 comadrona**, guardianes de la salud y la vida en una época de alta mortalidad.  
+-   **1 médico** y **1 comadrona**.  
     
 
-Sobre el papel, el poder estaba ya en **manos del pueblo**. Pero la realidad seguía siendo tozuda: el hambre, las malas cosechas, los inviernos largos y la dependencia de los ciclos agrícolas mantenían a la villa bajo la misma fragilidad de siempre. Los nombres de las instituciones cambiaban, pero las preocupaciones seguían siendo las de antaño: **el pan, el monte, la escuela, la supervivencia**.
+Aunque la administración local pasó a manos elegidas entre los vecinos, las condiciones materiales apenas cambiaron: las malas cosechas, los inviernos largos y la dependencia de los ciclos agrícolas mantenían a la villa en una situación frágil. Las instituciones se modernizaban, pero las preocupaciones cotidianas seguían siendo las mismas.
 
-Y, sin embargo, algo había germinado. Cea comenzaba a entenderse como parte de una nueva España que, con todos sus titubeos, avanzaba hacia la modernidad. Entre los sillares reutilizados, las nuevas aulas y los padrones recién estrenados, **la comunidad se reconocía a sí misma**. Por primera vez, la historia del pueblo empezaba a escribirse desde dentro.
+Con todo, a finales del siglo XIX Cea quedó integrada en las estructuras administrativas del Estado liberal, con un ayuntamiento constitucional, escuelas públicas y registros estadísticos regulares.
 
 ### **El marquesado de Cea hoy**
 
-El **marquesado de Cea**, instituido en 1599 por Felipe III a favor de Cristóbal Gómez de Sandoval y Rojas, tiene origen en su espléndida conexión con los condes —luego duques— de Lerma, señores ancestrales de la villa de Cea. De entonces a aquí, el título ha atravesado siglos de historia y aristocracia, casi como un testigo mudo de la transición del poder señorial a la tierra trabajada por el sudor del campesino.
+El **marquesado de Cea**, instituido en 1599 por Felipe III a favor de Cristóbal Gómez de Sandoval y Rojas, tiene origen en su espléndida conexión con los condes —luego duques— de Lerma, señores de la villa de Cea. Desde entonces, el título se ha transmitido a lo largo de los siglos dentro de la nobleza española.
 
 En nuestra era contemporánea, el marquesado sigue vivo gracias a María Teresa Anchústegui y de Arteaga, quien recibió oficialmente el título en 2019. La sucesión fue resultado de una distribución familiar promovida bajo la nueva legislación de herencia, donde **Almudena de Arteaga**, su hermana mayor, ostentaba hasta entonces el marquesado, aunque conservó otros títulos como el ducado del Infantado.
 

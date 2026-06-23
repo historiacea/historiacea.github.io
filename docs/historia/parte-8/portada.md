@@ -12,9 +12,9 @@ description: "Tras el éxodo, la pregunta es otra: ¿cómo sigue viviendo un pue
 
 _Del año 2000 a hoy_
 
-Tras el éxodo, la pregunta es otra: ¿cómo sigue viviendo un pueblo con mil años de historia a sus espaldas? La respuesta está en lo que **permanece**: las **tradiciones vivas** —Las Candelas, las buras, los veranos— que aún reúnen a quienes vuelven.
+Tras el éxodo, la cuestión es cómo mantiene su actividad un pueblo con más de mil años de historia. Buena parte de la respuesta está en lo que **permanece**: las **tradiciones** —Las Candelas, las buras, los veranos— que siguen reuniendo a quienes regresan.
 
-Esta última parte mira al futuro sin olvidar el pasado: la **memoria, el patrimonio y la comunidad** como herramientas para que Cea siga siendo, ante todo, un lugar con nombre propio.
+Esta última parte se centra en el presente y el futuro de Cea: la **memoria, el patrimonio y la comunidad** como vías para conservar su identidad.
 
 ## Qué vas a encontrar en esta parte
 

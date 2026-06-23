@@ -207,7 +207,7 @@ const config: Config = {
             },
             {
               label: 'Colabora · envía fotos o documentos',
-              href: `mailto:${CONTACT_EMAIL}?subject=Colaboraci%C3%B3n%20Historia%20de%20Cea`,
+              to: '/colabora',
             },
           ],
         },

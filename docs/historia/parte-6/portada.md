@@ -12,9 +12,9 @@ description: "El estruendo de las guerras da paso al rumor de las ideas nuevas. 
 
 _Siglos XVIII – XIX_
 
-El estruendo de las guerras da paso al rumor de las **ideas nuevas**. Las luces de Feijoo y Jovellanos llegan también a estas tierras, y con ellas un siglo de reformas que cambiará para siempre la forma de gobernar y de poseer la tierra.
+Las guerras dejan paso a las **ideas de la Ilustración**. La influencia de Feijoo y Jovellanos llega también a estas tierras, junto con un siglo de reformas que transforma la forma de gobernar y de organizar la propiedad de la tierra.
 
-Es el tiempo del **retrato de Madoz**, de las guerras carlistas, de la desamortización y del paso de un viejo **señorío** a un moderno **ayuntamiento constitucional**: Cea entra, a tropezones, en la edad contemporánea.
+Es el tiempo del **retrato de Madoz**, de las guerras carlistas, de la desamortización y del paso de un viejo **señorío** a un moderno **ayuntamiento constitucional**: Cea entra en la época contemporánea.
 
 ## Qué vas a encontrar en esta parte
 

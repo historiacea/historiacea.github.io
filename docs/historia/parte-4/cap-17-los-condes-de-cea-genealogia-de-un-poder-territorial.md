@@ -14,7 +14,7 @@ image: "/img/libro/img-043.png"
 
 _“Antes que alcaldes, hubo condes. Antes que concejo, hubo linaje.”_
 
-A finales del siglo X, Cea emerge como cabeza de uno de los alfoces más extensos y estratégicos del Reino de León. Situada en un territorio de transición, donde los campos de cereal se funden con las fértiles riberas del río Cea, esta villa se convirtió en un punto clave para controlar las comunicaciones entre la meseta norte y las tierras del Duero. En esta frontera viva, donde los reinos se miraban con recelo y las alianzas podían cambiar el rumbo de la historia, nace el linaje de los condes de Cea, estrechamente vinculado a la propia familia real leonesa.
+A finales del siglo X, Cea era cabeza de uno de los alfoces más extensos y estratégicos del Reino de León. Situada en un territorio de transición, entre los campos de cereal y las riberas del río, controlaba las comunicaciones entre la meseta norte y las tierras del Duero. En esta zona de frontera, donde los reinos competían y las alianzas eran cambiantes, surgió el linaje de los condes de Cea, estrechamente vinculado a la familia real leonesa.
 
 La importancia de esta villa radicaba también en ser un lugar donde se cruzaban los caminos principales de la comarca. Así lo atestiguan varios documentos: en el año 904, se menciona la «carrera que discurrit de Ceia a Ceione»; en 949, la «karrera que discurrit a desde Mayorga»; en 955, la «karraria qui discurret de Zeia ad Melgare»; y, finalmente, en 961, la «karrera que discurrit a Legione ad Ceia».
 

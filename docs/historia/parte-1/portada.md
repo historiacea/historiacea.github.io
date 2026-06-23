@@ -12,9 +12,9 @@ description: "Antes que Cea fuese palabra, fue piedra, agua y viento. Antes de l
 
 _Desde la formación del paisaje hasta el siglo I a.C._
 
-Antes que Cea fuese palabra, fue **piedra, agua y viento**. Antes de los reyes, los monasterios y las guerras, hubo una tierra que se modeló durante millones de años: páramos calcáreos, el surco del río abriéndose paso, valles que un día serían trigales.
+Antes de los reyes, los monasterios y las guerras, hubo un territorio que se fue modelando durante millones de años: páramos calcáreos, el surco del río y los valles que con el tiempo serían trigales.
 
-En esta primera parte recorremos el escenario antes de que tuviera nombre y a sus primeros protagonistas: los **cazadores nómadas** que dejaron sílex en los caminos, y los **vacceos** que convirtieron la meseta en su corazón agrícola, justo antes de que Roma asomara en el horizonte.
+En esta primera parte se describe el escenario anterior a la presencia humana estable y a sus primeros pobladores: los **cazadores nómadas** que dejaron útiles de sílex y los **vacceos** que hicieron de la meseta su principal territorio agrícola, antes de la llegada de Roma.
 
 ## Qué vas a encontrar en esta parte
 

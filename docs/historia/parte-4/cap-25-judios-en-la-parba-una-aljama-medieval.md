@@ -1,12 +1,12 @@
 ---
 title: "La aljama judía de Cea, León: comunidad medieval en el cerro de la Parba"
-sidebar_label: "24. Judíos en la Parba: una aljama medieval"
-sidebar_position: 8
+sidebar_label: "25. Judíos en la Parba: una aljama medieval"
+sidebar_position: 9
 description: "La comunidad judía de Cea documentada desde 1110: su aljama en el cerro de la Parba, su papel en el comercio medieval y su trágico final con el pogrom de 1391."
 image: "/img/libro/img-050.png"
 ---
 
-# Capítulo 24. Judíos en la Parba: una aljama medieval
+# Capítulo 25. Judíos en la Parba: una aljama medieval
 
 ![](/img/libro/img-050.png)
 
@@ -20,11 +20,11 @@ La historia de los judíos en Cea es un reflejo a pequeña escala de lo que ocur
 
 Durante los siglos **XII y XIII**, la aljama de Cea se relacionaba con otras comunidades cercanas, como las de **Sahagún o Astorga**. Los judíos ceenses participaban en ferias, donde ofrecían productos más baratos que sus competidores cristianos y, sobre todo, crédito en tiempos de carestía. También ejercían como **notarios en contratos entre cristianos**, pues su fama de exactitud y neutralidad los convertía en garantes de la palabra escrita. Según la memoria popular, allí existió un [**micvé**](https://es.wikipedia.org/wiki/Micv%C3%A9) —baño ritual— y una **pequeña sinagoga**, sencilla pero suficiente para reunir a la comunidad en torno a la **Torá**.
 
-El mundo judío medieval tenía una **vida cultural vibrante**. Cada aljama, por pequeña que fuera, estaba organizada en torno al **kahal**, un consejo comunitario que regulaba desde los impuestos internos hasta las normas de convivencia. Los rabinos impartían enseñanza religiosa, mientras que las mujeres gestionaban buena parte de la vida doméstica y comercial. El calendario hebreo marcaba momentos de ayuno, fiesta y oración que convivían, a veces en tensión, con el calendario cristiano. En las calles de Cea, los vecinos verían a sus conciudadanos judíos cerrar sus tiendas en sábado, o encender las luces del **Sabbat** al atardecer del viernes.
+El mundo judío medieval tenía una **vida cultural intensa**. Cada aljama, por pequeña que fuera, se organizaba en torno al **kahal**, un consejo comunitario que regulaba desde los impuestos internos hasta las normas de convivencia. Los rabinos impartían la enseñanza religiosa y las mujeres gestionaban buena parte de la vida doméstica y comercial. El calendario hebreo marcaba ayunos, fiestas y oraciones que convivían con el calendario cristiano. En las calles de Cea, los vecinos veían a sus convecinos judíos cerrar las tiendas en sábado o encender las luces del **Sabbat** al atardecer del viernes.
 
 La convivencia entre cristianos y judíos en la España medieval fue, como en otras partes de Europa, **compleja y desigual**. Por un lado, los judíos eran tolerados como “**gente del Libro**”, bajo la protección legal del rey, que los consideraba **propiedad regia** y por tanto fuente de ingresos a través de impuestos especiales. Por otro lado, estaban sujetos a restricciones: no podían ocupar cargos de poder sobre cristianos, sus casas debían a veces distinguirse en el trazado urbano, y pagaban tributos específicos como la **pecha judiega**.
 
-Sin embargo, esta tolerancia práctica permitió que en Castilla y León florecieran comunidades activas en ciudades como **Toledo, León, Burgos, Valladolid o Salamanca**, cuyas aljamas contaban con sinagogas monumentales, escuelas rabínicas y redes comerciales internacionales. Incluso en villas más pequeñas como Cea, los judíos fueron **un motor silencioso de la economía local**, integrados en un entramado de relaciones comerciales que unía la meseta con la Meseta Sur y con los puertos del Cantábrico.
+Esta tolerancia práctica permitió que en Castilla y León se desarrollaran comunidades activas en ciudades como **Toledo, León, Burgos, Valladolid o Salamanca**, con sinagogas monumentales, escuelas rabínicas y redes comerciales internacionales. Incluso en villas más pequeñas como Cea, los judíos tuvieron un **papel relevante en la economía local**, integrados en un entramado comercial que unía la meseta norte con el sur peninsular y los puertos del Cantábrico.
 
 El equilibrio comenzó a resquebrajarse en el siglo XIV. La **peste negra** (1348) generó rumores contra los judíos, acusados de envenenar pozos o atraer el castigo divino. Aunque en Cea no se documentan ataques, en el imaginario colectivo castellano crecía la hostilidad. El gran punto de inflexión llegó en **1391**, cuando oleadas de [**pogromos**](https://es.wikipedia.org/wiki/Progromos_de_1391) arrasaron comunidades judías desde Sevilla hasta Castilla la Vieja. En Cea no se registraron matanzas, pero sí **conversiones forzadas y emigraciones silenciosas**. Muchos judíos optaron por convertirse al cristianismo —los llamados **conversos o cristianos nuevos**—, aunque a menudo siguieron practicando en secreto ritos judíos, lo que más tarde alimentaría la persecución inquisitorial.
 

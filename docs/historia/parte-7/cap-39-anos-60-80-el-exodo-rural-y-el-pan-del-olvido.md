@@ -14,9 +14,9 @@ image: "/img/libro/img-065.png"
 
 _“El pan se quedaba sin horno. Y las casas sin gente.”_
 
-Entre **1960 y 1980**, Cea vivió **una herida silenciosa**: el [**éxodo rural**](https://es.wikipedia.org/wiki/%C3%89xodo_rural_en_Espa%C3%B1a). En apenas dos décadas, **más de la mitad de su población** hizo las maletas y puso rumbo a **Vitoria, Bilbao, Barcelona, Madrid**, e incluso más allá de las fronteras, hacia **Suiza** o **Francia**. No fue una estampida; fue una **sangría lenta**, familiar, casi íntima… pero **irreversible**.
+Entre **1960 y 1980**, Cea sufrió un intenso [**éxodo rural**](https://es.wikipedia.org/wiki/%C3%89xodo_rural_en_Espa%C3%B1a). En apenas dos décadas, **más de la mitad de su población** emigró a **Vitoria, Bilbao, Barcelona o Madrid**, e incluso al extranjero, a **Suiza** o **Francia**. No fue una salida masiva y repentina, sino un goteo continuo y sostenido.
 
-Las causas fueron múltiples y se sumaron como capas sobre una misma grieta. La **actividad forestal**, antaño motor económico en el **monte de Riocamba**, entró en declive con la **mecanización** y las nuevas políticas agrarias. La **agricultura extensiva** perdió rentabilidad, golpeada por la competencia y los bajos precios del cereal. Los **molinos** que habían molido trigo durante siglos **callaron**. Las **panaderías tradicionales**, orgullo de la villa, cerraron una a una. También las **curtidurías**, que daban empleo y oficio, fueron desmanteladas.
+Las causas fueron varias. La **actividad forestal**, antes motor económico del **monte de Riocamba**, decayó con la **mecanización** y las nuevas políticas agrarias. La **agricultura extensiva** perdió rentabilidad por la competencia y los bajos precios del cereal. Los **molinos** que habían funcionado durante siglos se detuvieron, las **panaderías tradicionales** cerraron y las **curtidurías** fueron desmanteladas.
 
 El golpe final lo dio el **cierre del ferrocarril de vía estrecha** entre **Sahagún** y **La Bañeza**, que había tenido **parada en las inmediaciones de Cea**. Durante años, aquel tren fue el hilo que unía la villa con mercados, fábricas y oportunidades. Cuando las vías se oxidaron, el aislamiento se hizo más profundo.
 
@@ -29,13 +29,11 @@ Las consecuencias se sintieron pronto:
 -   **Las casas se tapiaron** con ladrillo rojo o quedaron **abandonadas**, con las vigas expuestas a la intemperie.  
     
 
-Los que permanecieron —los que **resistieron**— mantuvieron como pudieron la **vida rural**: **labranza, ovejas, caza**. Pero la **modernización agraria** terminó por cambiar también esas rutinas. Los **tractores sustituyeron a los jornaleros**, y las eras se quedaron sin el bullicio de antes. Ya **no había niños en los patios**.
+Quienes permanecieron mantuvieron como pudieron la **vida rural**: labranza, ovejas y caza. La **modernización agraria** transformó también esas tareas: los **tractores sustituyeron a los jornaleros** y las eras perdieron buena parte de su actividad anterior.
 
-El contraste era doloroso. Llegaron las **primeras comodidades modernas**: **agua corriente, alumbrado eléctrico, coches Renault 4L** en lugar de mulas. Pero llegaron tarde, **cuando ya casi no había quién las disfrutara**. Las calles se llenaron de silencio, un silencio distinto al de antes, sin risas infantiles, sin el rumor de los molinos, sin el humo de los hornos de pan.
+En esos años llegaron las **primeras comodidades modernas** —**agua corriente, alumbrado eléctrico, automóviles**—, pero lo hicieron cuando la población ya se había reducido de forma notable. Las calles, antes concurridas, quedaron mucho más vacías.
 
-Cea se iba **vaciando**. Y lo hacía **sin estruendo, sin titulares, sin protesta**. Fue un vaciamiento **lento, casi pudoroso**, como si el pueblo se retirara a una esquina de la historia para no molestar. Las llaves quedaban colgadas detrás de las puertas, los portones se cerraban con un último golpe seco, y las voces que llenaban las cocinas partían con sus dueños.
-
-El pan seguía siendo bueno, pero **los hornos estaban fríos**. Y, mientras tanto, las casas miraban el tiempo pasar, **con ventanas tapiadas y patios sin juegos**.
+El despoblamiento de Cea fue progresivo y poco visible desde fuera, pero profundo. Muchas viviendas se cerraron o se tapiaron, y buena parte de la actividad económica desapareció.
 
 :::info Por qué se vació Cea
 - **1960-1980** — más de **la mitad** de la población emigra a Vitoria, Bilbao, Barcelona, Madrid, Suiza o Francia.
@@ -44,8 +42,7 @@ El pan seguía siendo bueno, pero **los hornos estaban fríos**. Y, mientras tan
 - Consecuencias: escuelas y comercios cerrados, casas tapiadas con ladrillo rojo.
 :::
 
-Cea se vaciaba.
-Y lo hacía, como tantas cosas en la tierra castellana, **en silencio**.
+Como tantos pueblos de la España interior, Cea se integró así en el fenómeno de la despoblación rural que marcó la segunda mitad del siglo XX.
 
 ---
 

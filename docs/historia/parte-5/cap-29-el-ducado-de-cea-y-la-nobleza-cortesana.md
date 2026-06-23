@@ -14,7 +14,7 @@ image: "/img/libro/img-055.png"
 
 _“Nos llamaron ducado, pero no nos trajeron palacio. Solo más escudos en las tapias.”_
 
-La historia de Cea en los siglos XIV a XVII podría contarse como una larga partida de ajedrez entre linajes poderosos. Cada rey, cada noble, cada valido jugaba sus piezas, y el nombre de la villa cambiaba de manos sin que sus habitantes apenas intervinieran. En el centro de estos movimientos, las gentes del valle seguían arando, amasando pan y recogiendo leña, mientras su tierra se decidía en tratados, mayorazgos y escrituras reales.
+Entre los siglos XIV y XVII, la villa de Cea cambió de manos repetidamente entre linajes poderosos. Reyes, nobles y validos se disputaban su control, casi siempre sin intervención de sus habitantes, que seguían dedicados a la agricultura mientras la propiedad de la tierra se decidía en tratados, mayorazgos y escrituras reales.
 
 A mediados del siglo XIV, **Cea pertenecía a don Juan Alfonso de Alburquerque**, uno de los hombres más influyentes de la corte de **Pedro I de Castilla**. Pero en **1354**, tras caer en desgracia ante el rey, **Pedro I atacó con dureza sus dominios** en Tierra de Campos. Los cronistas cuentan que el monarca **tomó la fortaleza de Cea** —entonces en manos de Juan Díaz de Caduérniga— y **ordenó derribarla**, considerándola símbolo de la rebeldía alburquerqueña.
 
@@ -24,7 +24,7 @@ Pero la operación no fue tan simple. Los derechos sobre Cea estaban fragmentado
 
 El dominio de los **Sandoval** sobre Cea se vería pronto marcado por los conflictos con la corona. Cuando **Diego Gómez** se rebeló contra **Juan II**, el rey confiscó la villa y la entregó en **1448** al **marqués de Villena**. No obstante, en **1456** la villa regresó a manos de los Sandoval. Su heredero, **Fernando Gómez de Sandoval y Rojas**, mantuvo el control, pero continuó participando en sucesivas rebeliones contra la autoridad real. Durante la guerra civil que enfrentó al **infante Alfonso** con su hermano, el rey **Enrique IV**, Cea volvió a sufrir las consecuencias: en **1466** fue ocupada por los partidarios del monarca, aunque los Sandoval recuperaron la villa al año siguiente.
 
-Fue probablemente **Fernando** quien, consolidado el poder familiar, **ordenó levantar la torre de Cea**, no solo como símbolo defensivo, sino como afirmación de linaje. Un gesto de piedra para dejar claro quién mandaba en estas tierras.
+Fue probablemente **Fernando** quien, una vez consolidado el poder familiar, **ordenó levantar la torre de Cea**, tanto por su valor defensivo como por su carácter de afirmación del linaje sobre el territorio.
 
 ### El poder lejano: Cea bajo los Sandoval y Rojas
 
@@ -32,25 +32,23 @@ Con el paso de las décadas, la **casa de Sandoval y Rojas** fue escalando posic
 
 Ese hombre fue [**Francisco Gómez de Sandoval y Rojas**](https://es.wikipedia.org/wiki/Francisco_G%C3%B3mez_de_Sandoval) (1553-1625), nieto de aquellos Sandoval que siglos antes habían comprado la villa de Cea. Brillante, astuto y ambicioso, Francisco supo ganarse la confianza del entonces príncipe y futuro rey **Felipe III**, y tras su ascenso al trono en 1598, se convirtió en su **valido**: el verdadero centro de poder del reino.
 
-Felipe III, retraído y poco inclinado a la política activa, dejó en manos del Duque de Lerma —como sería conocido desde 1599, cuando recibió ese título— las decisiones más trascendentes del imperio. Y Lerma, que no era hombre que dejara pasar una oportunidad, convirtió su posición en **una maquinaria de favores, títulos y riquezas**. Se dice que su influencia fue tal que ningún nombramiento, concesión o privilegio escapaba a su control. Era, como lo describieron algunos cronistas, **“rey en todo menos en el nombre”**.
+Felipe III, poco inclinado a la política activa, dejó en manos del Duque de Lerma —título que recibió en 1599— las decisiones de gobierno. Lerma aprovechó su posición para acumular **favores, títulos y riquezas**, hasta el punto de controlar buena parte de los nombramientos y concesiones del reino. Algunos cronistas lo describieron como **“rey en todo menos en el nombre”**.
 
 En este contexto, la corona creó en **1604** el **Ducado de Cea** como parte de un entramado de recompensas destinado a consolidar la posición de su linaje. El título fue concedido a su hijo **Cristóbal Gómez de Sandoval y Rojas**, heredero de una fortuna monumental. Pero, pese a la grandilocuencia del gesto, **Cristóbal jamás puso un pie en Cea**.
 
 :::tip La paradoja del Ducado de Cea
 Cea dio nombre a un **ducado** (1604), un título de altísimo rango concedido por **Felipe III** al hijo del todopoderoso [**Duque de Lerma**](https://es.wikipedia.org/wiki/Francisco_G%C3%B3mez_de_Sandoval). Pero los duques **nunca vivieron aquí**: no levantaron palacios ni puentes, solo cobraron rentas. Para el campesino, el ducado fue _«otro escudo pintado en las tapias»_.
-::: Para la familia Sandoval, la villa no era más que un nombre en una lista de títulos que engordaban su prestigio.
+:::
 
-Mientras tanto, en la corte de Valladolid —trasladada allí en parte por influencia del propio Lerma— se organizaban fastuosas fiestas, desfiles de carros triunfales y banquetes interminables. El oro y la plata del imperio fluían por los pasillos de los palacios nobiliarios, y las ciudades competían por mostrar lealtad y magnificencia. Pero en Cea, **todo seguía igual**: los campesinos labraban, los molinos giraban sobre el río, los hornos humeaban con pan de centeno. Ni ducado, ni valido, ni hijo de valido cambiaron la vida cotidiana de la villa.
+Para la familia Sandoval, la villa era poco más que un nombre en su lista de títulos. Mientras en la corte de Valladolid —trasladada allí en parte por influencia del propio Lerma— se sucedían fiestas y banquetes, en Cea la vida cotidiana no cambió: los campesinos labraban, los molinos giraban sobre el río y los hornos cocían pan de centeno. El ducado no tuvo efectos prácticos sobre la villa.
 
-La figura del **Duque de Lerma**, sin embargo, acabaría envuelta en escándalo. Su acumulación de riquezas y cargos despertó envidias y tensiones en la corte. Sus enemigos lo acusaron de **corrupción masiva**, de manipular la Hacienda Real y de vender oficios públicos al mejor postor. La caída llegó en **1618**, cuando Felipe III, presionado por nuevas facciones cortesanas, lo destituyó y lo apartó del poder. Aun así, Lerma supo protegerse: logró que el papa le concediera el **cardenalato**, blindándose frente a posibles represalias judiciales. En palabras de la época, **“se vistió de púrpura para no vestir de luto”**.
+La figura del **Duque de Lerma** acabó envuelta en escándalo. Su acumulación de riquezas y cargos generó tensiones en la corte, y sus enemigos lo acusaron de **corrupción**, de manipular la Hacienda Real y de vender oficios públicos. Cayó en **1618**, cuando Felipe III lo destituyó. Aun así, consiguió que el papa le concediera el **cardenalato**, lo que lo protegía frente a posibles represalias judiciales.
 
-El **Ducado de Cea**, entretanto, seguía existiendo solo en los papeles, engordando genealogías y adornando blasones. Cristóbal Gómez de Sandoval heredó el título, pero su vida transcurrió entre palacios, consejos y alianzas matrimoniales. Para el campesino de Cea, aquel ducado era poco más que **otro escudo pintado en las tapias**, un eco lejano de un poder que no le pertenecía.
+El **Ducado de Cea**, entretanto, existía solo sobre el papel. Cristóbal Gómez de Sandoval heredó el título, pero su vida transcurrió entre palacios, consejos y alianzas matrimoniales. Los nuevos duques rara vez visitaron la villa: **no construyeron palacios, ni puentes, ni colegios**. Cobraban las rentas y ejercían la autoridad señorial, pero su vínculo con Cea era básicamente nominal.
 
-Sin embargo, aquel título era más honorífico que real. Los nuevos duques rara vez visitaron la villa; **no construyeron palacios, no levantaron puentes, no fundaron colegios**. Cobraban las rentas, eso sí, y ejercían autoridad señorial, pero su relación con Cea era más de **escudo heráldico** que de compromiso territorial. Mientras el nombre de la villa comenzaba a figurar en **tratados y genealogías nobiliarias por toda Europa**, el pueblo seguía siendo lo que siempre había sido: **pan, río y barro**.
+Un **censo parroquial de 1625** registra **1.172 habitantes**, **14 hornos de pan**, **dos mesones** para viajeros y **una escuela de gramática** sostenida por la parroquia, datos que reflejan la distancia entre la alta política y la vida local.
 
-Un **censo parroquial de 1625** habla de **1.172 habitantes**, **14 hornos de pan**, **dos mesones** para viajeros y **una escuela de gramática** sostenida por la parroquia. Entre la alta política y el trabajo cotidiano mediaban siglos de distancia.
-
-Hoy, el título de **Duque de Cea** sobrevive de forma casi fantasmal, **vacante y sin función**, absorbido simbólicamente por otras casas nobiliarias. Pero en las calles del pueblo, entre las tapias donde antaño se pintaban escudos, la memoria popular conserva otra verdad: los títulos pasan, las casas caen, las torres se erosionan… y, sin embargo, **el río sigue corriendo bajo el mismo puente**.
+Hoy, el título de **Duque de Cea** sigue existiendo de forma honorífica, **vacante o integrado en otras casas nobiliarias**, sin función efectiva sobre la villa.
 
 ---
 

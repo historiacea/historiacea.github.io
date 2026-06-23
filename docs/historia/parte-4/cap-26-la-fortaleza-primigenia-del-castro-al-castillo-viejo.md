@@ -1,12 +1,12 @@
 ---
 title: "Del castro prerromano al Castillo Viejo de Cea: historia de la fortaleza"
-sidebar_label: "25. La fortaleza primigenia: del castro al castillo viejo"
-sidebar_position: 9
+sidebar_label: "26. La fortaleza primigenia: del castro al castillo viejo"
+sidebar_position: 10
 description: "Evolución de las defensas de Cea: del castro prerromano al castillo de Alfonso III, prisión de García de Navarra en 1040 y destrucción parcial en 1356."
 image: "/img/libro/img-051.png"
 ---
 
-# Capítulo 25. La fortaleza primigenia: del castro al castillo viejo
+# Capítulo 26. La fortaleza primigenia: del castro al castillo viejo
 
 ![](/img/libro/img-051.png)
 
@@ -27,15 +27,22 @@ Aquella construcción primitiva, el **Castillo Viejo**, fue también **prisión 
 - **1354-1356** — tomado por **Pedro I** y luego **derribado** por las tropas de Enrique de Trastámara.
 :::
 
-En el **agitado tablero político del siglo XIV**, Cea volvió a ser un enclave codiciado. Su castillo, alzado sobre el cerro que domina la villa, controlaba los caminos que unían **Sahagún**, **Mayorga** y el **valle del Cea**, un corredor vital para el paso de tropas y provisiones. En **1354**, las fuerzas de [**Pedro I**](https://es.wikipedia.org/wiki/Pedro_I_de_Castilla) tomaron la fortaleza en su ofensiva hacia Sahagún, pero **dos años después** las mesnadas de [**Enrique de Trastámara**](https://es.wikipedia.org/wiki/Enrique_II_de_Castilla) respondieron con violencia: incendiaron parte de la villa, **destruyeron parcialmente el Castillo Viejo** y se perdieron valiosos **documentos parroquiales y concejiles**. Las crónicas resumen con frialdad aquel episodio: _“fue a Cea que la tenía Juan Díaz de Caduérniga, e diérongela, que era un castillo muy fuerte, e mandólo derribar”_. Para los vecinos, aquella frase escondía el inicio de **años de hambre, miedo e inestabilidad**.
+En el contexto político del siglo XIV, Cea volvió a ser un enclave codiciado. Su castillo, sobre el cerro que domina la villa, controlaba los caminos que unían **Sahagún**, **Mayorga** y el **valle del Cea**, un corredor importante para el paso de tropas y provisiones. En **1354**, las fuerzas de [**Pedro I**](https://es.wikipedia.org/wiki/Pedro_I_de_Castilla) tomaron la fortaleza en su ofensiva hacia Sahagún, pero **dos años después** las tropas de [**Enrique de Trastámara**](https://es.wikipedia.org/wiki/Enrique_II_de_Castilla) incendiaron parte de la villa, **destruyeron parcialmente el Castillo Viejo** y se perdieron **documentos parroquiales y concejiles**. Las crónicas resumen el episodio: _“fue a Cea que la tenía Juan Díaz de Caduérniga, e diérongela, que era un castillo muy fuerte, e mandólo derribar”_. Para los vecinos, supuso el inicio de un periodo de **dificultades e inestabilidad**.
 
-Es razonable imaginar aquel cerro como **un lienzo en blanco marrón**, cada piedra suelta removida por el viento, la brisa del valle colándose entre la maleza que fue apoderándose del recinto. Al subir, estarías **pisando sin querer cimientos de historia**: el latido de una villa que crecía a los pies de aquella **torre humilde, pero firme**. El eco de pisadas de caballos, gritos ahogados de guardias, el olor de la arcilla mojada, el frío de la piedra sin pulir: **sensaciones ancestrales** que permanecen en el aire, si uno se detiene a sentir.
+Hoy el cerro conserva apenas restos dispersos del recinto, cubiertos por la maleza. Bajo la superficie quedan los cimientos de la fortificación que durante siglos vigiló la villa y el valle.
 
 Sobre las **murallas del pueblo**, no hay referencias tan sólidas y documentadas como para describir una cerca bien definida antes del **siglo XIII**. Sin embargo, tratándose de una **villa de frontera en proceso de repoblación**, cabe imaginar que el núcleo habitado contaría con **alguna línea defensiva rústica**: tal vez un foso poco profundo, un parapeto de tierra o una empalizada de madera, que sirviera como **primer obstáculo** ante un ataque leve. Los documentos disponibles no mencionan una **cerca urbana consolidada** hasta periodos posteriores, lo que sugiere que **la defensa principal se volcaba en el cerro y su torre**, más que en un recinto amurallado complementario.
 
-Ese cerro, de forma **intrínsecamente defensiva**, bastaba para **disuadir posibles incursiones**: desde lo alto, los centinelas veían llegar **nubes de polvo** en el horizonte, escuchaban **el sonido amortiguado del paso de tropas** y se preparaban para alertar a la población, **encendiendo hogueras** o bajando con rapidez, aprovechando las curvas del sendero.
+<!-- TODO (mapa): incluir aquí un plano/mapa del Castillo Viejo y el trazado de la muralla, señalando:
+     - la ladera del castillo,
+     - la zona del cuartel de la Guardia Civil,
+     - la puerta de acceso a la muralla cercana al actual bar Conde,
+     - el posible puente.
+     Pendiente de encargar/dibujar. -->
 
-Así, hasta el **siglo XIII**, la defensa de **Cea** se anclaba en su relieve y en su **castro convertido en torre**, un **testigo pétreo** de la lucha por mantener este enclave. El **Castillo Viejo** fue **guardián humilde y decidido**: primero como castro indígena, luego como fortaleza de **madera y adobe**, **centinela natural y refugio de multitudes**. Y aunque hoy apenas queden **restos borrados por la maleza**, bajo tus pies **palpita su historia**, como un **pulso antiguo que aún late en el silencio del cerro**.
+La propia posición del cerro bastaba para **disuadir incursiones**: desde lo alto, los centinelas veían llegar las tropas a distancia y podían alertar a la población encendiendo hogueras o bajando con rapidez por el sendero.
+
+Así, hasta el **siglo XIII**, la defensa de **Cea** se apoyó en su relieve y en su **castro convertido en torre**. El **Castillo Viejo** pasó de castro indígena a fortaleza de **madera y adobe**, y aunque hoy apenas queden restos visibles, fue durante siglos el principal elemento defensivo de la villa.
 
 ---
 

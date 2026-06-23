@@ -12,9 +12,9 @@ description: "Dejamos atrás los castros vacceos y el mundo indígena de la Part
 
 _Siglo I a.C. – siglo V d.C._
 
-Dejamos atrás los **castros vacceos** y el mundo indígena de la Parte I. La meseta que conocíamos —de poblados en alto, cerámica pintada y guerreros que defendían su trigo— empieza ahora a transformarse despacio. No llega de golpe: Roma se filtra en el valle del Cea **como el agua entre la caliza**, primero con soldados y recaudadores, después con calzadas, villas y palabras nuevas que se quedarán para siempre.
+Tras los **castros vacceos** de la Parte I, la meseta empieza a transformarse. Roma se introduce en el valle del Cea de forma gradual: primero con soldados y recaudadores, después con calzadas, villas y un nuevo vocabulario que se mantendría con el tiempo.
 
-Durante estos cinco siglos, Cea pasa de ser frontera de pueblos celtibéricos a **engranaje discreto de un imperio**: un territorio de paso entre las tierras vacceas y las rutas hacia el norte, donde el grano valía tanto como las legiones que alimentaba.
+Durante estos cinco siglos, Cea pasa de ser frontera de pueblos celtibéricos a un punto secundario dentro del Imperio: un territorio de paso entre las tierras vacceas y las rutas hacia el norte, donde el grano resultaba tan valioso como las legiones a las que abastecía.
 
 ## Qué vas a encontrar en esta parte
 

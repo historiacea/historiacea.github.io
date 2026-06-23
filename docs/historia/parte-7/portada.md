@@ -12,9 +12,9 @@ description: "El siglo más convulso. Entre la construcción de Santa María com
 
 _1900 – 1999_
 
-El siglo más convulso. Entre la construcción de **Santa María** como promesa de futuro y los **datos y silencios de la Guerra Civil**, Cea vive de cerca las heridas de toda España.
+El siglo más convulso. Entre la construcción de **Santa María** y los **datos y silencios de la Guerra Civil**, Cea vive de cerca los conflictos que marcaron a toda España.
 
-Y luego, el gran vaciamiento: la **repoblación forestal de Riocamba**, el **éxodo rural** de los años 60 a 80 y el lento adiós de un mundo campesino que se apaga, dejando casas cerradas y el pan del olvido.
+Después llega el gran vaciamiento: la **repoblación forestal de Riocamba**, el **éxodo rural** de los años 60 a 80 y el declive del mundo campesino, que dejó numerosas casas cerradas.
 
 ## Qué vas a encontrar en esta parte
 

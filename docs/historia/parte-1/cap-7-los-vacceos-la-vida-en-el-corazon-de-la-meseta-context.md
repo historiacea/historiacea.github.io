@@ -12,7 +12,7 @@ image: "/img/libro/img-016.png"
 
 _"Entre los fértiles valles del Duero y los ríos que surcan la meseta, surgió un pueblo que cultivaba la tierra, forjaba el hierro y veneraba a los cielos: los vacceos, guardianes de una cultura que dejó su huella en cada cerro, cada río y cada camino."_
 
-En el vasto territorio al norte del Duero, donde los ríos abren valles fértiles y las parameras recortan el horizonte, surgió una cultura que los cronistas antiguos denominaron **vacceos**. Ya en **220 a. C.** [Polibio](https://es.wikipedia.org/wiki/Polibio) los menciona como un pueblo organizado y asentado. Su origen, según la investigación arqueológica actual, se remonta a **mediados del siglo V a. C.**, por evolución de la llamada [Cultura del Soto de Medinilla](https://es.wikipedia.org/wiki/El_Soto_de_Medinilla): comunidades de adobe, tapial y madera que, desde los siglos VII–VI a. C., consolidaron una agricultura cerealista intensiva, ampliaron la cabaña ganadera —en especial la bovina— y estrecharon contactos comerciales con regiones meridionales.
+En el territorio al norte del Duero, de valles fértiles y amplias parameras, se desarrolló la cultura que los autores antiguos llamaron **vacceos**. Ya en **220 a. C.** [Polibio](https://es.wikipedia.org/wiki/Polibio) los menciona como un pueblo organizado y asentado. Según la investigación arqueológica actual, su origen se remonta a **mediados del siglo V a. C.**, por evolución de la [Cultura del Soto de Medinilla](https://es.wikipedia.org/wiki/El_Soto_de_Medinilla): comunidades de adobe, tapial y madera que, desde los siglos VII–VI a. C., consolidaron una agricultura cerealista intensiva, ampliaron la ganadería —sobre todo bovina— y desarrollaron contactos comerciales con regiones del sur.
 
 :::info Los vacceos en cifras
 - **~45.000 km²** de territorio: toda la actual Valladolid y partes de León, Palencia, Burgos, Segovia, Ávila, Salamanca y Zamora.
@@ -73,7 +73,7 @@ La historia vaccea se entrelaza con las **guerras celtibéricas**. En **134 a. C
 
 ## Legado
 
-El legado vacceo perdura en **murallas, necrópolis, cerámicas, metalisterías** y en un **modelo urbano y comunitario** que ordenó la Meseta. Caminar hoy por los valles del **Duero y el Cea**, entre terrazas, colinas fortificadas y fragmentos de barro cocido, es vislumbrar ciudades planificadas, campos trigueños y rituales al ritmo de los astros: un mundo donde **tierra, río y guerra** marcaron el pulso de la vida.
+El legado vacceo perdura en **murallas, necrópolis, cerámicas y metalisterías**, y en un **modelo urbano y comunitario** que organizó buena parte de la Meseta. En los valles del **Duero y el Cea** todavía se reconocen terrazas, colinas fortificadas y fragmentos de cerámica que remiten a aquellas ciudades planificadas y a una economía basada en la tierra, los ríos y la guerra.
 
 :::tip Para tocar el mundo vacceo
 El yacimiento de **Pintia** (Padilla de Duero, Valladolid) **se puede visitar**: ciudad, necrópolis de Las Ruedas y aula arqueológica. Toda la información en el [Centro de Estudios Vacceos «Federico Wattenberg»](https://pintiavaccea.es/).

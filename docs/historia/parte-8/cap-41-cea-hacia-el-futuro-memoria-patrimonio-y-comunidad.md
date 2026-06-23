@@ -11,26 +11,21 @@ _"No sabemos qué será de Cea. Pero sí sabemos que, si alguien lo cuenta, algo
 
 ![Cea hoy: vista aérea de la villa leonesa al atardecer con la torre del castillo, el puente medieval y los campos de cereal](/img/ia/sahagun-trianos-eslonza.jpg)
 
-Cea vive en una frontera delicada: entre el riesgo de la despoblación y la oportunidad de un renacimiento rural. En las últimas décadas, el pueblo ha aprendido que su mayor riqueza está en su patrimonio histórico y natural, y que defenderlo es también defender su identidad.
+Cea se encuentra entre el riesgo de la despoblación y las posibilidades de recuperación que ofrece su patrimonio. En las últimas décadas, el pueblo ha apostado por la conservación de su legado histórico y natural como vía para reforzar su identidad.
 
-Ejemplo de ello es la lucha por el [**Castillo Nuevo de Cea**](/docs/castillo/historia): cuando la torre del homenaje amenazaba con derrumbarse, los vecinos se movilizaron, asociaciones culturales sumaron esfuerzos y, gracias a fondos europeos, en **2015** se logró consolidar su estructura. Hoy es posible visitarlo —libre o con guía—, y cada piedra restaurada es un símbolo de resistencia contra el olvido.
+Un ejemplo es la actuación sobre el [**Castillo Nuevo de Cea**](/docs/castillo/historia): cuando la torre del homenaje amenazaba ruina, los vecinos y varias asociaciones culturales reclamaron su consolidación, que se llevó a cabo en **2015** con fondos europeos. Hoy es posible visitarlo, libre o con guía.
 
 El mismo espíritu late en otras actuaciones: la iluminación del puente medieval para realzar su valor patrimonial; la señalética histórica en la iglesia de **Santa María**, la plaza mayor y el mirador del cerro de la Parba; o el impulso de rutas culturales que conectan Cea con **Sahagún**, **Almanza** y las sendas del **Camino de Santiago**. A ello se suma un turismo rural discreto pero creciente: casas rehabilitadas, senderismo por el **monte Riocamba**, cicloturismo, visitas a los monasterios cercanos y un renovado interés por el arte medieval leonés.
 
 El futuro, sin embargo, sigue teniendo desafíos: la falta de servicios, la escasez de niños, el riesgo de desconexión digital. Pero también brotan proyectos que miran hacia adelante: iniciativas como la **Semana de la Historia Viva**, con recreaciones y talleres escolares, o la propuesta de digitalizar archivos parroquiales y concejiles para acercar la memoria a nuevas generaciones.
 
-Al final, son las personas quienes sostienen la historia:  
-los vecinos que aún amasan pan en hornos de leña, los jubilados que cuidan los caminos, los jóvenes que vuelven en verano para organizar conciertos, limpiar el castillo o pintar murales. Los hijos de Cea que, aunque vivan lejos, siguen llevando el nombre grabado en la memoria.
+En último término, son las personas quienes mantienen viva esta historia: los vecinos que siguen residiendo en el pueblo, quienes cuidan los caminos y los edificios, y los jóvenes que regresan en verano para organizar actividades culturales o colaborar en la conservación del patrimonio.
 
-Cea quizá no vuelva a tener dos mil habitantes, pero tendrá algo igual de valioso: **presencia, voz, relato**. Porque mientras alguien recuerde y cuente su historia, las piedras, las fiestas, los puentes y las torres seguirán vivos.
+Es probable que Cea no recupere los habitantes que tuvo en el pasado, pero conserva un patrimonio histórico relevante. Documentarlo y difundirlo es una forma de mantenerlo accesible para las próximas generaciones.
 
-Cea ha sido testigo de milenios, pero también de silencios. Hubo tiempos en que la vida bullía entre sus riberas, cuando las campanas llamaban al trabajo y las cosechas llenaban los graneros. Sin embargo, las pestes, las guerras, los inviernos interminables y los caminos del éxodo hicieron su obra. Los despoblados se multiplicaron, los hogares se cerraron y, en más de una ocasión, **Cea pareció desaparecer del mapa**.
+A lo largo de su historia, Cea ha conocido etapas de prosperidad y de declive. Las epidemias, las guerras y, sobre todo, el éxodo rural del siglo XX redujeron drásticamente su población y dejaron numerosas casas cerradas. Hoy, buena parte de ese pasado pervive en sus edificios, en su paisaje y en la memoria de sus gentes.
 
-Hoy, las huellas de todo lo vivido reposan bajo la hierba, en las piedras de los muros caídos, en las vegas del río que sigue corriendo como entonces. El tiempo lo ha cambiado todo. No hay vuelta atrás: las voces que llenaban las calles se han ido, los nombres se han borrado, y el viento trae el eco de quienes partieron.
-
-Y, sin embargo, algo permanece. Quizás sea la memoria. Quizás la esperanza.
-
-Porque **la historia de Cea** —como la del propio hombre— no está escrita en su final, sino en su regreso. Tal vez un día el amor por estas tierras despierte de nuevo; tal vez el futuro vuelva a encontrarse con el pasado. Mientras tanto, **nos queda lo que siempre ha sostenido a quienes esperan: confiar y esperar**. Y cuando **el amor regrese**, **el legado estará aquí, aguardando**.
+Conservar y dar a conocer ese legado es el objetivo de este proyecto: reunir la historia documentada de la villa para que siga siendo conocida y valorada.
 
 :::tip Has llegado al final del recorrido
 Desde los **vacceos** hasta hoy, has recorrido más de **dos mil años** de historia de Cea. Si quieres ver todos los hitos de un vistazo, visita la [**cronología interactiva**](/cronologia). Y para conocer a fondo su fortaleza, la sección del [**Castillo de Cea**](/docs/castillo/historia) te espera.

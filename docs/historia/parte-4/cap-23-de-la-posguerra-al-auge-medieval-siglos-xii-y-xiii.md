@@ -1,11 +1,11 @@
 ---
 title: "Cea medieval en los siglos XII y XIII: auge tras las guerras"
-sidebar_label: "22. De la posguerra al auge medieval"
-sidebar_position: 6
+sidebar_label: "23. De la posguerra al auge medieval"
+sidebar_position: 7
 description: "Cea entre los siglos XII y XIII: el pogrom judío de 1109, la amnistía de 1127, donaciones de Alfonso VII y la consolidación del poder bajo los reyes medievales."
 ---
 
-# Capítulo 22. De la posguerra al auge medieval (siglos XII y XIII)
+# Capítulo 23. De la posguerra al auge medieval (siglos XII y XIII)
 
 _”Tras la guerra, las donaciones; tras las cenizas, los pactos.”_
 
@@ -15,7 +15,7 @@ _”Tras la guerra, las donaciones; tras las cenizas, los pactos.”_
 
 Tras la etapa de Urraca, Cea vivió un periodo marcado por **conflictos, reorganización y nuevos privilegios**. En **1109** se produjo un **pogrom anti-semita** que afectó a la villa, cuyas consecuencias solo se mitigaron décadas más tarde, con la **amnistía de Fernando VIII** en **1127**.
 
-La presencia nobiliaria y monástica seguía siendo intensa. En **1111**, los **aragoneses** llegaron a ocupar Cea temporalmente, y en **1113** se documenta la actuación del **abad de Sahagún** mientras **Urraca huía** de sus dominios. Poco después, en **1115**, el **adelantado Giraldo**, apodado _“El Diablo”_, defendió con éxito la villa frente a un ataque musulmán, y ese mismo año, **Urraca** encontró **refugio** en Cea junto al arzobispo **Gelmírez**, lo que demuestra la importancia estratégica de la plaza.
+La presencia nobiliaria y monástica seguía siendo intensa. En **1111**, los **aragoneses** llegaron a ocupar Cea temporalmente, y en **1113** se documenta la actuación del **abad de Sahagún** mientras **Urraca huía** de sus dominios. Poco después, en **1115**, el **adelantado Giraldo**, apodado _“El Diablo”_, defendió con éxito la villa frente a un ataque de tropas rivales en plena guerra entre León, Castilla y Aragón. Y en **1117**, **Urraca** encontró **refugio** en Cea junto al arzobispo **Gelmírez** —en esa ocasión aliado de la reina—, lo que demuestra la importancia estratégica de la plaza.
 
 En **1127**, **Alfonso VII** perdonó las deudas de **Tello Fernández**, preso en **Aeca** y enviado a Córdoba, reorganizando así los equilibrios de poder en la zona.
 

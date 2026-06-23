@@ -12,9 +12,9 @@ description: "Roma se apaga, pero su huella permanece en los caminos y en los no
 
 _Siglos VI – X_
 
-Roma se apaga, pero su huella permanece en los caminos y en los nombres. Sobre ese mundo en ruinas llegan primero los **visigodos** y, en el 711, la **invasión musulmana**, que convierte el valle del Cea en una **frontera inquieta** entre dos mundos.
+Roma desaparece como poder, pero deja su huella en los caminos y los nombres. Sobre ese territorio llegan primero los **visigodos** y, en el 711, la **invasión musulmana**, que convierte el valle del Cea en una **zona de frontera** entre dos mundos.
 
-Es la época en que Cea entra de lleno en la historia escrita: la **repoblación de Alfonso III**, la "civitas mirifica", el primer castillo sobre el viejo castro y un humilde pergamino —la **Nodicia de Kesos**— que guarda algunas de las primeras palabras en romance de toda España.
+Es la época en que Cea entra de lleno en la historia escrita: la **repoblación de Alfonso III**, la "civitas mirifica", el primer castillo sobre el viejo castro y un pergamino —la **Nodicia de Kesos**— que conserva algunas de las primeras palabras en romance de toda España.
 
 ## Qué vas a encontrar en esta parte
 

@@ -1,0 +1,175 @@
+.main {
+  padding: 3.5rem 0 5rem;
+}
+
+.inner {
+  max-width: 860px;
+}
+
+/* ── Cabecera ── */
+.header {
+  text-align: center;
+  margin-bottom: 3.5rem;
+}
+
+.kicker {
+  display: inline-block;
+  font-size: 0.78rem;
+  font-weight: 600;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--cea-accent);
+  margin-bottom: 0.75rem;
+}
+
+.titulo {
+  font-size: clamp(1.8rem, 4vw, 2.6rem);
+  color: var(--cea-ink);
+  margin: 0 0 1rem;
+}
+
+.subtitulo {
+  font-size: 1.08rem;
+  line-height: 1.7;
+  color: var(--cea-ink-soft);
+  max-width: 640px;
+  margin: 0 auto;
+}
+
+/* ── Tarjetas ── */
+.tarjetas {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 1.25rem;
+  margin-bottom: 3.5rem;
+}
+
+.tarjeta {
+  padding: 1.5rem 1.4rem;
+  background: var(--cea-bg-alt);
+  border: 1px solid var(--cea-line);
+  border-radius: 14px;
+}
+
+.tarjetaIcono {
+  font-size: 2rem;
+  display: block;
+  margin-bottom: 0.65rem;
+}
+
+.tarjetaTitulo {
+  font-size: 1rem;
+  font-weight: 700;
+  color: var(--cea-ink);
+  margin: 0 0 0.45rem;
+}
+
+.tarjeta p {
+  font-size: 0.9rem;
+  line-height: 1.6;
+  color: var(--cea-ink-soft);
+  margin: 0;
+}
+
+/* ── Bloque de contacto ── */
+.contacto {
+  margin-bottom: 2.5rem;
+}
+
+.contactoInner {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+  padding: 2rem 2.2rem;
+  background: var(--cea-accent-soft);
+  border: 1px solid rgba(154, 59, 63, 0.18);
+  border-radius: 16px;
+}
+
+.contactoTextos {
+  flex: 1;
+}
+
+.contactoTitulo {
+  font-size: 1.3rem;
+  color: var(--cea-ink);
+  margin: 0 0 0.5rem;
+}
+
+.contactoParrafo {
+  font-size: 0.95rem;
+  line-height: 1.65;
+  color: var(--cea-ink-soft);
+  margin: 0 0 1.1rem;
+}
+
+/* Email grande y visible */
+.emailDisplay {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.55rem;
+  font-size: 1.2rem;
+  font-weight: 700;
+  color: var(--cea-accent);
+  text-decoration: none;
+  background: var(--cea-bg);
+  border: 2px solid var(--cea-accent);
+  border-radius: 10px;
+  padding: 0.5rem 1rem;
+  transition: background 0.15s, color 0.15s;
+}
+
+.emailDisplay:hover {
+  background: var(--cea-accent);
+  color: #fff;
+  text-decoration: none;
+}
+
+.emailIcono {
+  font-size: 1.1rem;
+}
+
+.contactoNota {
+  font-size: 0.8rem;
+  color: var(--cea-muted);
+  margin: 0.55rem 0 0;
+}
+
+.contactoCta {
+  flex-shrink: 0;
+}
+
+.botonEnviar {
+  background-color: var(--cea-accent);
+  border-color: var(--cea-accent);
+  color: #fff;
+  white-space: nowrap;
+}
+
+.botonEnviar:hover {
+  background-color: var(--cea-accent-deep);
+  border-color: var(--cea-accent-deep);
+  color: #fff;
+}
+
+/* ── Nota de privacidad ── */
+.privacidad {
+  font-size: 0.82rem;
+  color: var(--cea-muted);
+  line-height: 1.6;
+  text-align: center;
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+/* ── Responsive ── */
+@media (max-width: 640px) {
+  .contactoInner {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .emailDisplay {
+    font-size: 1rem;
+  }
+}

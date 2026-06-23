@@ -14,15 +14,15 @@ image: "/img/libro/img-059.png"
 
 _“Llegaron con boina roja. Luego con tricornio. Luego con sable. Pero siempre nos pidieron grano.”_
 
-El **siglo XIX** fue, para Cea, un tiempo de sobresaltos y de incertidumbre, el más **militarizado** de su historia. Aunque la villa nunca se convirtió en escenario principal de grandes batallas, los ecos de la política nacional resonaron en sus calles, sus trigales y sus campanas. Las guerras, los bandos y los alzamientos atravesaron la vida cotidiana como ráfagas de viento frío, obligando a los ceenses a adaptarse, resistir… y, muchas veces, a callar.
+El **siglo XIX** fue, para Cea, el más **militarizado** de su historia. Aunque la villa no fue escenario de grandes batallas, los conflictos de la política nacional afectaron de lleno a la vida local. Las guerras, los bandos y los alzamientos obligaron a los vecinos a adaptarse y, en muchos casos, a soportar requisas y exigencias de los ejércitos.
 
-En **1809**, durante la [**invasión napoleónica**](https://es.wikipedia.org/wiki/Guerra_de_la_Independencia_Espa%C3%B1ola), una guarnición francesa se instaló en **Sahagún**, y desde allí se extendió una red de **requisas** que alcanzó Cea y sus aldeas vecinas. Pedían de todo: **alimentos, leña, alojamiento**, y poco había que negociar. El **invierno de 1811** fue especialmente duro: la villa se vio obligada a entregar **cuotas de trigo** para abastecer a los batallones franceses en retirada. La escena debió de repetirse casa por casa: vecinos escondiendo sacos en falsos suelos, mulas cargadas rumbo a Sahagún, la tensión de saber que cualquier negativa podía traer represalias.
+En **1809**, durante la [**Guerra de la Independencia**](https://es.wikipedia.org/wiki/Guerra_de_la_Independencia_Espa%C3%B1ola), una guarnición francesa se instaló en **Sahagún** y desde allí extendió una red de **requisas** que alcanzó a Cea y a sus aldeas. Se exigían **alimentos, leña y alojamiento**, con poco margen de negociación. El **invierno de 1811** fue especialmente duro: la villa tuvo que entregar **cuotas de trigo** para abastecer a los batallones franceses en retirada, bajo la amenaza de represalias en caso de negativa.
 
 Apenas dos décadas después, Cea se vio envuelta en otro conflicto. En **1835**, durante la [**Primera Guerra Carlista**](https://es.wikipedia.org/wiki/Primera_Guerra_Carlista), el antiguo **castillo** recuperó un papel estratégico. Sus ruinas, ya erosionadas por siglos de abandono, fueron **reutilizadas como punto de observación** por las **tropas liberales leonesas**. No hubo grandes enfrentamientos, pero la villa vivía bajo el permanente rumor de las armas y las lealtades divididas.
 
 El siglo avanzaba, pero las guerras no cesaban. En **1875**, durante la **Tercera Guerra Carlista**, **grupos de voluntarios realistas** recorrieron la comarca. Quemaban padrones de contribuciones, requisaban animales y, según las crónicas locales, **robaban cencerros “para fundirlos en cañones”**.
 
-Fue un siglo en el que **nació la idea de nación**, pero también se hizo carne la **experiencia del miedo**. En Cea, como en tantos pueblos, las fronteras entre bandos eran difusas: algunos vecinos **apoyaron a los carlistas**, otros **se inclinaron por los liberales**, pero la mayoría se alineaba con una lealtad más simple y profunda: **el pan**. Porque, más allá de las proclamas, lo que importaba era conservar la cosecha, alimentar a la familia, sobrevivir al invierno.
+En Cea, como en tantos pueblos, las divisiones entre bandos eran difusas: algunos vecinos **apoyaron a los carlistas** y otros **a los liberales**, pero para la mayoría la prioridad era conservar la cosecha y sostener a la familia, al margen de las proclamas políticas.
 
 :::info El siglo más militarizado
 - **1809-1811** — guarnición francesa en Sahagún; **requisas** de trigo y leña en Cea.
@@ -31,7 +31,7 @@ Fue un siglo en el que **nació la idea de nación**, pero también se hizo carn
 - La lealtad de la mayoría no fue a un bando, sino **al pan**: conservar la cosecha y sobrevivir.
 :::
 
-De aquel tiempo quedaron cicatrices en la memoria colectiva y marcas en el paisaje: las troneras del castillo, las trincheras casi borradas, las historias murmuradas al calor de las cocinas. El siglo XIX enseñó a Cea que, para seguir siendo, había que **resistir**, pero también **disimular**. Y entre la boina roja, el tricornio y el sable, la villa supo permanecer.
+De aquel periodo quedaron huellas en el paisaje y en la memoria local: las troneras del castillo, restos de trincheras y los relatos transmitidos de generación en generación. El siglo XIX fue para Cea una etapa de inestabilidad continua, marcada por las guerras y las exigencias de los distintos bandos.
 
 ---
 

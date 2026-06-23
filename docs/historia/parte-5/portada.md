@@ -12,9 +12,9 @@ description: "La prosperidad medieval se quiebra. El siglo XIV trae peste, hambr
 
 _Siglos XIV – XVII_
 
-La prosperidad medieval se quiebra. El siglo XIV trae **peste, hambre y guerra civil**: las tropas de Pedro I y Enrique de Trastámara se disputan Cea, y el viejo castillo arde y se derriba en plena lucha dinástica.
+La prosperidad medieval se interrumpe. El siglo XIV trae **peste, hambre y guerra civil**: las tropas de Pedro I y Enrique de Trastámara se disputan Cea, y el viejo castillo es incendiado y derribado durante el conflicto dinástico.
 
-Pero de las ruinas nace algo nuevo. Los **Sandoval** levantan el ducado y, con él, una **torre revolucionaria** —adelantada a su tiempo, pensada para la artillería— mientras la vida cotidiana se debate entre la religión, la superstición y el miedo.
+Sobre esa situación surge una nueva etapa. Los **Sandoval** crean el ducado y levantan una **torre de diseño avanzado**, pensada para la artillería, mientras la vida cotidiana combina religión, creencias populares y los efectos de las guerras.
 
 ## Qué vas a encontrar en esta parte
 
