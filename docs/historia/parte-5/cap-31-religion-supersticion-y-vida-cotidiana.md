@@ -1,12 +1,12 @@
 ---
 title: "Religión y vida cotidiana en Cea, León en los siglos XVI y XVII"
-sidebar_label: "26. Religión, superstición y vida cotidiana"
+sidebar_label: "31. Religión, superstición y vida cotidiana"
 sidebar_position: 4
 description: "La vida en Cea en los siglos XVI y XVII: el calendario litúrgico como eje del año, procesiones, supersticiones populares, hermandades y el papel de la iglesia."
 image: "/img/libro/img-056.png"
 ---
 
-# Capítulo 26. Religión, superstición y vida cotidiana
+# Capítulo 31. Religión, superstición y vida cotidiana
 
 ![](/img/libro/img-056.png)
 

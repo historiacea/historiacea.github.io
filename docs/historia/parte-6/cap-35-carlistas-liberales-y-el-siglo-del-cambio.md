@@ -1,12 +1,12 @@
 ---
 title: "Guerras carlistas en Cea, León: el siglo XIX más militarizado de su historia"
-sidebar_label: "30. Carlistas, liberales y el siglo del cambio"
+sidebar_label: "35. Carlistas, liberales y el siglo del cambio"
 sidebar_position: 3
 description: "Cea en el siglo XIX: ocupación francesa en 1809, Primera y Tercera Guerra Carlista, el castillo como puesto de observación y la lealtad real al pan, no a los bandos."
 image: "/img/libro/img-059.png"
 ---
 
-# Capítulo 30. Carlistas, liberales y el siglo del cambio
+# Capítulo 35. Carlistas, liberales y el siglo del cambio
 
 ![](/img/libro/img-059.png)
 

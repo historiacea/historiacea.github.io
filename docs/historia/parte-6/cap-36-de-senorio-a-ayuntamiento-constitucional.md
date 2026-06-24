@@ -1,12 +1,12 @@
 ---
 title: "De señorío a ayuntamiento: Cea, León, en la desamortización del siglo XIX"
-sidebar_label: "31. De señorío a ayuntamiento constitucional"
+sidebar_label: "36. De señorío a ayuntamiento constitucional"
 sidebar_position: 4
 description: "Las desamortizaciones de Mendizábal (1836) y Madoz (1855) transforman Cea: la venta del Monasterio de Eslonza y el nacimiento del ayuntamiento constitucional."
 image: "/img/libro/img-060.png"
 ---
 
-# Capítulo 31. De señorío a ayuntamiento constitucional
+# Capítulo 36. De señorío a ayuntamiento constitucional
 
 ![](/img/libro/img-060.png)
 

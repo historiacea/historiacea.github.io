@@ -1,12 +1,12 @@
 ---
 title: "El éxodo rural de Cea, León en los años 60-80: despoblación y olvido"
-sidebar_label: "35. Años 60–80: el éxodo rural y el pan del olvido"
+sidebar_label: "40. Años 60–80: el éxodo rural y el pan del olvido"
 sidebar_position: 4
 description: "Entre 1960 y 1980 Cea perdió más del 50% de su población por el éxodo rural: cierre del ferrocarril, molinos, escuelas y un pueblo que se vació hacia las ciudades."
 image: "/img/libro/img-065.png"
 ---
 
-# Capítulo 35. Años 60–80: el éxodo rural y el pan del olvido
+# Capítulo 40. Años 60–80: el éxodo rural y el pan del olvido
 
 ![](/img/libro/img-065.png)
 

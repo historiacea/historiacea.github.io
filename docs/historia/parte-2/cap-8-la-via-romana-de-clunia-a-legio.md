@@ -20,6 +20,8 @@ A partir de entonces, los **vacceos** —en estas llanuras cerealistas— y los 
 
 La tradición cristiana sitúa **a orillas del río Cea** el martirio de dos hermanos, **Facundo y Primitivo**, considerados por algunas fuentes hijos de **San Marcelo de León**. Según el relato, se negaron a sacrificar a los dioses romanos y, tras diversos tormentos, fueron **decapitados bajo el cónsul Ático**. Sus cuerpos fueron **arrojados al río Cea**.
 
+![Recreación del martirio de San Facundo y San Primitivo a orillas del río Cea](/img/libro/sanfacundoYsanprimitivo.jpg)
+
 El episodio no termina ahí, y es lo que conecta el martirio con la historia de la comarca. Unos cristianos que habían presenciado la ejecución **buscaron los cuerpos río abajo** y los hallaron en un recodo del Cea, entre la vegetación de la ribera. Allí, en un paraje entonces despoblado, les dieron sepultura. **Sobre esa tumba se levantó un primer templo**, y en torno a él fue creciendo un núcleo que con el tiempo se convertiría en el gran **monasterio y villa de Sahagún**. De hecho, el propio nombre de la villa procede del de los mártires: de _**Sanctum Facundum**_ («San Facundo») derivaron las formas _Sant Fagunt_ y _Sant Fagún_ hasta llegar a **Sahagún**.
 
 Aquel primer santuario no sobreviviría intacto: en los siglos de frontera e inestabilidad que siguieron, el lugar fue **destruido y saqueado** más de una vez antes de que el monasterio alcanzara su esplendor medieval. Pero el vínculo entre el río, el martirio y el origen de Sahagún quedó fijado en la memoria de toda la comarca.

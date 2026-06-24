@@ -1,12 +1,12 @@
 ---
 title: "Cea, León, en la Guerra Civil española: datos, silencios y represión"
-sidebar_label: "33. Cea en la Guerra Civil: datos y silencios"
+sidebar_label: "38. Cea en la Guerra Civil: datos y silencios"
 sidebar_position: 2
 description: "La Guerra Civil en Cea (León, 1936): control sublevado desde julio, detenciones, requisas de grano, maestros republicanos depurados y décadas de silencio forzado."
 image: "/img/libro/img-063.png"
 ---
 
-# Capítulo 33. Cea en la Guerra Civil: datos y silencios
+# Capítulo 38. Cea en la Guerra Civil: datos y silencios
 
 ![](/img/libro/img-063.png)
 

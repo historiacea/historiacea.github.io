@@ -1,12 +1,12 @@
 ---
 title: "Cea en el Diccionario de Madoz (1847): retrato de un pueblo leonés"
-sidebar_label: "29. Madoz en Cea: el retrato de 1847"
+sidebar_label: "34. Madoz en Cea: el retrato de 1847"
 sidebar_position: 2
 description: "Cómo era Cea, León, en 1847 según Madoz: 235 casas, 2 iglesias, 3 molinos harineros, 14 hornos de pan, hospital y pósito. Un retrato estadístico único."
 image: "/img/libro/img-058.png"
 ---
 
-# Capítulo 29. Madoz en Cea: el retrato de 1847
+# Capítulo 34. Madoz en Cea: el retrato de 1847
 
 ![](/img/libro/img-058.png)
 

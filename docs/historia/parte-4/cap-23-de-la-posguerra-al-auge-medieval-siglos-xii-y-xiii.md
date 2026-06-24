@@ -3,6 +3,7 @@ title: "Cea medieval en los siglos XII y XIII: auge tras las guerras"
 sidebar_label: "23. De la posguerra al auge medieval"
 sidebar_position: 7
 description: "Cea entre los siglos XII y XIII: el pogrom judío de 1109, la amnistía de 1127, donaciones de Alfonso VII y la consolidación del poder bajo los reyes medievales."
+image: "/img/ia/auge-medieval-xii-xiii.jpg"
 ---
 
 # Capítulo 23. De la posguerra al auge medieval (siglos XII y XIII)

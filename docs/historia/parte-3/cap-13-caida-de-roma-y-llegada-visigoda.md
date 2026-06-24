@@ -3,10 +3,12 @@ title: "Cea en la época visigoda: caída de Roma y nuevo orden en León"
 sidebar_label: "13. Caída de Roma y llegada visigoda"
 sidebar_position: 1
 description: "El fin del Imperio romano y la llegada de los visigodos a Cea, León: despoblamiento de villas romanas, primeros monasterios rurales y la diócesis de Astorga."
-image: "/img/libro/img-033.png"
+image: "/img/ia/visigodoscea.jpg"
 ---
 
 # Capítulo 13. Caída de Roma y llegada visigoda
+
+![La caída de Roma y la llegada visigoda al valle del Cea](/img/ia/visigodoscea.jpg)
 
 ![](/img/libro/img-033.png)
 

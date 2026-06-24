@@ -1,11 +1,11 @@
 ---
 title: "Cea, León: futuro, patrimonio y comunidad ante la despoblación rural"
-sidebar_label: "37. Cea hacia el futuro: memoria, patrimonio y comunidad"
+sidebar_label: "42. Cea hacia el futuro: memoria, patrimonio y comunidad"
 sidebar_position: 2
 description: "El futuro de Cea (León): consolidación del castillo en 2015, rutas culturales, digitalización de archivos y la apuesta por el turismo histórico frente a la despoblación."
 ---
 
-# Capítulo 37. Cea hacia el futuro: memoria, patrimonio y comunidad
+# Capítulo 42. Cea hacia el futuro: memoria, patrimonio y comunidad
 
 _"No sabemos qué será de Cea. Pero sí sabemos que, si alguien lo cuenta, algo quedará."_
 

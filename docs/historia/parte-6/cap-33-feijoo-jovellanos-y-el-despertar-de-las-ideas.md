@@ -1,12 +1,12 @@
 ---
 title: "La Ilustración en Cea, León: Feijoo, Jovellanos y las ideas del siglo XVIII"
-sidebar_label: "28. Feijoo, Jovellanos y el despertar de las ideas"
+sidebar_label: "33. Feijoo, Jovellanos y el despertar de las ideas"
 sidebar_position: 1
 description: "La Ilustración llega a Cea en el siglo XVIII: curas ilustrados, introducción de la patata, los censos agrarios y Jovellanos recorriendo las riberas del Cea."
 image: "/img/libro/img-057.png"
 ---
 
-# Capítulo 28. Feijoo, Jovellanos y el despertar de las ideas
+# Capítulo 33. Feijoo, Jovellanos y el despertar de las ideas
 
 ![](/img/libro/img-057.png)
 

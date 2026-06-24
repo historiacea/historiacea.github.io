@@ -1,11 +1,11 @@
 ---
 title: "Iglesia de Santa María de Cea: construida con piedras de la muralla medieval"
-sidebar_label: "32. Santa María: una promesa de futuro"
+sidebar_label: "37. Santa María: una promesa de futuro"
 sidebar_position: 1
 description: "La iglesia de Santa María de Cea se construyó entre 1909 y 1911 con piedra de la antigua muralla. Historia de un templo neorrománico que sustituyó a la románica San Martín."
 ---
 
-# Capítulo 32. Santa María: una promesa de futuro
+# Capítulo 37. Santa María: una promesa de futuro
 
 _”Derribaron la muralla, y con su piedra hicieron una iglesia. Una iglesia que aún sueña con ser más.”_
 
@@ -43,5 +43,5 @@ El estado del edificio refleja, en buena medida, la situación de la propia vill
 
 - Archivo parroquial de Cea — documentación de la construcción de Santa María (1909-1911) y el legado de Margarita de Modino.
 - Testimonio familiar sobre el desmantelamiento de la muralla (ladera del castillo y cuartel de la Guardia Civil) y la puerta junto al actual bar Conde.
-- Sobre la **piedra reaprovechada de la fortificación**, ver el [Capítulo 31 · La nueva torre de Cea](/docs/historia/parte-5/cap-31-la-nueva-torre-de-cea-una-fortaleza-adelantada-a-su-t).
+- Sobre la **piedra reaprovechada de la fortificación**, ver el [Capítulo 32 · La nueva torre de Cea](/docs/historia/parte-5/cap-32-la-nueva-torre-de-cea-una-fortaleza-adelantada-a-su-t).
 - [Arquitectura neorrománica](https://es.wikipedia.org/wiki/Arquitectura_neorrom%C3%A1nica) — el estilo del templo.

@@ -1,12 +1,12 @@
 ---
 title: "La Peste Negra en Cea, León: hambre, despoblación y recuperación"
-sidebar_label: "24. Peste, hambre y el nuevo monte"
+sidebar_label: "29. Peste, hambre y el nuevo monte"
 sidebar_position: 2
 description: "La Peste Negra llegó a Cea en 1349 via el Camino de Santiago. Oleadas hasta 1399, pérdida del 40% de población y la adquisición del monte de Riocamba como renacimiento."
 image: "/img/libro/img-054.png"
 ---
 
-# Capítulo 24. Peste, hambre y el nuevo monte
+# Capítulo 29. Peste, hambre y el nuevo monte
 
 ![](/img/libro/img-054.png)
 
@@ -42,4 +42,4 @@ La carga fiscal aumentaba: **diezmos, primicias y tributos extraordinarios** mer
 - [Peste negra](https://es.wikipedia.org/wiki/Peste_negra) — la pandemia que asoló Europa desde 1348.
 - Valdeón Baruque, J. (1969): _La crisis del siglo XIV en Castilla: revisión del problema_. Madrid.
 - Cabrillana, N. (1968): «La crisis del siglo XIV en Castilla: la Peste Negra en el obispado de Palencia», _Hispania_, 109 — el impacto demográfico en la región.
-- Sobre la pervivencia del **monte de Riocamba**, ver el [Capítulo 38 · La repoblación de Riocamba](/docs/historia/parte-7/cap-38-la-repoblacion-de-riocamba-y-la-vida-forestal).
+- Sobre la pervivencia del **monte de Riocamba**, ver el [Capítulo 39 · La repoblación de Riocamba](/docs/historia/parte-7/cap-39-la-repoblacion-de-riocamba-y-la-vida-forestal).

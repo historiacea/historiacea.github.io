@@ -1,12 +1,12 @@
 ---
 title: "El Ducado de Cea: los Sandoval y la nobleza castellana de los siglos XV-XVII"
-sidebar_label: "25. El Ducado de Cea y la nobleza cortesana"
+sidebar_label: "30. El Ducado de Cea y la nobleza cortesana"
 sidebar_position: 3
 description: "El señorío de Cea pasa a los Sandoval en 1418 por 30.000 florines de oro. Historia del Ducado de Cea y la familia que levantó el castillo artillero del siglo XV."
 image: "/img/libro/img-055.png"
 ---
 
-# Capítulo 25. El Ducado de Cea y la nobleza cortesana
+# Capítulo 30. El Ducado de Cea y la nobleza cortesana
 
 ![](/img/libro/img-055.png)
 

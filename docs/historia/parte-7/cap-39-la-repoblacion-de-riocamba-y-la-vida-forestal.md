@@ -1,12 +1,12 @@
 ---
 title: "Riocamba y la repoblación forestal de Cea en los años 40 del siglo XX"
-sidebar_label: "34. La repoblación de Riocamba y la vida forestal"
+sidebar_label: "39. La repoblación de Riocamba y la vida forestal"
 sidebar_position: 3
 description: "En 1944 el Estado repobló 2.500 ha en Riocamba, junto a Cea, León: escuela, ermita, serradero y familias de toda España creando un pueblo forestal hasta los años 70."
 image: "/img/libro/img-064.png"
 ---
 
-# Capítulo 34. La repoblación de Riocamba y la vida forestal
+# Capítulo 39. La repoblación de Riocamba y la vida forestal
 
 ![](/img/libro/img-064.png)
 
@@ -40,5 +40,5 @@ El bosque, sin embargo, sigue en pie y constituye un testimonio de aquel proyect
 ## Fuentes y referencias
 
 - Patrimonio Forestal del Estado / [ICONA](https://es.wikipedia.org/wiki/Instituto_Nacional_para_la_Conservaci%C3%B3n_de_la_Naturaleza) — planes de repoblación forestal de la posguerra (1944 en adelante).
-- Sobre el origen del **monte de Riocamba** como bien comunal, ver el [Capítulo 28 · Peste, hambre y el nuevo monte](/docs/historia/parte-5/cap-28-peste-hambre-y-el-nuevo-monte).
+- Sobre el origen del **monte de Riocamba** como bien comunal, ver el [Capítulo 29 · Peste, hambre y el nuevo monte](/docs/historia/parte-5/cap-29-peste-hambre-y-el-nuevo-monte).
 - Gómez Mendoza, J. (1992): _Ciencia y política de los montes españoles (1848-1936)_. Madrid, ICONA.

@@ -1,11 +1,11 @@
 ---
 title: "Tradiciones de Cea, León: Las Candelas, las buras y las fiestas del verano"
-sidebar_label: "36. Tradiciones vivas: Las Candelas, buras y veranos"
+sidebar_label: "41. Tradiciones vivas: Las Candelas, buras y veranos"
 sidebar_position: 1
 description: "Las fiestas tradicionales de Cea (León): Las Candelas del 2 de febrero, Virgen del Carmen en julio y el apodo de las Buras. Tradiciones vivas desde la Edad Media."
 ---
 
-# Capítulo 36. Tradiciones vivas: Las Candelas, buras y veranos
+# Capítulo 41. Tradiciones vivas: Las Candelas, buras y veranos
 
 _"La historia no está en los libros. Está en las sobremesas, en los bancos, en las sillas de enea que miran al sol."_
 
