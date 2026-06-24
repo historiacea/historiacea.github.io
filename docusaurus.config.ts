@@ -142,6 +142,7 @@ const config: Config = {
             { to: '/docs/historia/parte-6', label: 'VI · Ilustración y reformas' },
             { to: '/docs/historia/parte-7', label: 'VII · El siglo XX' },
             { to: '/docs/historia/parte-8', label: 'VIII · Cea en el siglo XXI' },
+            { to: '/docs/historia/galeria', label: 'Galería de imágenes' },
           ],
         },
         {
@@ -214,6 +215,10 @@ const config: Config = {
         {
           title: 'Información Legal',
           items: [
+            {
+              label: 'Galería de imágenes',
+              to: '/docs/historia/galeria',
+            },
             {
               label: 'Aviso Legal',
               to: '/docs/aviso-legal',

@@ -54,6 +54,9 @@ export const FICHAS_DEFECTO: Record<string, FichaFoto> = {
     fuente: 'Estudio «Castillo Actual de Cea» (PDF disponible en Reconstrucción 3D y planos)',
     desc: 'Plano de una de las plantas de la torre del castillo de Cea.',
   },
+  ia: {
+    fuente: 'Ilustración generada con IA para este proyecto · recreación sin valor documental, puede contener errores',
+  },
 };
 
 // ---- Fichas individuales ---------------------------------------------------
@@ -130,6 +133,137 @@ export const FICHAS: Record<string, FichaFoto> = {
     anio: 'c. 1480',
     fuente: 'Recreación digital creada para este proyecto',
     desc: 'El conjunto fortificado dominando el valle, tal y como pudo lucir a finales del siglo XV.',
+  },
+
+  // ---- Ilustraciones de IA de los capítulos -------------------------------
+  // El título resume la escena; la descripción es el pie usado en el capítulo.
+  'vacceos-anibal': {
+    titulo: 'Los vacceos y Aníbal',
+    desc: 'El ejército cartaginés cruza tierras de la meseta norte camino de los Alpes.',
+  },
+  'paganismo-cristianismo': {
+    titulo: 'Paganismo y cristianismo en el valle del Cea',
+    desc: 'La transición religiosa entre los siglos II y V.',
+  },
+  'visigodoscea': {
+    titulo: 'La caída de Roma y la llegada visigoda',
+    desc: 'Los visigodos se asientan en el valle del Cea tras el fin del poder romano.',
+  },
+  'nodicia-kesos-monje': {
+    titulo: 'La Nodicia de Kesos',
+    desc: 'El monje que escribió la Nodicia de Kesos hacia el año 974 en un scriptorium del valle del Cea.',
+  },
+  'historia-castillo': {
+    titulo: 'El primer castillo de Cea',
+    desc: 'Reconstrucción del primer castillo de Alfonso III sobre el cerro del río Cea en el siglo IX.',
+  },
+  'castillo-historia': {
+    titulo: 'Leyendas del castillo',
+    desc: 'El rey García de Navarra prisionero en las mazmorras de la fortaleza leonesa hacia el año 1040.',
+  },
+  'condes-de-cea': {
+    titulo: 'Los condes de Cea',
+    desc: 'Un conde leonés a caballo contempla el territorio desde el cerro sobre el río Cea, en el siglo X.',
+  },
+  'cronicas-medievales': {
+    titulo: 'Cea en las crónicas',
+    desc: 'Un monje benedictino en el scriptorium de Sahagún anota los nombres de tierras y quesos del alfoz de Cea en el siglo X.',
+  },
+  'entre-dos-coronas': {
+    titulo: 'Entre dos coronas',
+    desc: 'Cea entre León y Castilla en el siglo XI: dos ejércitos se enfrentan a orillas del río con el castillo al fondo.',
+  },
+  'urraca-i': {
+    titulo: 'Urraca I de León',
+    desc: 'Primera reina de León y Castilla, en los adarves del castillo de Cea hacia 1115.',
+  },
+  'urraca-i-reina': {
+    titulo: 'Urraca I, primera reina de Europa',
+    desc: 'Recreación de Urraca I de León, primera reina por derecho propio de Europa, sobre los adarves de un castillo medieval con el valle del Cea al fondo.',
+  },
+  'auge-medieval-xii-xiii': {
+    titulo: 'El auge medieval (siglos XII-XIII)',
+    desc: 'Una iglesia románica en construcción sobre las cenizas de las guerras medievales.',
+  },
+  'monasterio-sahagun-medieval': {
+    titulo: 'El Monasterio de Sahagún',
+    desc: 'Vista aérea del gran centro cluniacense del valle del Cea en su esplendor medieval, en el siglo XII.',
+  },
+  'aljama-judia-cea': {
+    titulo: 'La aljama judía de Cea',
+    desc: 'El barrio judío medieval en el cerro de la Parba: calles estrechas y la sinagoga.',
+  },
+  'ducado-de-cea': {
+    titulo: 'El Ducado de Cea y los Sandoval',
+    desc: 'Fernando de Sandoval revisa los planos de la nueva torre artillera hacia 1480.',
+  },
+  'diseno-artillero-castillo': {
+    titulo: 'El diseño artillero del castillo',
+    desc: 'Sección de la planta con las cuatro torrecillas de flanqueo y las bóvedas para cañones del siglo XV.',
+  },
+  'reconstruccion-cuarta-torre': {
+    titulo: 'La cuarta torrecilla (recreación)',
+    desc: 'Reconstrucción especulativa de la cuarta torrecilla en pie, disparando el cañón desde la tronera.',
+  },
+  'guerras-dinasticas': {
+    titulo: 'Las guerras dinásticas',
+    desc: 'La guerra civil castellana de 1356: el incendio de Cea por las tropas de Enrique de Trastámara.',
+  },
+  'peste-negra-cea': {
+    titulo: 'La Peste Negra en Cea',
+    desc: 'La peste llega a Cea en 1349: calles vacías y supervivientes en una villa castellana devastada.',
+  },
+  'religion-vida-cotidiana': {
+    titulo: 'Religión y vida cotidiana',
+    desc: 'Procesión religiosa por las calles de piedra de la villa castellana en el siglo XVII.',
+  },
+  'feijoo-ilustracion': {
+    titulo: 'La Ilustración llega a Cea',
+    desc: 'Un cura ilustrado enseña a leer a niños en una escuela rural leonesa del siglo XVIII.',
+  },
+  'madoz-en-cea': {
+    titulo: 'Cea según Madoz (1847)',
+    desc: 'Recreación de la villa leonesa con sus molinos, hornos de pan y el puente medieval.',
+  },
+  'madoz-llega-cea': {
+    titulo: 'Pascual Madoz llega a Cea',
+    desc: 'El geógrafo a caballo ante el puente de ocho arcos y la torre en ruinas al fondo, en 1847.',
+  },
+  'guerras-carlistas': {
+    titulo: 'Las guerras carlistas',
+    desc: 'Soldados carlistas marchando por la meseta castellana en el siglo XIX.',
+  },
+  'desamortizacion-eslonza': {
+    titulo: 'La desamortización de Eslonza',
+    desc: 'Las ruinas del Monasterio de Eslonza tras la desamortización de Mendizábal en 1836: piedras vendidas y retablos dispersos.',
+  },
+  'iglesia-santa-maria': {
+    titulo: 'La iglesia de Santa María',
+    desc: 'En construcción en 1909, levantada con piedras del castillo medieval.',
+  },
+  'guerra-civil-cea': {
+    titulo: 'La Guerra Civil en Cea',
+    desc: 'Verano de 1936: soldados franquistas en la plaza del pueblo ante vecinos atemorizados.',
+  },
+  'reforestacion-riocamba': {
+    titulo: 'La reforestación de Riocamba',
+    desc: 'Trabajadores plantando pinos en la ladera junto a Cea hacia 1950.',
+  },
+  'exodo-rural': {
+    titulo: 'El éxodo rural',
+    desc: 'Años 60: una familia leonesa carga sus pertenencias para marcharse al norte de España.',
+  },
+  'candelas-cea': {
+    titulo: 'La fiesta de Las Candelas',
+    desc: 'La procesión con mantones y capas recorre las calles de la villa el 2 de febrero.',
+  },
+  'sahagun-trianos-eslonza': {
+    titulo: 'Cea hoy',
+    desc: 'Vista aérea de la villa leonesa al atardecer con la torre del castillo, el puente medieval y los campos de cereal.',
+  },
+  'castillo-estado-actual': {
+    titulo: 'El estado actual del castillo',
+    desc: 'La torre en ruina progresiva con los zunchos metálicos de la consolidación de 2015.',
   },
 };
 
