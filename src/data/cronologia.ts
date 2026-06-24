@@ -59,7 +59,6 @@ export const CRONOLOGIA: Epoca[] = [
         titulo: 'Resistencia indígena',
         texto: 'Combate singular entre **Publio Cornelio Escipión Emiliano** y un guerrero intercatiense; símbolo del choque entre Roma y los pueblos indígenas.',
         href: '/docs/historia/parte-2/cap-8-la-via-romana-de-clunia-a-legio',
-        img: '/img/libro/img-023.png',
       },
       {
         fecha: '133 a.C.',
@@ -83,7 +82,6 @@ export const CRONOLOGIA: Epoca[] = [
         texto: 'Construcción de la **vía romana Clunia–Legio**, que pasa cerca de Cea y convierte la zona en un nodo estratégico.',
         crucial: true,
         href: '/docs/historia/parte-2/cap-8-la-via-romana-de-clunia-a-legio',
-        img: '/img/libro/img-023.png',
       },
       {
         fecha: 'Siglos I–IV d.C.',
@@ -127,7 +125,6 @@ export const CRONOLOGIA: Epoca[] = [
         texto: 'La tradición local relata que **Pelayo** se refugió en Cea tras enfrentarse a Witiza.',
         crucial: true,
         href: '/docs/historia/parte-3/cap-14-la-invasion-musulmana-la-linea-del-cea-y-witiza',
-        img: '/img/libro/img-035.png',
       },
       {
         fecha: '866–910',
@@ -160,7 +157,6 @@ export const CRONOLOGIA: Epoca[] = [
         texto: '**Ordoño II** delimita la diócesis de León: _“in riuulo Ceia, subtus Castro **Abaiub**”_ —en el río Cea, bajo el **Castro Abaiub**—, nombre del cerro fortificado donde se alzaría el castillo.',
         crucial: true,
         href: '/docs/historia/parte-4/cap-19-documentos-caminos-y-monasterios-cea-en-las-cronicas',
-        img: '/img/libro/img-046.png',
       },
       {
         fecha: '937',
@@ -172,7 +168,6 @@ export const CRONOLOGIA: Epoca[] = [
         titulo: 'Venta junto a Santa María y el Castro Abayub',
         texto: '**Lupe** y sus hermanos **Hakam** y **Ayub** venden al abad **Iquila** unas tierras a orillas del Cea, junto a la **iglesia de Santa María**, al lado del **Castro Abayub**.',
         href: '/docs/historia/parte-4/cap-19-documentos-caminos-y-monasterios-cea-en-las-cronicas',
-        img: '/img/libro/img-046.png',
       },
       {
         fecha: '950',
@@ -237,14 +232,12 @@ export const CRONOLOGIA: Epoca[] = [
         titulo: 'Batalla de Candespina',
         texto: 'Durante la guerra entre **Urraca** y su esposo **Alfonso I de Aragón**, Cea y su castillo caen temporalmente en manos de la alianza aragonesa-portuguesa.',
         href: '/docs/historia/parte-4/cap-21-urraca-i-origen-de-una-leyenda',
-        img: '/img/libro/img-048.png',
       },
       {
         fecha: '1113',
         titulo: 'Urraca recupera Cea',
         texto: 'Con tropas gallegas, **Urraca** recupera Sahagún, Carrión y el **castillo de Cea**, mientras el abad de Sahagún actúa en la villa.',
         href: '/docs/historia/parte-4/cap-21-urraca-i-origen-de-una-leyenda',
-        img: '/img/libro/img-048.png',
       },
       {
         fecha: '1115',
@@ -258,7 +251,6 @@ export const CRONOLOGIA: Epoca[] = [
         titulo: 'Urraca se refugia en Cea',
         texto: '**Urraca** se refugia en Cea junto al arzobispo **Gelmírez**, en esa ocasión aliado de la reina.',
         href: '/docs/historia/parte-4/cap-21-urraca-i-origen-de-una-leyenda',
-        img: '/img/libro/img-048.png',
       },
       {
         fecha: '1127',
@@ -277,7 +269,6 @@ export const CRONOLOGIA: Epoca[] = [
         titulo: 'Control monástico',
         texto: 'El **monasterio de Sahagún** y la **Orden de Santiago** adquieren control sobre Cea.',
         href: '/docs/historia/parte-4/cap-24-sahagun-trianos-y-eslonza-el-cordon-monastico',
-        img: '/img/libro/img-049.png',
       },
       {
         fecha: '1182–1185',
@@ -351,7 +342,6 @@ export const CRONOLOGIA: Epoca[] = [
         texto: 'Guerra civil entre el **infante Alfonso** y **Enrique IV**: Cea sufre ocupaciones sucesivas.',
         crucial: true,
         href: '/docs/historia/parte-5/cap-28-cea-en-las-guerras-dinasticas-pedro-i-vs-enrique-ii',
-        img: '/img/libro/img-053.png',
       },
       {
         fecha: '1470–1480',
@@ -379,7 +369,6 @@ export const CRONOLOGIA: Epoca[] = [
         texto: '**Felipe III** crea el Ducado de Cea, concedido a **Cristóbal Gómez de Sandoval y Rojas**.',
         crucial: true,
         href: '/docs/historia/parte-5/cap-30-el-ducado-de-cea-y-la-nobleza-cortesana',
-        img: '/img/libro/img-055.png',
       },
       {
         fecha: '1620',
@@ -402,7 +391,6 @@ export const CRONOLOGIA: Epoca[] = [
         texto: '**Reconstrucción definitiva** del puente por Pedro Cayón.',
         crucial: true,
         href: '/docs/historia/parte-2/cap-10-el-puente-de-cea-entre-mito-y-mamposteria',
-        img: '/img/libro/img-028.png',
       },
     ],
   },
@@ -494,7 +482,6 @@ export const CRONOLOGIA: Epoca[] = [
         texto: 'El **puente de Cea** es declarado **Bien de Interés Cultural**.',
         crucial: true,
         href: '/docs/historia/parte-2/cap-10-el-puente-de-cea-entre-mito-y-mamposteria',
-        img: '/img/libro/img-028.png',
       },
       {
         fecha: '2010',
