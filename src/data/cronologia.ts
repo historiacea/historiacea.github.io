@@ -153,7 +153,7 @@ export const CRONOLOGIA: Epoca[] = [
       {
         fecha: '916',
         titulo: 'In riuulo Ceia, subtus Castro Abaiub',
-        texto: '**Ordoño II** delimita la diócesis de León situando los límites _“in riuulo Ceia, subtus Castro **Abaiub**”_ —en el río Cea, bajo el **Castro Abaiub**—, posible nombre antiguo del lugar.',
+        texto: '**Ordoño II** delimita la diócesis de León: _“in riuulo Ceia, subtus Castro **Abaiub**”_ —en el río Cea, bajo el **Castro Abaiub**—, nombre del cerro fortificado donde se alzaría el castillo.',
         crucial: true,
         href: '/docs/historia/parte-4/cap-19-documentos-caminos-y-monasterios-cea-en-las-cronicas',
       },
