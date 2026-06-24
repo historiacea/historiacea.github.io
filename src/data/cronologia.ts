@@ -152,8 +152,10 @@ export const CRONOLOGIA: Epoca[] = [
       },
       {
         fecha: '916',
-        titulo: 'Diócesis de León',
-        texto: '**Ordoño II** delimita la diócesis de León, incluyendo Cea.',
+        titulo: 'In riuulo Ceia, subtus Castro Abaiub',
+        texto: '**Ordoño II** delimita la diócesis de León situando los límites _“in riuulo Ceia, subtus Castro **Abaiub**”_ —en el río Cea, bajo el **Castro Abaiub**—, posible nombre antiguo del lugar.',
+        crucial: true,
+        href: '/docs/historia/parte-4/cap-19-documentos-caminos-y-monasterios-cea-en-las-cronicas',
       },
       {
         fecha: '937',
@@ -162,8 +164,9 @@ export const CRONOLOGIA: Epoca[] = [
       },
       {
         fecha: '947',
-        titulo: 'Santa María en Abaúba',
-        texto: 'Cesión de propiedades junto a **Santa María en Abaúba**.',
+        titulo: 'Venta junto a Santa María y el Castro Abayub',
+        texto: '**Lupe** y sus hermanos **Hakam** y **Ayub** venden al abad **Iquila** unas tierras a orillas del Cea, junto a la **iglesia de Santa María**, al lado del **Castro Abayub**.',
+        href: '/docs/historia/parte-4/cap-19-documentos-caminos-y-monasterios-cea-en-las-cronicas',
       },
       {
         fecha: '950',
