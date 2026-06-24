@@ -44,6 +44,7 @@ export const CRONOLOGIA: Epoca[] = [
         titulo: 'Primera mención histórica',
         texto: 'El historiador **Polibio** menciona por primera vez a los **vacceos** como pueblo organizado.',
         href: '/docs/historia/parte-1/cap-5-los-vacceos-entran-en-la-historia-anibal',
+        img: '/img/libro/img-011.png',
       },
       {
         fecha: '161 a.C.',
@@ -51,12 +52,14 @@ export const CRONOLOGIA: Epoca[] = [
         texto: 'Llega el **cónsul Ático** a la guarnición romana de Cea para controlar la producción de cereal.',
         crucial: true,
         href: '/docs/historia/parte-2/cap-8-la-via-romana-de-clunia-a-legio',
+        img: '/img/libro/img-023.png',
       },
       {
         fecha: '151 a.C.',
         titulo: 'Resistencia indígena',
         texto: 'Combate singular entre **Publio Cornelio Escipión Emiliano** y un guerrero intercatiense; símbolo del choque entre Roma y los pueblos indígenas.',
         href: '/docs/historia/parte-2/cap-8-la-via-romana-de-clunia-a-legio',
+        img: '/img/libro/img-023.png',
       },
       {
         fecha: '133 a.C.',
@@ -124,6 +127,7 @@ export const CRONOLOGIA: Epoca[] = [
         texto: 'La tradición local relata que **Pelayo** se refugió en Cea tras enfrentarse a Witiza.',
         crucial: true,
         href: '/docs/historia/parte-3/cap-14-la-invasion-musulmana-la-linea-del-cea-y-witiza',
+        img: '/img/libro/img-035.png',
       },
       {
         fecha: '866–910',
@@ -156,6 +160,7 @@ export const CRONOLOGIA: Epoca[] = [
         texto: '**Ordoño II** delimita la diócesis de León: _“in riuulo Ceia, subtus Castro **Abaiub**”_ —en el río Cea, bajo el **Castro Abaiub**—, nombre del cerro fortificado donde se alzaría el castillo.',
         crucial: true,
         href: '/docs/historia/parte-4/cap-19-documentos-caminos-y-monasterios-cea-en-las-cronicas',
+        img: '/img/libro/img-046.png',
       },
       {
         fecha: '937',
@@ -167,12 +172,14 @@ export const CRONOLOGIA: Epoca[] = [
         titulo: 'Venta junto a Santa María y el Castro Abayub',
         texto: '**Lupe** y sus hermanos **Hakam** y **Ayub** venden al abad **Iquila** unas tierras a orillas del Cea, junto a la **iglesia de Santa María**, al lado del **Castro Abayub**.',
         href: '/docs/historia/parte-4/cap-19-documentos-caminos-y-monasterios-cea-en-las-cronicas',
+        img: '/img/libro/img-046.png',
       },
       {
         fecha: '950',
         titulo: 'Primer conde documentado',
         texto: '**Bermudo Núñez** es el primer conde documentado.',
         href: '/docs/historia/parte-4/cap-17-los-condes-de-cea-genealogia-de-un-poder-territorial',
+        img: '/img/libro/img-043.png',
       },
       {
         fecha: '951',
@@ -223,30 +230,35 @@ export const CRONOLOGIA: Epoca[] = [
         titulo: 'Pogrom antisemita',
         texto: 'Tristemente documentado **pogrom antisemita** en Cea.',
         href: '/docs/historia/parte-4/cap-25-judios-en-la-parba-una-aljama-medieval',
+        img: '/img/libro/img-050.png',
       },
       {
         fecha: '1111',
         titulo: 'Batalla de Candespina',
         texto: 'Durante la guerra entre **Urraca** y su esposo **Alfonso I de Aragón**, Cea y su castillo caen temporalmente en manos de la alianza aragonesa-portuguesa.',
         href: '/docs/historia/parte-4/cap-21-urraca-i-origen-de-una-leyenda',
+        img: '/img/libro/img-048.png',
       },
       {
         fecha: '1113',
         titulo: 'Urraca recupera Cea',
         texto: 'Con tropas gallegas, **Urraca** recupera Sahagún, Carrión y el **castillo de Cea**, mientras el abad de Sahagún actúa en la villa.',
         href: '/docs/historia/parte-4/cap-21-urraca-i-origen-de-una-leyenda',
+        img: '/img/libro/img-048.png',
       },
       {
         fecha: '1115',
         titulo: 'Defensa de Cea',
         texto: 'El adelantado **Giraldo**, lugarteniente de **Alfonso I el Batallador** (esposo de Urraca), defiende con éxito la villa en el marco de la guerra entre ambos reyes.',
         href: '/docs/historia/parte-4/cap-23-de-la-posguerra-al-auge-medieval-siglos-xii-y-xiii',
+        img: '/img/ia/auge-medieval-xii-xiii.jpg',
       },
       {
         fecha: '1117',
         titulo: 'Urraca se refugia en Cea',
         texto: '**Urraca** se refugia en Cea junto al arzobispo **Gelmírez**, en esa ocasión aliado de la reina.',
         href: '/docs/historia/parte-4/cap-21-urraca-i-origen-de-una-leyenda',
+        img: '/img/libro/img-048.png',
       },
       {
         fecha: '1127',
@@ -258,12 +270,14 @@ export const CRONOLOGIA: Epoca[] = [
         titulo: 'Donaciones a Trianos',
         texto: 'Donaciones reales a **Trianos**: tierras de Cea pasan bajo influencia monástica.',
         href: '/docs/historia/parte-4/cap-24-sahagun-trianos-y-eslonza-el-cordon-monastico',
+        img: '/img/libro/img-049.png',
       },
       {
         fecha: '1181',
         titulo: 'Control monástico',
         texto: 'El **monasterio de Sahagún** y la **Orden de Santiago** adquieren control sobre Cea.',
         href: '/docs/historia/parte-4/cap-24-sahagun-trianos-y-eslonza-el-cordon-monastico',
+        img: '/img/libro/img-049.png',
       },
       {
         fecha: '1182–1185',
@@ -337,6 +351,7 @@ export const CRONOLOGIA: Epoca[] = [
         texto: 'Guerra civil entre el **infante Alfonso** y **Enrique IV**: Cea sufre ocupaciones sucesivas.',
         crucial: true,
         href: '/docs/historia/parte-5/cap-28-cea-en-las-guerras-dinasticas-pedro-i-vs-enrique-ii',
+        img: '/img/libro/img-053.png',
       },
       {
         fecha: '1470–1480',
@@ -344,6 +359,7 @@ export const CRONOLOGIA: Epoca[] = [
         texto: 'Construcción de la **Torre Nueva de Cea** bajo los Sandoval y Rojas, adelantada a su tiempo.',
         crucial: true,
         href: '/docs/historia/parte-5/cap-32-la-nueva-torre-de-cea-una-fortaleza-adelantada-a-su-t',
+        img: '/img/castillo/galeria/castillo-59.jpg',
       },
       {
         fecha: '1503',
@@ -355,6 +371,7 @@ export const CRONOLOGIA: Epoca[] = [
         titulo: 'Reconstrucción del puente',
         texto: 'Reconstrucción del **puente de piedra** por Diego de la Cajiga, Juan de Hermosa y Juan de Nates.',
         href: '/docs/historia/parte-2/cap-10-el-puente-de-cea-entre-mito-y-mamposteria',
+        img: '/img/libro/img-028.png',
       },
       {
         fecha: '1604',
@@ -362,6 +379,7 @@ export const CRONOLOGIA: Epoca[] = [
         texto: '**Felipe III** crea el Ducado de Cea, concedido a **Cristóbal Gómez de Sandoval y Rojas**.',
         crucial: true,
         href: '/docs/historia/parte-5/cap-30-el-ducado-de-cea-y-la-nobleza-cortesana',
+        img: '/img/libro/img-055.png',
       },
       {
         fecha: '1620',
@@ -384,6 +402,7 @@ export const CRONOLOGIA: Epoca[] = [
         texto: '**Reconstrucción definitiva** del puente por Pedro Cayón.',
         crucial: true,
         href: '/docs/historia/parte-2/cap-10-el-puente-de-cea-entre-mito-y-mamposteria',
+        img: '/img/libro/img-028.png',
       },
     ],
   },
@@ -405,6 +424,7 @@ export const CRONOLOGIA: Epoca[] = [
         titulo: 'Expulsión de los jesuitas',
         texto: 'Sus bienes en Cea pasan a la **Corona**.',
         href: '/docs/historia/parte-6/cap-33-feijoo-jovellanos-y-el-despertar-de-las-ideas',
+        img: '/img/libro/img-057.png',
       },
       {
         fecha: 'Finales s. XVIII',
@@ -421,6 +441,7 @@ export const CRONOLOGIA: Epoca[] = [
         titulo: 'Guerras Carlistas',
         texto: 'Cea es **zona estratégica**, con movimientos de tropas y requisas.',
         href: '/docs/historia/parte-6/cap-35-carlistas-liberales-y-el-siglo-del-cambio',
+        img: '/img/libro/img-059.png',
       },
       {
         fecha: '1845–1850',
@@ -435,6 +456,7 @@ export const CRONOLOGIA: Epoca[] = [
         titulo: 'Desamortización de Mendizábal',
         texto: 'La desamortización de **Mendizábal** (1836) pone en venta las **tierras eclesiásticas**; la posterior de 1855 alcanzará también las comunales.',
         href: '/docs/historia/parte-6/cap-36-de-senorio-a-ayuntamiento-constitucional',
+        img: '/img/libro/img-060.png',
       },
       {
         fecha: 'Finales s. XIX',
@@ -472,6 +494,7 @@ export const CRONOLOGIA: Epoca[] = [
         texto: 'El **puente de Cea** es declarado **Bien de Interés Cultural**.',
         crucial: true,
         href: '/docs/historia/parte-2/cap-10-el-puente-de-cea-entre-mito-y-mamposteria',
+        img: '/img/libro/img-028.png',
       },
       {
         fecha: '2010',
@@ -493,6 +516,7 @@ export const CRONOLOGIA: Epoca[] = [
         titulo: 'Debate sobre el castillo',
         texto: '**Reconstrucción parcial** del castillo.',
         href: '/docs/historia/parte-8/cap-42-cea-hacia-el-futuro-memoria-patrimonio-y-comunidad',
+        img: '/img/ia/sahagun-trianos-eslonza.jpg',
       },
     ],
   },
