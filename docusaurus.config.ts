@@ -5,7 +5,7 @@ import remarkFotoSlider from './src/plugins/remark-foto-slider';
 
 // Email de contacto/colaboración. Cambiarlo aquí lo actualiza en todo el
 // sitio (componente <Colaborar/>, footer, páginas legales...).
-const CONTACT_EMAIL = 'daevacp@gmail.com';
+const CONTACT_EMAIL = 'historiadecealeon@gmail.com';
 
 const config: Config = {
   title: 'Historia de Cea, León',

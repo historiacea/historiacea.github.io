@@ -35,7 +35,7 @@ Es un proyecto **sin ánimo de lucro**, hecho por amor al pueblo y a su historia
 - ✏️ **Correcciones**: si encuentras un error, un nombre mal puesto o una fecha equivocada, dínoslo.
 - 📣 **Difusión**: comparte la web con la familia y con quienes se fueron del pueblo. Cada visita mantiene viva la memoria.
 
-**👉 Escríbenos a [daevacp@gmail.com](mailto:daevacp@gmail.com?subject=Colaboración%20Historia%20de%20Cea)**
+**👉 Escríbenos a [historiadecealeon@gmail.com](mailto:historiadecealeon@gmail.com?subject=Colaboración%20Historia%20de%20Cea)**
 
 Si nos envías una foto, cuéntanos lo que sepas de ella (año aproximado, lugar, quiénes salen) y si quieres aparecer **acreditado con tu nombre**.
 
