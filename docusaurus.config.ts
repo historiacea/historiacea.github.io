@@ -220,6 +220,10 @@ const config: Config = {
               to: '/docs/historia/galeria',
             },
             {
+              label: 'Agradecimientos',
+              to: '/agradecimientos',
+            },
+            {
               label: 'Aviso Legal',
               to: '/docs/aviso-legal',
             },

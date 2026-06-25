@@ -22,12 +22,10 @@ export type FichaFoto = {
 };
 
 // ---- Fuentes habituales (editar URLs aquí) -------------------------------
-// TODO: sustituir por la URL exacta de la página de Facebook de defensa
-// del castillo cuando la tengamos.
 export const FUENTES = {
   fbCastillo: {
-    nombre: 'Página de Facebook por la defensa del Castillo de Cea',
-    url: 'https://www.facebook.com/search/top?q=castillo%20de%20cea',
+    nombre: 'Por la defensa del Castillo de Cea (página de Facebook)',
+    url: 'https://www.facebook.com/PorLaDefensaDelCastilloDeCea',
   },
   listaRoja: {
     nombre: 'Lista Roja del Patrimonio · Hispania Nostra',
@@ -37,12 +35,16 @@ export const FUENTES = {
     nombre: 'iLeón.com',
     url: 'https://ileon.eldiario.es/',
   },
+  sahagunDigital: {
+    nombre: 'Sahagún Digital',
+    url: 'https://sahagundigital.com/',
+  },
 };
 
 // ---- Ficha por defecto de cada colección ---------------------------------
 export const FICHAS_DEFECTO: Record<string, FichaFoto> = {
   castillo: {
-    fuente: `Recopilación de fuentes públicas, en especial la ${FUENTES.fbCastillo.nombre}`,
+    fuente: FUENTES.fbCastillo.nombre,
     enlace: FUENTES.fbCastillo.url,
     desc: 'Imagen recopilada sin ánimo de lucro para preservar la memoria del castillo. Si es tuya y quieres crédito o retirada, escríbenos.',
   },
@@ -61,6 +63,87 @@ export const FICHAS_DEFECTO: Record<string, FichaFoto> = {
 
 // ---- Fichas individuales ---------------------------------------------------
 export const FICHAS: Record<string, FichaFoto> = {
+  // ---- Fotos cedidas por «Por la defensa del Castillo de Cea» --------------
+  'castillo-35': {
+    titulo: 'Excavación arqueológica al pie del castillo',
+    desc: 'Trabajos de excavación en la ladera, con la torre del castillo y la iglesia de Cea al fondo.',
+    credito: 'Por la defensa del Castillo de Cea',
+    fuente: FUENTES.fbCastillo.nombre,
+    enlace: FUENTES.fbCastillo.url,
+  },
+  'castillo-63': {
+    titulo: 'Vista aérea antigua del cerro',
+    desc: 'Fotografía aérea en blanco y negro del cerro del castillo y el caserío de Cea, con el trazado del recinto aún visible.',
+    credito: 'Por la defensa del Castillo de Cea',
+    fuente: FUENTES.fbCastillo.nombre,
+    enlace: FUENTES.fbCastillo.url,
+  },
+  'castillo-64': {
+    titulo: 'La torre sobre el cortado del río',
+    desc: 'La torre en ruinas asomada al cortado de arcillas, vista desde la ribera del Cea.',
+    credito: 'Por la defensa del Castillo de Cea',
+    fuente: FUENTES.fbCastillo.nombre,
+    enlace: FUENTES.fbCastillo.url,
+  },
+  'castillo-65': {
+    titulo: 'La torre almenada sobre las cárcavas',
+    desc: 'Vista en blanco y negro del lienzo almenado del castillo dominando las cárcavas del cerro.',
+    credito: 'Por la defensa del Castillo de Cea',
+    fuente: FUENTES.fbCastillo.nombre,
+    enlace: FUENTES.fbCastillo.url,
+  },
+  'castillo-66': {
+    titulo: 'El avance del derrumbe (2012-2014)',
+    anio: '2012-2014',
+    desc: 'Comparativa del mismo lienzo en 2012 y 2014: en solo dos años el desprendimiento se agrava visiblemente.',
+    credito: 'Por la defensa del Castillo de Cea',
+    fuente: FUENTES.fbCastillo.nombre,
+    enlace: FUENTES.fbCastillo.url,
+  },
+  'castillo-67': {
+    titulo: 'La ruina recortada en el cielo',
+    desc: 'El lienzo almenado y el muñón de la torre recortados sobre un cielo de nubes, vistos desde la ladera.',
+    credito: 'Por la defensa del Castillo de Cea',
+    fuente: FUENTES.fbCastillo.nombre,
+    enlace: FUENTES.fbCastillo.url,
+  },
+  'castillo-68': {
+    titulo: 'Consolidación de la torre',
+    desc: 'La torre andamiada y una grúa al atardecer durante los trabajos de consolidación de la estructura.',
+    credito: 'Por la defensa del Castillo de Cea',
+    fuente: FUENTES.fbCastillo.nombre,
+    enlace: FUENTES.fbCastillo.url,
+  },
+  'castillo-69': {
+    titulo: 'El derrumbe junto al río',
+    desc: 'Los materiales desprendidos del cortado acumulados en la ribera del Cea, junto a la arboleda.',
+    credito: 'Por la defensa del Castillo de Cea',
+    fuente: FUENTES.fbCastillo.nombre,
+    enlace: FUENTES.fbCastillo.url,
+  },
+
+  // ---- Fotos cedidas por Guillermo Herrero Fernández -----------------------
+  'castillo-70': {
+    titulo: 'Blanca del rombo de Enrique IV',
+    anio: '1471-1474',
+    desc:
+      'Moneda medieval encontrada en el castillo de Cea. Muy deteriorada y cubierta de óxido según se ve en la imagen de arriba; en la parte de abajo, tal y como quedó después de limpiarla. Acuñada en Burgos por Enrique IV entre 1471 y 1474, presenta un castillo en un rombo en la cara y un león rampante en la cruz. Esta moneda fue frecuente en su época y se llama «Blanca del rombo de Enrique IV»; supongo que de ahí viene lo de «estar sin blanca».',
+    credito: 'Guillermo Herrero Fernández',
+    fuente: 'Guillermo Herrero Fernández',
+    enlace: 'https://www.facebook.com/guillermo.herrerofernandez',
+  },
+
+  // ---- Fotos cedidas por Isaías Prado Novoa --------------------------------
+  'castillo-25': { credito: 'Isaías Prado Novoa', fuente: 'Isaías Prado Novoa' },
+  'castillo-26': { credito: 'Isaías Prado Novoa', fuente: 'Isaías Prado Novoa' },
+  'castillo-27': { credito: 'Isaías Prado Novoa', fuente: 'Isaías Prado Novoa' },
+  'castillo-28': { credito: 'Isaías Prado Novoa', fuente: 'Isaías Prado Novoa' },
+  'castillo-29': { credito: 'Isaías Prado Novoa', fuente: 'Isaías Prado Novoa' },
+  'castillo-30': { credito: 'Isaías Prado Novoa', fuente: 'Isaías Prado Novoa' },
+
+  // ---- Otras autorías ------------------------------------------------------
+  'castillo-18': { credito: 'Brezmes Photo', fuente: 'Brezmes Photo' },
+
   'castillo-46': {
     titulo: 'El castillo en 1933',
     anio: '1933',
@@ -133,6 +216,21 @@ export const FICHAS: Record<string, FichaFoto> = {
     anio: 'c. 1480',
     fuente: 'Recreación digital creada para este proyecto',
     desc: 'El conjunto fortificado dominando el valle, tal y como pudo lucir a finales del siglo XV.',
+  },
+
+  // ---- Recuerdos con autoría concreta --------------------------------------
+  'recuerdo-02': { credito: 'Rodrigo Rodríguez' },
+  'recuerdo-07': {
+    credito: 'Guillermo Herrero Fernández',
+    fuente: 'Guillermo Herrero Fernández',
+    enlace: 'https://www.facebook.com/guillermo.herrerofernandez',
+  },
+  'recuerdo-08': {
+    titulo: 'La vega del Cea desde el castillo',
+    desc: 'Vista panorámica antigua en blanco y negro de la vega y los campos de Cea, tomada desde lo alto del cerro del castillo.',
+    credito: 'Guillermo Herrero Fernández',
+    fuente: 'Guillermo Herrero Fernández',
+    enlace: 'https://www.facebook.com/guillermo.herrerofernandez',
   },
 
   // ---- Ilustraciones de IA de los capítulos -------------------------------

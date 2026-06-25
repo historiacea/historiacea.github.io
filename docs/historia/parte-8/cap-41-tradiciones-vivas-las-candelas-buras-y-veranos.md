@@ -3,6 +3,7 @@ title: "Tradiciones de Cea, León: Las Candelas, las buras y las fiestas del ver
 sidebar_label: "41. Tradiciones vivas: Las Candelas, buras y veranos"
 sidebar_position: 1
 description: "Las fiestas tradicionales de Cea (León): Las Candelas del 2 de febrero, Virgen del Carmen en julio y el apodo de las Buras. Tradiciones vivas desde la Edad Media."
+image: "/img/tradiciones/candelas-cea.jpg"
 ---
 
 # Capítulo 41. Tradiciones vivas: Las Candelas, buras y veranos
@@ -11,9 +12,9 @@ _"La historia no está en los libros. Está en las sobremesas, en los bancos, en
 
 Cea mantiene sus fiestas tradicionales, cada vez con más esfuerzo por la pérdida de población. Entre todas destaca **la fiesta de [Las Candelas](https://es.wikipedia.org/wiki/Candelaria_(festividad))**, cada **2 de febrero**, muy arraigada en la historia local.
 
-![La fiesta de Las Candelas en Cea, León](/img/tradiciones/candelas-cea.jpg)
+![La fiesta de Las Candelas en Cea, León: la procesión con mantones y capas recorre las calles de la villa el 2 de febrero](/img/tradiciones/candelas-cea.jpg)
 
-![Las Candelas de Cea: recreación de la procesión nocturna del 2 de febrero por las calles de piedra de la villa](/img/ia/candelas-cea.jpg) Su origen se remonta a época medieval, cuando la iglesia de **Santa María** fue uno de los centros de la devoción local. Ese día se celebran la **misa solemne**, la **bendición de las candelas** y la **procesión por las calles**, y se reparte pan bendito entre vecinos y visitantes. Antiguamente, la fiesta estaba también vinculada al ciclo agrícola y al inicio del año.
+Su origen se remonta a época medieval, cuando la iglesia de **Santa María** fue uno de los centros de la devoción local. Ese día se celebran la **misa solemne**, la **bendición de las candelas** y la **procesión por las calles**, y se reparte pan bendito entre vecinos y visitantes. Antiguamente, la fiesta estaba también vinculada al ciclo agrícola y al inicio del año.
 
 Junto a Las Candelas, Cea conserva otras celebraciones que refuerzan los lazos comunitarios. **La Virgen del Carmen**, en julio, es la más concurrida: orquestas, vermú en la plaza, juegos para niños y procesiones que llenan de música las calles. **Santa Cecilia**, recuperada por los más mayores, resuena cada 22 de noviembre como homenaje a la tradición musical del pueblo.
 

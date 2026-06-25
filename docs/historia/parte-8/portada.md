@@ -18,7 +18,7 @@ Esta última parte se centra en el presente y el futuro de Cea: la **memoria, el
 
 ## Qué vas a encontrar en esta parte
 
-<CapitulosGrid capitulos={[{"num":41,"titulo":"Tradiciones vivas: Las Candelas, buras y veranos","gancho":"Tradiciones vivas: Las Candelas, buras y veranos.","href":"/docs/historia/parte-8/cap-41-tradiciones-vivas-las-candelas-buras-y-veranos"},{"num":42,"titulo":"Cea hacia el futuro: memoria, patrimonio y comunidad","gancho":"Cea hacia el futuro: memoria, patrimonio y comunidad.","href":"/docs/historia/parte-8/cap-42-cea-hacia-el-futuro-memoria-patrimonio-y-comunidad"}]} />
+<CapitulosGrid capitulos={[{"num":41,"titulo":"Tradiciones vivas: Las Candelas, buras y veranos","gancho":"Tradiciones vivas: Las Candelas, buras y veranos.","href":"/docs/historia/parte-8/cap-41-tradiciones-vivas-las-candelas-buras-y-veranos","img":"/img/tradiciones/candelas-cea.jpg"},{"num":42,"titulo":"Cea hacia el futuro: memoria, patrimonio y comunidad","gancho":"Cea hacia el futuro: memoria, patrimonio y comunidad.","href":"/docs/historia/parte-8/cap-42-cea-hacia-el-futuro-memoria-patrimonio-y-comunidad","img":"/img/ia/sahagun-trianos-eslonza.jpg"}]} />
 
 :::tip Cómo leer esta parte
 Puedes seguir los capítulos en orden o saltar al que te interese. Si prefieres la vista panorámica de fechas, tienes la **[cronología completa](/cronologia)** al final del recorrido.

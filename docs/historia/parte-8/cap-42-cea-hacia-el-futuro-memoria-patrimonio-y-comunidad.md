@@ -3,6 +3,7 @@ title: "Cea, León: futuro, patrimonio y comunidad ante la despoblación rural"
 sidebar_label: "42. Cea hacia el futuro: memoria, patrimonio y comunidad"
 sidebar_position: 2
 description: "El futuro de Cea (León): consolidación del castillo en 2015, rutas culturales, digitalización de archivos y la apuesta por el turismo histórico frente a la despoblación."
+image: "/img/ia/sahagun-trianos-eslonza.jpg"
 ---
 
 # Capítulo 42. Cea hacia el futuro: memoria, patrimonio y comunidad
@@ -19,13 +20,19 @@ El mismo espíritu late en otras actuaciones: la iluminación del puente medieva
 
 El futuro, sin embargo, sigue teniendo desafíos: la falta de servicios, la escasez de niños, el riesgo de desconexión digital. Pero también brotan proyectos que miran hacia adelante: iniciativas como la **Semana de la Historia Viva**, con recreaciones y talleres escolares, o la propuesta de digitalizar archivos parroquiales y concejiles para acercar la memoria a nuevas generaciones.
 
-En último término, son las personas quienes mantienen viva esta historia: los vecinos que siguen residiendo en el pueblo, quienes cuidan los caminos y los edificios, y los jóvenes que regresan en verano para organizar actividades culturales o colaborar en la conservación del patrimonio.
+Al final, son las personas quienes sostienen la historia: los vecinos que aún amasan pan en hornos de leña, los jubilados que cuidan los caminos, los jóvenes que vuelven en verano para organizar conciertos, limpiar el castillo o pintar murales. Los hijos de Cea que, aunque vivan lejos, siguen llevando el nombre grabado en la memoria.
 
-Es probable que Cea no recupere los habitantes que tuvo en el pasado, pero conserva un patrimonio histórico relevante. Documentarlo y difundirlo es una forma de mantenerlo accesible para las próximas generaciones.
+A veces ese arraigo toma formas inesperadas. En **2021**, los vecinos **Asterio Antolín** y **Lourdes Blanco** subieron con un tractor un banco hasta el **Alto del Pego**, frente a la vega y las montañas: un mirador improvisado, sin más pretensión que la de sentarse a contemplar el pueblo, que se ha convertido en pequeño reclamo para quien visita Cea. Y la memoria del lugar también viaja en la palabra escrita: la poeta **[Andrea Valbuena](http://www.andreavalbuena.net/)**, de raíces ceanas, ganadora del **Premio Valparaíso de Poesía** con _Mágoa_ (2016), dedicó buena parte de _Si el silencio tomara la palabra_ (2018) a **las esquinas vacías de Cea** y a la despoblación de la Tierra de Campos, llevando el nombre del pueblo a recitales por toda España y América Latina.
 
-A lo largo de su historia, Cea ha conocido etapas de prosperidad y de declive. Las epidemias, las guerras y, sobre todo, el éxodo rural del siglo XX redujeron drásticamente su población y dejaron numerosas casas cerradas. Hoy, buena parte de ese pasado pervive en sus edificios, en su paisaje y en la memoria de sus gentes.
+Cea quizá no vuelva a tener dos mil habitantes, pero tendrá algo igual de valioso: **presencia, voz, relato**. Porque mientras alguien recuerde y cuente su historia, las piedras, las fiestas, los puentes y las torres seguirán vivos.
 
-Conservar y dar a conocer ese legado es el objetivo de este proyecto: reunir la historia documentada de la villa para que siga siendo conocida y valorada.
+Cea ha sido testigo de milenios, pero también de silencios. Hubo tiempos en que la vida bullía entre sus riberas, cuando las campanas llamaban al trabajo y las cosechas llenaban los graneros. Sin embargo, las pestes, las guerras, los inviernos interminables y los caminos del éxodo hicieron su obra. Los despoblados se multiplicaron, los hogares se cerraron y, en más de una ocasión, **Cea pareció desaparecer del mapa**.
+
+Hoy, las huellas de todo lo vivido reposan bajo la hierba, en las piedras de los muros caídos, en las vegas del río que sigue corriendo como entonces. El tiempo lo ha cambiado todo. No hay vuelta atrás: las voces que llenaban las calles se han ido, los nombres se han borrado, y el viento trae el eco de quienes partieron.
+
+Y, sin embargo, algo permanece. Quizás sea la memoria. Quizás la esperanza.
+
+Porque **la historia de Cea** —como la del propio hombre— no está escrita en su final, sino en su regreso. Tal vez un día el amor por estas tierras despierte de nuevo; tal vez el futuro vuelva a encontrarse con el pasado. Mientras tanto, **nos queda lo que siempre ha sostenido a quienes esperan: confiar y esperar**. Y cuando **el amor regrese**, **el legado estará aquí, aguardando**.
 
 :::tip Has llegado al final del recorrido
 Desde los **vacceos** hasta hoy, has recorrido más de **dos mil años** de historia de Cea. Si quieres ver todos los hitos de un vistazo, visita la [**cronología interactiva**](/cronologia). Y para conocer a fondo su fortaleza, la sección del [**Castillo de Cea**](/docs/castillo/historia) te espera.
@@ -41,3 +48,5 @@ _Gracias por acompañar esta historia. Mientras alguien la cuente, Cea seguirá 
 - [Cronología de Cea](/cronologia) — todos los hitos en una línea temporal interactiva.
 - Ayuntamiento de Cea y asociaciones culturales locales — proyectos de patrimonio y memoria.
 - [Camino de Santiago](https://es.wikipedia.org/wiki/Camino_de_Santiago) — la red de rutas que conecta Cea con Sahagún y el patrimonio leonés.
+- [El banco que hace más bonito visitar Cea](https://sahagundigital.com/art/10616/el-banco-que-hace-mas-bonito-visitar-cea) — _Sahagún Digital_, sobre el mirador del Alto del Pego.
+- [Andrea Valbuena](http://www.andreavalbuena.net/) — web de la poeta de raíces ceanas; ver también [_Emoción a orillas del Cea_](https://www.lanuevacronica.com/emocion-a-orillas-del-cea), _La Nueva Crónica_.
