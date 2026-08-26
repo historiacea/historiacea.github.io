@@ -1,5 +1,5 @@
-import { useLightbox } from '@site/src/components/Lightbox/context';
-import { fichaDe } from '@site/src/data/fichasFotos';
+import { useLightbox, type LightboxImage } from '@site/src/components/Lightbox/context';
+import { fichaDe, type FichaFoto } from '@site/src/data/fichasFotos';
 import styles from './styles.module.css';
 
 /**
@@ -34,7 +34,10 @@ export const COLECCIONES: Record<string, string[]> = {
   ia: urlsDe(CTX_IA),
 };
 
-type ItemFijo = { src: string; alt?: string };
+type ItemFijo = { src: string; alt?: string; video?: boolean };
+
+/** Vídeos que se muestran como una celda más al principio de una colección. */
+export type VideoItem = { src: string; alt?: string; ficha?: FichaFoto };
 
 type Props = {
   /** Colección a mostrar: "castillo" | "recuerdos" | "plantas" | "ia". */
@@ -48,6 +51,11 @@ type Props = {
    * historia, donde el orden de aparición importa y se mezclan carpetas.
    */
   items?: ItemFijo[];
+  /**
+   * Vídeos que encabezan la rejilla como una celda más: se ven igual que las
+   * fotos (con un distintivo de reproducción) y abren el lightbox en vídeo.
+   */
+  videos?: VideoItem[];
 };
 
 // En modo lista, la ficha depende de la carpeta: las de /img/ia llevan el
@@ -57,8 +65,41 @@ function fichaDeItem(src: string, alt?: string) {
   return alt ? { desc: alt } : undefined;
 }
 
-export default function GaleriaGrid({ coleccion, filtro, items }: Props): JSX.Element {
+/** Celda de vídeo: se ve como una foto más, con su distintivo de play. */
+function CeldaVideo({
+  item,
+  onOpen,
+  etiqueta,
+}: {
+  item: VideoItem;
+  onOpen: () => void;
+  etiqueta: string;
+}): JSX.Element {
+  return (
+    <button
+      type="button"
+      className={`${styles.celda} ${styles.celdaVideo}`}
+      aria-label={etiqueta}
+      onClick={onOpen}>
+      {/* `#t=0.1` hace que el navegador pinte un fotograma como miniatura. */}
+      <video src={`${item.src}#t=0.1`} preload="metadata" muted playsInline tabIndex={-1} />
+      <span className={styles.playIcono} aria-hidden="true">
+        <svg viewBox="0 0 24 24" width="26" height="26">
+          <path fill="currentColor" d="M8 5.14v13.72L19 12 8 5.14Z" />
+        </svg>
+      </span>
+    </button>
+  );
+}
+
+export default function GaleriaGrid({ coleccion, filtro, items, videos }: Props): JSX.Element {
   const { open } = useLightbox();
+  const listaVideos: LightboxImage[] = (videos ?? []).map((v) => ({
+    src: v.src,
+    alt: v.alt,
+    ficha: v.ficha,
+    video: true,
+  }));
 
   // Modo lista explícita: respeta el orden dado y conserva el alt del capítulo.
   if (items && items.length > 0) {
@@ -95,16 +136,27 @@ export default function GaleriaGrid({ coleccion, filtro, items }: Props): JSX.El
   }
 
   const imgList = imgs.map((src) => ({ src, ficha: fichaDe(src, coleccion!) }));
+  // Los vídeos van delante y comparten lista con las fotos, para poder pasar
+  // de uno a otro con las flechas del lightbox.
+  const todoList: LightboxImage[] = [...listaVideos, ...imgList];
 
   return (
     <div className={styles.grid}>
+      {listaVideos.map((v, i) => (
+        <CeldaVideo
+          key={v.src}
+          item={v}
+          etiqueta={v.alt || `Reproducir vídeo ${i + 1}`}
+          onOpen={() => open(v, todoList, i)}
+        />
+      ))}
       {imgList.map((item, i) => (
         <button
           key={item.src}
           type="button"
           className={styles.celda}
           aria-label={`Ampliar foto ${i + 1} de ${imgList.length}`}
-          onClick={() => open(item, imgList, i)}>
+          onClick={() => open(item, todoList, listaVideos.length + i)}>
           <img src={item.src} alt="" loading="lazy" />
         </button>
       ))}

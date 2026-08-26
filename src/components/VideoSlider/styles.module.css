@@ -1,0 +1,260 @@
+/* Carrusel de vídeos propios: scroll-snap + flechas + puntos + marca de autor. */
+.slider {
+  margin: 1.6rem 0 2rem;
+  max-width: 880px;
+  margin-inline: auto;
+}
+
+.viewport {
+  position: relative;
+  border-radius: 14px;
+  overflow: hidden;
+  border: 1px solid var(--cea-line);
+  background: #000;
+  box-shadow: 0 14px 36px rgba(16, 18, 22, 0.1);
+}
+
+.track {
+  display: flex;
+  overflow-x: auto;
+  scroll-snap-type: x mandatory;
+  scrollbar-width: none;
+  -webkit-overflow-scrolling: touch;
+}
+.track::-webkit-scrollbar {
+  display: none;
+}
+
+.slide {
+  flex: 0 0 100%;
+  scroll-snap-align: center;
+}
+/* `contain` para respetar el formato original de cada vídeo: los verticales
+   no se recortan, se muestran enteros con banda negra a los lados. */
+.slide video {
+  display: block;
+  width: 100%;
+  aspect-ratio: 16 / 9;
+  object-fit: contain;
+  background: #000;
+}
+
+.slide iframe {
+  display: block;
+  width: 100%;
+  aspect-ratio: 16 / 9;
+  border: none;
+}
+
+/* Marca de agua del autor: arriba a la izquierda, para no tapar los controles
+   del reproductor ni el botón de pantalla completa. */
+.marca {
+  position: absolute;
+  left: 0.85rem;
+  top: 0.7rem;
+  display: inline-flex;
+  align-items: center;
+  gap: 0.4rem;
+  padding: 0.34rem 0.7rem;
+  font-size: 0.8rem;
+  font-weight: 700;
+  color: #fff;
+  text-decoration: none;
+  background: rgba(16, 18, 22, 0.58);
+  border: 1px solid rgba(255, 255, 255, 0.22);
+  border-radius: 999px;
+  backdrop-filter: blur(4px);
+  transition: background 0.18s ease, transform 0.18s ease;
+  z-index: 3;
+}
+.marca:hover {
+  background: rgba(16, 18, 22, 0.82);
+  color: #fff;
+  text-decoration: none;
+  transform: translateY(-1px);
+}
+.marcaIcono {
+  flex: none;
+}
+.marcaTexto {
+  line-height: 1;
+}
+
+/* Flechas */
+.flecha {
+  position: absolute;
+  top: calc(50% - 1.2rem);
+  transform: translateY(-50%);
+  width: 42px;
+  height: 42px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.7rem;
+  line-height: 1;
+  color: var(--cea-ink);
+  background: rgba(255, 255, 255, 0.88);
+  border: 1px solid var(--cea-line);
+  border-radius: 50%;
+  cursor: pointer;
+  transition: background 0.18s ease, transform 0.18s ease, opacity 0.18s ease;
+  z-index: 2;
+}
+.flecha:hover:not(:disabled) {
+  background: #fff;
+  transform: translateY(-50%) scale(1.08);
+}
+.flecha:disabled {
+  opacity: 0.35;
+  cursor: default;
+}
+.izq { left: 0.75rem; }
+.der { right: 0.75rem; }
+
+/* Contador "1 / 2" */
+.contador {
+  position: absolute;
+  top: 0.7rem;
+  right: 0.8rem;
+  padding: 0.2rem 0.65rem;
+  font-size: 0.78rem;
+  font-weight: 700;
+  color: #fff;
+  background: rgba(16, 18, 22, 0.55);
+  border-radius: 999px;
+  backdrop-filter: blur(3px);
+  z-index: 2;
+}
+
+/* Pie con el título del vídeo actual */
+.pie {
+  margin-top: 0.7rem;
+  text-align: center;
+  font-size: 0.88rem;
+  color: var(--cea-ink-soft);
+}
+.pieTitulo {
+  font-weight: 600;
+}
+.pieAyuda {
+  color: var(--cea-muted);
+}
+
+/* Puntos */
+.dots {
+  display: flex;
+  justify-content: center;
+  gap: 0.45rem;
+  margin-top: 0.6rem;
+}
+.dot {
+  width: 9px;
+  height: 9px;
+  padding: 0;
+  border: none;
+  border-radius: 50%;
+  background: var(--cea-line-strong);
+  cursor: pointer;
+  transition: background 0.18s ease, transform 0.18s ease;
+}
+.dot:hover {
+  transform: scale(1.25);
+}
+.dotActivo {
+  background: var(--cea-accent);
+}
+
+[data-theme='dark'] .flecha {
+  background: rgba(24, 26, 31, 0.85);
+  color: #fff;
+}
+
+@media (max-width: 600px) {
+  .marca {
+    left: 0.6rem;
+    top: 0.55rem;
+    font-size: 0.72rem;
+    padding: 0.28rem 0.55rem;
+  }
+  .flecha {
+    width: 36px;
+    height: 36px;
+    font-size: 1.4rem;
+  }
+}
+
+/* ============================================================
+   MODO ASOMO — cards en fila; la siguiente queda medio cortada
+   ============================================================ */
+/* Va a ancho completo de ventana (fuera del .container), para que la card
+   siguiente quede cortada por el borde derecho. */
+.sliderAsomo {
+  max-width: none;
+  margin: 0;
+}
+
+.trackAsomo {
+  gap: 1.25rem;
+  padding-bottom: 0.5rem;
+  scroll-snap-type: x mandatory;
+  /* Cada card se detiene donde arranca la primera, es decir, centrada. */
+  scroll-padding-left: max(1rem, calc(50vw - 440px));
+}
+
+.slideAsomo {
+  flex: 0 0 auto;
+  scroll-snap-align: start;
+  display: flex;
+}
+/* La primera card arranca centrada: el margen izquierdo la empuja hasta el
+   centro de la ventana, y lo que sigue queda a su derecha, cortado por el borde.
+   440px es la mitad del ancho máximo de una card 16/9 de 495px de alto. */
+.slideAsomoPrimera {
+  margin-left: max(1rem, calc(50vw - 440px));
+}
+/* Aire al final para que la última card también pueda llegar al centro. */
+.trackAsomo::after {
+  content: '';
+  flex: 0 0 max(1rem, calc(50vw - 440px));
+}
+
+.card {
+  position: relative;
+  border-radius: 14px;
+  overflow: hidden;
+  border: 1px solid var(--cea-line);
+  background: var(--cea-bg-alt);
+  box-shadow: 0 14px 36px rgba(16, 18, 22, 0.12);
+  /* La card se ajusta a lo que ocupe su vídeo, no al revés: los verticales
+     quedan estrechos y no generan bandas negras a los lados. */
+  height: 495px;
+  display: flex;
+}
+.card video,
+.card iframe {
+  display: block;
+  height: 100%;
+  width: auto;
+  border: none;
+  background: #000;
+  /* Proporción de partida; el <video> la sustituye por la real al cargar sus
+     metadatos (ver onLoadedMetadata en el componente). */
+  aspect-ratio: 16 / 9;
+}
+
+@media (max-width: 996px) {
+  .card {
+    height: min(56vw, 420px);
+  }
+  .slideAsomoPrimera {
+    margin-left: 1rem;
+  }
+  .trackAsomo::after {
+    flex-basis: 1rem;
+  }
+}
+
+/* Los puntos del modo asomo van centrados en la ventana. */
+.sliderAsomo .dots {
+  margin-top: 1rem;
+}

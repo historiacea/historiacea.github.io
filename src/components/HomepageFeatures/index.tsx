@@ -4,6 +4,7 @@ import Heading from '@theme/Heading';
 import { useEffect, useRef } from 'react';
 import { gsap } from 'gsap';
 import { IconBook, IconTower, IconScroll } from '@site/src/components/Icons';
+import VideoFondo from '@site/src/components/VideoFondo';
 import styles from './styles.module.css';
 
 type FeatureItem = {
@@ -47,12 +48,6 @@ function Feature({ title, Icon, description, to }: FeatureItem) {
         {title}
       </Heading>
       <p className={styles.cardDesc}>{description}</p>
-      <span className={styles.cardArrow} aria-hidden="true">
-        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor"
-          strokeWidth="1.6" strokeLinecap="round" strokeLinejoin="round">
-          <path d="M5 12h14M13 6l6 6-6 6" />
-        </svg>
-      </span>
     </Link>
   );
 }
@@ -85,6 +80,7 @@ export default function HomepageFeatures(): JSX.Element {
   return (
     <div ref={rootRef}>
       <section className={styles.sections}>
+        <VideoFondo src="/video/castillo-cea-dron-2.mp4" />
         <div className={styles.sectionsEscudo} aria-hidden="true" />
         <div className="container">
           <div className={clsx(styles.sectionHeader, 'reveal')}>

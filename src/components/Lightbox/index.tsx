@@ -80,7 +80,19 @@ export default function LightboxProvider({ children }: { children: React.ReactNo
             ref={figRef}
             className={`${styles.figure} ${img.ficha ? styles.conFicha : ''}`}
             onClick={(e) => e.stopPropagation()}>
-            <img className={styles.img} src={img.src} alt={img.alt || ''} />
+            {img.video ? (
+              <video
+                className={styles.img}
+                src={img.src}
+                title={img.alt || ''}
+                controls
+                autoPlay
+                playsInline
+                controlsList="nodownload"
+              />
+            ) : (
+              <img className={styles.img} src={img.src} alt={img.alt || ''} />
+            )}
             {img.ficha ? (
               <aside className={styles.ficha}>
                 <span className={styles.fichaKicker}>Ficha de archivo</span>

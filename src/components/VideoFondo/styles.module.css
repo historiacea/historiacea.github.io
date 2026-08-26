@@ -1,0 +1,44 @@
+/* Vídeo de fondo del hero: cubre la sección y queda por detrás de todo. */
+.fondo {
+  position: absolute;
+  inset: 0;
+  overflow: hidden;
+  z-index: 0;
+  pointer-events: none;
+}
+
+.video {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+
+/* Velo para que el texto siga siendo legible encima.
+   El empalme con las secciones vecinas se resuelve en 30px justos: lo mínimo
+   para que no se vea una línea dura, sin que aparezca banda blanca. En
+   porcentajes no vale — la sección es muy alta y el degradado se dispara. */
+/* Sin velo: el vídeo se ve a plena nitidez. Sólo se mantiene el fundido de
+   100px en los bordes para empalmar con las secciones vecinas de forma suave.
+   La legibilidad del texto la da su color blanco y su sombra. */
+.velo {
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(
+    180deg,
+    rgba(255, 255, 255, 1) 0,
+    rgba(255, 255, 255, 0) 100px,
+    rgba(255, 255, 255, 0) calc(100% - 100px),
+    rgba(255, 255, 255, 1) 100%
+  );
+}
+
+[data-theme='dark'] .velo {
+  background: linear-gradient(
+    180deg,
+    rgba(15, 17, 21, 1) 0,
+    rgba(15, 17, 21, 0) 100px,
+    rgba(15, 17, 21, 0) calc(100% - 100px),
+    rgba(15, 17, 21, 1) 100%
+  );
+}

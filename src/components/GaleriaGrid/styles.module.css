@@ -48,3 +48,43 @@
     gap: 0.45rem;
   }
 }
+
+/* ---- Celda de vídeo: igual que una foto, con distintivo de reproducción --- */
+.celdaVideo {
+  cursor: pointer;
+}
+.celdaVideo video {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+  background: #000;
+  transition: transform 0.35s ease;
+  pointer-events: none;
+}
+.celdaVideo:hover video {
+  transform: scale(1.06);
+}
+
+.playIcono {
+  position: absolute;
+  inset: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+  pointer-events: none;
+}
+.playIcono svg {
+  padding: 0.55rem;
+  border-radius: 50%;
+  background: rgba(16, 18, 22, 0.55);
+  border: 1px solid rgba(255, 255, 255, 0.35);
+  backdrop-filter: blur(3px);
+  box-sizing: content-box;
+  transition: background 0.2s ease, transform 0.2s ease;
+}
+.celdaVideo:hover .playIcono svg {
+  background: var(--cea-accent);
+  transform: scale(1.08);
+}

@@ -5,6 +5,8 @@ export type LightboxImage = {
   src: string;
   alt?: string;
   ficha?: FichaFoto;
+  /** Si es true, `src` apunta a un vídeo y se reproduce en el lightbox. */
+  video?: boolean;
 };
 
 type LightboxCtx = {

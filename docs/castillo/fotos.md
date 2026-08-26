@@ -14,7 +14,35 @@ hide_table_of_contents: true
 Imágenes **recopiladas de fuentes públicas, sin ánimo de lucro**, para preservar la memoria del castillo. ¿Una foto es tuya? Te **acreditamos o la retiramos** de inmediato — escríbenos (botón al pie). [Más detalles en el aviso legal](/docs/aviso-legal#retirada-y-acreditación-de-imágenes).
 :::
 
-<GaleriaGrid coleccion="castillo" />
+<GaleriaGrid
+  coleccion="castillo"
+  videos={[
+    {
+      src: '/video/castillo-cea-dron-1.mp4',
+      alt: 'Vuelo de dron sobre el castillo de Cea',
+      ficha: {
+        titulo: 'Vuelo de dron sobre el castillo',
+        lugar: 'Castillo de Cea (León)',
+        credito: 'Nicolás Herrero Folley (@followfolley)',
+        fuente: 'Instagram',
+        enlace: 'https://www.instagram.com/followfolley/',
+        desc: 'La torre artillera y el cerro vistos desde el aire al atardecer.',
+      },
+    },
+    {
+      src: '/video/castillo-cea-dron-2.mp4',
+      alt: 'La torre del castillo de Cea, en detalle',
+      ficha: {
+        titulo: 'La torre, en detalle',
+        lugar: 'Castillo de Cea (León)',
+        credito: 'Nicolás Herrero Folley (@followfolley)',
+        fuente: 'Instagram',
+        enlace: 'https://www.instagram.com/followfolley/',
+        desc: 'Aproximación en vuelo a los lienzos y las bóvedas de la torre.',
+      },
+    },
+  ]}
+/>
 
 ---
 

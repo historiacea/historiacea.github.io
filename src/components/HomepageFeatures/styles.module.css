@@ -1,10 +1,17 @@
 /* Secciones de la home — estilo limpio */
 
-/* ---------- Secciones — fondo blanco sólido, corte limpio contra la malla --- */
+/* ---------- Sección "Explora la memoria de Cea" — lleva el vídeo de dron de
+   fondo en bucle; el velo del propio vídeo garantiza la legibilidad. -------- */
 .sections {
-  padding: 5.5rem 0 6rem;
+  padding: 10rem 0 10.5rem;
   background: var(--cea-bg);
   position: relative;
+  overflow: hidden;
+}
+/* El contenido, por encima del vídeo de fondo. */
+.sections > :global(.container) {
+  position: relative;
+  z-index: 1;
 }
 
 /* sectionsEscudo ya no se usa — la malla la pone el heroBlock padre */
@@ -19,21 +26,25 @@
 .sectionHeader {
   text-align: center;
   max-width: 38rem;
-  margin: 0 auto 3.25rem;
+  margin: 0 auto 2.25rem;
 }
 
+/* Título y subtítulo van sobre el vídeo, sin velo que lo atenúe: blancos y con
+   sombra para que se lean sobre cualquier fotograma. */
 .sectionTitle {
   font-size: clamp(1.8rem, 4vw, 2.5rem);
   font-weight: 800;
   letter-spacing: -0.03em;
   line-height: 1.1;
-  color: var(--cea-ink);
+  color: #fff;
+  text-shadow: 0 2px 14px rgba(0, 0, 0, 0.55), 0 1px 3px rgba(0, 0, 0, 0.4);
   margin: 0 0 0.75rem;
 }
 
 .sectionSubtitle {
   font-size: 1.1rem;
-  color: var(--cea-ink-soft);
+  color: rgba(255, 255, 255, 0.94);
+  text-shadow: 0 1px 10px rgba(0, 0, 0, 0.5), 0 1px 3px rgba(0, 0, 0, 0.35);
   margin: 0;
 }
 
@@ -47,7 +58,7 @@
 .card {
   display: flex;
   flex-direction: column;
-  padding: 2.5rem 2.25rem;
+  padding: 1.6rem 1.5rem;
   background: var(--cea-surface);
   border: 1px solid var(--cea-line);
   border-radius: 14px;
@@ -66,44 +77,33 @@
   display: inline-flex;
   align-items: center;
   justify-content: center;
-  width: 2.5rem;
-  height: 2.5rem;
+  width: 2.1rem;
+  height: 2.1rem;
   border-radius: 9px;
   color: var(--cea-accent);
   background: var(--cea-accent-soft);
-  margin-bottom: 1.25rem;
+  margin-bottom: 0.75rem;
 }
 
 .cardTitle {
-  font-size: 1.25rem;
+  font-size: 1.12rem;
   font-weight: 700;
   letter-spacing: -0.02em;
-  margin: 0 0 0.5rem;
+  margin: 0 0 0.35rem;
   color: var(--cea-ink);
 }
 
 .cardDesc {
-  font-size: 0.98rem;
-  line-height: 1.6;
+  font-size: 0.92rem;
+  line-height: 1.5;
   color: var(--cea-ink-soft);
-  margin: 0 0 1.5rem;
-  flex-grow: 1;
-}
-
-.cardArrow {
-  display: inline-flex;
-  color: var(--cea-muted);
-  transition: transform 0.2s ease, color 0.2s ease;
-}
-.card:hover .cardArrow {
-  color: var(--cea-accent);
-  transform: translateX(4px);
+  margin: 0;
 }
 
 /* ---------- Bienvenida — card flotante sin corte de fondo --- */
 .welcome {
   padding: 3.5rem 0 6rem;
-  background: transparent;
+  background: var(--cea-bg);
 }
 
 .welcomeInner {

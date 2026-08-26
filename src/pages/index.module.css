@@ -343,6 +343,8 @@
   padding: 4.5rem 0 1.5rem;
   background: var(--cea-bg);
 }
+/* (sin uso desde que el vídeo vive en VideoSlider; se conserva por si vuelve
+   a hacer falta un marco simple de iframe) */
 .videoMarco {
   max-width: 880px;
   margin: 0 auto;

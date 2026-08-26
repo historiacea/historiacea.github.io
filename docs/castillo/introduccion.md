@@ -56,15 +56,19 @@ Desde **2008**, el castillo de Cea figura en la **[Lista Roja del Patrimonio de 
 
 ## El castillo, en movimiento
 
-Mejor verlo que contarlo — sobrevuela la torre y su entorno:
+Mejor verlo que contarlo — **arrastra hacia la derecha** para ver los vuelos de dron sobre la torre:
 
-<iframe
-  src="https://www.youtube-nocookie.com/embed/H_DPeG9dQqk"
-  title="El castillo de Cea desde el aire"
-  style={{width: '100%', aspectRatio: '16 / 9', border: 'none', borderRadius: '12px'}}
-  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-  allowFullScreen
+<VideoSlider
+  videos={[
+    {src: 'https://www.youtube-nocookie.com/embed/H_DPeG9dQqk', titulo: 'El castillo de Cea desde el aire', embed: true, credito: false},
+    {src: '/video/castillo-cea-dron-1.mp4', titulo: 'Vuelo de dron sobre el castillo de Cea'},
+    {src: '/video/castillo-cea-dron-2.mp4', titulo: 'La torre del castillo de Cea, en detalle'},
+  ]}
 />
+
+<p style={{fontSize: '0.85rem', color: 'var(--cea-muted)'}}>
+  Vuelos de dron: <a href="https://www.instagram.com/followfolley/" target="_blank" rel="noopener noreferrer">Nicolás Herrero Folley (@followfolley)</a>.
+</p>
 
 ## Explóralo en 3D
 

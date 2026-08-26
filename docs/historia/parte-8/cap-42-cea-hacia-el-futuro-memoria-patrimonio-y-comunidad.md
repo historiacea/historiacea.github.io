@@ -24,6 +24,22 @@ Al final, son las personas quienes sostienen la historia: los vecinos que aún a
 
 A veces ese arraigo toma formas inesperadas. En **2021**, los vecinos **Asterio Antolín** y **Lourdes Blanco** subieron con un tractor un banco hasta el **Alto del Pego**, frente a la vega y las montañas: un mirador improvisado, sin más pretensión que la de sentarse a contemplar el pueblo, que se ha convertido en pequeño reclamo para quien visita Cea. Y la memoria del lugar también viaja en la palabra escrita: la poeta **[Andrea Valbuena](http://www.andreavalbuena.net/)**, de raíces ceanas, ganadora del **Premio Valparaíso de Poesía** con _Mágoa_ (2016), dedicó buena parte de _Si el silencio tomara la palabra_ (2018) a **las esquinas vacías de Cea** y a la despoblación de la Tierra de Campos, llevando el nombre del pueblo a recitales por toda España y América Latina.
 
+## El eclipse del Alto del Pego
+
+Ese mismo banco fue testigo, en **agosto de 2026**, de una de esas noches que quedan en la memoria del pueblo. El **eclipse solar** convocó en el **Alto del Pego** a **cientos de personas** —vecinos, hijos de Cea que volvieron para la ocasión y curiosos llegados de toda la comarca— que subieron al mirador con sillas plegables, mantas y gafas de filtro para ver cómo la luz se apagaba sobre la vega.
+
+Fue un **momento mágico**: durante unos minutos, el cerro del castillo, el río y los campos de cereal quedaron bajo una penumbra irreal, y el silencio de la multitud sólo se rompió con los aplausos cuando el sol volvió a asomar. Un pueblo que pelea contra la despoblación reunió esa tarde, en un alto sin más infraestructura que un banco subido en tractor, a más gente de la que sus calles ven en todo un invierno.
+
+<VideoSlider
+  videos={[
+    {src: '/video/eclipse-cea-2026.mp4', titulo: 'El eclipse de 2026 desde el Alto del Pego'},
+  ]}
+/>
+
+<p style={{fontSize: '0.85rem', color: 'var(--cea-muted)'}}>
+  Vídeo: <a href="https://www.instagram.com/followfolley/" target="_blank" rel="noopener noreferrer">Nicolás Herrero Folley (@followfolley)</a>.
+</p>
+
 Cea quizá no vuelva a tener dos mil habitantes, pero tendrá algo igual de valioso: **presencia, voz, relato**. Porque mientras alguien recuerde y cuente su historia, las piedras, las fiestas, los puentes y las torres seguirán vivos.
 
 Cea ha sido testigo de milenios, pero también de silencios. Hubo tiempos en que la vida bullía entre sus riberas, cuando las campanas llamaban al trabajo y las cosechas llenaban los graneros. Sin embargo, las pestes, las guerras, los inviernos interminables y los caminos del éxodo hicieron su obra. Los despoblados se multiplicaron, los hogares se cerraron y, en más de una ocasión, **Cea pareció desaparecer del mapa**.

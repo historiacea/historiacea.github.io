@@ -18,7 +18,24 @@ import GaleriaGrid from '@site/src/components/GaleriaGrid';
 Fotos de **aportaciones vecinales y fuentes públicas, sin ánimo de lucro**. ¿Apareces en una, es tuya, o sabes el **año, el lugar o quiénes salen**? Escríbenos (botón al pie): acreditamos, retiramos o completamos la ficha de inmediato.
 :::
 
-<GaleriaGrid coleccion="recuerdos" />
+<GaleriaGrid
+  coleccion="recuerdos"
+  videos={[
+    {
+      src: '/video/eclipse-cea-2026.mp4',
+      alt: 'El eclipse de 2026 desde el Alto del Pego',
+      ficha: {
+        titulo: 'El eclipse desde el Alto del Pego',
+        anio: '2026',
+        lugar: 'Alto del Pego, Cea (León)',
+        credito: 'Nicolás Herrero Folley (@followfolley)',
+        fuente: 'Instagram',
+        enlace: 'https://www.instagram.com/followfolley/',
+        desc: 'El eclipse solar de agosto de 2026 reunió a cientos de personas en el mirador del Alto del Pego: un momento mágico que juntó allí a más gente de la que Cea ve en sus calles en todo un invierno.',
+      },
+    },
+  ]}
+/>
 
 ---
 

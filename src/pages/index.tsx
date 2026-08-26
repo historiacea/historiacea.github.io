@@ -5,6 +5,8 @@ import HomepageFeatures from '@site/src/components/HomepageFeatures';
 import MapaCea from '@site/src/components/MapaCea';
 import Colaborar from '@site/src/components/Colaborar';
 import GaleriaCinta from '@site/src/components/GaleriaCinta';
+import VideoSlider from '@site/src/components/VideoSlider';
+import VideoFondo from '@site/src/components/VideoFondo';
 import Heading from '@theme/Heading';
 import { useEffect, useRef } from 'react';
 import { gsap } from 'gsap';
@@ -21,6 +23,21 @@ const COLLAGE = [
   { src: '/img/ia/auge-medieval-xii-xiii.jpg',  alt: 'Auge medieval en los siglos XII y XIII',      cls: styles.p5, depth: 18, float: 3.2 },
   { src: '/img/ia/monasterio-sahagun-medieval.jpg', alt: 'Monasterio de Sahagún en la Edad Media', cls: styles.p6, depth: 25, float: 3.9 },
   { src: '/img/libro/img-053.png',              alt: 'El éxodo rural y la memoria de Cea',          cls: styles.p7, depth: 20, float: 4.1 },
+];
+
+// El recorrido en vídeo del castillo: el modelo 3D de Aer3D y, arrastrando a
+// la derecha, el vuelo de dron cedido por Nicolás Herrero Folley.
+const VIDEOS_CASTILLO = [
+  {
+    src: 'https://www.youtube-nocookie.com/embed/H_DPeG9dQqk',
+    titulo: 'El castillo de Cea desde el aire',
+    embed: true,
+    credito: false,
+  },
+  {
+    src: '/video/castillo-cea-dron-1.mp4',
+    titulo: 'Vuelo de dron sobre el castillo de Cea',
+  },
 ];
 
 function HomepageHeader() {
@@ -184,14 +201,12 @@ function SeccionVideo() {
             desde 2008.
           </p>
         </div>
-        <div className={styles.videoMarco}>
-          <iframe
-            src="https://www.youtube-nocookie.com/embed/H_DPeG9dQqk"
-            title="El castillo de Cea desde el aire"
-            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-            allowFullScreen
-          />
-        </div>
+      </div>
+
+      {/* Fuera del contenedor: el carrusel se sale a lo ancho de la ventana. */}
+      <VideoSlider videos={VIDEOS_CASTILLO} asomo />
+
+      <div className="container">
         <p className={styles.videoCta}>
           <Link className="button button--secondary" to="/docs/castillo">
             Conoce el castillo a fondo →
@@ -257,11 +272,13 @@ export default function Home(): JSX.Element {
     <Layout
       title="Mil años de historia de Cea (León)"
       description="La historia completa del pueblo de Cea (León): de los vacceos al siglo XXI, su castillo único en España, el puente sobre el río Cea, la Nodicia de Kesos y la memoria de sus gentes.">
+      {/* La malla de escudos cubre solo el hero: la sección "Explora la memoria
+          de Cea" lleva su propio vídeo de fondo y debe quedar limpia. */}
       <div className={styles.heroBlock}>
         <div className={styles.escudoMalla} aria-hidden="true" />
         <HomepageHeader />
-        <HomepageFeatures />
       </div>
+      <HomepageFeatures />
       <main>
         <BandaPueblo />
         <SeccionVideo />
